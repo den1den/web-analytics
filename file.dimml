@@ -1,0 +1,46 @@
+concept Global {
+  match '*'
+
+  val page_url = `window.location.href`
+  val page_category = `getPageCat()`
+  val page_title = `getPageName()`
+  val visitor_id = `localStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
+  val dimml_id = `dimml.cookies.get('dimml')`
+  val time = `getTime()`
+  val date = `getDate()`
+  val reffering_domain = `document.referrer.split('/')[2]`
+  val marketing_campaign = `getMarketingCampaign()`
+
+  plugin script `console.log( 'v1' )`
+
+  flow
+    => debug
+
+  plugin debug
+}
+
+def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
+
+def getPageName = `(location.pathname||'/').substring(1)||'home'`
+def getPageCat = `(location.pathname||'/').split('/')[1]||'no-category'`
+def getTime = `
+    var d = new Date();
+    return ""+d.getHours()+":"+d.getMinutes();
+`
+def getDate = `
+    d = new Date();
+    return ""+d.getDate()+"-"+d.getMonth()+"-"+(1900+d.getYear());
+`
+def getMarketingCampaign = `
+    var ref = document.referrer || '';
+    if (ref.indexOf('.google.')>-1 || ref.indexOf('.bing.')>-1) {
+        return 'SEO'
+    } else if (ref.indexOf('.facebook.')>-1) {
+        return 'Facebook'
+    } else if (ref=="") {
+        return "Direct"
+    } else {
+        return "Other"
+    }
+`
+
