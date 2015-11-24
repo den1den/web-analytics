@@ -4,16 +4,28 @@ concept Global {
   val url = `window.location.href`
   val pageCategory = `getPageCat()`
   val pageName = `getPageName()`
+  val previousPageName = `getPreviousPageName()`
   val visitorId = `localStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
   val sandboxID = `dimml.cookies.get('dimml')`
   val time = `getTime()`
   val date = `getDate()`
   val refferingDomain = `document.referrer.split('/')[2]`
   val marketingCampaign = `getMarketingCampaign()`
+  val SessionId = `sessionStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
 
   plugin script `console.log( 'Sanbox loaded' )`
 
   flow
+    => session['SessionId',
+        Start = `session.Start = session.Start ?: date + ' ' + time`@groovy,
+        Visit = `(session[pageName] = (session[pageName]?:0).toLong()+1)==1?1:0`@groovy,
+        PagePath = `(session.pagepath=(session.pagepath?:[]))<<pageName`@groovy
+    ]
+    => debug
+
+  //get the ip
+  flow
+    => ip
     => debug
 
   plugin debug
@@ -21,14 +33,24 @@ concept Global {
 
 def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
 def getPageName = `(location.pathname||'/').substring(1)||'home'`
+def getPreviousPageName = `
+var urlSplit = (document.referrer).split('/');
+var refDomain = urlSplit[2];
+if (refDomain != document.location.hostname){
+    return "";
+}else{
+    var slice = urlSplit.slice(3, urlSplit.length);
+    return slice.join('/');
+}
+`
 def getPageCat = `(location.pathname||'/').split('/')[1]||'no-category'`
 def getTime = `
     var d = new Date();
-    return ""+d.getHours()+":"+d.getMinutes();
+    return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 `
 def getDate = `
-    d = new Date();
-    return ""+d.getDate()+"-"+d.getMonth()+"-"+(1900+d.getYear());
+    var d = new Date();
+    return d.getDate() + "-" + d.getMonth() + "-" + (1900+d.getYear());
 `
 def getMarketingCampaign = `
     var ref = document.referrer || '';
