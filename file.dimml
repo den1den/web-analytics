@@ -1,17 +1,17 @@
 concept Global {
   match '*'
 
-  val page_url = `window.location.href`
-  val page_category = `getPageCat()`
-  val page_title = `getPageName()`
-  val visitor_id = `localStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
-  val dimml_id = `dimml.cookies.get('dimml')`
+  val url = `window.location.href`
+  val pageCategory = `getPageCat()`
+  val pageName = `getPageName()`
+  val visitorId = `localStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
+  val sandboxID = `dimml.cookies.get('dimml')`
   val time = `getTime()`
   val date = `getDate()`
-  val reffering_domain = `document.referrer.split('/')[2]`
-  val marketing_campaign = `getMarketingCampaign()`
+  val refferingDomain = `document.referrer.split('/')[2]`
+  val marketingCampaign = `getMarketingCampaign()`
 
-  plugin script `console.log( 'v1' )`
+  plugin script `console.log( 'Sanbox loaded' )`
 
   flow
     => debug
@@ -20,7 +20,6 @@ concept Global {
 }
 
 def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
-
 def getPageName = `(location.pathname||'/').substring(1)||'home'`
 def getPageCat = `(location.pathname||'/').split('/')[1]||'no-category'`
 def getTime = `
@@ -43,4 +42,3 @@ def getMarketingCampaign = `
         return "Other"
     }
 `
-
