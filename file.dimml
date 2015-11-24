@@ -13,7 +13,7 @@ concept Global {
   val marketingCampaign = `getMarketingCampaign()`
   val SessionId = `sessionStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
 
-  plugin script `console.log( 'Sanbox loaded' )`
+  plugin script `console.log( 'Global' )`
 
   flow
     => session['SessionId',
@@ -25,8 +25,7 @@ concept Global {
 
   //get the ip
   flow
-    => ip
-    => debug
+    => ip //Write to val orwhat? I don't know what they want with this value..
 
   plugin debug
 }
@@ -64,3 +63,21 @@ def getMarketingCampaign = `
         return "Other"
     }
 `
+def getSearchQuery = `
+    var reg = new RegExp( '[?&]' + 'q' + '=([^&#]*)', 'i' );
+    var string = reg.exec(window.location.href);
+    if(string){
+        var search = string[1];
+        var plate = search.replace("-", "");
+        if( new RegExp("^[A-Z\\d]{6}$", "i").test(plate) ){
+            return plate;
+        }
+    }
+    return null;
+`
+const API_ROOT = 'https://overheid.io/api/voertuiggegevens/'
+const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
+
+//See http://documentation.dimml.io/car-data-rdw/
+//And http://documentation.dimml.io/current-weather/
+//Key is not validated yet, please try: https://overheid.io/api/voertuiggegevens/4-TFL-24?ovio-api-key=8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639
