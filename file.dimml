@@ -11,7 +11,7 @@ concept Global {
   val refferingDomain = `document.referrer.split('/')[2]`
   val marketingCampaign = `getMarketingCampaign()`
 
-  plugin script `console.log( 'Sanbox loaded' )`
+  plugin script `console.log( 'Sandbox loaded' )`
 
   flow
     => debug
