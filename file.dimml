@@ -26,9 +26,9 @@ concept Global {
   //print that the Global scope is loaded
   plugin script `console.log( 'Global' )`
   plugin debug
-  
+
   //Creates and saves the session data
-  flow 
+  flow
     => session['SessionId',
         //if the start is not set set it to the current time
         Start = `session.Start = session.Start ?: date + ' ' + time`@groovy,
@@ -39,17 +39,39 @@ concept Global {
     ]
     //??? Write to val orwhat? I don't know what they want with this value?
     => ip
+    //sql insertion command for PageFlow table (seq_nr still needs to be done)
+    => sql["INSERT INTO PageFlow (`sandbox_id`, visit_start, seq_nr, url, `previous_url`) VALUES (:sandboxID, :Start, :Visit, :url, :previousPageName)", `DB`]
+    //dump the result
+    => debug
+
+  flow
+    //sql insertion command for Pages table
+    => sql["INSERT INTO Pages (`sandbox_id`, url, page_title, page_category, time, `date`) VALUES (:sandboxID, :url, :pageName, :pageCategory, :time, :date)", `DB`]
+    //dump the result
+    => debug
+
+  flow
+    //sql insertion command for Sources table
+    => sql["INSERT INTO Sources (`sandbox_id`, referrer_domain, `campaign`) VALUES (:sandboxID, :refferingDomain, :marketingCampaign)", `DB`]
+    //dump the result
+    => debug
 
   flow
     //check if we have a searchQuery or not
-    => if[ `searchQuery != null` ]
+    => if[`searchQuery != null`] (search)
     //create the url on the server
     => code[ url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy ]
     //execute the API request
     => http[ url = '@url', method = 'GET', headers = 'Accept: application/json']
+    //get the color value (name or color???)
+    => code[ Kleur = `getParam(result,"eerstekleur")`@groovy ]
+    //sql insertion command
+    => sql["INSERT INTO Cars (`sandbox_id`, `license_plate`, `name`) VALUES (:sandboxID, :searchQuery, :Kleur)", `DB`]
     //dump the result
     => debug
 
+  flow (search)
+    => debug
 }
 
 def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
@@ -73,7 +95,7 @@ def getTime = `
 `
 def getDate = `
     var d = new Date();
-    return d.getDate() + "-" + d.getMonth() + "-" + (1900+d.getYear());
+    return (1900+d.getYear()) + "-" + (d.getMonth()+1) + "-" + d.getDate();
 `
 def getMarketingCampaign = `
     var ref = document.referrer || '';
@@ -102,7 +124,28 @@ def getSearchQuery = `
     }
     return null;
 `
+//needed to get params from overheid.io query
+def getParam  = {str, param => `
+    if (str.indexOf('"'+param+'":"')>-1) {
+        String temp = str.split('"'+param+'":"')[1]
+        return temp.split('"')[0]
+    } else if (str.indexOf('"'+param+'":')>-1) {
+        String temp = str.split('"'+param+'":')[1]
+        return temp.split(',')[0]
+    } else {
+        return ""
+    }
+`@groovy}
+
 //The API key for rdw (from Guido)
 //Example license plate: 4-TFL-24
 const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
 
+const DB = `{
+  type:         'mysql',
+  port:         3306,
+  serverName:   'dimmldemo.o2mc.io',
+  databaseName: 'dimmldemo',
+  user:         'dimmlwa',
+  password:     '2YN0nWU4z3Eo'
+}`
