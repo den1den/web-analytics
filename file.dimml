@@ -96,7 +96,7 @@ def getSearchQuery = `
         //console.log("Query found: "+plate);
         var plateRegex = new RegExp("^[A-Z\\d]{1,3}-[A-Z\\d]{1,3}-[A-Z\\d]{1,3}$", "i");
         if( plate.length == 8 && plateRegex.test(plate) ){
-            //console.log("Licence plate found: "+plate);
+            //console.log("License plate found: "+plate);
             return plate;
         }
     }
