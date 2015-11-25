@@ -1,11 +1,16 @@
 concept Global {
   match '*'
 
+  //use javascript get get the current url
   val url = `window.location.href`
+  //use the def below to get the first part of the path in the url
   val pageCategory = `getPageCat()`
+  //use the def below to get the total path
   val pageName = `getPageName()`
   val previousPageName = `getPreviousPageName()`
+  //generate or get a new random id
   val visitorId = `localStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
+  //get the cached sanboxID
   val sandboxID = `dimml.cookies.get('dimml')`
   val time = `getTime()`
   val date = `getDate()`
@@ -14,27 +19,39 @@ concept Global {
   val SessionId = `sessionStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
   val searchQuery = `getSearchQuery()`
 
+  //print that the Global scope is loaded
   plugin script `console.log( 'Global' )`
   plugin debug
   
-  flow
+  //Creates and saves the session data
+  flow 
     => session['SessionId',
+        //if the start is not set set it to the current time
         Start = `session.Start = session.Start ?: date + ' ' + time`@groovy,
+        //if the visit for this page is not set set it to 0 otherwise increase it by 1
         Visit = `(session[pageName] = (session[pageName]?:0).toLong()+1)==1?1:0`@groovy,
+        //append this page to the pagepath array
         PagePath = `(session.pagepath=(session.pagepath?:[]))<<pageName`@groovy
     ]
-    => ip //Write to val orwhat? I don't know what they want with this value?
+    //??? Write to val orwhat? I don't know what they want with this value?
+    => ip
 
   flow
+    //check if we have a searchQuery or not
     => if[ `searchQuery != null` ]
+    //create the url on the server
     => code[ url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy ]
+    //execute the API request
     => http[ url = '@url', method = 'GET', headers = 'Accept: application/json']
+    //dump the result
     => debug
 
 }
 
 def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
+//returns the current pagename (if the page is / we return home)
 def getPageName = `(location.pathname||'/').substring(1)||'home'`
+//use document.referrer to get the previous page, return "" if it was another domain
 def getPreviousPageName = `
     var urlSplit = (document.referrer).split('/');
     var refDomain = urlSplit[2];
@@ -66,6 +83,7 @@ def getMarketingCampaign = `
         return "Other"
     }
 `
+//trys to extract a licenceplate from the GET parameter q
 def getSearchQuery = `
     var queryRegex = new RegExp("[?&]q=([^&#]*)", "i");
     var strings = queryRegex.exec(window.location.href);
@@ -80,5 +98,6 @@ def getSearchQuery = `
     }
     return null;
 `
+//The API key for rwd (from Guido)
 const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
 
