@@ -3,14 +3,18 @@ concept Global {
 
   //use javascript get get the current url
   val url = `window.location.href`
+
   //use the def below to get the first part of the path in the url
   val pageCategory = `getPageCat()`
+
   //use the def below to get the total path
   val pageName = `getPageName()`
   val previousPageName = `getPreviousPageName()`
+
   //generate or get a new random id
   val visitorId = `localStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
-  //get the cached sanboxID
+
+  //get the cached sandboxID
   val sandboxID = `dimml.cookies.get('dimml')`
   val time = `getTime()`
   val date = `getDate()`
@@ -83,7 +87,7 @@ def getMarketingCampaign = `
         return "Other"
     }
 `
-//trys to extract a licenceplate from the GET parameter q
+//tries to extract a license plate from the GET parameter q
 def getSearchQuery = `
     var queryRegex = new RegExp("[?&]q=([^&#]*)", "i");
     var strings = queryRegex.exec(window.location.href);
@@ -98,6 +102,7 @@ def getSearchQuery = `
     }
     return null;
 `
-//The API key for rwd (from Guido)
+//The API key for rdw (from Guido)
+//Example license plate: 4-TFL-24
 const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
 
