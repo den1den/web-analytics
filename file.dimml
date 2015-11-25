@@ -35,12 +35,14 @@ concept Global {
         //if the visit for this page is not set set it to 0 otherwise increase it by 1
         Visit = `(session[pageName] = (session[pageName]?:0).toLong()+1)==1?1:0`@groovy,
         //append this page to the pagepath array
-        PagePath = `(session.pagepath=(session.pagepath?:[]))<<pageName`@groovy
+        PagePath = `(session.pagepath=(session.pagepath?:[]))<<pageName`@groovy,
+        //Gets length of PagePath arraylist
+        PageSequence  = `session["pagepath"].length`@javascript
     ]
     //??? Write to val orwhat? I don't know what they want with this value?
     => ip
     //sql insertion command for PageFlow table (seq_nr still needs to be done)
-    => sql["INSERT INTO PageFlow (`sandbox_id`, visit_start, seq_nr, url, `previous_url`) VALUES (:sandboxID, :Start, :Visit, :url, :previousPageName)", `DB`]
+    => sql["INSERT INTO PageFlow (`sandbox_id`, visit_start, seq_nr, url, `previous_url`) VALUES (:sandboxID, :Start, :PageSequence, :url, :previousPageName)", `DB`]
     //dump the result
     => debug
 
