@@ -139,6 +139,40 @@ def getParam  = {str, param => `
     }
 `@groovy}
 
+//REST API 
+concept restAPI {
+     match '*restapi*'
+
+     plugin rest "
+        /create => restCreate
+        /update => restUpdate
+     "
+}
+
+//REST API returning all data
+concept restUpdate {
+    plugin rest:json[flowName = 'json']
+
+    flow (json) 
+    => sql['select Pages from dimmldemo',`dataSource`] 
+    => filter['result']
+    => split['result']
+    => expand['result']
+    => code[url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy]
+    => http[url='@url',method='GET', headers = 'Accept: application/json']
+    => code[Sandbox_id = `getParam(result,"sandbox_id")`@groovy,
+            Timestamp = `getParam(result,"timestamp")`@groovy,
+            Url = `getParam(result,"url")`@groovy,
+            Page_title = `getParam(result,"page_title")`@groovy,
+            Page_Category = `getParam(result,"page_category")`@groovy,
+            Time = `getParam(result,"time")`@groovy,
+            Date = `getParam(result,"date")`@groovy,
+    ]
+    => filter['Sandbox_id','Timestamp','Url','Page_title','Page_Category','ID','Date']
+    => console
+    => out
+}
+
 //The API key for rdw (from Guido)
 //Example license plate: 4-TFL-24
 const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
