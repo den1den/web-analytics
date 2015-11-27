@@ -61,6 +61,9 @@ concept Global {
 concept Search extends Global {
     match '*/zoeken/*'
 
+    //print that the Search scope is loaded
+    plugin script `console.log( 'Search' )`
+
     flow
       //create the url on the server
       => code[ url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy ]
@@ -86,46 +89,51 @@ concept restAPI {
      "
 }
 
-//REST API returning all data
+//URI for Cars table
 concept getCars {
     plugin rest:json[flowName = 'json']
 
     flow (json)
-    => sql['SELECT * FROM `Cars` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
-    => console
-    => out
+      => sql['SELECT * FROM `Cars` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+      => console
+      => out
 }
 
+//URI for Pages table
 concept getPages {
     plugin rest:json[flowName = 'json']
 
     flow (json)
-    => sql['SELECT * FROM `Pages` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
-    => console
-    => out
+      => sql['SELECT * FROM `Pages` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+      => console
+      => out
 }
 
+//URI for Sources table
 concept getSources {
     plugin rest:json[flowName = 'json']
 
     flow (json)
-    => sql['SELECT * FROM `Sources` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
-    => console
-    => out
+      => sql['SELECT * FROM `Sources` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+      => console
+      => out
 }
 
+//URI for PageFlow table
 concept getPageFlow {
     plugin rest:json[flowName = 'json']
 
     flow (json)
-    => sql['SELECT * FROM `PageFlow` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
-    => console
-    => out
+      => sql['SELECT * FROM `PageFlow` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+      => console
+      => out
 }
 
 def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
+
 //returns the current pagename (if the page is / we return home)
 def getPageName = `(location.pathname||'/').substring(1)||'home'`
+
 //use document.referrer to get the previous page, return "" if it was another domain
 def getPreviousPageName = `
     var urlSplit = (document.referrer).split('/');
@@ -137,15 +145,23 @@ def getPreviousPageName = `
         return slice.join('/');
     }
 `
+
+//returns page category
 def getPageCat = `(location.pathname||'/').split('/')[1]||'no-category'`
+
+//returns time
 def getTime = `
     var d = new Date();
     return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
 `
+
+//returns current date
 def getDate = `
     var d = new Date();
     return (1900+d.getYear()) + "-" + (d.getMonth()+1) + "-" + d.getDate();
 `
+
+//returns marketing campaign
 def getMarketingCampaign = `
     var ref = document.referrer || '';
     if (ref.indexOf('.google.')>-1 || ref.indexOf('.bing.')>-1) {
@@ -190,6 +206,7 @@ def getParam  = {str, param => `
 //Example license plate: 4-TFL-24
 const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
 
+//database connection
 const DB = `{
   type:         'mysql',
   port:         3306,
