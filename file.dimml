@@ -39,7 +39,6 @@ concept Global {
         //Gets length of PagePath arraylist
         PageSequence  = `session["pagepath"].length`@javascript
     ]
-    //??? Write to val orwhat? I don't know what they want with this value?
     => ip
     //sql insertion command for PageFlow table (seq_nr still needs to be done)
     => sql["INSERT INTO PageFlow (`sandbox_id`, visit_start, seq_nr, url, `previous_url`) VALUES (:sandboxID, :Start, :PageSequence, :url, :previousPageName)", `DB`]
@@ -57,23 +56,71 @@ concept Global {
     => sql["INSERT INTO Sources (`sandbox_id`, referrer_domain, `campaign`) VALUES (:sandboxID, :refferingDomain, :marketingCampaign)", `DB`]
     //dump the result
     => debug
+}
 
-  flow
-    //check if we have a searchQuery or not
-    => if[`searchQuery != null`] (search)
-    //create the url on the server
-    => code[ url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy ]
-    //execute the API request
-    => http[ url = '@url', method = 'GET', headers = 'Accept: application/json']
-    //get the color value (name or color???)
-    => code[ Kleur = `getParam(result,"eerstekleur")`@groovy ]
-    //sql insertion command
-    => sql["INSERT INTO Cars (`sandbox_id`, `license_plate`, `name`) VALUES (:sandboxID, :searchQuery, :Kleur)", `DB`]
-    //dump the result
-    => debug
+concept Search extends Global {
+    match '*/zoeken/*'
 
-  flow (search)
-    => debug
+    flow
+      //create the url on the server
+      => code[ url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy ]
+      //execute the API request
+      => http[ url = '@url', method = 'GET', headers = 'Accept: application/json']
+      //get the color value (name or color???)
+      => code[ Naam = `getParam(result,"handelsbenaming")`@groovy ]
+      //sql insertion command
+      => sql["INSERT INTO Cars (`sandbox_id`, `license_plate`, `name`) VALUES (:sandboxID, :searchQuery, :Naam)", `DB`]
+      //dump the result
+      => debug
+}
+
+//REST API
+concept restAPI {
+     match '*restapi*'
+
+     plugin rest "
+        /getCars => getCars
+        /getPages => getPages
+        /getSources => getSources
+        /getPageFlow => getPageFlow
+     "
+}
+
+//REST API returning all data
+concept getCars {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+    => sql['SELECT * FROM `Cars` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+    => console
+    => out
+}
+
+concept getPages {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+    => sql['SELECT * FROM `Pages` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+    => console
+    => out
+}
+
+concept getSources {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+    => sql['SELECT * FROM `Sources` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+    => console
+    => out
+}
+
+concept getPageFlow {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+    => sql['SELECT * FROM `PageFlow` WHERE `sandbox_id=44fbc08467963559336e1749f7579a88c4dec4d9`',`DB`, limit='100', batch='1']
+    => console
+    => out
 }
 
 def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
@@ -138,40 +185,6 @@ def getParam  = {str, param => `
         return ""
     }
 `@groovy}
-
-//REST API 
-concept restAPI {
-     match '*restapi*'
-
-     plugin rest "
-        /create => restCreate
-        /update => restUpdate
-     "
-}
-
-//REST API returning all data
-concept restUpdate {
-    plugin rest:json[flowName = 'json']
-
-    flow (json) 
-    => sql['select Pages from dimmldemo',`dataSource`] 
-    => filter['result']
-    => split['result']
-    => expand['result']
-    => code[url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy]
-    => http[url='@url',method='GET', headers = 'Accept: application/json']
-    => code[Sandbox_id = `getParam(result,"sandbox_id")`@groovy,
-            Timestamp = `getParam(result,"timestamp")`@groovy,
-            Url = `getParam(result,"url")`@groovy,
-            Page_title = `getParam(result,"page_title")`@groovy,
-            Page_Category = `getParam(result,"page_category")`@groovy,
-            Time = `getParam(result,"time")`@groovy,
-            Date = `getParam(result,"date")`@groovy,
-    ]
-    => filter['Sandbox_id','Timestamp','Url','Page_title','Page_Category','ID','Date']
-    => console
-    => out
-}
 
 //The API key for rdw (from Guido)
 //Example license plate: 4-TFL-24
