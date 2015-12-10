@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin python
 import sys
 import csv
 import re
@@ -8,13 +8,9 @@ import unittest
 maximal_errors = 5
 only_count = True
 
-#errors
-err_to_large = "Tweet data became to large while combining tweets on line {}"
-err_file_end = "File end reached while combining tweets"
-err_no_id_found = "Could not identify tweet on line {}, tweet is {}"
-
 #constants
 end_quoted = re.compile(r'.*,"(""|[^"])*$')
+tweet_start = re.compile(r'^\d{3,},')
 
 class Reader:
     #init
@@ -27,6 +23,13 @@ class Reader:
         header = next(csv.reader([sys.stdin.readline()]))
         hlength = len(header)
         line = sys.stdin.readline()
+        
+        #first line could be split wrongly by hadoop
+        while line and not tweet_start.match(line):
+            # skip these lines
+            self.line_number += 1
+            line = sys.stdin.readline()
+        
         while line:
             self.line_number += 1
             line = line.replace('\0', '').replace('\n', '').replace('\r', '')
@@ -40,7 +43,10 @@ class Reader:
             
             while len(arr) < hlength:  # tweet is acros multiple lines
                 line = sys.stdin.readline()
-                if not line: raise ValueError(err_file_end)
+                if not line:
+                    annomalies += ValueError(
+                        "End of file reached before tweet was finished")
+                    break
                 self.line_number += 1
                 line = line.replace('\0', '').replace('\n', '').replace('\r', '')
                 if ended_quoted:
@@ -57,7 +63,10 @@ class Reader:
                     arr += nxt[1:]  # append the rest
             
             if len(arr) > hlength:  # tweet starts on another tweets line
-                raise ValueError("To many collums on 1 line")
+                raise ValueError("To many collums on 1 line {}".format({
+                    'line_number': self.line_number
+                    'line': line
+                }))
             
             self.mapper(arr)
             #TODO check if the last entry ended quoted or unquoted
@@ -95,32 +104,41 @@ class Reader:
 
 
 class Test(unittest.TestCase):
+
+    def do_test(self, string, exp):
+        result = self.regex.match(string)
+        if result:
+            self.assertEqual(True, exp)
+        else:
+            self.assertEqual(False, exp)
     
     def test_regex(self):
-        def do_test(string, exp):
-            result = end_quoted.match(string)
-            if result:
-                self.assertEqual(True, exp)
-            else:
-                self.assertEqual(False, exp)
-        do_test('x,"', True)
-        do_test('x,"y', True)
-        do_test('x,"""', True)
-        do_test('x,"y"y"', False)
-        do_test('x,"y""y"', False)
-        do_test('x","', True)
-        do_test('x","y', True)
-        do_test('x","""', True)
-        do_test('"x","', True)
-        do_test('"x","y', True)
-        do_test('"x","""', True)
-        do_test('"w","x","""', True)
-        do_test('"w","x","""', True)
-        do_test('"w","x","""', True)
+        self.regex = end_quoted
+        self.do_test('x,"', True)
+        self.do_test('x,"y', True)
+        self.do_test('x,"""', True)
+        self.do_test('x,"y"y"', False)
+        self.do_test('x,"y""y"', False)
+        self.do_test('x","', True)
+        self.do_test('x","y', True)
+        self.do_test('x","""', True)
+        self.do_test('"x","', True)
+        self.do_test('"x","y', True)
+        self.do_test('"x","""', True)
+        self.do_test('"w","x","""', True)
+        self.do_test('"w","x","""', True)
+        self.do_test('"w","x","""', True)
+        self.regex = tweet_start
+        self.do_test('414349810221588480,415066297', True)
+        self.do_test('00:01:07,', False)
+        self.do_test('00000000!0000,"', False)
+        self.do_test(',', False)
+        
 
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv.pop(1)=="test":
+        # cat tweets/test3.csv | venv/bin/python ./mapper.py test
         unittest.main()
     else:
         Reader().run()

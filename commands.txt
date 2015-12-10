@@ -12,3 +12,6 @@ bin/hdfs dfs -rm -r -f /output; bin/hadoop jar streaming.jar -mapper /home/denni
 
 ## Create test files
 head -n 10 tweets/tweets_2015-11-23.csv > tweets/test1.csv
+
+##start file system with:
+sbin/start-dfs.sh
