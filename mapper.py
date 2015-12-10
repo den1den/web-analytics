@@ -64,8 +64,8 @@ class Reader:
             
             if len(arr) > hlength:  # tweet starts on another tweets line
                 raise ValueError("To many collums on 1 line {}".format({
-                    'line_number': self.line_number
-                    'line': line
+                    'line_number': self.line_number,
+                    'line': line,
                 }))
             
             self.mapper(arr)
