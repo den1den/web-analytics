@@ -40,45 +40,50 @@ class Reader:
                     #no header or starting tweet found
                     return
         
+        arr = []
         #the loop
         while line:
             line = line.replace('\0', '').replace('\n', '').replace('\r', '')
             
-            arr = next(csv.reader([line], delimiter=",", quotechar='"'))
+            arr += next(csv.reader([line], delimiter=",", quotechar='"'))
             
             if len(arr) == 0:
                 self.annomalies += ('newline before tweet', self.line_number)
                 arr = [""]
             
-            while len(arr) < tweet_data_length:
+            if len(arr) < tweet_data_length:
                 # tweet is acros multiple lines
-                if not starts_quote.match(line):
-                    #the last line did not end in a quoted section
-                    
-                else:
-                    #the last line ended in a quoted section
-                    #append new lines until quoted section ends
-                    next_line = self.next_line()
-                    while next_line and not ends_quoted.match(extra_data):
-                        # append the next line
-                        line += extra_data
-                    if not next_line:
-                        self.annomalies += ValueError(
-                            "End of file reached before quote was fully read"
-                        )
-                        return
-                    
-                line = line.replace('\0', '').replace('\n', '').replace('\r', '')
-                nxt = next(csv.reader([line], delimiter=",", quotechar='"'))
+                # append lines until `arr` becomes large enough
                 
-                if len(nxt) == 0:
-                    #found an empty line
-                    #fetch new line and continue
-                    line = self.next_line()
-                    self.annomalies += (r'text \\n, only \\n', self.line_number)
-                else:
-                    arr[-1] += nxt[0]  # append last entry with first of the new line
-                    arr += nxt[1:]  # append the rest
+                while len(arr) < tweet_data_length:
+                    next_line = self.next_line()
+                    if not next_line: return #EOF
+                    
+                    if starts_quote.match(line):
+                        # force the closement of the quoted area
+                        
+                        if ends_quote(next_line):
+                            # force the start of the quoted area at the new line
+                            next_line = '"' + next_line
+                        else:
+                            next_line = '"' + next_line + '"'
+                    else:
+                        arr.append("")
+                    
+                    next_line = next_line.replace('\0', '')\
+                        .replace('\n', '').replace('\r', '')
+                    nxt = next(csv.reader([next_line], delimiter=",", quotechar='"'))
+                    
+                    if len(nxt) == 0:
+                        #nothing found, continue searching
+                        pass
+                    else:
+                        arr[-1] += nxt[0]  # append last entry with first of the new line
+                        arr += nxt[1:]  # append the rest
+                
+                #more added then needed
+                if len(arr) > tweet_data_length:
+                    
             
             if len(arr) > tweet_data_length:
                 ln = self.line_number
@@ -99,7 +104,6 @@ class Reader:
             self.mapper(arr)
             
             line = self.next_line()
-            
         #print(self.annomalies)
         #print(self.tweet_number)
         #print(self.line_number)
