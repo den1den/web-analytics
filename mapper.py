@@ -3,13 +3,16 @@ import sys
 import csv
 import re
 import unittest
+import logging
 
 #constants
 tweet_data_length = 26
 starts_quote = re.compile(r'.*,"(""|[^"])*$')
 ends_quote = re.compile(r'^(""|[^"])*"([^"].*|)$')
 starts_tweet = re.compile(r'^\d{3,},')
+starts_tweet = re.compile(r'^\d{1,},')
 is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RETWEET,RETWEET_COUNT,RETWEET_BY_ME,POSSIBLY_SENSITIVE,GEO_LATITUDE,GEO_LONGITUDE,LANGUAGE_CODE,PLACE,PLACE_TYPE,PLACE_URL,STREET_ADDRESS,COUNTRY,COUNTRY_CODE,IN_REPLY_TO_STATUS_ID,IN_REPLY_TO_USER_ID,RETWEETED_STATUS_ID,RETWEETED_STATUS_USER_ID,RETWEETED_STATUS_CREATED,EXPANDED_URLS$')
+logger = logging.getLogger('')
 
 class Reader:
     #init
@@ -19,18 +22,21 @@ class Reader:
     annomalies = []
     last_ended_quote = ()
     
+    
     def next_line(self):
         self.line_number += 1
         return sys.stdin.readline()
     
+    
     def run(self):
+        print >> sys.stderr, 'run'
         line = self.next_line()
         if not line:
-            #empty input
+            print >> sys.stderr, 'empty input'
             return
         
         if is_header.match(line):
-            #skip the header
+            print >> sys.stderr, 'skip the header'
             line = self.next_line()
         else:
             while not starts_tweet.match(line):
@@ -39,75 +45,36 @@ class Reader:
                 if not line:
                     #no header or starting tweet found
                     return
+            print >> sys.stderr, 'first tweet found'
+        
+        #inv: line contains the next tweet
         
         arr = []
         #the loop
         while line:
             line = line.replace('\0', '').replace('\n', '').replace('\r', '')
+            nxt = next(csv.reader([line], delimiter=",", quotechar='"'))
             
-            arr += next(csv.reader([line], delimiter=",", quotechar='"'))
+            while len(arr)+len(nxt) < tweet_data_length:
+                # expand the line
+                next_line = self.next_line()
+                if not next_line:
+                    #EOF
+                    break
+                next_line = next_line.replace('\0', '').replace('\n', '').replace('\r', '')
+                line += next_line
+                nxt = next(csv.reader([line], delimiter=",", quotechar='"'))
+            arr += nxt
             
-            if len(arr) == 0:
-                self.annomalies += ('newline before tweet', self.line_number)
-                arr = [""]
-            
-            if len(arr) < tweet_data_length:
-                # tweet is acros multiple lines
-                # append lines until `arr` becomes large enough
-                
-                while len(arr) < tweet_data_length:
-                    next_line = self.next_line()
-                    if not next_line: return #EOF
-                    
-                    if starts_quote.match(line):
-                        # force the closement of the quoted area
-                        
-                        if ends_quote(next_line):
-                            # force the start of the quoted area at the new line
-                            next_line = '"' + next_line
-                        else:
-                            next_line = '"' + next_line + '"'
-                    else:
-                        arr.append("")
-                    
-                    next_line = next_line.replace('\0', '')\
-                        .replace('\n', '').replace('\r', '')
-                    nxt = next(csv.reader([next_line], delimiter=",", quotechar='"'))
-                    
-                    if len(nxt) == 0:
-                        #nothing found, continue searching
-                        pass
-                    else:
-                        arr[-1] += nxt[0]  # append last entry with first of the new line
-                        arr += nxt[1:]  # append the rest
-                
-                #more added then needed
-                if len(arr) > tweet_data_length:
-                    
-            
-            if len(arr) > tweet_data_length:
-                ln = self.line_number
-                # check remaining lines
-                while line:
-                    line = self.next_line()
-                # tweet starts on another tweets line -> impossible
-                raise ValueError("To many collums on single line {}".format({
-                    'line_number': ln,
-                    'total_line_numbers': self.line_number,
-                    'cols': len(arr),
-                    'line': line,
-                    'array': arr,
-                    'last_ended_quote': last_ended_quote,
-                    #'prev_line': prev_line,
-                }))
-            
-            self.mapper(arr)
+            # at least one tweet is in arr
+            while len(arr) >= tweet_data_length:
+                tweet = arr[:tweet_data_length]
+                arr = arr[tweet_data_length:]
+                self.mapper(tweet)
             
             line = self.next_line()
-        #print(self.annomalies)
-        #print(self.tweet_number)
-        #print(self.line_number)
-        #print("Skipped "+str(len(self.skipped))+" entries")
+            
+        print >> sys.stderr, 'done, read '+str(self.line_number)+" lines and "+str(self.tweet_number)+" tweets"
 
 
     def mapper(self, data):
