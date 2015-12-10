@@ -4,13 +4,12 @@ import csv
 import re
 import unittest
 
-#settings
-maximal_errors = 5
-only_count = True
-
 #constants
-end_quoted = re.compile(r'.*,"(""|[^"])*$')
-tweet_start = re.compile(r'^\d{3,},')
+tweet_data_length = 26
+starts_quote = re.compile(r'.*,"(""|[^"])*$')
+ends_quote = re.compile(r'^(""|[^"])*"([^"].*|)$')
+starts_tweet = re.compile(r'^\d{3,},')
+is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RETWEET,RETWEET_COUNT,RETWEET_BY_ME,POSSIBLY_SENSITIVE,GEO_LATITUDE,GEO_LONGITUDE,LANGUAGE_CODE,PLACE,PLACE_TYPE,PLACE_URL,STREET_ADDRESS,COUNTRY,COUNTRY_CODE,IN_REPLY_TO_STATUS_ID,IN_REPLY_TO_USER_ID,RETWEETED_STATUS_ID,RETWEETED_STATUS_USER_ID,RETWEETED_STATUS_CREATED,EXPANDED_URLS$')
 
 class Reader:
     #init
@@ -18,22 +17,32 @@ class Reader:
     tweet_number = 0
     skipped = []
     annomalies = []
+    last_ended_quote = ()
+    
+    def next_line(self):
+        self.line_number += 1
+        return sys.stdin.readline()
     
     def run(self):
-        header = next(csv.reader([sys.stdin.readline()]))
-        hlength = len(header)
-        line = sys.stdin.readline()
+        line = self.next_line()
+        if not line:
+            #empty input
+            return
         
-        #first line could be split wrongly by hadoop
-        while line and not tweet_start.match(line):
-            # skip these lines
-            self.line_number += 1
-            line = sys.stdin.readline()
+        if is_header.match(line):
+            #skip the header
+            line = self.next_line()
+        else:
+            while not starts_tweet.match(line):
+                #search for the first tweet start
+                line = self.next_line()
+                if not line:
+                    #no header or starting tweet found
+                    return
         
+        #the loop
         while line:
-            self.line_number += 1
             line = line.replace('\0', '').replace('\n', '').replace('\r', '')
-            ended_quoted = end_quoted.match(line)
             
             arr = next(csv.reader([line], delimiter=",", quotechar='"'))
             
@@ -41,44 +50,60 @@ class Reader:
                 self.annomalies += ('newline before tweet', self.line_number)
                 arr = [""]
             
-            while len(arr) < hlength:  # tweet is acros multiple lines
-                line = sys.stdin.readline()
-                if not line:
-                    annomalies += ValueError(
-                        "End of file reached before tweet was finished")
-                    break
-                self.line_number += 1
-                line = line.replace('\0', '').replace('\n', '').replace('\r', '')
-                if ended_quoted:
-                    line = '"' + line
+            while len(arr) < tweet_data_length:
+                # tweet is acros multiple lines
+                if not starts_quote.match(line):
+                    #the last line did not end in a quoted section
+                    
                 else:
-                    self.annomalies += (r'text \\n, noquote', self.line_number)
-                
+                    #the last line ended in a quoted section
+                    #append new lines until quoted section ends
+                    next_line = self.next_line()
+                    while next_line and not ends_quoted.match(extra_data):
+                        # append the next line
+                        line += extra_data
+                    if not next_line:
+                        self.annomalies += ValueError(
+                            "End of file reached before quote was fully read"
+                        )
+                        return
+                    
+                line = line.replace('\0', '').replace('\n', '').replace('\r', '')
                 nxt = next(csv.reader([line], delimiter=",", quotechar='"'))
+                
                 if len(nxt) == 0:
                     #found an empty line
+                    #fetch new line and continue
+                    line = self.next_line()
                     self.annomalies += (r'text \\n, only \\n', self.line_number)
                 else:
                     arr[-1] += nxt[0]  # append last entry with first of the new line
                     arr += nxt[1:]  # append the rest
             
-            if len(arr) > hlength:  # tweet starts on another tweets line
-                raise ValueError("To many collums on 1 line {}".format({
-                    'line_number': self.line_number,
+            if len(arr) > tweet_data_length:
+                ln = self.line_number
+                # check remaining lines
+                while line:
+                    line = self.next_line()
+                # tweet starts on another tweets line -> impossible
+                raise ValueError("To many collums on single line {}".format({
+                    'line_number': ln,
+                    'total_line_numbers': self.line_number,
+                    'cols': len(arr),
                     'line': line,
+                    'array': arr,
+                    'last_ended_quote': last_ended_quote,
+                    #'prev_line': prev_line,
                 }))
             
             self.mapper(arr)
-            #TODO check if the last entry ended quoted or unquoted
-            # y,"(not " but "" is allowed)  test," test2,"a
-            #  test3,""" fail4,"a"a" test5,"a""a
-            # y,(not " and not ,)  test, test2,a fail3,a"
-            # tweet is split in multiple lines
-            # read the next line and try to combine it back into 1 tweet
-            line = sys.stdin.readline()
-        print(self.annomalies)
-        print(self.tweet_number)
-        print(self.line_number)
+            
+            line = self.next_line()
+            
+        #print(self.annomalies)
+        #print(self.tweet_number)
+        #print(self.line_number)
+        #print("Skipped "+str(len(self.skipped))+" entries")
 
 
     def mapper(self, data):
@@ -105,40 +130,60 @@ class Reader:
 
 class Test(unittest.TestCase):
 
-    def do_test(self, string, exp):
+
+    def do_test(self, string, exp, first_group=None):
         result = self.regex.match(string)
         if result:
             self.assertEqual(True, exp)
+            if first_group is not None:
+                self.assertEqual(result.group(1), first_group)
         else:
             self.assertEqual(False, exp)
     
+    
     def test_regex(self):
-        self.regex = end_quoted
+        self.regex = starts_quote
+        self.do_test('', False)
+        self.do_test('x,', False)
+        self.do_test(',"', True)
         self.do_test('x,"', True)
-        self.do_test('x,"y', True)
+        
         self.do_test('x,"""', True)
-        self.do_test('x,"y"y"', False)
-        self.do_test('x,"y""y"', False)
-        self.do_test('x","', True)
-        self.do_test('x","y', True)
-        self.do_test('x","""', True)
-        self.do_test('"x","', True)
-        self.do_test('"x","y', True)
-        self.do_test('"x","""', True)
-        self.do_test('"w","x","""', True)
-        self.do_test('"w","x","""', True)
-        self.do_test('"w","x","""', True)
-        self.regex = tweet_start
+        self.do_test('x,"""', True)
+        self.do_test('x,"""""', True)
+        self.do_test('x,"x""', True)
+        
+        self.do_test('x,"x', True)
+        self.do_test('x,",', True)
+        # x,x" is invalid
+        
+        self.regex = starts_tweet
+        self.do_test('', False)
         self.do_test('414349810221588480,415066297', True)
         self.do_test('00:01:07,', False)
         self.do_test('00000000!0000,"', False)
         self.do_test(',', False)
         
+        self.regex = ends_quote
+        self.do_test('', False)
+        self.do_test('"', True, '')
+        self.do_test('",""', True, '')
+        self.do_test('","', True, '')
+        self.do_test('x', False)
+        self.do_test('x"', True, 'x')
+        self.do_test('x",""', True, 'x')
+        self.do_test('x","', True, 'x')
+        
+        self.do_test('"",', False)
+        self.do_test('"","', True, '"",')
+        self.do_test('"""', True, '""')
+        self.do_test('""","', True, '""')
 
 
 if __name__ == '__main__':
     if len(sys.argv) > 1 and sys.argv.pop(1)=="test":
-        # cat tweets/test3.csv | venv/bin/python ./mapper.py test
+        # python ./mapper.py test
         unittest.main()
     else:
         Reader().run()
+
