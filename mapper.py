@@ -116,7 +116,3 @@ def test_regex():
 if __name__ is '__main__':
     mapper()
 
-
-
-
-

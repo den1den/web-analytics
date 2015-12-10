@@ -1,0 +1,291 @@
+//REST API
+concept restAPI{
+     match '*/restapi/*timerange=1*'
+
+     plugin rest "
+        /getCars => getCarsLW
+        /getPages => getPagesLW
+        /getSources => getSourcesLW
+        /getPageFlow => getPageFlowLW
+     "
+}
+
+//URI for Cars table
+concept getCarsLW {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+      => sql['SELECT * FROM Cars WHERE timestamp >= ( CURDATE() - INTERVAL 7 DAY ) and sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+      => console
+      => out
+}
+
+//URI for Pages table
+concept getPagesLW {
+
+    plugin rest:json[flowName = 'json']
+
+     flow (json)
+     => sql['select * from Pages WHERE timestamp >= ( CURDATE() - INTERVAL 7 DAY ) and sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+     => out
+}
+
+//URI for Sources table
+concept getSourcesLW {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+      => sql['SELECT * FROM Sources WHERE timestamp >= ( CURDATE() - INTERVAL 7 DAY ) and sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+      => console
+      => out
+}
+
+//URI for PageFlow table
+concept getPageFlowLW {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+      => sql['SELECT * FROM PageFlow WHERE timestamp >= ( CURDATE() - INTERVAL 7 DAY ) and sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+      => console
+      => out
+}
+
+
+
+
+//REST API
+concept restAPI{
+     match '*/restapi/*'
+
+     plugin rest "
+        /getCars => getCars
+        /getPages => getPages
+        /getSources => getSources
+        /getPageFlow => getPageFlow
+        /dump => dumpDB
+     "
+}
+
+//URI for Cars table
+concept getCars {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+      => sql['SELECT * FROM Cars WHERE sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+      => console
+      => out
+}
+
+//URI for Pages table
+concept getPages {
+
+    plugin rest:json[flowName = 'json']
+
+     flow (json)
+     => sql['select * from Pages WHERE sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+     => out
+}
+
+//URI for Sources table
+concept getSources {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+      => sql['SELECT * FROM Sources WHERE sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+      => console
+      => out
+}
+
+//URI for PageFlow table
+concept getPageFlow {
+    plugin rest:json[flowName = 'json']
+
+    flow (json)
+      => sql['SELECT * FROM PageFlow WHERE sandbox_id=14015501386a464c562d1c52ffae2a9c227b2d18',`DB`, limit='100', batch='1']
+      => console
+      => out
+}
+
+//An extra Rest endpoint to test whats in the database (debugging purposes only)
+concept dumpDB {
+    plugin rest:json[flowname = 'json']
+    
+    flow (json)
+      => console //check if request was received
+      => sql['SELECT * FROM `Cars` WHERE 1=1',`DB`, limit='10', batch='1']
+      => out
+}
+
+//Triggered on search, collects data if there is a license plate
+concept Search extends Global {
+    match '*/zoeken/*'
+
+    //print that the Search scope is loaded
+    plugin script `console.log( 'Search scope' )`
+    
+    //Get the search query form the URL
+    val searchQuery = `getSearchQuery()`
+    
+    flow
+      //check if there is a license plate in the searchQuery
+      => if [`searchQuery != 'null'`]
+      //create the url on the server
+      => code[ url = `"https://overheid.io/api/voertuiggegevens/" + searchQuery + "?ovio-api-key=$API_KEY"`@groovy ]
+      => console
+      //execute the API request
+      => http[ url = '@url', method = 'GET', headers = 'Accept: application/json']
+      //get the color value (name or color???)
+      => code[ Naam = `getParam(result,"handelsbenaming")`@groovy ]
+      //sql insertion command
+      => sql["INSERT INTO Cars (`sandbox_id`, `license_plate`, `name`) VALUES (:sandboxID, :searchQuery, :Naam)", `DB`]
+      //dump the result to check
+      => debug
+}
+
+concept Global {
+  match '*'
+  
+  //get the cached sandboxID (dimml ID)
+  val sandboxID = `dimml.cookies.get('dimml')`
+  
+  //use javascript get get the current url
+  val url = `window.location.href`
+
+  //use the def below to get the total path of the page (e.g. path/to/page)
+  val pageName = `getPageName()`
+
+  //use the def below to get the first part of the path in the url
+  val pageCategory = `getPageCat()`
+
+  //Get the time of the day and date (format 23:55 and 2005-11-25)
+  val time = `getTime()`
+  val date = `getDate()`
+  
+  //Get the reffering domain
+  val refferingDomain = `document.referrer.split('/')[2]`
+  
+  //Directly from the dimml use case
+  val marketingCampaign = `getMarketingCampaign()`
+  
+  //Get the previous page
+  val previousPageName = `getPreviousPageName()`
+  
+  //Create a new session ID if there wasn't a session id stored on the user's browser
+  val SessionId = `sessionStorage.dimmlcid=sessionStorage.dimmlcid||guid()`
+  
+  //print that the Global scope is loaded
+  plugin script `console.log( 'Global' )`
+  plugin debug
+
+  //Creates and saves the session data
+  flow
+    => session['SessionId',
+        //Start of the visit, if the start is not set set it to the current time
+        Start = `session.Start = session.Start ?: date + ' ' + time`@groovy,
+        //if the visit for this page is not set set it to 0 otherwise increase it by 1
+        Visit = `(session[pageName] = (session[pageName]?:0).toLong()+1)==1?1:0`@groovy,
+        //append this page to the pagepath array
+        PagePath = `(session.pagepath=(session.pagepath?:[]))<<pageName`@groovy,
+        //Gets length of PagePath arraylist, could also be calculated on the server.
+        PageSequence  = `session["pagepath"].length`@javascript
+    ]
+    => ip
+    //sql insertion command for PageFlow table (seq_nr still needs to be done)
+    => sql["INSERT INTO PageFlow (`sandbox_id`, visit_start, seq_nr, url, `previous_url`) VALUES (:sandboxID, :Start, :PageSequence, :url, :previousPageName)", `DB`]
+
+  flow
+    //sql insertion command for Pages table
+    => sql["INSERT INTO Pages (`sandbox_id`, url, page_title, page_category, time, `date`) VALUES (:sandboxID, :url, :pageName, :pageCategory, :time, :date)", `DB`]
+
+  flow
+    //sql insertion command for Sources table
+    => sql["INSERT INTO Sources (`sandbox_id`, referrer_domain, `campaign`) VALUES (:sandboxID, :refferingDomain, :marketingCampaign)", `DB`]
+}
+
+//Used to generate a new session
+def guid = `dimml.sha1(+new Date()+Math.random().toString(36).slice(2)+navigator.userAgent).slice(20)`
+
+//returns the current pagename (if the page is / we return home)
+def getPageName = `(location.pathname||'/').substring(1)||'home'`
+
+//use document.referrer to get the previous page, return "" if it was from another domain
+def getPreviousPageName = `
+    var urlSplit = (document.referrer).split('/');
+    var refDomain = urlSplit[2];
+    if (refDomain != document.location.hostname){
+        return "";
+    }else{
+        var slice = urlSplit.slice(3, urlSplit.length);
+        return slice.join('/');
+    }
+`
+
+//returns page category
+def getPageCat = `(location.pathname||'/').split('/')[1]||'no-category'`
+
+//returns time
+def getTime = `
+    var d = new Date();
+    return d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
+`
+
+//returns current date
+def getDate = `
+    var d = new Date();
+    return (1900+d.getYear()) + "-" + (d.getMonth()+1) + "-" + d.getDate();
+`
+
+//returns marketing campaign
+def getMarketingCampaign = `
+    var ref = document.referrer || '';
+    if (ref.indexOf('.google.')>-1 || ref.indexOf('.bing.')>-1) {
+        return 'SEO'
+    } else if (ref.indexOf('.facebook.')>-1) {
+        return 'Facebook'
+    } else if (ref=="") {
+        return "Direct"
+    } else {
+        return "Other"
+    }
+`
+//tries to extract a license plate from the GET parameter q
+def getSearchQuery = `
+    var queryRegex = new RegExp("[?&]q=([^&#]*)", "i");
+    var strings = queryRegex.exec(window.location.href);
+    if(strings){
+        var plate = strings[1];
+        //console.log("Query found: "+plate);
+        var plateRegex = new RegExp("^[A-Z\\d]{1,3}-[A-Z\\d]{1,3}-[A-Z\\d]{1,3}$", "i");
+        if( plate.length == 8 && plateRegex.test(plate) ){
+            //console.log("License plate found: "+plate);
+            return plate;
+        }
+    }
+    return null;
+`
+//needed to get params from overheid.io query
+def getParam  = {str, param => `
+    if (str.indexOf('"'+param+'":"')>-1) {
+        String temp = str.split('"'+param+'":"')[1]
+        return temp.split('"')[0]
+    } else if (str.indexOf('"'+param+'":')>-1) {
+        String temp = str.split('"'+param+'":')[1]
+        return temp.split(',')[0]
+    } else {
+        return ""
+    }
+`@groovy}
+
+//The API key for rdw (from Guido)
+//Example license plate: 4-TFL-24
+const API_KEY = '8945bdaaf62e244057c1cb84fe51f163bb8d172045fdb129ba43040dcafc6639'
+
+//database connection
+const DB = `{
+  type:         'mysql',
+  port:         3306,
+  serverName:   'dimmldemo.o2mc.io',
+  databaseName: 'dimmldemo',
+  user:         'dimmlwa',
+  password:     '2YN0nWU4z3Eo'
+}`
