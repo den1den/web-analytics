@@ -28,24 +28,21 @@ class Reader:
         return sys.stdin.readline()
     
     
-    def run(self):
-        print >> sys.stderr, 'run'
+    def skip_until_tweet(self):
         line = self.next_line()
-        if not line:
-            print >> sys.stderr, 'empty input'
-            return
-        
-        if is_header.match(line):
-            print >> sys.stderr, 'skip the header'
-            line = self.next_line()
-        else:
-            while not starts_tweet.match(line):
+        if line:
+            if is_header.match(line):
+                print >> sys.stderr, 'skip the header'
+                return self.next_line()
+            while line and not starts_tweet.match(line):
                 #search for the first tweet start
                 line = self.next_line()
-                if not line:
-                    #no header or starting tweet found
-                    return
-            print >> sys.stderr, 'first tweet found'
+        return line
+    
+    
+    def run(self):
+        print >> sys.stderr, 'run'
+        line = self.skip_until_tweet()
         
         #inv: line contains the next tweet
         
@@ -53,7 +50,11 @@ class Reader:
         #the loop
         while line:
             line = line.replace('\0', '').replace('\n', '').replace('\r', '')
-            nxt = next(csv.reader([line], delimiter=",", quotechar='"'))
+            try:
+                nxt = next(csv.reader([line], delimiter=",", quotechar='"'))
+            except Exception as e:
+                print >> sys.stderr, 'CSV error while parsing line '+str(line)
+                raise e
             
             while len(arr)+len(nxt) < tweet_data_length:
                 # expand the line
