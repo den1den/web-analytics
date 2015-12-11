@@ -1,16 +1,21 @@
-## Do a run
+## Do a manual run
 cat tweets/test6.csv | venv/bin/python ./mapper.py | sort -k1,1 | venv/bin/python ./reducer.py | sort -r -g -k2 > output.txt; head output.txt
 
 ## Hadoop file system
-bin/hdfs dfs -mv /tweets_2015-11-23.csv /input/tweets_2015-11-23.csv
+bin/hdfs dfs -put tweets/tweets_2015-11-23.csv /input/tweets_2015-11-23.csv
 
 ## setup java
 export JAVA_HOME=/usr/lib/jvm/default-java
 
-## Run hadoop
+## Setup and run hadoop run.sh
+ln -s share/hadoop/tools/lib/hadoop-streaming-2.7.1.jar streaming.jar
+#run run.sh
+./run.sh
+
+## Run hadoop manually
 bin/hdfs dfs -rm -r -f /output; bin/hadoop jar streaming.jar -mapper /home/dennis/Programs/hadoop/mapper.py -reducer /home/dennis/Programs/hadoop/reducer.py -input /input -output /output -file /home/dennis/Programs/hadoop/mapper.py -file /home/dennis/Programs/hadoop/reducer.py > output.txt 2>&1
 
-## Create test files
+## Split up test files
 head -n 10 tweets/tweets_2015-11-23.csv > tweets/test1.csv
 
 ##start file system with:
