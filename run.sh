@@ -1,15 +1,18 @@
+echo "Script started"
 export JAVA_HOME=/usr/lib/jvm/default-java
-PYTHON_PATH=`which python`
+export PYTHON_PATH=`which python`
 
 #remove output folder on hadoop
 bin/hdfs dfs -rm -r -f /output
 
 #run hadoop
-bin/hadoop jar "share/hadoop/tools/lib/hadoop-streaming-2.7.1.jar" -mapper "$PYTHON_PATH mapper.py" -reducer "$PYTHON_PATH reducer.py" -input /input -output /output > output.txt
-
+bin/hadoop jar streaming.jar -mapper "$PYTHON_PATH mapper.py" -reducer "$PYTHON_PATH reducer.py" -input /input -output /output > output.txt
 #get results
+rm -f hadoop-output.txt
+touch hadoop-output.txt
 bin/hdfs dfs -getmerge /output hadoop-output.txt
+
 #print results
 head hadoop-output.txt
-
 echo "Script finished"
+
