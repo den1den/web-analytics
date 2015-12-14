@@ -10,18 +10,19 @@ tweet_data_length = 26
 starts_quote = re.compile(r'.*,"(""|[^"])*$')
 ends_quote = re.compile(r'^(""|[^"])*"([^"].*|)$')
 starts_tweet = re.compile(r'^\d{3,},')
-starts_tweet = re.compile(r'^\d{1,},')
+#starts_tweet = re.compile(r'^\d{1,},')
 is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RETWEET,RETWEET_COUNT,RETWEET_BY_ME,POSSIBLY_SENSITIVE,GEO_LATITUDE,GEO_LONGITUDE,LANGUAGE_CODE,PLACE,PLACE_TYPE,PLACE_URL,STREET_ADDRESS,COUNTRY,COUNTRY_CODE,IN_REPLY_TO_STATUS_ID,IN_REPLY_TO_USER_ID,RETWEETED_STATUS_ID,RETWEETED_STATUS_USER_ID,RETWEETED_STATUS_CREATED,EXPANDED_URLS$')
+find_hashtag = re.compile(r'[^&]#(\S+)')
 logger = logging.getLogger('')
 
 class Reader:
     #init
     line_number = 0
     tweet_number = 0
+    single_hastags = 0
     skipped = []
     annomalies = []
     last_ended_quote = ()
-    
     
     def next_line(self):
         self.line_number += 1
@@ -32,7 +33,6 @@ class Reader:
         line = self.next_line()
         if line:
             if is_header.match(line):
-                print >> sys.stderr, 'skip the header'
                 return self.next_line()
             while line and not starts_tweet.match(line):
                 #search for the first tweet start
@@ -41,7 +41,6 @@ class Reader:
     
     
     def run(self):
-        print >> sys.stderr, 'run'
         line = self.skip_until_tweet()
         
         #inv: line contains the next tweet
@@ -74,8 +73,13 @@ class Reader:
                 self.mapper(tweet)
             
             line = self.next_line()
-            
-        print >> sys.stderr, 'done, read '+str(self.line_number)+" lines and "+str(self.tweet_number)+" tweets"
+        
+        print >> sys.stderr, 'Mapping done: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
+            self.tweet_number,
+            len(self.skipped),
+            self.line_number,
+            self.single_hastags,
+        )
 
 
     def mapper(self, data):
@@ -91,13 +95,16 @@ class Reader:
             words = data[4].strip()
             date = data[5].strip()
             date = date[:-9]
-            hashtags = re.findall(r'#(\w+)', words)
+            hashtags = find_hashtag.findall(words)
             self.tweet_number += 1
         except Exception as e:
             self.skipped += e
             pass
-        for tag in hashtags:
-            print tag, 1
+        if hashtags:
+            for tag in hashtags:
+                if len(tag) == 1:
+                    self.single_hastags += 1
+                print tag, 1
 
 
 class Test(unittest.TestCase):
