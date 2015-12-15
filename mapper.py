@@ -19,6 +19,18 @@ logger = logging.getLogger('')
 def count_hashtags(data):
     try:
         words = data[4].strip()
+        hashtags = find_hashtag.findall(words)
+    except Exception as e:
+        return e
+    if hashtags:
+        for tag in hashtags:
+            print tag, 1
+    return 1
+
+
+def count_hashtags_and_date(data):
+    try:
+        words = data[4].strip()
         date = data[5].strip()
         date = date[:-9]
         hashtags = find_hashtag.findall(words)
@@ -26,7 +38,7 @@ def count_hashtags(data):
         return e
     if hashtags:
         for tag in hashtags:
-            print tag, 1
+            print date, tag, 1
     return 1
 
 
@@ -40,7 +52,6 @@ class Reader:
     
     def __init__(self, function):
         self.function = function
-        print >> sys.stderr, 'Reader.__init__ '+str(self.function)
     
     
     def next_line(self):
@@ -60,10 +71,8 @@ class Reader:
     
     
     def run(self):
-        line = self.skip_until_tweet()
-        
         #inv: line contains the next tweet
-        
+        line = self.skip_until_tweet()
         arr = []
         #the loop
         while line:
@@ -174,6 +183,5 @@ if __name__ == '__main__':
             method = possibles.get(method_name)
             if not method:
                 raise Exception("Method %s not implemented" % method_name)
-            print >> sys.stderr, "function = "+str(method)
             Reader(method).run()
 
