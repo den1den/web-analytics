@@ -11,3 +11,4 @@ logs
 .output-count_hashtags.csv.crc
 .output-.csv.crc
 .output_ny-count_feel.csv.crc
+etc/hadoop/hadoop-env.sh
