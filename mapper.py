@@ -11,9 +11,9 @@ starts_quote = re.compile(r'.*,"(""|[^"])*$')
 ends_quote = re.compile(r'^(""|[^"])*"([^"].*|)$')
 starts_tweet = re.compile(r'^\d{3,},')
 is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RETWEET,RETWEET_COUNT,RETWEET_BY_ME,POSSIBLY_SENSITIVE,GEO_LATITUDE,GEO_LONGITUDE,LANGUAGE_CODE,PLACE,PLACE_TYPE,PLACE_URL,STREET_ADDRESS,COUNTRY,COUNTRY_CODE,IN_REPLY_TO_STATUS_ID,IN_REPLY_TO_USER_ID,RETWEETED_STATUS_ID,RETWEETED_STATUS_USER_ID,RETWEETED_STATUS_CREATED,EXPANDED_URLS$')
-find_hashtag = re.compile(r'[^&]#(\S+)')
+find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
 logger = logging.getLogger('')
-
+i_feel = re.compile(r'(\w+) feel (\w+)', re.IGNORECASE)
 
 #this function can be used by calling with 'python mapper.py count_hashtags'
 def count_hashtags(data):
@@ -39,6 +39,20 @@ def count_hashtags_and_date(data):
     if hashtags:
         for tag in hashtags:
             print date, tag, 1
+    return 1
+
+
+def count_feel(data):
+    try:
+        words = data[4].strip()
+        date = data[5].strip()
+        date = date[:-9]
+        grps = i_feel.findall(words)
+    except Exception as e:
+        return e
+    if grps:
+        for grp in grps:
+            print grp[0], grp[1], 1
     return 1
 
 
