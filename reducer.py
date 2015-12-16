@@ -83,7 +83,7 @@ def smileys(data):
             total_count = 0
             for emo, minute, count in group:
                 total_count += int(count)
-            print(''+minute.replace('_',',')+','+emo+','+str(total_count))
+            print(''+minute.replace('_',',')+':00,'+emo+','+str(total_count))
         except ValueError as e:
             print >> sys.stderr, 'Reducer error on '+str(group)+', '+str(e)
 
