@@ -12,7 +12,13 @@ ends_quote = re.compile(r'^(""|[^"])*"([^"].*|)$')
 starts_tweet = re.compile(r'^\d{3,},')
 starts_tweet = re.compile(r'^\d{1,},')
 is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RETWEET,RETWEET_COUNT,RETWEET_BY_ME,POSSIBLY_SENSITIVE,GEO_LATITUDE,GEO_LONGITUDE,LANGUAGE_CODE,PLACE,PLACE_TYPE,PLACE_URL,STREET_ADDRESS,COUNTRY,COUNTRY_CODE,IN_REPLY_TO_STATUS_ID,IN_REPLY_TO_USER_ID,RETWEETED_STATUS_ID,RETWEETED_STATUS_USER_ID,RETWEETED_STATUS_CREATED,EXPANDED_URLS$')
-find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
+#OLD: find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
+UTF_CHARS = ur'a-z0-9_\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff'
+TAG_EXP = ur'(?:^|[^0-9A-Z&/]+)(?:#|\uff03)([0-9A-Z_]*[A-Z_]+[%s]*)' % UTF_CHARS
+find_hashtag = re.compile(TAG_EXP, re.UNICODE | re.IGNORECASE)
+
+top_20_tags = ['ALLAH', '2013ArianatorMemories'] #TODO pick this from the data
+
 logger = logging.getLogger('')
 i_feel = re.compile(r'(\w+) feel (\w+)', re.IGNORECASE)
 feel_re = re.compile(r'I feel ([\w\s])+', re.IGNORECASE)
@@ -20,6 +26,7 @@ feel_3wrds = re.compile(r'I\s+feel\s+([#\w]+)\s*([#\w]+)?\s*([#\w]+)?', re.IGNOR
 feel_positive = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:goo+d)|(?:happy)|(?:fine)|(?:excited))', re.IGNORECASE)
 feel_negative = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:shit)|(?:bad)|(?:sad)|(?:lonely)|(?:disap+ointed)|(?:ter+ible))', re.IGNORECASE)
 is_date = re.compile(r'\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d')
+
 
 #this function can be used by calling with 'python mapper.py count_hashtags'
 def count_hashtags(data):
@@ -84,6 +91,23 @@ def output_feel(data):
     return 1
 
 
+# cluster per userid
+def user_freq(data):
+    try:
+        #username could contain spaces
+        user = data[1].strip()
+        tweet = data[4].strip()
+        hashtags = find_hashtag.findall(tweet)
+    except Exception as e:
+        return e
+    if hashtags:
+        for tag in hashtags:
+            if tag in top_20_tags:
+                print user.replace(' ', '_'), tag, 1
+    return 1
+
+
+# Version 2 (only on newyear)
 def smileys(data):
     try:
         tweet = data[4].strip()

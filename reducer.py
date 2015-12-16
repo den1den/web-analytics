@@ -4,6 +4,9 @@ from operator import itemgetter
 import sys
 
 
+minimal_freq = 2
+
+
 def count_hashtags(data):
     # groupby groups multiple word-count pairs by word,
     # and creates an iterator that returns consecutive keys and their group:
@@ -12,7 +15,8 @@ def count_hashtags(data):
     for current_word, group in groupby(data, itemgetter(0)):
         try:
             total_count = sum(int(count) for current_word, count in group)
-            print(''+current_word+','+str(total_count)+'')
+            if total_count >= minimal_freq:
+                print(''+current_word+','+str(total_count)+'')
         except ValueError as e:
             print >> sys.stderr, 'Reducer error '+str(e)
 
@@ -55,6 +59,20 @@ def output_feel(data):
             print(str(total_count)+','+gorb+','+bvg+','+znm+'')
         except ValueError as e:
             print >> sys.stderr, 'Reducer error on '+str(group)+', '+str(e)
+
+
+def user_freq(data):
+    def clasifier(obj):
+        return obj[0]+obj[1]
+    
+    for key, group in groupby(data, clasifier):
+        try:
+            total_count = 0
+            for user, hashtag, count in group:
+                total_count += int(count)
+            print(''+user+','+hashtag+','+str(total_count))
+        except ValueError as e:
+            print >> sys.stderr, 'Reducer error '+str(e)
 
 
 def smileys(data):
