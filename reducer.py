@@ -44,14 +44,28 @@ def count_feel(data):
             print >> sys.stderr, 'Reducer error '+str(e)
 
 
-def read_mapper_output(file, separator='\t'):
+def smileys(data):
+    def clasifier(obj):
+        return obj[0]+obj[1]
+    for key, group in groupby(data, clasifier):
+        try:
+            total_count = 0
+            for emo, minute, count in group:
+                total_count += int(count)
+            print(''+minute.replace('_',',')+','+emo+','+str(total_count))
+        except ValueError as e:
+            print >> sys.stderr, 'Reducer error '+str(e)
+
+
+def read_mapper_output(file):
+    separator=' '
     for line in file:
         yield line.rstrip().split(separator)
 
 
-def main(reducer_function, separator=' '):
+def main(reducer_function):
     print >> sys.stderr, 'Reducer started'
-    data = read_mapper_output(sys.stdin, separator=separator)
+    data = read_mapper_output(sys.stdin)
     reducer_function(data)
     print >> sys.stderr, 'Reducer completed'
 

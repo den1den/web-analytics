@@ -15,6 +15,7 @@ is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RET
 find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
 logger = logging.getLogger('')
 i_feel = re.compile(r'(\w+) feel (\w+)', re.IGNORECASE)
+is_date = re.compile(r'\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d')
 
 #this function can be used by calling with 'python mapper.py count_hashtags'
 def count_hashtags(data):
@@ -55,6 +56,39 @@ def count_feel(data):
         for grp in grps:
             print grp[0], grp[1], 1
     return 1
+
+
+def smileys(data):
+    try:
+        tweet = data[4].strip()
+        date = data[5].strip()
+        if not is_date.match(date):
+            print >> sys.stderr, 'Non date found in date field: '+str(date)
+            return 0
+        date = date[:10]+'_'+date[11:16]
+        if not date:
+            data = "UNDEFINED"
+        
+        emotweets = []
+        if ":)" in tweet:
+            emotweets.append(":)")
+        elif ":(" in tweet:
+            emotweets.append(":(")
+        elif "happy" in tweet:
+            emotweets.append("happy")
+        elif "sad" in tweet:
+            emotweets.append("sad")
+        elif "lonely" in tweet:
+            emotweets.append("lonely")
+        elif "XD" in tweet:
+            emotweets.append("XD")
+        
+        #done, print outcome
+        for emotweet in emotweets:
+            print emotweet, date, "1"
+        return 1
+    except Exception as e:
+        return e
 
 
 class Reader:
@@ -119,19 +153,28 @@ class Reader:
                 except ValueError:
                     raise ValueError("Entry has no id")
                 result = self.function(tweet)
-                if type(result) == Exception:
-                    self.skipped += result
-                else:
+                if type(result) == int:
                     self.tweet_number += result
+                else:
+                    self.skipped += result
                 arr = arr[tweet_data_length:]
             line = self.next_line()
-        
-        print >> sys.stderr, 'Mapping done: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
-            self.tweet_number,
-            len(self.skipped),
-            self.line_number,
-            self.single_hastags,
-        )
+        if len(self.skipped) == 0:
+            print >> sys.stderr, 'Mapping done: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
+                self.tweet_number,
+                len(self.skipped),
+                self.line_number,
+                self.single_hastags,
+            )
+        else:
+            print >> sys.stderr, 'Mapping failed: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
+                self.tweet_number,
+                len(self.skipped),
+                self.line_number,
+                self.single_hastags,
+            )
+            for e in self.skipped:
+                print >> sys.stderr, e
 
 
 class Test(unittest.TestCase):
