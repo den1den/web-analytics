@@ -35,7 +35,7 @@ def count_hashtags_and_date(data):
             print >> sys.stderr, 'Reducer error '+str(e)
 
 
-def count_feel(data):
+def prepost_feel(data):
     def clasifier(obj):
         return str(obj[0])+' '+str(obj[1])
     for key, group in groupby(data, clasifier):

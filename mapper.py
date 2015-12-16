@@ -20,7 +20,7 @@ find_hashtag = re.compile(TAG_EXP, re.UNICODE | re.IGNORECASE)
 top_20_tags = ['ALLAH', '2013ArianatorMemories'] #TODO pick this from the data
 
 logger = logging.getLogger('')
-i_feel = re.compile(r'(\w+) feel (\w+)', re.IGNORECASE)
+prepost_feel_re = re.compile(r'([\w\s]+)\s+feel\s+([\w\s]+)', re.IGNORECASE)
 feel_re = re.compile(r'I feel ([\w\s])+', re.IGNORECASE)
 feel_3wrds = re.compile(r'I\s+feel\s+([#\w]+)\s*([#\w]+)?\s*([#\w]+)?', re.IGNORECASE)
 feel_positive = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:goo+d)|(?:happy)|(?:fine)|(?:excited))', re.IGNORECASE)
@@ -55,17 +55,15 @@ def count_hashtags_and_date(data):
     return 1
 
 
-def count_feel(data):
+def prepost_feel(data):
     try:
-        words = data[4].strip()
-        date = data[5].strip()
-        date = date[:-9]
-        grps = i_feel.findall(words)
+        tweet = data[4].strip()
+        groups = prepost_feel_re.findall(tweet)
     except Exception as e:
         return e
-    if grps:
-        for grp in grps:
-            print grp[0], 'feel', grp[1], 1
+    if groups:
+        for group in groups:
+            print group[0], group[1], 1
     return 1
 
 
