@@ -53,7 +53,7 @@ def count_feel(data):
         return e
     if grps:
         for grp in grps:
-            print grp[0], grp[1], 1
+            print str(grp[0].lower()), str(grp[1].lower()), 1
     return 1
 
 
