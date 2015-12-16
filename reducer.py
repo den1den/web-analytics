@@ -4,6 +4,19 @@ from operator import itemgetter
 import sys
 
 
+def count_hashtags(data):
+    # groupby groups multiple word-count pairs by word,
+    # and creates an iterator that returns consecutive keys and their group:
+    #   current_word - string containing a word (the key)
+    #   group - iterator yielding all ["&lt;current_word&gt;", "&lt;count&gt;"] items
+    for current_word, group in groupby(data, itemgetter(0)):
+        try:
+            total_count = sum(int(count) for current_word, count in group)
+            print(''+current_word+','+str(total_count)+'')
+        except ValueError as e:
+            print >> sys.stderr, 'Reducer error '+str(e)
+
+
 def count_hashtags_and_date(data):
     def clasifier(obj):
         return obj[0]+' '+obj[1]

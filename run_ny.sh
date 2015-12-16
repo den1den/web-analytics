@@ -26,4 +26,5 @@ bin/hdfs dfs -getmerge /output_ny output_ny-$1.csv
 #print results
 echo "Printing results of NewYear"
 head output_ny-$1.csv
+
 echo "Hadoop finished on NewYear in $((end-start)) seconds"
