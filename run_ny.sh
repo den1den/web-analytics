@@ -15,7 +15,7 @@ bin/hdfs dfs -rm -r -f /output_ny
 #run hadoop
 echo "Starting Hadoop on NewYear"
 start=`date +%s`
-bin/hadoop jar streaming.jar -mapper "$PYTHON_PATH mapper.py $1" -reducer "$PYTHON_PATH reducer.py $1" -input /input -output /output_ny
+bin/hadoop jar streaming.jar -mapper "$PYTHON_PATH mapper.py $1" -reducer "$PYTHON_PATH reducer.py $1" -input /input_ny -output /output_ny
 end=`date +%s`
 #get results
 echo "Downloading results of NewYear"
