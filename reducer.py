@@ -44,6 +44,19 @@ def count_feel(data):
             print >> sys.stderr, 'Reducer error '+str(e)
 
 
+def output_feel(data):
+    def clasifier(obj):
+        return obj[0]+obj[1]+obj[2]
+    for key, group in groupby(data, clasifier):
+        try:
+            total_count = 0
+            for bvg, znm, gorb, count in group:
+                total_count += int(count)
+            print(str(total_count)+','+gorb+','+bvg+','+znm+'')
+        except ValueError as e:
+            print >> sys.stderr, 'Reducer error on '+str(group)+', '+str(e)
+
+
 def smileys(data):
     def clasifier(obj):
         return obj[0]+obj[1]
@@ -54,7 +67,7 @@ def smileys(data):
                 total_count += int(count)
             print(''+minute.replace('_',',')+','+emo+','+str(total_count))
         except ValueError as e:
-            print >> sys.stderr, 'Reducer error '+str(e)
+            print >> sys.stderr, 'Reducer error on '+str(group)+', '+str(e)
 
 
 def read_mapper_output(file):

@@ -15,6 +15,10 @@ is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RET
 find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
 logger = logging.getLogger('')
 i_feel = re.compile(r'(\w+) feel (\w+)', re.IGNORECASE)
+feel_re = re.compile(r'I feel ([\w\s])+', re.IGNORECASE)
+feel_3wrds = re.compile(r'I\s+feel\s+([#\w]+)\s*([#\w]+)?\s*([#\w]+)?', re.IGNORECASE)
+feel_positive = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:goo+d)|(?:happy)|(?:fine)|(?:excited))', re.IGNORECASE)
+feel_negative = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:shit)|(?:bad)|(?:sad)|(?:lonely)|(?:disap+ointed)|(?:ter+ible))', re.IGNORECASE)
 is_date = re.compile(r'\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d')
 
 #this function can be used by calling with 'python mapper.py count_hashtags'
@@ -54,7 +58,29 @@ def count_feel(data):
         return e
     if grps:
         for grp in grps:
-            print grp[0], grp[1], 1
+            print grp[0], 'feel', grp[1], 1
+    return 1
+
+
+def output_feel(data):
+    try:
+        words = data[4].strip()
+        positive_groups = feel_positive.findall(words)
+        negative_groups = feel_negative.findall(words)
+    except Exception as e:
+        return e
+    if positive_groups:
+        for grps in positive_groups:
+            if len(grps) == 2:
+                print grps[0], grps[1], '1', 1
+            else:
+                print "MATCHING_ERROR", str(len(grps)), 1
+    if negative_groups:
+        for grps in negative_groups:
+            if len(grps) == 2:
+                print grps[0], grps[1], '0', 1
+            else:
+                print "MATCHING_ERROR", str(len(grps)), 1
     return 1
 
 
