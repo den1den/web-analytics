@@ -24,9 +24,9 @@ def count_feel(data):
     for key, group in groupby(data, clasifier):
         try:
             total_count = 0
-            for a, count in group:
+            for pre, post, count in group:
                 total_count += int(count)
-            print(''+a+',feel,'+','+str(total_count))
+            print(''+pre+',feel,'+post+','+str(total_count))
         except ValueError as e:
             print >> sys.stderr, 'Reducer error '+str(e)
 
