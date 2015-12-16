@@ -1,0 +1,13 @@
+streaming.jar
+logs
+.git
+.gitignore
+.hadoop-count_hashtags_and_date.csv.crc
+.hadoop-.csv.crc
+.hadoop-output.csv.crc
+.hadoop-output.txt.crc
+.idea
+.output-count_hashtags_and_date.csv.crc
+.output-count_hashtags.csv.crc
+.output-.csv.crc
+.output_ny-count_feel.csv.crc
