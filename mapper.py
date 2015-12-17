@@ -164,6 +164,36 @@ def smileys(data):
         return e
 
 
+# Version 2 (only on newyear)
+def smileys_country(data):
+    try:
+        tweet = data[4].strip()
+        country = data[13].strip()
+        if not country:
+            country = "UNDEFINED"
+        
+        emotweets = []
+        if ":)" in tweet:
+            emotweets.append(":)")
+        if ":(" in tweet:
+            emotweets.append(":(")
+        if "happy" in tweet:
+            emotweets.append("happy")
+        if "sad" in tweet:
+            emotweets.append("sad")
+        if "lonely" in tweet:
+            emotweets.append("lonely")
+        if "XD" in tweet:
+            emotweets.append("XD")
+        
+        #done, print outcome
+        for emotweet in emotweets:
+            print emotweet, country, "1"
+        return 1
+    except Exception as e:
+        return e
+
+
 class Reader:
     #init
     line_number = 0
