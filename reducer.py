@@ -63,14 +63,31 @@ def output_feel(data):
 
 def user_freq(data):
     def clasifier(obj):
-        return obj[0]+obj[1]
+        #calisify on usrid and tag
+        return obj[0]+obj[2]
     
     for key, group in groupby(data, clasifier):
         try:
             total_count = 0
-            for user, hashtag, count in group:
+            for userid, username, hashtag, count in group:
                 total_count += int(count)
-            print(''+user+','+hashtag+','+str(total_count))
+            username.replace(',','_')
+            print(''+username+','+hashtag+','+str(total_count))
+        except ValueError as e:
+            print >> sys.stderr, 'Reducer error '+str(e)
+
+
+def tweet_intensity(data):
+    def clasifier(obj):
+        #calisify on date only
+        return obj[0]
+    
+    for key, group in groupby(data, clasifier):
+        try:
+            total_count = 0
+            for date, count in group:
+                total_count += int(count)
+            print(''+date+','+str(total_count))
         except ValueError as e:
             print >> sys.stderr, 'Reducer error '+str(e)
 

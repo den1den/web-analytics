@@ -17,7 +17,10 @@ UTF_CHARS = ur'a-z0-9_\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff'
 TAG_EXP = ur'(?:^|[^0-9A-Z&/]+)(?:#|\uff03)([0-9A-Z_]*[A-Z_]+[%s]*)' % UTF_CHARS
 find_hashtag = re.compile(TAG_EXP, re.UNICODE | re.IGNORECASE)
 
-top_20_tags = ['ALLAH', '2013ArianatorMemories'] #TODO pick this from the data
+top_20_tags = ['worldstar','2013memories','oomf','ghettovinne','peoplewhomademy2013','lol','followmejai','mcm','2013follow','2k13memories',
+		'shortgirlproblems','bethanymotagiveaway','newyearsmegamix','2013taughtme','rare','stopmexicangirls2013','happynewyear','himala','turnup','comedy']
+if len(top_20_tags) != 20:
+	raise Exception()
 
 logger = logging.getLogger('')
 prepost_feel_re = re.compile(r'([\w\s]+)\s+feel\s+([\w\s]+)', re.IGNORECASE)
@@ -37,6 +40,7 @@ def count_hashtags(data):
         return e
     if hashtags:
         for tag in hashtags:
+            tag = tag.lower()
             print tag, 1
     return 1
 
@@ -51,6 +55,7 @@ def count_hashtags_and_date(data):
         return e
     if hashtags:
         for tag in hashtags:
+            tag = tag.lower()
             print date, tag, 1
     return 1
 
@@ -63,7 +68,7 @@ def prepost_feel(data):
         return e
     if groups:
         for group in groups:
-            print group[0], group[1], 1
+            print group[0].lower(), group[1].lower(), 1
     return 1
 
 
@@ -77,15 +82,15 @@ def output_feel(data):
     if positive_groups:
         for grps in positive_groups:
             if len(grps) == 2:
-                print grps[0], grps[1], '1', 1
+                print grps[0].lower(), grps[1].lower(), '1', '1'
             else:
-                print "MATCHING_ERROR", str(len(grps)), 1
+                print "MATCHING_ERROR", str(len(grps)), '1', '1'
     if negative_groups:
         for grps in negative_groups:
             if len(grps) == 2:
-                print grps[0], grps[1], '0', 1
+                print grps[0].lower(), grps[1].lower(), '0', '1'
             else:
-                print "MATCHING_ERROR", str(len(grps)), 1
+                print "MATCHING_ERROR", str(len(grps)), '0', '1'
     return 1
 
 
@@ -93,16 +98,33 @@ def output_feel(data):
 def user_freq(data):
     try:
         #username could contain spaces
-        user = data[1].strip()
+        userid = data[1].strip()
+        username = data[2].strip().replace(' ', '_')
         tweet = data[4].strip()
         hashtags = find_hashtag.findall(tweet)
     except Exception as e:
         return e
     if hashtags:
         for tag in hashtags:
+            tag = tag.lower()
             if tag in top_20_tags:
-                print user.replace(' ', '_'), tag, 1
+                print userid, username, tag, 1
     return 1
+
+
+def tweet_intensity(data):
+    try:
+        date = data[5].strip()
+        if not is_date.match(date):
+            print >> sys.stderr, 'Non date found in date field: '+str(date)
+            return 0
+        date = date[:10]+'_'+date[11:13]
+        if not date:
+            date = "UNDEFINED"
+        print date, "1"
+    except Exception as e:
+        return e
+        
 
 
 # Version 2 (only on newyear)
