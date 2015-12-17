@@ -17,9 +17,9 @@ UTF_CHARS = ur'a-z0-9_\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff'
 TAG_EXP = ur'(?:^|[^0-9A-Z&/]+)(?:#|\uff03)([0-9A-Z_]*[A-Z_]+[%s]*)' % UTF_CHARS
 find_hashtag = re.compile(TAG_EXP, re.UNICODE | re.IGNORECASE)
 
-top_20_tags = ['worldstar','2013memories','oomf','ghettovinne','peoplewhomademy2013','lol','followmejai','mcm','2013follow','2k13memories',
-		'shortgirlproblems','bethanymotagiveaway','newyearsmegamix','2013taughtme','rare','stopmexicangirls2013','happynewyear','himala','turnup','comedy']
-if len(top_20_tags) != 20:
+top_20_tags = ['mtvstars','gameinsight','amas','rt','android','androidgames','aldubsumptuoslunch','ipad','pushawardskathniels','ipadgames',
+		'amas1d','teamfollowback','aldubfixedmarriage','bethanymotagiveaway','retweet',u'rt\u00E3','nowplaying','sougofollow','journals','christmas', 'news']
+if len(top_20_tags) != 21:#not sure if unicode will work, better to filter output then missing a value
 	raise Exception()
 
 logger = logging.getLogger('')

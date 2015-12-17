@@ -72,7 +72,7 @@ def user_freq(data):
             for userid, username, hashtag, count in group:
                 total_count += int(count)
             username.replace(',','_')
-            print(''+username+','+hashtag+','+str(total_count))
+            print(''+userid+','+hashtag+','+str(total_count))
         except ValueError as e:
             print >> sys.stderr, 'Reducer error '+str(e)
 
