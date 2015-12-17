@@ -87,7 +87,7 @@ def tweet_intensity(data):
             total_count = 0
             for date, count in group:
                 total_count += int(count)
-            print(''+date+','+str(total_count))
+            print(''+date.replace('_',' ')+':00,'+str(total_count))
         except ValueError as e:
             print >> sys.stderr, 'Reducer error '+str(e)
 

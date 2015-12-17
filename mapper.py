@@ -118,10 +118,11 @@ def tweet_intensity(data):
         if not is_date.match(date):
             print >> sys.stderr, 'Non date found in date field: '+str(date)
             return 0
-        date = date[:10]+'_'+date[11:13]
+        date = ''+date[:10]+'_'+date[11:13]+''
         if not date:
             date = "UNDEFINED"
         print date, "1"
+        return 1
     except Exception as e:
         return e
         
