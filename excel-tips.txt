@@ -1,0 +1,2 @@
+To parse the data well use: VALUE(TRIM(CLEAN(B1)))
+
