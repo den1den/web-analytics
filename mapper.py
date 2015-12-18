@@ -12,9 +12,24 @@ ends_quote = re.compile(r'^(""|[^"])*"([^"].*|)$')
 starts_tweet = re.compile(r'^\d{3,},')
 starts_tweet = re.compile(r'^\d{1,},')
 is_header = re.compile(r'^ID,USER_ID,USER_NAME,SOURCE,TEXT,CREATED,FAVORITED,RETWEET,RETWEET_COUNT,RETWEET_BY_ME,POSSIBLY_SENSITIVE,GEO_LATITUDE,GEO_LONGITUDE,LANGUAGE_CODE,PLACE,PLACE_TYPE,PLACE_URL,STREET_ADDRESS,COUNTRY,COUNTRY_CODE,IN_REPLY_TO_STATUS_ID,IN_REPLY_TO_USER_ID,RETWEETED_STATUS_ID,RETWEETED_STATUS_USER_ID,RETWEETED_STATUS_CREATED,EXPANDED_URLS$')
-find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
+#OLD: find_hashtag = re.compile(r'[^&]#([\w|\d+]{2,})')
+UTF_CHARS = ur'a-z0-9_\u00c0-\u00d6\u00d8-\u00f6\u00f8-\u00ff'
+TAG_EXP = ur'(?:^|[^0-9A-Z&/]+)(?:#|\uff03)([0-9A-Z_]*[A-Z_]+[%s]*)' % UTF_CHARS
+find_hashtag = re.compile(TAG_EXP, re.UNICODE | re.IGNORECASE)
+
+top_20_tags = ['mtvstars','gameinsight','amas','rt','android','androidgames','aldubsumptuoslunch','ipad','pushawardskathniels','ipadgames',
+		'amas1d','teamfollowback','aldubfixedmarriage','bethanymotagiveaway','retweet',u'rt\u00E3','nowplaying','sougofollow','journals','christmas', 'news']
+if len(top_20_tags) != 21:#not sure if unicode will work, better to filter output then missing a value
+	raise Exception()
+
 logger = logging.getLogger('')
-i_feel = re.compile(r'(\w+) feel (\w+)', re.IGNORECASE)
+prepost_feel_re = re.compile(r'([\w\s]+)\s+feel\s+([\w\s]+)', re.IGNORECASE)
+feel_re = re.compile(r'I feel ([\w\s])+', re.IGNORECASE)
+feel_3wrds = re.compile(r'I\s+feel\s+([#\w]+)\s*([#\w]+)?\s*([#\w]+)?', re.IGNORECASE)
+feel_positive = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:goo+d)|(?:happy)|(?:fine)|(?:excited))', re.IGNORECASE)
+feel_negative = re.compile(r'i\s+feel(\s+|(?:very)|(?:so)|(?:like)|(?:rly)|(?:real+y)|(?:super))*\s+((?:shit)|(?:bad)|(?:sad)|(?:lonely)|(?:disap+ointed)|(?:ter+ible))', re.IGNORECASE)
+is_date = re.compile(r'\d\d\d\d-\d\d-\d\d \d\d:\d\d:\d\d')
+
 
 #this function can be used by calling with 'python mapper.py count_hashtags'
 def count_hashtags(data):
@@ -25,6 +40,7 @@ def count_hashtags(data):
         return e
     if hashtags:
         for tag in hashtags:
+            tag = tag.lower()
             print tag, 1
     return 1
 
@@ -39,22 +55,143 @@ def count_hashtags_and_date(data):
         return e
     if hashtags:
         for tag in hashtags:
+            tag = tag.lower()
             print date, tag, 1
     return 1
 
 
-def count_feel(data):
+def prepost_feel(data):
     try:
-        words = data[4].strip()
-        date = data[5].strip()
-        date = date[:-9]
-        grps = i_feel.findall(words)
+        tweet = data[4].strip()
+        groups = prepost_feel_re.findall(tweet)
     except Exception as e:
         return e
-    if grps:
-        for grp in grps:
-            print grp[0], grp[1], 1
+    if groups:
+        for group in groups:
+            print group[0].lower(), group[1].lower(), 1
     return 1
+
+
+def output_feel(data):
+    try:
+        words = data[4].strip()
+        positive_groups = feel_positive.findall(words)
+        negative_groups = feel_negative.findall(words)
+    except Exception as e:
+        return e
+    if positive_groups:
+        for grps in positive_groups:
+            if len(grps) == 2:
+                print grps[0].lower(), grps[1].lower(), '1', '1'
+            else:
+                print "MATCHING_ERROR", str(len(grps)), '1', '1'
+    if negative_groups:
+        for grps in negative_groups:
+            if len(grps) == 2:
+                print grps[0].lower(), grps[1].lower(), '0', '1'
+            else:
+                print "MATCHING_ERROR", str(len(grps)), '0', '1'
+    return 1
+
+
+# cluster per userid
+def user_freq(data):
+    try:
+        #username could contain spaces
+        userid = data[1].strip()
+        username = data[2].strip().replace(' ', '_')
+        tweet = data[4].strip()
+        hashtags = find_hashtag.findall(tweet)
+    except Exception as e:
+        return e
+    if hashtags:
+        for tag in hashtags:
+            tag = tag.lower()
+            if tag in top_20_tags:
+                print userid, username, tag, 1
+    return 1
+
+
+def tweet_intensity(data):
+    try:
+        date = data[5].strip()
+        if not is_date.match(date):
+            print >> sys.stderr, 'Non date found in date field: '+str(date)
+            return 0
+        date = ''+date[:10]+'_'+date[11:13]+''
+        if not date:
+            date = "UNDEFINED"
+        print date, "1"
+        return 1
+    except Exception as e:
+        return e
+        
+
+
+# Version 2 (only on newyear)
+def smileys(data):
+    try:
+        tweet = data[4].strip()
+        date = data[5].strip()
+        if not is_date.match(date):
+            print >> sys.stderr, 'Non date found in date field: '+str(date)
+            return 0
+        date = date[:10]+'_'+date[11:13]
+        if not date:
+            data = "UNDEFINED"
+        #old: minutes = int(int(date[15:16]) / 15) * 15
+        #old: date = date + minutes
+        
+        emotweets = []
+        if ":)" in tweet:
+            emotweets.append(":)")
+        elif ":(" in tweet:
+            emotweets.append(":(")
+        elif "happy" in tweet:
+            emotweets.append("happy")
+        elif "sad" in tweet:
+            emotweets.append("sad")
+        elif "lonely" in tweet:
+            emotweets.append("lonely")
+        elif "XD" in tweet:
+            emotweets.append("XD")
+        
+        #done, print outcome
+        for emotweet in emotweets:
+            print emotweet, date, "1"
+        return 1
+    except Exception as e:
+        return e
+
+
+# Version 2 (only on newyear)
+def smileys_country(data):
+    try:
+        tweet = data[4].strip()
+        country = data[13].strip()
+        if not country:
+            country = "UNDEFINED"
+        
+        emotweets = []
+        if ":)" in tweet:
+            emotweets.append(":)")
+        if ":(" in tweet:
+            emotweets.append(":(")
+        if "happy" in tweet:
+            emotweets.append("happy")
+        if "sad" in tweet:
+            emotweets.append("sad")
+        if "lonely" in tweet:
+            emotweets.append("lonely")
+        if "XD" in tweet:
+            emotweets.append("XD")
+        
+        #done, print outcome
+        for emotweet in emotweets:
+            print emotweet, country, "1"
+        return 1
+    except Exception as e:
+        return e
 
 
 class Reader:
@@ -119,19 +256,28 @@ class Reader:
                 except ValueError:
                     raise ValueError("Entry has no id")
                 result = self.function(tweet)
-                if type(result) == Exception:
-                    self.skipped += result
-                else:
+                if type(result) == int:
                     self.tweet_number += result
+                else:
+                    self.skipped += result
                 arr = arr[tweet_data_length:]
             line = self.next_line()
-        
-        print >> sys.stderr, 'Mapping done: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
-            self.tweet_number,
-            len(self.skipped),
-            self.line_number,
-            self.single_hastags,
-        )
+        if len(self.skipped) == 0:
+            print >> sys.stderr, 'Mapping done: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
+                self.tweet_number,
+                len(self.skipped),
+                self.line_number,
+                self.single_hastags,
+            )
+        else:
+            print >> sys.stderr, 'Mapping failed: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
+                self.tweet_number,
+                len(self.skipped),
+                self.line_number,
+                self.single_hastags,
+            )
+            for e in self.skipped:
+                print >> sys.stderr, e
 
 
 class Test(unittest.TestCase):
