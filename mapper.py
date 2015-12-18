@@ -53,7 +53,7 @@ def count_feel(data):
         return e
     if grps:
         for grp in grps:
-            print str(grp[0].lower()), str(grp[1].lower()), 1
+            print grp[0], grp[1], 1
     return 1
 
 
@@ -61,9 +61,12 @@ class Reader:
     #init
     line_number = 0
     tweet_number = 0
+    single_hastags = 0
     skipped = []
-    annomalies = []
-    last_ended_quote = ()
+    
+    
+    def __init__(self, function):
+        self.function = function
     
     
     def next_line(self):
@@ -75,7 +78,6 @@ class Reader:
         line = self.next_line()
         if line:
             if is_header.match(line):
-                print >> sys.stderr, 'skip the header'
                 return self.next_line()
             while line and not starts_tweet.match(line):
                 #search for the first tweet start
@@ -84,11 +86,8 @@ class Reader:
     
     
     def run(self):
-        print >> sys.stderr, 'run'
-        line = self.skip_until_tweet()
-        
         #inv: line contains the next tweet
-        
+        line = self.skip_until_tweet()
         arr = []
         #the loop
         while line:
@@ -113,34 +112,26 @@ class Reader:
             # at least one tweet is in arr
             while len(arr) >= tweet_data_length:
                 tweet = arr[:tweet_data_length]
+                if len(tweet) != 26:
+                    raise ValueError("Entry has wrong length")
+                try:
+                    float(tweet[0])
+                except ValueError:
+                    raise ValueError("Entry has no id")
+                result = self.function(tweet)
+                if type(result) == Exception:
+                    self.skipped += result
+                else:
+                    self.tweet_number += result
                 arr = arr[tweet_data_length:]
-                self.mapper(tweet)
-            
             line = self.next_line()
-            
-        print >> sys.stderr, 'done, read '+str(self.line_number)+" lines and "+str(self.tweet_number)+" tweets"
-
-
-    def mapper(self, data):
-        if len(data) != 26:
-            raise ValueError("Entry has wrong length")
-        try:
-            float(data[0])
-        except ValueError:
-            raise ValueError("Entry has no id")
         
-        hashtags = list()
-        try:
-            words = data[4].strip()
-            date = data[5].strip()
-            date = date[:-9]
-            hashtags = re.findall(r'#(\w+)', words)
-            self.tweet_number += 1
-        except Exception as e:
-            self.skipped += e
-            pass
-        for tag in hashtags:
-            print tag, 1
+        print >> sys.stderr, 'Mapping done: {0} tweets found, {1} tweets skipped, {2} lines read, {3} single hashtags found'.format(
+            self.tweet_number,
+            len(self.skipped),
+            self.line_number,
+            self.single_hastags,
+        )
 
 
 class Test(unittest.TestCase):
@@ -196,9 +187,16 @@ class Test(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    if len(sys.argv) > 1 and sys.argv.pop(1)=="test":
-        # python ./mapper.py test
-        unittest.main()
-    else:
-        Reader().run()
+    if len(sys.argv) > 1:
+        arg = sys.argv.pop(1)
+        if arg == "test":
+            unittest.main()
+        else:
+            method_name = arg
+            possibles = globals().copy()
+            possibles.update(locals())
+            method = possibles.get(method_name)
+            if not method:
+                raise Exception("Method %s not implemented" % method_name)
+            Reader(method).run()
 

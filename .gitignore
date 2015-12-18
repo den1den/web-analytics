@@ -13,3 +13,4 @@ logs
 .output_ny-count_feel.csv.crc
 etc/hadoop/hadoop-env.sh
 convertToNumbers.txt
+*xlsx
