@@ -1,7 +1,11 @@
 function [ ] = assert_same_vector( x1, x2, abstol, reltol )
-%ASSERT_SAME_VECTOR Summary of this function goes here
+%ASSERT_SAME_VECTOR Checks if the two answers are the same or not
 %   Detailed explanation goes here
+assert(abstol>0); % always supply this argument!
 reltol_check = exist('reltol','var');
+if reltol_check
+    assert(reltol>0);
+end
 
 for i = 1 : size(x1, 1);
     diff = abs(x1(i)-x2(i));
