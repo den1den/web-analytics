@@ -1,6 +1,6 @@
 % First read in the matrixes G and Gs as the connectivity matrix and
 % sparse connectivity matrix.
-folder = 'PageRank';
+folder = 'PageRankSmall';
 edges = dlmread([folder '/edges.txt']);
 % if you take edge_i = edges(1,:); (i>0)
 % then node `edge_i(1)` has a link towardse node `edge_i(2)`
@@ -23,6 +23,16 @@ abstol = 10^(-4);
 reltol = 10^(-4);
 
 % CALCULATIONS
+[x_nte, nte_sec] = pagerank_eig_v1(Gs, n, p, false, @get_A_v1);
+[x_te, te_sec] = pagerank_eig_v1(Gs, n, p, true, @get_A_v1);
+
+
+% DEBUGGING
+[A_nt, ant_sec] = get_A_v1(Gs, n, p, false);
+[A, a_sec] = get_A_v1(Gs, n, p, true);
+
+x = (speye(n, n) - A)\ones(n, 1); x = x /sum(x);
+
 [x_pms, pms_sec] = power_method_sparse_v1(Gs, n, p);
 [x_pmn, pmn_sec] = power_method_not_v1(G, n, p);
 [x_iis, iis_sec] = inverse_iteration_sparse_v1(Gs, n, p, abstol/10, 50);
@@ -37,5 +47,10 @@ if ~islogical(x_iis)
     assert_same_vector(x_pms, x_iis, abstol);
     iis_sec
 end
+
+% PLOTS
+subplot(1,2,1), spy(Gs), title('G');
+sco = symrcm(Gs);
+subplot(1,2,2), spy(Gs(sco, sco)), title('Sparse reverse Cuthill-McKee ordering');
 
 %y = @(x) x*2;
