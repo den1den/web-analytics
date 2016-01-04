@@ -1,6 +1,6 @@
 % First read in the matrixes G and Gs as the connectivity matrix and
 % sparse connectivity matrix.
-folder = 'PageRankSmall';
+folder = 'PageRank';
 edges = dlmread([folder '/edges.txt']);
 % if you take edge_i = edges(1,:); (i>0)
 % then node `edge_i(1)` has a link towardse node `edge_i(2)`
@@ -20,37 +20,47 @@ G = full(Gs);
 p = 0.85;
 % set the tolerances for the calculations
 abstol = 10^(-4);
-reltol = 10^(-4);
+max_it = 10^4;
 
-% CALCULATIONS
-[x_nte, nte_sec] = pagerank_eig_v1(Gs, n, p, false, @get_A_v1);
-[x_te, te_sec] = pagerank_eig_v1(Gs, n, p, true, @get_A_v1);
+% VERIFICATION create a correct result for PageRank with teleport
+[A_t, a_sec] = get_A_v1(Gs, p, n, true);
+X_t = (speye(n, n) - A_t)\ones(n, 1); X_t = X_t /sum(X_t); % pagerank
 
+% CALCULATIONS and VERIFICATIONS
+[x_eig_t, eig_t_sec] = pagerank_eig_v1(Gs, p, n, true, @get_A_v1);
+assert_same_vector(X_t, x_eig_t, abstol);
+eig_t_sec;
 
-% DEBUGGING
-[A_nt, ant_sec] = get_A_v1(Gs, n, p, false);
-[A, a_sec] = get_A_v1(Gs, n, p, true);
+[x_eig_nt, eig_nt_sec] = pagerank_eig_v1(Gs, p, n, false, @get_A_v1);
+eig_nt_sec;
 
-x = (speye(n, n) - A)\ones(n, 1); x = x /sum(x);
+[x_p_t, p_t_sec]= pagerank_power_v1(G, p, n, true, @get_A_v1, abstol/2);
+assert_same_vector(X_t, x_p_t, abstol);
+p_t_sec;
 
-[x_pms, pms_sec] = power_method_sparse_v1(Gs, n, p);
-[x_pmn, pmn_sec] = power_method_not_v1(G, n, p);
-[x_iis, iis_sec] = inverse_iteration_sparse_v1(Gs, n, p, abstol/10, 50);
+[x_ps_t, ps_t_sec] = pagerank_power_sparse_v1(Gs, p, n, true, abstol/2, max_it);
+assert_same_vector(X_t, x_ps_t, abstol);
+ps_t_sec;
 
-% CHECK THE ANSWERS
-% we assume x_pms is correct
-assert_same_vector(x_pms, x_pmn, abstol);
-pms_sec
-pmn_sec
-
-if ~islogical(x_iis)
-    assert_same_vector(x_pms, x_iis, abstol);
-    iis_sec
-end
+[x_ps_nt, ps_nt_sec, result] = pagerank_power_sparse_v1(Gs, p, n, false, abstol/10, max_it);
+% WILL NOT BE EXACTLY THE SAME
+%assert_same_vector(x_eig_nt, x_ps_nt, abstol);
+ps_nt_sec;
 
 % PLOTS
-subplot(1,2,1), spy(Gs), title('G');
-sco = symrcm(Gs);
-subplot(1,2,2), spy(Gs(sco, sco)), title('Sparse reverse Cuthill-McKee ordering');
+figure(1); clf;
+spy(Gs), title('G');
+%subplot(1,2,1), spy(Gs), title('G');
+%sco = symrcm(Gs);
+%subplot(1,2,2), spy(Gs(sco, sco)), title('Sparse reverse Cuthill-McKee ordering');
+
+figure(2); clf;
+subplot(3,2,1), bar(x_eig_t), title('eig() with teleport');
+subplot(3,2,2), bar(x_eig_nt), title('eig() without teleport');
+subplot(3,2,3), bar(x_ps_t), title('Sparse power method with teleport');
+subplot(3,2,4), bar(x_ps_nt), title('Sparse power method without teleport');
+subplot(3,2,5), bar(x_p_t), title('Power method with teleport');
+diff = minus(x_eig_nt, x_ps_nt);
+subplot(3,2,6), bar(diff), title('Differences eig() and Power method (without teleport)');
 
 %y = @(x) x*2;
