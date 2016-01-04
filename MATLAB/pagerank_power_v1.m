@@ -12,5 +12,6 @@ while norm(x-xold) > abstol
     x = A * x;
 end
 t = toc + t_a;
-
+disp(t)
+whos()
 end

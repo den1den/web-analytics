@@ -27,25 +27,23 @@ max_it = 10^4;
 X_t = (speye(n, n) - A_t)\ones(n, 1); X_t = X_t /sum(X_t); % pagerank
 
 % CALCULATIONS and VERIFICATIONS
+disp('eig() with teleport');
 [x_eig_t, eig_t_sec] = pagerank_eig_v1(Gs, p, n, true, @get_A_v1);
 assert_same_vector(X_t, x_eig_t, abstol);
-eig_t_sec;
 
+disp('eig() without teleport');
 [x_eig_nt, eig_nt_sec] = pagerank_eig_v1(Gs, p, n, false, @get_A_v1);
-eig_nt_sec;
 
+disp('power method with teleport');
 [x_p_t, p_t_sec]= pagerank_power_v1(G, p, n, true, @get_A_v1, abstol/2);
 assert_same_vector(X_t, x_p_t, abstol);
-p_t_sec;
 
+disp('sparse power method with teleport');
 [x_ps_t, ps_t_sec] = pagerank_power_sparse_v1(Gs, p, n, true, abstol/2, max_it);
 assert_same_vector(X_t, x_ps_t, abstol);
-ps_t_sec;
 
+disp('sparse power method without teleport');
 [x_ps_nt, ps_nt_sec, result] = pagerank_power_sparse_v1(Gs, p, n, false, abstol/10, max_it);
-% WILL NOT BE EXACTLY THE SAME
-%assert_same_vector(x_eig_nt, x_ps_nt, abstol);
-ps_nt_sec;
 
 % PLOTS
 figure(1); clf;

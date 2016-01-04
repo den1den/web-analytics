@@ -13,4 +13,6 @@ else
     A = Gs*Ds + e*z;
 end
 t = toc;
+disp(t)
+whos()
 end
