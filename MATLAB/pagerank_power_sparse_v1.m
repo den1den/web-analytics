@@ -34,6 +34,6 @@ else
     x = x / sum(x);
 end
 t = toc;
-disp(t)
-whos()
+%disp(t)
+%whos()
 end
