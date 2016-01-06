@@ -1,5 +1,5 @@
->> run
-    0.0139
+>> ass_a
+    0.0130
 
   Name             Size                 Bytes  Class      Attributes
 
@@ -17,9 +17,9 @@
 
 Warning: Matrix is close to singular or badly scaled. Results may be
 inaccurate. RCOND =  2.819285e-17. 
-> In run (line 27) 
+> In ass_a (line 27) 
 eig() with teleport
-    0.0170
+    0.0174
 
   Name             Size                 Bytes  Class      Attributes
 
@@ -35,15 +35,15 @@ eig() with teleport
   teleport         1x1                      1  logical              
   z                1x1490               35768  double     sparse    
 
-    1.1788
+    0.9865
 
   Name            Size                 Bytes  Class              Attributes
 
   A            1490x1490            17760800  double                       
   A_func          1x1                     32  function_handle              
-  D               6x6                    288  double                       
+  D               6x6                    576  double             complex   
   Gs           1490x1490              316328  double             sparse    
-  V            1490x6                  71520  double                       
+  V            1490x6                 143040  double             complex   
   i               1x1                      8  double                       
   n               1x1                      8  double                       
   p               1x1                      8  double                       
@@ -71,15 +71,15 @@ eig() without teleport
   teleport         1x1                      1  logical              
   z                1x1490               19928  double     sparse    
 
-    0.9137
+    0.8167
 
   Name            Size                 Bytes  Class              Attributes
 
   A            1490x1490            17760800  double                       
   A_func          1x1                     32  function_handle              
-  D               6x6                    576  double             complex   
+  D               6x6                    288  double                       
   Gs           1490x1490              316328  double             sparse    
-  V            1490x6                 143040  double             complex   
+  V            1490x6                  71520  double                       
   i               1x1                      8  double                       
   n               1x1                      8  double                       
   p               1x1                      8  double                       
@@ -91,7 +91,7 @@ eig() without teleport
   x_sum           1x1                      8  double                       
 
 power method with teleport
-    0.0415
+    0.0391
 
   Name             Size                 Bytes  Class      Attributes
 
@@ -107,7 +107,7 @@ power method with teleport
   teleport         1x1                      1  logical              
   z                1x1490               11920  double               
 
-    0.0977
+    0.0947
 
   Name             Size                 Bytes  Class              Attributes
 
@@ -124,7 +124,7 @@ power method with teleport
   xold          1490x1                  11920  double                       
 
 sparse power method with teleport
-    0.0039
+    0.0077
 
   Name             Size               Bytes  Class      Attributes
 
@@ -147,7 +147,7 @@ sparse power method with teleport
   z                1x1490             35768  double     sparse    
 
 sparse power method without teleport
-Pagerank power sparse v1 did not converge with max_it=10000    0.9235
+Pagerank power sparse v1 did not converge with max_it=10000    0.9567
 
   Name             Size               Bytes  Class      Attributes
 

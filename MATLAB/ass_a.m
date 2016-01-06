@@ -49,8 +49,8 @@ disp('sparse power method without teleport');
 figure(1); clf;
 spy(Gs), title('G');
 %subplot(1,2,1), spy(Gs), title('G');
-%sco = symrcm(Gs);
-%subplot(1,2,2), spy(Gs(sco, sco)), title('Sparse reverse Cuthill-McKee ordering');
+sco = symrcm(Gs);
+subplot(1,2,2), spy(Gs(sco, sco)), title('Sparse reverse Cuthill-McKee ordering');
 
 figure(2); clf;
 subplot(3,2,1), bar(x_eig_t), title('eig() with teleport');
@@ -61,4 +61,5 @@ subplot(3,2,5), bar(x_p_t), title('Power method with teleport');
 diff = minus(x_eig_nt, x_ps_nt);
 subplot(3,2,6), bar(diff), title('Differences eig() and Power method (without teleport)');
 
-%y = @(x) x*2;
+csvwrite('eig_nt.csv', x_eig_nt);
+csvwrite('ps_nt.csv', x_ps_nt);

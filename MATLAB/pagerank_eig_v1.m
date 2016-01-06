@@ -1,6 +1,6 @@
-function [ x, t ] = pagerank_eig_v1( Gs, p, n, telport, A_func )
+function [ x, t ] = pagerank_eig_v1( Gs, p, n, teleport, A_func )
 %PAGERANK_EIG_V1 Using eig()
-[A, t_a] = A_func(Gs, p, n, telport);
+[A, t_a] = A_func(Gs, p, n, teleport);
 
 tic;
 
