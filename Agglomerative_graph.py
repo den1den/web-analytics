@@ -23,7 +23,7 @@ def Agglomerative_clustering_using_graph(featfile, labelfile, predfile):
 	    fout.write(str(item) + '\n')
 	fout.close()
 
-for i in range(10):
+for i in range(1):
 	print 'Clustering the year %d data' % (2001 + i)
 	featfile = 'graph_features/' + str(2001 + i) + '_graph_features.txt'
 	labelfile = 'author_labels/' + str(2001 + i) + '_labels.txt'
