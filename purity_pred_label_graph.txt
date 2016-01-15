@@ -1,0 +1,10 @@
+2001_pred_label_text.txt The purity is:  0.548796356539
+2002_pred_label_text.txt The purity is:  0.330856472429
+2003_pred_label_text.txt The purity is:  0.486444212722
+2004_pred_label_text.txt The purity is:  0.334006928406
+2005_pred_label_text.txt The purity is:  0.361677568295
+2006_pred_label_text.txt The purity is:  0.407877169559
+2007_pred_label_text.txt The purity is:  0.484644913628
+2008_pred_label_text.txt The purity is:  0.375605536332
+2009_pred_label_text.txt The purity is:  0.35706479313
+2010_pred_label_text.txt The purity is:  0.407156505124
