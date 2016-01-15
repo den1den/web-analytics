@@ -30,4 +30,4 @@ ground_label = sys.argv[1]
 pred_label = sys.argv[2]
 labels = np.loadtxt(ground_label, dtype='int32')
 preds = np.loadtxt(pred_label, dtype='int32')
-print 'The purity is: ', purity_score(labels, preds)
+print 'The purity is: ', purity_score(preds, labels)
