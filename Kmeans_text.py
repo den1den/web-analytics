@@ -15,8 +15,10 @@ def Kmeans_clustering_using_text(featfile, labelfile, predfile):
 
 	n_samples, n_features = data.shape
 	n_classes = len(np.unique(labels))
+	k = 6
 
-	kmeans = KMeans(init='random', n_clusters=6, n_init=10)
+	print 'KMeans on data(samples %s features %s) with k %s' % (n_samples, n_features, n_classes)
+	kmeans = KMeans(init='random', n_clusters=k, n_init=10)
 	results = kmeans.fit(data)
 
 	fout = open(predfile, 'w')
@@ -24,7 +26,7 @@ def Kmeans_clustering_using_text(featfile, labelfile, predfile):
 	  fout.write(str(item) + '\n')
 	fout.close()
 
-for i in range(10):
+for i in range(1):
 	print 'Clustering the year %d data' % (2001 + i)
 	featfile = 'text_features/' + str(2001 + i) + '_text_features.txt'
 	labelfile = 'author_labels/' + str(2001 + i) + '_labels.txt'
