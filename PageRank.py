@@ -2,7 +2,7 @@ import sys
 from scipy import sparse
 import networkx as nx
 
-for year in range(1):
+for year in range(10):
 	community = 'results/' + str(year + 2001) + '_community_'
 	for c in range(6):
 		mapping = {}
