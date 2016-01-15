@@ -1,0 +1,3836 @@
+1, Chaitan Baru, 1, 0, 0, 0, 0, 0
+2, Holger Meuss, 1, 0, 0, 0, 0, 0
+3, Klaus U. Schulz, 1, 0, 0, 0, 0, 0
+4, François Bry, 3, 0, 0, 0, 0, 0
+5, Yuan Wang, 3, 0, 0, 0, 0, 0
+6, David J. DeWitt, 4, 0, 0, 0, 0, 0
+7, Jin-yi Cai, 1, 0, 0, 0, 0, 0
+8, S. Kumar, 1, 0, 0, 0, 0, 0
+9, S. Srinivasa, 1, 0, 0, 0, 0, 0
+10, Jiun-Long Huang, 1, 0, 0, 0, 0, 0
+11, Ming-Syan Chen, 3, 0, 0, 3, 0, 0
+12, Wen-Chih Peng, 1, 0, 0, 0, 0, 0
+13, Pin-Kwang Eng, 1, 0, 0, 0, 0, 0
+14, Beng Chin Ooi, 4, 0, 0, 0, 0, 0
+15, Hua Soon Sim, 1, 0, 0, 0, 0, 0
+17, L. Kumar, 1, 0, 0, 0, 0, 0
+16, Kian-Lee Tan, 4, 0, 0, 0, 0, 0
+19, Ramesh C. Joshi, 1, 0, 0, 0, 0, 0
+18, Muldip Mishra, 1, 0, 0, 0, 0, 0
+21, Sandeep Pandey, 1, 0, 0, 0, 0, 0
+20, Manish Bhide, 2, 0, 0, 0, 0, 0
+23, Mukesh K. Mohania, 2, 0, 0, 1, 0, 0
+22, Ajay Gupta 0004, 2, 0, 0, 0, 0, 0
+25, Shridhar Shukla, 1, 0, 0, 0, 0, 0
+24, Shaymsunder Gopale, 1, 0, 0, 0, 0, 0
+27, R. Jha, 1, 0, 0, 0, 0, 0
+26, R. Kul, 1, 0, 0, 0, 0, 0
+29, Christoph Koch, 4, 0, 0, 0, 0, 0
+28, Georg Gottlob, 3, 0, 0, 0, 0, 0
+31, Eugene Agichtein, 1, 0, 0, 0, 0, 0
+30, Reinhard Pichler, 2, 0, 0, 0, 0, 0
+34, Werner Kießling, 1, 0, 0, 0, 0, 0
+35, Christoph Unbehend, 1, 0, 0, 0, 0, 0
+32, Luis Gravano, 4, 0, 0, 0, 0, 0
+33, Wolf-Tilo Balke, 1, 0, 0, 0, 0, 0
+38, Curt J. Ellmann, 2, 0, 0, 0, 0, 0
+39, Michael Watzke, 2, 0, 0, 0, 0, 0
+36, Gang Luo, 2, 0, 0, 0, 0, 0
+37, Jeffrey F. Naughton, 6, 0, 0, 0, 0, 0
+42, Renée J. Miller, 3, 0, 0, 0, 0, 0
+43, Jan Chomicki, 1, 0, 0, 0, 0, 0
+40, Anastasios Kementsietsidis, 1, 0, 0, 0, 0, 0
+41, Marcelo Arenas, 2, 0, 0, 0, 0, 0
+46, Dongming Liang, 1, 0, 0, 0, 0, 0
+47, Vikram Pudi, 1, 0, 0, 1, 0, 0
+44, Parke Godfrey, 1, 0, 0, 0, 0, 0
+45, Jarek Gryz, 1, 0, 0, 0, 0, 0
+51, Yvan Bédard, 1, 0, 0, 0, 0, 0
+50, Maryvonne Miquel, 1, 0, 0, 0, 0, 0
+49, Mathurin Body, 1, 0, 0, 0, 0, 0
+48, Jayant R. Haritsa, 3, 0, 0, 1, 0, 0
+55, Joseph M. Hellerstein, 3, 0, 0, 0, 0, 0
+54, Amol Deshpande, 2, 0, 0, 0, 0, 0
+53, Vijayshankar Raman, 1, 0, 0, 0, 0, 0
+52, Anne Tchounikine, 1, 0, 0, 0, 0, 0
+59, Timothy Chorma, 1, 0, 0, 0, 0, 0
+58, Seema Sundara, 1, 0, 0, 0, 0, 0
+57, Ying Hu, 1, 0, 0, 0, 0, 0
+56, Ravi Murthy, 2, 0, 0, 0, 0, 0
+63, Sharma Chakravarthy, 1, 0, 0, 0, 0, 0
+62, Henrik Engström, 1, 0, 0, 0, 0, 0
+61, Jagannathan Srinivasan, 1, 0, 0, 0, 0, 0
+60, Nipun Agarwal, 1, 0, 0, 0, 0, 0
+68, Tobias Kiesling, 1, 0, 0, 0, 0, 0
+69, Alon Y. Halevy, 3, 1, 0, 0, 0, 0
+70, Zachary G. Ives, 1, 0, 0, 0, 0, 0
+71, Dan Suciu, 4, 0, 0, 0, 0, 0
+64, Brian Lings, 1, 0, 0, 0, 0, 0
+65, Beverly Yang, 2, 0, 0, 0, 0, 0
+66, Hector Garcia-Molina, 6, 0, 0, 0, 0, 0
+67, Dan Olteanu, 1, 0, 0, 0, 0, 0
+76, Nick Koudas, 8, 0, 0, 1, 0, 0
+77, Divesh Srivastava, 12, 0, 0, 0, 0, 0
+78, Anil Nori, 1, 0, 0, 0, 0, 0
+79, Rakesh Agrawal, 5, 0, 0, 0, 0, 0
+72, Igor Tatarinov, 1, 0, 0, 0, 0, 0
+73, Jiong Yang, 2, 0, 0, 3, 0, 0
+74, Wei Wang 0010, 1, 0, 0, 4, 0, 0
+75, Nicolas Bruno, 2, 0, 0, 0, 0, 0
+85, Sashikanth Chandrasekaran, 1, 0, 0, 0, 0, 0
+84, Ting Yu, 1, 0, 0, 0, 0, 1
+87, Sihem Amer-Yahia, 4, 0, 0, 0, 0, 0
+86, Roger Bamford, 1, 0, 0, 0, 0, 0
+81, Ramakrishnan Srikant, 2, 0, 0, 0, 0, 0
+80, Jerry Kiernan, 1, 0, 0, 0, 0, 0
+83, Sudipto Guha, 2, 0, 0, 1, 0, 0
+82, Yirong Xu, 1, 0, 0, 0, 0, 0
+93, Vanja Josifovski, 3, 0, 0, 0, 0, 0
+92, Marcus Fontoura, 1, 0, 0, 0, 0, 0
+95, Hai Yu, 1, 0, 0, 0, 0, 0
+94, Ke Yi, 1, 0, 0, 0, 0, 0
+89, Philippe Charles, 1, 0, 0, 0, 0, 0
+88, Charles Barton, 1, 0, 0, 0, 0, 0
+91, Mukund Raghavachari, 1, 0, 0, 0, 0, 0
+90, Deepak Goyal, 1, 0, 0, 0, 0, 0
+102, Elke A. Rundensteiner, 1, 0, 0, 0, 0, 0
+103, Vagelis Hristidis, 3, 0, 0, 0, 0, 0
+100, Alexandra Poulovassilis, 1, 0, 0, 0, 0, 0
+101, Andreas Koeller, 1, 0, 0, 0, 0, 0
+98, Yuguo Chen, 1, 0, 0, 0, 0, 0
+99, Peter McBrien, 1, 0, 0, 0, 0, 0
+96, Jun Yang 0001, 1, 0, 0, 0, 0, 0
+97, Gangqiang Xia, 1, 0, 0, 0, 0, 0
+110, Wee Siong Ng, 1, 0, 0, 0, 0, 0
+111, Aoying Zhou, 3, 0, 0, 1, 0, 0
+108, Jack Man Shun Yeung, 1, 0, 0, 0, 0, 0
+109, Qiang Yang 0001, 1, 0, 0, 4, 0, 0
+106, Ke Wang, 2, 0, 0, 5, 0, 0
+107, Senqiang Zhou, 1, 0, 0, 1, 0, 0
+104, Yannis Papakonstantinou, 4, 0, 0, 0, 0, 0
+105, Andrey Balmin, 2, 0, 0, 0, 0, 0
+119, Michal Ceresna, 1, 0, 0, 0, 0, 0
+118, Robert Baumgartner, 1, 0, 0, 0, 0, 0
+117, Dimitris Papadias, 3, 0, 0, 0, 0, 0
+116, Jimeng Sun, 2, 0, 0, 0, 0, 0
+115, Yufei Tao, 3, 0, 0, 0, 0, 0
+114, Stanley B. Zdonik, 5, 0, 0, 0, 0, 0
+113, Sangdon Lee, 2, 0, 0, 0, 0, 0
+112, Donald Carney, 3, 0, 0, 0, 0, 0
+127, Hongjun Lu, 4, 0, 1, 4, 0, 0
+126, Haifeng Jiang, 4, 0, 0, 0, 0, 0
+125, Dmitri V. Kalashnikov, 1, 0, 0, 0, 0, 0
+124, Sunil Prabhakar, 1, 0, 0, 0, 0, 0
+123, Reynold Cheng, 1, 0, 0, 0, 0, 0
+122, Arvind Arasu, 1, 0, 0, 0, 0, 0
+121, Viktor Zigo, 1, 0, 0, 0, 0, 0
+120, Marcus Herzog, 1, 0, 0, 0, 0, 0
+137, Ramesh Jain, 1, 0, 0, 0, 0, 0
+136, Michael H. Böhlen, 1, 0, 0, 0, 0, 0
+139, Ayferi Kutlu, 1, 0, 0, 0, 0, 0
+138, Dina Q. Goldin, 1, 0, 0, 0, 0, 0
+141, Fuzheng Yang, 1, 0, 0, 0, 0, 0
+140, Mingjun Song, 1, 0, 0, 0, 0, 0
+143, Zhiyong Huang, 1, 0, 0, 0, 0, 0
+142, Lidan Shou, 1, 0, 0, 0, 0, 0
+129, Iosif Lazaridis, 1, 0, 0, 0, 0, 0
+128, Wei Wang 0011, 3, 0, 0, 0, 0, 0
+131, Mehul A. Shah, 1, 0, 0, 0, 0, 0
+130, Sharad Mehrotra, 1, 0, 0, 0, 0, 0
+133, Michael J. Franklin, 5, 0, 0, 0, 0, 0
+132, Sirish Chandrasekaran, 1, 0, 0, 0, 0, 0
+135, Michael O. Akinde, 1, 0, 0, 0, 0, 0
+134, Panagiotis G. Ipeirotis, 1, 0, 0, 0, 0, 0
+152, Murat Tasan, 1, 0, 0, 0, 0, 0
+153, Jai Macker, 1, 0, 0, 0, 0, 0
+154, Z. Meral Özsoyoglu, 1, 0, 0, 0, 0, 0
+155, Ioana Stanoi, 1, 0, 0, 0, 0, 0
+156, George A. Mihaila, 1, 0, 0, 0, 0, 0
+157, Sriram Padmanabhan, 4, 0, 0, 0, 0, 0
+158, HweeHwa Pang, 1, 0, 0, 0, 0, 0
+159, Xuan Zhou, 1, 0, 0, 0, 0, 0
+144, Navin Kabra, 1, 0, 0, 0, 0, 0
+145, Raghu Ramakrishnan, 1, 0, 0, 0, 0, 0
+146, Vuk Ercegovac, 1, 0, 0, 0, 0, 0
+147, Nikos Mamoulis, 2, 0, 0, 1, 0, 0
+148, David W. Cheung, 1, 0, 0, 0, 0, 0
+149, Wang Lian, 1, 0, 0, 0, 0, 0
+150, Martin L. Kersten, 2, 0, 0, 0, 0, 0
+151, Süleyman Cenk Sahinalp, 1, 0, 0, 0, 0, 0
+171, Renu Tewari, 2, 0, 0, 0, 0, 0
+170, Sanghyun Park, 3, 0, 0, 0, 0, 0
+169, Khalil Amiri, 2, 0, 0, 0, 0, 0
+168, Sudarshan S. Chawathe, 1, 0, 0, 0, 0, 0
+175, Cui Yu, 1, 0, 0, 0, 0, 0
+174, Heng Tao Shen, 1, 0, 0, 0, 0, 0
+173, Hui Jin, 1, 0, 0, 0, 0, 0
+172, Kyuseok Shim, 1, 0, 0, 0, 0, 0
+163, Ambuj K. Singh, 3, 0, 0, 0, 0, 0
+162, Christian A. Lang, 1, 0, 0, 0, 0, 0
+161, Tamer Kahveci, 2, 0, 0, 0, 0, 0
+160, Sriram Raghavan, 2, 0, 0, 0, 0, 0
+167, Feng Peng, 1, 0, 0, 0, 0, 0
+166, Vivek R. Narasayya, 2, 0, 0, 0, 0, 0
+165, Abhinandan Das, 1, 0, 0, 0, 0, 0
+164, Surajit Chaudhuri, 5, 0, 0, 0, 0, 0
+186, Jiejun Kong, 1, 0, 0, 0, 0, 0
+187, Carlo Zaniolo, 2, 0, 0, 1, 0, 0
+184, Eduardo F. Galvez, 1, 0, 0, 0, 0, 0
+185, Cindy Xinmin Chen, 1, 0, 0, 0, 0, 0
+190, Amey V. Laud, 1, 0, 0, 0, 0, 0
+191, Panayiotis Tsaparas, 1, 0, 0, 0, 0, 0
+188, Sourav S. Bhowmick, 1, 0, 0, 0, 0, 0
+189, Pedro Cruz, 1, 0, 0, 0, 0, 0
+178, Jianping Fan, 1, 0, 0, 0, 0, 0
+179, Ann Christine Catlin, 1, 0, 0, 0, 0, 0
+176, Xingquan Zhu, 1, 2, 0, 0, 0, 0
+177, Walid G. Aref, 4, 0, 0, 0, 0, 0
+182, B. K. Mohan, 1, 0, 0, 0, 0, 0
+183, Mitch Cherniack, 4, 0, 0, 0, 0, 0
+180, Ahmed K. Elmagarmid, 3, 0, 0, 0, 0, 0
+181, P. Venkatachalam, 1, 0, 0, 0, 0, 0
+205, Shihui Zheng, 1, 0, 0, 0, 0, 0
+204, Guoren Wang, 1, 0, 0, 0, 0, 0
+207, Alexander Hinneburg, 2, 0, 0, 0, 0, 0
+206, Ge Yu, 1, 0, 0, 0, 0, 0
+201, Aris Tsois, 2, 0, 0, 0, 0, 0
+200, Nikos Karayannidis, 1, 0, 0, 0, 0, 0
+203, Jeffrey Xu Yu, 4, 0, 0, 3, 0, 0
+202, Timos K. Sellis, 2, 0, 0, 0, 0, 0
+197, Volker Markl, 1, 0, 0, 0, 0, 0
+196, Frank Ramsak, 1, 0, 0, 0, 0, 0
+199, Rudolf Bayer, 1, 0, 0, 0, 0, 0
+198, Robert Fenk, 1, 0, 0, 0, 0, 0
+193, Yannis Kotidis, 2, 0, 0, 0, 0, 0
+192, Themistoklis Palpanas, 1, 0, 0, 0, 0, 0
+195, Klaus Elhardt, 1, 0, 0, 0, 0, 0
+194, Roland Pieringer, 1, 0, 0, 0, 0, 0
+220, Parag, 1, 0, 0, 0, 0, 0
+221, S. Sudarshan 0001, 2, 0, 0, 0, 0, 0
+222, Christoforos Panayiotou, 1, 0, 0, 0, 0, 0
+223, George Samaras, 1, 0, 0, 0, 0, 0
+216, Rushi Desai, 1, 0, 0, 0, 0, 0
+217, Arvind Hulgeri, 2, 0, 0, 0, 0, 0
+218, Hrishikesh Karambelkar, 1, 0, 0, 0, 0, 0
+219, Rupesh Nasre, 1, 0, 0, 0, 0, 0
+212, Masatoshi Yoshikawa, 1, 0, 1, 0, 0, 0
+213, Shunsuke Uemura, 1, 0, 1, 0, 0, 0
+214, B. Aditya, 1, 0, 0, 0, 0, 0
+215, Soumen Chakrabarti, 1, 0, 0, 1, 0, 0
+208, Daniel A. Keim, 2, 0, 0, 2, 0, 0
+209, Markus Wawryniuk, 1, 0, 0, 1, 0, 0
+210, W. Bruce Croft, 1, 0, 3, 0, 0, 0
+211, Toshiyuki Amagasa, 1, 0, 0, 0, 0, 0
+239, Yuqing Wu, 1, 0, 0, 0, 0, 0
+238, Stratis Viglas, 3, 0, 0, 0, 0, 0
+237, Jaewoo Kang, 1, 0, 0, 0, 0, 0
+236, Christos Faloutsos, 2, 0, 0, 1, 0, 0
+235, Phillip B. Gibbons, 2, 0, 0, 0, 0, 0
+234, Hiroyuki Kitagawa, 1, 0, 0, 0, 0, 0
+233, Spiros Papadimitriou, 2, 0, 0, 0, 0, 0
+232, Ahmet Bulut, 1, 0, 0, 0, 0, 0
+231, Ananth Grama, 1, 0, 0, 1, 0, 0
+230, Mohamed F. Mokbel, 1, 0, 0, 0, 0, 0
+229, Martin Weber 0002, 1, 0, 0, 0, 0, 0
+228, Georg Lausen, 2, 0, 0, 0, 0, 0
+227, Pedro José Marrón, 1, 0, 0, 0, 0, 0
+226, W. Xu, 1, 0, 0, 0, 0, 0
+225, Siva Ravada, 2, 0, 0, 0, 0, 0
+224, Kothuri Venkata Ravi Kanth, 2, 0, 0, 0, 0, 0
+254, Jérôme Siméon, 3, 0, 0, 0, 0, 0
+255, Sabine Massmann, 1, 0, 0, 0, 0, 0
+252, Maya Ramanath, 1, 0, 0, 0, 0, 0
+253, Prasan Roy, 1, 0, 0, 0, 0, 0
+250, Philip Bohannon, 1, 0, 0, 0, 0, 0
+251, Juliana Freire, 1, 0, 0, 0, 0, 0
+248, Dongdong Hu, 1, 0, 0, 0, 0, 0
+249, Mingzhe Gu, 1, 0, 0, 0, 0, 0
+246, Xiaofeng Meng, 2, 0, 0, 0, 0, 0
+247, Haiyan Wang, 1, 0, 0, 0, 0, 0
+244, Evaggelia Pitoura, 2, 0, 0, 0, 0, 0
+245, Peter M. Schwarz, 1, 0, 0, 0, 0, 0
+242, Panos K. Chrysanthis, 3, 0, 0, 0, 0, 0
+243, Vijay Kumar, 1, 0, 0, 0, 1, 0
+240, Jignesh M. Patel, 3, 0, 0, 0, 0, 0
+241, H. V. Jagadish, 3, 0, 1, 0, 0, 0
+275, Guozhu Dong, 1, 0, 0, 0, 0, 0
+274, Yuelong Jiang, 1, 0, 0, 1, 0, 0
+273, Dik Lun Lee, 1, 0, 0, 0, 0, 0
+272, Wang-Chien Lee, 1, 0, 0, 0, 0, 0
+279, Wei Li, 1, 0, 0, 0, 0, 0
+278, Samuel T. Chanson, 1, 0, 0, 0, 0, 0
+277, Xueyan Tang, 1, 0, 0, 0, 0, 0
+276, Jiawei Han, 3, 0, 0, 8, 0, 0
+283, Jonathan Beaver, 1, 0, 0, 0, 0, 0
+282, Vince Penkrot, 1, 0, 0, 0, 0, 0
+281, Vincenzo Liberatore, 1, 0, 0, 0, 0, 0
+280, Wenhui Zhang, 1, 0, 0, 0, 0, 0
+287, Susan B. Davidson, 2, 0, 0, 0, 0, 0
+286, Kirk Pruhs, 1, 0, 0, 0, 1, 0
+285, Siddhartha Roychowdhury, 1, 0, 0, 0, 0, 0
+284, Mohamed A. Sharaf, 1, 0, 0, 0, 0, 0
+258, Zoran Dimitrijevic, 1, 0, 0, 0, 0, 0
+259, Edward Y. Chang, 1, 1, 0, 1, 0, 0
+256, Felix Naumann, 1, 0, 0, 0, 0, 0
+257, Raju Rangaswami, 1, 0, 0, 0, 0, 0
+262, Lise Getoor, 2, 1, 0, 0, 0, 0
+263, V. S. Subrahmanian, 2, 1, 0, 0, 0, 0
+260, Klaus E. Schauser, 1, 0, 0, 0, 0, 0
+261, Edward Hung, 2, 0, 0, 0, 0, 0
+266, Mary F. Fernández, 3, 0, 0, 0, 0, 0
+267, Yu Xu, 2, 0, 0, 0, 0, 0
+264, Sunita Sarawagi, 2, 0, 0, 1, 0, 0
+265, Alok Kirpal, 1, 0, 0, 0, 0, 0
+270, Jianliang Xu, 1, 0, 0, 0, 0, 0
+271, Baihua Zheng, 1, 0, 0, 0, 0, 0
+268, Wang Lam, 1, 0, 0, 0, 0, 0
+269, C. Mohan, 2, 0, 0, 0, 0, 0
+305, Kai-Yun Chan, 0, 0, 0, 0, 0, 1
+304, Wooi-Boon Goh, 0, 0, 0, 0, 0, 1
+307, Stephanie J. Brubaker, 0, 0, 0, 0, 0, 1
+306, Bruce A. Maxwell, 0, 0, 0, 0, 0, 1
+309, Timothy F. Cootes, 0, 0, 0, 0, 0, 2
+308, Martin G. Roberts, 0, 0, 0, 0, 0, 1
+311, Hannes Kruppa, 0, 0, 0, 0, 0, 1
+310, Judith E. Adams, 0, 0, 0, 0, 0, 1
+313, John P. Collomosse, 0, 0, 0, 0, 0, 1
+312, Bernt Schiele, 0, 0, 0, 0, 0, 2
+315, Peter M. Hall, 0, 0, 0, 0, 0, 2
+314, David Rowntree, 0, 0, 0, 0, 0, 1
+317, Martin Brown, 0, 0, 0, 0, 0, 1
+316, Nicholas Paul Costen, 0, 0, 0, 0, 0, 1
+319, Ian D. Reid 0001, 0, 0, 0, 0, 0, 2
+318, Keith Richard Connor, 0, 0, 0, 0, 0, 1
+288, Wenfei Fan, 2, 0, 0, 0, 0, 0
+289, Carmem S. Hara, 2, 0, 0, 0, 0, 0
+290, Jing Qin, 1, 0, 0, 0, 0, 0
+291, Wai Gen Yee, 1, 0, 0, 0, 0, 0
+292, Shamkant B. Navathe, 1, 0, 0, 0, 0, 0
+293, Haixun Wang, 2, 1, 0, 4, 0, 0
+294, Chang-Shing Perng, 1, 0, 0, 1, 0, 0
+295, Wei Fan, 1, 1, 0, 2, 0, 0
+296, Philip S. Yu, 3, 1, 0, 6, 0, 0
+297, Hynek Bakstein, 0, 0, 0, 0, 0, 1
+298, Tomás Pajdla, 0, 0, 0, 0, 0, 3
+299, Daniel Vecerka, 0, 0, 0, 0, 0, 1
+300, Christos-Savvas Bouganis, 0, 0, 0, 0, 0, 1
+301, Mike Brookes, 0, 0, 0, 0, 0, 2
+302, Abhir H. Bhalerao, 0, 0, 0, 0, 0, 1
+303, Nasir M. Rajpoot, 0, 0, 0, 0, 0, 1
+343, Seok-Cheol Kee, 0, 0, 0, 0, 0, 1
+342, Hyun-Chul Kim, 0, 0, 0, 0, 0, 1
+341, Josef Kittler, 0, 0, 0, 0, 0, 2
+340, Tae-Kyun Kim, 0, 0, 0, 0, 0, 1
+339, George Vogiatzis, 0, 0, 0, 0, 0, 1
+338, Steve R. Gunn, 0, 0, 0, 0, 0, 1
+337, Mark S. Nixon, 0, 0, 0, 0, 0, 1
+336, Ahmad Al-Mazeed, 0, 0, 0, 0, 0, 1
+351, Christopher J. Solomon, 0, 0, 0, 0, 0, 1
+350, Stuart J. Gibson, 0, 0, 0, 0, 0, 1
+349, Josiane Zerubia, 0, 0, 0, 0, 0, 1
+348, Ian H. Jermyn, 0, 0, 0, 0, 0, 1
+347, Karen Brady, 0, 0, 0, 0, 0, 1
+346, Pascal Fua, 0, 0, 0, 0, 0, 1
+345, Vincent Lepetit, 0, 0, 0, 0, 0, 1
+344, Nicolas Gehrig, 0, 0, 0, 0, 0, 1
+326, Nicolas Pugeault, 0, 0, 0, 0, 0, 1
+327, Norbert Krüger, 0, 0, 0, 0, 0, 2
+324, Yulia Hicks, 0, 0, 0, 0, 0, 1
+325, Dave Marshall, 0, 0, 0, 0, 0, 1
+322, Sylvie Chambon, 0, 0, 0, 0, 0, 1
+323, Alain Crouzil, 0, 0, 0, 0, 0, 1
+320, Peter Myerscough, 0, 0, 0, 0, 0, 1
+321, Osamu Ikeda, 0, 0, 0, 0, 0, 1
+334, Philip H. S. Torr, 0, 1, 0, 0, 0, 5
+335, Roberto Cipolla, 0, 0, 0, 0, 0, 4
+332, Arasanathan Thayananthan, 0, 0, 0, 0, 0, 2
+333, Björn Stenger, 0, 0, 0, 0, 0, 1
+330, Simon Baker, 0, 0, 0, 0, 0, 1
+331, Michael Felsberg, 0, 0, 0, 0, 0, 1
+328, Iain Matthews, 0, 0, 0, 0, 0, 2
+329, Takahiro Ishikawa, 0, 0, 0, 0, 0, 1
+373, Rogerio Feris, 0, 0, 0, 0, 0, 1
+372, Changbo Hu, 0, 0, 0, 0, 0, 1
+375, Derek R. Magee, 0, 0, 0, 0, 0, 1
+374, Matthew Turk, 0, 0, 0, 0, 0, 1
+369, Marta Wilczkowiak, 0, 0, 0, 0, 0, 2
+368, Bastian Leibe, 0, 0, 0, 0, 0, 2
+371, Edmond Boyer, 0, 0, 0, 0, 0, 3
+370, Peter F. Sturm, 0, 0, 0, 0, 0, 4
+381, Radim Sára, 0, 0, 0, 0, 0, 2
+380, Jan Cech, 0, 0, 0, 0, 0, 1
+383, Zhanyi Hu, 0, 0, 0, 0, 0, 2
+382, Fuchao Wu, 0, 0, 0, 0, 0, 1
+377, Jim Graham, 0, 0, 0, 0, 0, 1
+376, Mike Rogers, 0, 0, 0, 0, 0, 1
+379, Huaifeng Zhang, 0, 0, 0, 0, 0, 1
+378, Robert Tonge, 0, 0, 0, 0, 0, 1
+356, James A. Paterson, 0, 0, 0, 0, 0, 1
+357, Andrew W. Fitzgibbon, 0, 0, 0, 0, 0, 3
+358, Craig A. Hack, 0, 0, 0, 0, 0, 1
+359, Christopher J. Taylor, 0, 0, 0, 0, 0, 1
+352, Alvaro Pallares Bejarano, 0, 0, 0, 0, 0, 1
+353, Tao Xiang, 0, 0, 0, 0, 0, 2
+354, Shaogang Gong, 0, 0, 0, 0, 0, 3
+355, Dennis Parkinson, 0, 0, 0, 0, 0, 1
+364, Cordelia Schmid, 0, 0, 0, 0, 0, 3
+365, J. P. Mellor, 0, 0, 0, 0, 0, 1
+366, Mohammad Faizal Ahmad Fauzi, 0, 0, 0, 0, 0, 1
+367, Paul H. Lewis, 0, 0, 0, 0, 0, 1
+360, Hideo Saito, 0, 0, 0, 0, 0, 2
+361, Shigeharu Kamijima, 0, 0, 0, 0, 0, 1
+362, Krystian Mikolajczyk, 0, 0, 0, 0, 0, 1
+363, Andrew Zisserman, 0, 0, 0, 0, 0, 3
+410, Bernard F. Buxton, 0, 0, 0, 0, 0, 1
+411, Peter Hammond, 0, 0, 0, 0, 0, 1
+408, Martin R. Varley, 0, 0, 0, 0, 0, 1
+409, Tim J. Hutton, 0, 0, 0, 0, 0, 1
+414, Héctor H. González-Baños, 0, 0, 0, 0, 0, 2
+415, Nicolas Guilbert, 0, 0, 0, 0, 0, 1
+412, Dan Kong, 0, 0, 0, 0, 0, 1
+413, Hai Tao, 0, 0, 0, 0, 0, 2
+402, Jun Wang, 0, 0, 0, 0, 0, 1
+403, Changshui Zhang, 0, 0, 0, 0, 0, 1
+400, Tieniu Tan, 0, 0, 0, 0, 0, 3
+401, Yunhong Wang, 0, 0, 0, 0, 0, 1
+406, Lik-Kwan Shark, 0, 0, 0, 0, 0, 1
+407, John P. Smith, 0, 0, 0, 0, 0, 1
+404, Zhongbao Kou, 0, 0, 0, 0, 0, 1
+405, Bogdan J. Matuszewski, 0, 0, 0, 0, 0, 1
+395, Xianghua Xie, 0, 0, 0, 0, 0, 1
+394, Tom Drummond, 0, 0, 0, 0, 0, 2
+393, Edward Rosten, 0, 0, 0, 0, 0, 1
+392, Andrew Graves, 0, 0, 0, 0, 0, 1
+399, Li Ma, 0, 0, 0, 0, 0, 1
+398, JunZhou Huang, 0, 0, 0, 0, 0, 1
+397, Edwin R. Hancock, 0, 0, 0, 0, 0, 3
+396, Hossein Ragheb, 0, 0, 0, 0, 0, 1
+387, Fadi Dornaika, 0, 0, 0, 0, 0, 1
+386, Richard Harvey, 0, 0, 0, 0, 0, 2
+385, J. Andrew Bangham, 0, 0, 0, 0, 0, 3
+384, Stuart E. Gibson, 0, 0, 0, 0, 0, 2
+391, Donal McNally, 0, 0, 0, 0, 0, 1
+390, Majid Mirmehdi, 0, 0, 0, 0, 0, 3
+389, James Revell, 0, 0, 0, 0, 0, 1
+388, Jörgen Ahlberg, 0, 0, 0, 0, 0, 1
+440, Fabrizio Smeraldi, 0, 0, 0, 0, 0, 1
+441, Mohammad A. Rob, 0, 0, 0, 0, 0, 1
+442, Qifeng Liu, 0, 0, 0, 0, 0, 1
+443, Jianguang Lou, 0, 0, 0, 0, 0, 1
+444, Weiming Hu, 0, 0, 0, 0, 0, 2
+445, Barry-John Theobald, 0, 0, 0, 0, 0, 1
+446, John R. W. Glauert, 0, 0, 0, 0, 0, 1
+447, Gavin C. Cawley, 0, 0, 0, 0, 0, 1
+432, David Cristinacce, 0, 0, 0, 0, 0, 1
+433, Sarah V. Porter, 0, 0, 0, 0, 0, 1
+434, Barry T. Thomas, 0, 0, 0, 0, 0, 1
+435, Richard C. Wilson, 0, 0, 0, 0, 0, 1
+436, Xiao Bai 0001, 0, 0, 0, 0, 0, 1
+437, Dick de Ridder, 0, 0, 0, 0, 0, 1
+438, Vojtech Franc, 0, 0, 0, 0, 0, 1
+439, Philip A. Tresadern, 0, 0, 0, 0, 0, 1
+425, Kalle Åström, 0, 0, 0, 0, 0, 2
+424, Anders Ericsson, 0, 0, 0, 0, 0, 2
+427, Michel Dhome, 0, 0, 0, 0, 0, 1
+426, Sébastien Cornou, 0, 0, 0, 0, 0, 1
+429, Steven Mills, 0, 0, 0, 0, 0, 1
+428, Patrick Sayd, 0, 0, 0, 0, 0, 1
+431, Mark Hills 0002, 0, 0, 0, 0, 0, 1
+430, Tony P. Pridmore, 0, 0, 0, 0, 0, 1
+417, Jianzhong Fang, 0, 0, 0, 0, 0, 1
+416, Adrien Bartoli, 0, 0, 0, 0, 0, 3
+419, Marc-Olivier Baradez, 0, 0, 0, 0, 0, 1
+418, Guoping Qiu, 0, 0, 0, 0, 0, 1
+421, Nicolas Forraz, 0, 0, 0, 0, 0, 1
+420, Colin P. McGuckin, 0, 0, 0, 0, 0, 1
+423, Andreas Hoppe, 0, 0, 0, 0, 0, 1
+422, Ruth Pettengell, 0, 0, 0, 0, 0, 1
+478, Hildur Ólafsdóttir, 0, 0, 0, 0, 0, 1
+479, Hongbin Wang, 0, 0, 0, 0, 0, 1
+476, Adrian Hilton, 0, 0, 0, 0, 0, 2
+477, Hans Henrik Thodberg, 0, 0, 0, 0, 0, 1
+474, Tomás Werner, 0, 0, 0, 0, 0, 2
+475, Joel R. Mitchelson, 0, 0, 0, 0, 0, 1
+472, Joan Martí, 0, 0, 0, 0, 0, 1
+473, Ondrej Chum, 0, 0, 0, 0, 0, 1
+470, Maria Petrou, 0, 0, 0, 0, 0, 1
+471, Jordi Freixenet, 0, 0, 0, 0, 0, 1
+468, Xavier Lladó, 0, 0, 0, 0, 0, 1
+469, Arnau Oliver, 0, 0, 0, 0, 0, 1
+466, Andreas Dante, 0, 0, 0, 0, 0, 1
+467, Anthony G. Constantinides, 0, 0, 0, 0, 0, 1
+464, Eric Sung, 0, 0, 0, 0, 0, 2
+465, Ronda Venkateswarlu, 0, 0, 0, 0, 0, 2
+463, Jian-Gang Wang, 0, 0, 0, 0, 0, 2
+462, Jean-Sébastien Franco, 0, 0, 0, 0, 0, 1
+461, Andrew D. Calway, 0, 0, 0, 0, 0, 1
+460, Annie Yao, 0, 0, 0, 0, 0, 1
+459, Daniel Gatica-Perez, 0, 0, 0, 0, 0, 1
+458, Sileye O. Ba, 0, 0, 0, 0, 0, 1
+457, Jean-Marc Odobez, 0, 0, 0, 0, 0, 1
+456, Michael Rudzsky, 0, 0, 0, 0, 0, 1
+455, Ehud Rivlin, 0, 0, 0, 0, 0, 1
+454, Stanislav Lapchev, 0, 0, 0, 0, 0, 1
+453, Gideon Dror, 0, 0, 0, 0, 0, 1
+452, Yuri Bogomolov, 0, 0, 0, 0, 0, 1
+451, Julien Flack, 0, 0, 0, 0, 0, 1
+450, Graeme A. Jones, 0, 0, 0, 0, 0, 1
+449, David Thirde, 0, 0, 0, 0, 0, 1
+448, Jana Kostková, 0, 0, 0, 0, 0, 1
+508, Shruti Kasetty, 1, 0, 0, 0, 0, 0
+509, Byron Choi, 1, 0, 0, 0, 0, 0
+510, Amélie Marian, 2, 0, 0, 0, 0, 0
+511, Gargi Sur, 1, 0, 0, 0, 0, 0
+504, Ajith Nagaraja Rao, 1, 0, 0, 0, 0, 0
+505, Feng Tian, 2, 0, 0, 0, 0, 0
+506, Yannis E. Ioannidis, 2, 0, 0, 0, 0, 0
+507, Colin Meek, 1, 0, 0, 0, 0, 0
+500, Josef Burger, 2, 0, 0, 0, 0, 0
+501, Leonidas Galanis, 2, 0, 0, 0, 0, 0
+502, Ameet Kini, 1, 0, 0, 0, 0, 0
+503, Rajasekar Krishnamurthy, 2, 0, 0, 0, 0, 0
+496, Laks V. S. Lakshmanan, 2, 0, 0, 1, 0, 0
+497, Jian Pei, 1, 0, 0, 5, 0, 0
+498, Yan Zhao, 1, 0, 0, 0, 0, 0
+499, Alan Halverson, 1, 0, 0, 0, 0, 0
+493, Weiyi Meng, 2, 0, 1, 0, 0, 0
+492, Hai He, 1, 0, 1, 0, 0, 0
+495, Zonghuan Wu, 1, 0, 1, 0, 0, 0
+494, Clement T. Yu, 2, 0, 1, 0, 0, 0
+489, Milenko Petrovic, 1, 0, 0, 0, 0, 0
+488, Harald Schöning, 1, 0, 0, 0, 0, 0
+491, Hans-Arno Jacobsen, 1, 0, 0, 0, 0, 0
+490, Ioana Burcea, 1, 0, 0, 0, 0, 0
+485, Mohammad Hamiruce Marhaban, 0, 0, 0, 0, 0, 1
+484, Fred W. DePiero, 0, 0, 0, 0, 0, 1
+487, Nick Roussopoulos, 1, 0, 0, 0, 0, 0
+486, Alexandros Labrinidis, 1, 0, 0, 0, 0, 0
+481, Hitoshi Kubota, 0, 0, 0, 0, 0, 1
+480, Phil F. Culverhouse, 0, 0, 0, 0, 0, 1
+483, Masami Takeshi, 0, 0, 0, 0, 0, 1
+482, Masakazu Ono, 0, 0, 0, 0, 0, 1
+550, Yunyue Zhu, 1, 0, 0, 1, 0, 0
+551, Yannis Velegrakis, 1, 0, 0, 0, 0, 0
+548, Flip Korn, 2, 0, 0, 0, 0, 0
+549, S. Muthukrishnan, 3, 0, 0, 0, 4, 0
+546, Simone Santini, 1, 0, 0, 0, 0, 0
+547, Amarnath Gupta, 1, 0, 0, 0, 0, 0
+544, Krithi Ramamritham, 2, 0, 0, 0, 0, 0
+545, Tianqiu Wang, 2, 0, 0, 0, 0, 0
+558, Patrick Neukomm, 1, 0, 0, 0, 0, 0
+559, Heiko Schuldt, 1, 0, 0, 0, 0, 0
+556, Roger Weber, 1, 0, 0, 0, 0, 0
+557, Christoph Schuler, 1, 0, 0, 0, 0, 0
+554, Ugur Çetintemel, 2, 0, 0, 0, 0, 0
+555, Michael Stonebraker, 2, 0, 0, 0, 0, 0
+552, Lucian Popa, 3, 0, 0, 0, 0, 0
+553, Nesime Tatbul, 1, 0, 0, 0, 0, 0
+567, Evangelos Eleftheriou, 1, 0, 0, 0, 0, 0
+566, Wynne Hsu, 2, 0, 0, 1, 0, 0
+565, Mong-Li Lee, 3, 0, 0, 1, 0, 0
+564, Liang Huai Yang, 1, 0, 0, 0, 0, 0
+563, Peter Baumann, 1, 0, 0, 0, 0, 0
+562, Ihab F. Ilyas, 1, 0, 0, 0, 0, 0
+561, Chang Luo, 1, 0, 0, 0, 0, 0
+560, Hans-Jörg Schek, 1, 0, 0, 0, 0, 0
+575, T. R. Albrecht, 1, 0, 0, 0, 0, 0
+574, Haralampos Pozidis, 1, 0, 0, 0, 0, 0
+573, Aggeliki Pantazi, 1, 0, 0, 0, 0, 0
+572, T. Loeliger, 1, 0, 0, 0, 0, 0
+571, Christoph Hagleitner, 1, 0, 0, 0, 0, 0
+570, Ajay Dholakia, 1, 0, 0, 0, 0, 0
+569, Giovanni Cherubini, 1, 0, 0, 0, 0, 0
+568, Peter Bächtold, 1, 0, 0, 0, 0, 0
+516, Chris Clifton, 1, 0, 0, 1, 0, 0
+517, Irini Fundulaki, 1, 0, 0, 0, 0, 0
+518, Richard Hull, 2, 0, 0, 0, 0, 0
+519, Bharat Kumar, 1, 0, 0, 0, 0, 0
+512, Luc Bouganim, 2, 0, 0, 0, 0, 0
+513, François Dang Ngoc, 1, 0, 0, 0, 0, 0
+514, Philippe Pucheral, 2, 0, 0, 0, 0, 0
+515, Lilan Wu, 1, 0, 0, 0, 0, 0
+524, Timothy Malkemus, 1, 0, 0, 0, 0, 0
+525, Tony Lai, 1, 0, 0, 0, 0, 0
+526, Leslie Cranston, 1, 0, 0, 0, 0, 0
+527, Matthew Huras, 1, 0, 0, 0, 0, 0
+520, Daniel F. Lieuwen, 1, 0, 0, 0, 0, 0
+521, Arnaud Sahuguet, 1, 0, 0, 0, 0, 0
+522, Felipe Cabrera, 1, 0, 0, 0, 0, 0
+523, Bishwaranjan Bhattacharjee, 1, 0, 0, 0, 0, 0
+533, Frank Leymann, 1, 0, 0, 0, 0, 0
+532, George Philip, 1, 0, 0, 0, 0, 0
+535, Sophie Cluet, 1, 0, 0, 0, 0, 0
+534, A. Kumaran, 1, 0, 0, 0, 0, 0
+529, Torsten Suel, 1, 0, 0, 0, 1, 0
+528, Xiaohui Long, 1, 0, 0, 0, 0, 0
+531, Philip A. Bernstein, 1, 0, 0, 0, 0, 0
+530, Rachel Pottinger, 1, 0, 0, 0, 0, 0
+541, Yanlei Diao, 1, 0, 0, 0, 0, 0
+540, Ion Stoica, 1, 0, 0, 0, 0, 0
+543, Shyamshankar Dharmarajan, 1, 0, 0, 0, 0, 0
+542, Shetal Shah, 1, 0, 0, 0, 0, 0
+537, Nick Lanham, 1, 0, 0, 0, 0, 0
+536, Ryan Huebsch, 1, 0, 0, 0, 0, 0
+539, Scott Shenker, 2, 0, 0, 0, 0, 0
+538, Boon Thau Loo, 1, 0, 0, 0, 0, 0
+610, Wei-Guang Teng, 1, 0, 0, 0, 0, 0
+611, Sacha Berger, 1, 0, 0, 0, 0, 0
+608, Nicolas Anciaux, 1, 0, 0, 0, 0, 0
+609, Anthony Brockwell, 1, 0, 0, 0, 0, 0
+614, Sven Helmer, 1, 0, 0, 0, 0, 0
+615, Thomas Neumann 0001, 1, 0, 0, 0, 0, 0
+612, Sebastian Schaffert, 1, 0, 0, 0, 0, 0
+613, Christoph Wieser, 1, 0, 0, 0, 0, 0
+618, Serge Abiteboul, 2, 0, 0, 0, 0, 0
+619, Bernd Amann, 1, 0, 0, 0, 0, 0
+616, Guido Moerkotte, 1, 0, 0, 0, 0, 0
+617, Graham Cormode, 2, 0, 0, 0, 0, 0
+622, Frederic Dang Ngoc, 1, 0, 0, 0, 0, 0
+623, Tova Milo, 2, 0, 0, 0, 0, 0
+620, Jérôme Baumgarten, 2, 0, 0, 0, 0, 0
+621, Omar Benjelloun, 1, 0, 0, 0, 0, 0
+627, Florin Dragan 0001, 1, 0, 0, 0, 0, 0
+626, Cosmin Cremarenco, 1, 0, 0, 0, 0, 0
+625, Gregory Cobena, 1, 0, 0, 0, 0, 0
+624, Angela Bonifati, 2, 0, 0, 0, 0, 0
+631, Hanan Samet, 1, 0, 0, 0, 0, 0
+630, Glenn S. Iwerks, 1, 0, 0, 0, 0, 0
+629, Nicoleta Preda, 1, 0, 0, 0, 0, 0
+628, Ioana Manolescu, 3, 0, 0, 0, 0, 0
+635, Tolga Bozkaya, 1, 0, 0, 0, 0, 0
+634, Srikanth Bellamkonda, 1, 0, 0, 0, 0, 0
+633, Andrew Witkowski, 1, 0, 0, 0, 0, 0
+632, Kenneth P. Smith, 1, 0, 0, 0, 0, 0
+639, Sankar Subramanian, 1, 0, 0, 0, 0, 0
+638, Lei Sheng, 1, 0, 0, 0, 0, 0
+637, Abhinav Gupta, 1, 0, 0, 0, 0, 0
+636, Nathan Folkert, 1, 0, 0, 0, 0, 0
+576, Gerd Karl Binnig, 1, 0, 0, 0, 0, 0
+577, Michel Despont, 1, 0, 0, 0, 0, 0
+578, Ute Drechsler, 1, 0, 0, 0, 0, 0
+579, Urs Dürig, 1, 0, 0, 0, 0, 0
+580, Bernd Gotsmann, 1, 0, 0, 0, 0, 0
+581, Daniel Jubin, 1, 0, 0, 0, 0, 0
+582, Walter Häberle, 1, 0, 0, 0, 0, 0
+583, Mark A. Lantz, 1, 0, 0, 0, 0, 0
+584, Hugo E. Rothuizen, 1, 0, 0, 0, 0, 0
+585, Richard Stutz, 1, 0, 0, 0, 0, 0
+586, Peter Vettiger, 1, 0, 0, 0, 0, 0
+587, Dorothea Wiesmann, 1, 0, 0, 0, 0, 0
+588, Daniela Florescu, 1, 0, 0, 0, 0, 0
+589, Chris Hillery, 1, 0, 0, 0, 0, 0
+590, Donald Kossmann, 1, 0, 0, 0, 0, 0
+591, Paul Lucas, 1, 0, 0, 0, 0, 0
+593, Till Westmann, 1, 0, 0, 0, 0, 0
+592, Fabio Riccardi, 1, 0, 0, 0, 0, 0
+595, Arvind Sundararajan, 1, 0, 0, 0, 0, 0
+594, Michael J. Carey, 1, 0, 0, 0, 0, 0
+597, César A. Galindo-Legaria, 1, 0, 0, 0, 0, 0
+596, Geetika Agrawal, 1, 0, 0, 0, 0, 0
+599, Florian Waas, 1, 0, 0, 0, 0, 0
+598, Milind Joshi, 1, 0, 0, 0, 0, 0
+601, Sara Cohen, 3, 0, 0, 0, 0, 0
+600, Ming-Chuan Wu, 1, 0, 0, 0, 0, 0
+603, Yaron Kanza, 3, 0, 0, 0, 0, 0
+602, Jonathan Mamou, 1, 0, 0, 0, 0, 0
+605, Prakash Ramanan, 1, 0, 0, 0, 0, 0
+604, Yehoshua Sagiv, 4, 0, 0, 0, 0, 0
+607, Martin Grohe, 1, 0, 0, 0, 1, 0
+606, Peter Buneman, 1, 0, 0, 0, 0, 0
+687, Keng Lik Teo, 1, 0, 0, 0, 0, 0
+686, Bin Cui, 1, 0, 0, 0, 0, 0
+685, Christian S. Jensen, 2, 0, 0, 0, 0, 0
+684, Jianyong Wang, 1, 0, 0, 1, 0, 0
+683, Charu C. Aggarwal, 2, 0, 0, 2, 0, 0
+682, Amr El Abbadi, 1, 0, 0, 0, 0, 0
+681, Divyakant Agrawal, 2, 0, 0, 0, 0, 0
+680, Hailing Yu, 1, 0, 0, 0, 0, 0
+679, Matthias Jarke, 1, 0, 0, 0, 0, 0
+678, Udo Grimmer, 1, 0, 0, 0, 0, 0
+677, Dominik Lübbers, 1, 0, 0, 0, 0, 0
+676, Moustafa A. Hammad, 1, 0, 0, 0, 0, 0
+675, Alex Rasin, 1, 0, 0, 0, 0, 0
+674, Gregory R. Ganger, 1, 0, 0, 0, 0, 0
+673, Anastassia Ailamaki, 1, 0, 0, 0, 0, 0
+672, Jiri Schindler, 1, 0, 0, 0, 0, 0
+702, Brad Karp, 1, 0, 0, 0, 0, 0
+703, Srinivasan Seshan, 1, 0, 0, 0, 0, 0
+700, Suman Nath, 1, 0, 0, 0, 0, 0
+701, Yan Ke, 1, 0, 0, 0, 0, 0
+698, Thomas Hernandez, 1, 0, 0, 0, 0, 0
+699, Chi-Chun Lin, 1, 0, 0, 0, 0, 0
+696, Zaiqing Nie, 1, 0, 0, 0, 0, 0
+697, Subbarao Kambhampati, 1, 2, 0, 0, 0, 0
+694, Martin Theobald, 1, 0, 0, 0, 0, 0
+695, Chris Jermaine, 1, 0, 0, 1, 0, 0
+692, Sergej Sizov, 1, 0, 0, 0, 0, 0
+693, Jens Graupmann, 1, 0, 0, 0, 0, 0
+690, Stefano Ceri, 1, 0, 0, 0, 0, 0
+691, Gerome Miklau, 2, 0, 0, 0, 0, 0
+688, Wolfgang Lehner, 1, 0, 0, 0, 0, 0
+689, Dirk Habich, 1, 0, 0, 0, 0, 0
+653, Vipul Kashyap, 1, 0, 0, 0, 0, 0
+652, Stefan Decker, 1, 0, 0, 0, 0, 0
+655, Val Tannen, 2, 0, 0, 0, 0, 0
+654, Alin Deutsch, 2, 0, 0, 0, 0, 0
+649, Alberto Lerner, 1, 0, 0, 0, 0, 0
+648, Richard T. Snodgrass, 1, 0, 0, 0, 0, 0
+651, Jun Zhang 0005, 1, 0, 0, 0, 0, 0
+650, Dennis Shasha, 1, 0, 0, 1, 0, 0
+645, Sandra D'Aguanno, 1, 0, 0, 0, 0, 0
+644, Gianni Costa, 1, 0, 0, 0, 0, 0
+647, Dengfeng Gao, 1, 0, 0, 0, 0, 0
+646, Andrea Pugliese, 1, 0, 0, 0, 0, 0
+641, Daofeng Luo, 1, 0, 0, 0, 0, 0
+640, Richard A. Hankins, 1, 0, 0, 0, 0, 0
+643, Andrei Arion, 1, 0, 0, 0, 0, 0
+642, Jing An, 1, 0, 0, 0, 0, 0
+668, Filippo Furfaro, 1, 0, 0, 0, 0, 0
+669, Elio Masciari, 1, 0, 0, 0, 0, 0
+670, Marco Vieira, 1, 0, 0, 0, 0, 0
+671, Henrique Madeira, 1, 0, 0, 0, 0, 0
+664, Mayank Bawa, 1, 0, 1, 0, 0, 0
+665, Roberto J. Bayardo Jr., 1, 0, 0, 0, 0, 0
+666, Michael L. Brodie, 1, 0, 0, 0, 0, 0
+667, Sergio Flesca, 1, 0, 0, 0, 0, 0
+660, Eike Schallehn, 1, 0, 0, 0, 0, 0
+661, Daniela Nicklas, 1, 0, 0, 0, 0, 0
+662, Matthias Großmann, 1, 0, 0, 0, 0, 0
+663, Thomas Schwarz, 1, 0, 0, 0, 0, 0
+656, Dimitrios Gunopulos, 1, 0, 0, 2, 0, 0
+657, Michail Vlachos, 1, 0, 0, 1, 0, 0
+658, Kai-Uwe Sattler, 1, 0, 0, 0, 0, 0
+659, Ingolf Geist, 1, 0, 0, 0, 0, 0
+747, Srinath Srinivasa, 1, 0, 0, 0, 0, 0
+746, Yifeng Zheng, 1, 0, 0, 0, 0, 0
+745, Yi Chen 0001, 1, 0, 0, 0, 0, 0
+744, Bernhard Mitschang, 1, 0, 0, 0, 0, 0
+751, Laurynas Speicys, 1, 0, 0, 0, 0, 0
+750, Torben Bach Pedersen, 1, 0, 0, 0, 0, 0
+749, Christian Hage, 1, 0, 0, 0, 0, 0
+748, Sujit Kumar, 1, 0, 0, 0, 0, 0
+739, Qiang Xue, 1, 0, 0, 0, 0, 0
+738, Qiang Zhu, 1, 0, 0, 0, 0, 0
+737, Gang Qian, 1, 0, 0, 0, 0, 0
+736, M. Tamer Özsu, 1, 0, 0, 1, 0, 0
+743, Ralf Rantzau, 1, 0, 0, 0, 0, 0
+742, Holger Schwarz, 1, 0, 0, 0, 0, 0
+741, Tobias Kraft, 1, 0, 0, 0, 0, 0
+740, Sakti Pramanik, 1, 0, 0, 0, 0, 0
+762, Sailesh Krishnamurthy, 1, 0, 0, 0, 0, 0
+763, Hamid Pirahesh, 1, 0, 0, 0, 0, 0
+760, Mehmet Altinel, 1, 0, 0, 0, 0, 0
+761, Christof Bornhövd, 1, 0, 0, 0, 0, 0
+766, Kenneth A. Ross, 1, 0, 0, 0, 0, 0
+767, Yong Shi, 1, 0, 0, 0, 0, 0
+764, Berthold Reinwald, 1, 0, 0, 0, 0, 0
+765, Jingren Zhou, 1, 0, 0, 0, 0, 0
+754, Torsten Grust, 1, 0, 0, 0, 0, 0
+755, Maurice van Keulen, 1, 0, 0, 0, 0, 0
+752, Igor Timko, 1, 0, 0, 0, 0, 0
+753, Sandeepan Banerjee, 1, 0, 0, 0, 0, 0
+758, Stelios Paparizos, 1, 0, 0, 0, 0, 0
+759, Shawn R. Jeffery, 1, 0, 0, 0, 0, 0
+756, Jens Teubner, 1, 0, 0, 0, 0, 0
+757, Zhimin Chen, 1, 0, 0, 0, 0, 0
+713, Chengfei Liu, 1, 0, 0, 0, 0, 0
+712, Alejandro P. Buchmann, 1, 0, 0, 0, 0, 0
+715, Serge Bourbonnais, 1, 0, 0, 0, 0, 0
+714, Bruce G. Lindsay 0001, 1, 0, 0, 0, 0, 0
+717, Tuong C. Truong, 1, 0, 0, 0, 0, 0
+716, Elizabeth Hamel, 1, 0, 0, 0, 0, 0
+719, Jianjun Zhou, 1, 0, 0, 0, 0, 0
+718, Jens Stankiewitz, 1, 0, 0, 0, 0, 0
+705, Paul Brown, 1, 0, 0, 0, 0, 0
+704, Ning An, 1, 0, 0, 0, 0, 0
+707, Xuemin Lin, 1, 0, 0, 0, 0, 0
+706, Peter J. Haas, 1, 0, 0, 1, 0, 0
+709, Yidong Yuan, 1, 0, 0, 0, 0, 0
+708, Qing Liu, 1, 0, 0, 0, 0, 0
+711, Gerhard Weikum, 1, 0, 0, 0, 0, 0
+710, Xiaofang Zhou, 1, 0, 0, 1, 0, 0
+728, Wen-Syan Li, 1, 0, 0, 0, 0, 0
+729, Oliver Po, 1, 0, 0, 0, 0, 0
+730, Wang-Pin Hsiung, 1, 0, 0, 0, 0, 0
+731, K. Selçuk Candan, 1, 0, 0, 0, 0, 0
+732, Yusuf Akca, 1, 0, 0, 0, 0, 0
+733, Kunihiro Taniguchi, 1, 0, 0, 0, 0, 0
+734, Prasanna Ganesan, 1, 0, 0, 0, 0, 0
+735, Lukasz Golab, 1, 0, 0, 0, 0, 0
+720, Jörg Sander, 1, 0, 0, 1, 0, 0
+721, Lipyeow Lim, 1, 0, 0, 0, 0, 0
+722, Min Wang, 1, 0, 0, 0, 0, 0
+723, Jeffrey Scott Vitter, 1, 0, 0, 0, 1, 0
+724, eva Kühn, 1, 0, 0, 0, 0, 0
+725, Philip J. Harding, 1, 0, 0, 0, 0, 0
+726, Quanzhong Li, 1, 0, 0, 0, 0, 0
+727, Bongki Moon, 1, 0, 0, 0, 0, 0
+821, Neil D. Lawrence, 0, 1, 0, 0, 0, 0
+820, Christopher K. I. Williams, 0, 2, 0, 0, 0, 0
+823, Nebojsa Jojic, 0, 1, 0, 0, 0, 1
+822, Nemanja Petrovic, 0, 1, 0, 0, 0, 0
+817, Richard S. Zemel, 0, 3, 0, 0, 0, 0
+816, Christopher Meek, 0, 3, 0, 0, 0, 0
+819, Matthias W. Seeger, 0, 1, 0, 0, 0, 0
+818, Craig Boutilier, 0, 7, 0, 0, 0, 0
+829, Thore Graepel, 0, 2, 0, 0, 1, 0
+828, Nicol N. Schraudolph, 0, 1, 0, 0, 0, 0
+831, Marina Meila, 0, 1, 0, 0, 1, 1
+830, Hagai Attias, 0, 1, 0, 0, 0, 0
+825, Thomas S. Huang, 0, 1, 0, 0, 0, 2
+824, Brendan J. Frey, 0, 3, 0, 0, 0, 2
+827, Jean-Sébastien Senecal, 0, 1, 0, 0, 0, 0
+826, Yoshua Bengio, 0, 1, 0, 0, 0, 0
+804, Max Welling, 0, 2, 0, 0, 0, 0
+805, Shaojun Wang, 0, 3, 0, 0, 0, 0
+806, Dale Schuurmans, 0, 4, 1, 0, 0, 0
+807, Fuchun Peng, 0, 3, 1, 0, 0, 0
+800, Petri Myllymäki, 0, 2, 0, 0, 0, 0
+801, Jorma Rissanen, 0, 1, 0, 0, 0, 0
+802, Henry Tirri, 0, 2, 0, 0, 0, 0
+803, Yee Whye Teh, 0, 1, 0, 0, 0, 0
+812, Andrew W. Moore 0001, 0, 5, 0, 3, 0, 0
+813, Michael E. Tipping, 0, 1, 1, 0, 0, 0
+814, Anita C. Faul, 0, 1, 0, 0, 0, 0
+815, Bo Thiesson, 0, 1, 0, 0, 0, 0
+808, Iead Rezek, 0, 1, 0, 0, 0, 0
+809, Stephen J. Roberts, 0, 1, 0, 0, 0, 0
+810, Peter Sykacek, 0, 1, 0, 0, 0, 0
+811, Alexander G. Gray, 0, 1, 0, 1, 0, 0
+791, David Heckerman, 0, 2, 0, 0, 0, 0
+790, David Maxwell Chickering, 0, 3, 0, 0, 0, 0
+789, Geoff Hulten, 0, 1, 0, 0, 0, 0
+788, Padhraic Smyth, 0, 4, 0, 3, 0, 0
+787, Sridevi Parise, 0, 2, 0, 0, 0, 0
+786, Xianping Ge, 0, 1, 0, 0, 0, 0
+785, Onno Zoeter, 0, 1, 0, 0, 0, 0
+784, Tom Heskes, 0, 2, 0, 0, 0, 0
+799, Wray L. Buntine, 0, 2, 0, 0, 0, 0
+798, Petri Kontkanen, 0, 1, 0, 0, 0, 0
+797, Kejie Bao, 0, 1, 0, 0, 0, 0
+796, Eric Brochu, 0, 1, 0, 0, 0, 0
+795, Nando de Freitas, 0, 3, 0, 0, 0, 0
+794, Natalie Thompson, 0, 1, 0, 0, 0, 0
+793, Peter Carbonetto, 0, 1, 0, 0, 0, 0
+792, Paul Gustafson, 0, 1, 0, 0, 0, 0
+774, Benjamin W. Wah, 1, 0, 0, 0, 0, 0
+775, Jayant Madhavan, 1, 1, 0, 0, 0, 0
+772, Dong Xin, 1, 0, 0, 0, 0, 0
+773, Xiaolei Li, 1, 0, 0, 0, 0, 0
+770, Meikel Pöss, 1, 0, 0, 0, 0, 0
+771, Dmitry Potapov, 1, 0, 0, 0, 0, 0
+768, Yuqing Song, 1, 0, 0, 0, 0, 0
+769, Aidong Zhang, 1, 0, 0, 2, 0, 0
+782, Riccardo Torlone, 1, 0, 0, 0, 0, 0
+783, Paolo Atzeni, 1, 0, 0, 0, 0, 0
+780, Paul Watson, 1, 0, 0, 0, 0, 0
+781, Xiaoyu Wang, 1, 0, 0, 0, 0, 0
+778, Reagan Moore, 1, 0, 0, 0, 0, 0
+779, Norman W. Paton, 1, 0, 0, 0, 0, 0
+776, Nelson Mendonça Mattos, 1, 0, 0, 0, 0, 0
+777, Arun Jagatheesan, 1, 0, 0, 0, 0, 0
+881, Chao Wang, 0, 0, 0, 1, 0, 0
+880, Matthew Eric Otey, 0, 0, 0, 2, 0, 0
+883, Adriano Veloso, 0, 0, 0, 1, 0, 0
+882, Srinivasan Parthasarathy, 0, 0, 0, 4, 0, 0
+885, Huidong Jin, 0, 0, 0, 1, 0, 0
+884, Wagner Meira Jr., 0, 0, 0, 1, 0, 0
+887, Kwong-Sak Leung, 0, 0, 0, 1, 0, 0
+886, Man Leung Wong, 0, 0, 0, 1, 0, 0
+889, Yang Dai, 0, 0, 0, 1, 0, 0
+888, Bing Liu 0001, 0, 3, 0, 4, 0, 0
+891, Wee Sun Lee, 0, 1, 1, 1, 0, 0
+890, Xiaoli Li, 0, 1, 0, 2, 0, 0
+893, Jenq-Foung Yao, 0, 0, 0, 1, 0, 0
+892, Yongqiao Xiao, 0, 0, 0, 1, 0, 0
+895, Margaret H. Dunham, 0, 0, 0, 2, 0, 0
+894, Zhigang Li, 0, 0, 0, 2, 0, 0
+864, Bhaskara Marthi, 0, 1, 0, 0, 0, 0
+865, Andrew I. Schein, 0, 1, 0, 0, 0, 0
+866, Lawrence K. Saul, 0, 1, 0, 0, 1, 0
+867, Lyle H. Ungar, 0, 2, 0, 1, 0, 0
+868, Ioannis Tsamardinos, 0, 1, 0, 2, 0, 0
+869, Constantin F. Aliferis, 0, 1, 0, 2, 0, 0
+870, Manabu Kuroki, 0, 1, 0, 0, 0, 0
+871, Zhihong Cai, 0, 1, 0, 0, 0, 0
+872, Matthew Brand, 0, 3, 0, 1, 0, 0
+873, Kun Huang, 0, 1, 0, 0, 0, 1
+874, Aleksandar Lazarevic, 0, 0, 0, 2, 0, 0
+875, Ramdev Kanapady, 0, 0, 0, 1, 0, 0
+876, Chandrika Kamath, 0, 0, 0, 1, 0, 0
+877, Vipin Kumar, 0, 0, 0, 7, 0, 0
+878, Kumar K. Tamma, 0, 0, 0, 1, 0, 0
+879, Hwanjo Yu, 0, 1, 0, 2, 0, 0
+851, Ishay Weissman, 0, 1, 0, 0, 0, 0
+850, Yehuda Vardi, 0, 1, 0, 0, 0, 0
+849, David Madigan, 0, 2, 0, 1, 0, 0
+848, John M. Winn, 0, 1, 0, 0, 0, 0
+855, Denver Dash, 0, 2, 0, 0, 0, 0
+854, Scott Gaffney, 0, 2, 0, 1, 0, 0
+853, David D. Lewis, 0, 1, 0, 0, 0, 0
+852, Susana Eyheramendy, 0, 1, 0, 0, 0, 0
+859, Alan S. Willsky, 0, 1, 0, 0, 0, 0
+858, Tommi S. Jaakkola, 0, 3, 0, 0, 0, 0
+857, Martin J. Wainwright, 0, 1, 0, 0, 0, 0
+856, Gregory F. Cooper, 0, 2, 0, 0, 0, 0
+863, Andrew Blake, 0, 1, 0, 0, 0, 0
+862, Sami Perttu, 0, 1, 0, 0, 0, 0
+861, Gert Cauwenberghs, 0, 1, 0, 0, 1, 0
+860, Shantanu Chakrabartty, 0, 1, 0, 0, 1, 0
+834, Pinar Muyan, 0, 1, 0, 0, 0, 0
+835, Jaz S. Kandola, 0, 1, 0, 0, 1, 0
+832, Paul Komarek, 0, 1, 0, 0, 0, 0
+833, Tony Jebara, 0, 2, 0, 0, 1, 1
+838, Csaba Szepesvári, 0, 1, 0, 0, 0, 0
+839, Chris Ding, 0, 1, 0, 0, 0, 0
+836, John Shawe-Taylor, 0, 3, 0, 0, 2, 0
+837, Péter Torma, 0, 1, 0, 0, 0, 0
+842, Kim E. Andersen, 0, 1, 0, 0, 0, 0
+843, Malene Højbjerre, 0, 1, 0, 0, 0, 0
+840, A. Philip Dawid, 0, 1, 0, 0, 0, 0
+841, Abraham J. Wyner, 0, 1, 0, 0, 0, 0
+846, Juan Lin, 0, 1, 0, 0, 0, 0
+847, Christopher M. Bishop, 0, 3, 0, 0, 0, 0
+844, David Larkin, 0, 2, 0, 0, 0, 0
+845, Rina Dechter, 0, 4, 0, 0, 0, 0
+956, Xiangji Huang, 0, 0, 0, 1, 0, 0
+957, Christian Panse, 0, 0, 0, 1, 0, 0
+958, Mike Sips, 0, 0, 0, 1, 0, 0
+959, Stephen C. North, 0, 0, 0, 1, 0, 0
+952, Yuefeng Li, 0, 0, 0, 1, 0, 0
+953, Ning Zhong, 0, 0, 0, 1, 0, 0
+954, Aijun An, 0, 0, 0, 1, 0, 0
+955, Shakil M. Khan 0001, 0, 0, 0, 1, 0, 0
+948, Pei Sun, 0, 0, 0, 1, 0, 0
+949, Huseyin Polat, 0, 0, 0, 1, 0, 0
+950, Wenliang Du, 0, 0, 0, 2, 0, 0
+951, Bin Zhang 0004, 0, 0, 0, 2, 0, 0
+944, David A. Bell, 0, 0, 0, 1, 0, 0
+945, Dayou Liu, 0, 0, 0, 1, 0, 0
+946, Robert Munro, 0, 0, 0, 1, 0, 0
+947, Sanjay Chawla, 0, 0, 0, 2, 0, 0
+941, Jessica Lin 0001, 0, 0, 0, 1, 0, 0
+940, Eamonn J. Keogh, 0, 0, 0, 3, 0, 0
+943, J. W. Guan, 0, 0, 0, 1, 0, 0
+942, Wagner Truppel, 0, 0, 0, 1, 0, 0
+937, Sargur N. Srihari, 0, 0, 0, 1, 0, 0
+936, Rohini K. Srihari, 0, 1, 1, 1, 0, 0
+939, Shoji Hirano, 0, 0, 0, 3, 0, 0
+938, Shusaku Tsumoto, 0, 0, 0, 3, 0, 0
+933, Thomas M. Tirpak, 0, 0, 0, 1, 0, 0
+932, Kaidi Zhao, 0, 0, 0, 1, 0, 0
+935, Zhaohui Zheng, 0, 0, 0, 1, 0, 0
+934, Andreas Schaller, 0, 0, 0, 1, 0, 0
+929, Lemuel R. Waitman, 0, 0, 0, 1, 0, 0
+928, Yuchang Lu, 0, 0, 0, 1, 0, 0
+931, Paul H. King, 0, 0, 0, 1, 0, 0
+930, Douglas H. Fisher, 0, 0, 0, 2, 0, 0
+926, Fengzhan Tian, 0, 0, 0, 1, 0, 0
+927, Hongwei Zhang, 0, 0, 0, 1, 0, 0
+924, Inderjit S. Dhillon, 0, 0, 0, 3, 0, 0
+925, Yuqiang Guan, 0, 0, 0, 1, 0, 0
+922, Raz Tamir, 0, 0, 0, 1, 0, 0
+923, Reinhard Rapp, 0, 0, 0, 1, 0, 0
+920, Shou-De Lin, 0, 0, 0, 1, 0, 0
+921, Hans Chalupsky, 0, 0, 0, 1, 0, 0
+918, James H. Martin, 0, 0, 0, 1, 0, 0
+919, Daniel Jurafsky, 0, 0, 0, 1, 0, 0
+916, Kadri Hacioglu, 0, 0, 0, 1, 0, 0
+917, Wayne Ward, 0, 0, 0, 1, 0, 0
+914, Xue Li, 0, 0, 0, 1, 0, 0
+915, Sameer S. Pradhan, 0, 0, 0, 1, 0, 0
+912, Xingzhi Sun, 0, 0, 0, 2, 0, 0
+913, Maria E. Orlowska, 0, 0, 0, 2, 0, 0
+911, Sheng Ma, 0, 1, 0, 3, 0, 0
+910, Frédéric Maire, 0, 0, 0, 1, 0, 0
+909, Luc De Raedt, 0, 0, 0, 1, 0, 0
+908, Sau Dan Lee, 0, 0, 0, 1, 0, 0
+907, Hong Cheng, 0, 0, 0, 1, 0, 0
+906, I. V. Ramakrishnan, 0, 0, 0, 1, 0, 0
+905, Saikat Mukherjee, 0, 0, 0, 1, 0, 0
+904, Guizhen Yang, 0, 0, 0, 1, 0, 0
+903, Mitsunori Ogihara, 0, 0, 2, 1, 0, 0
+902, Shenghuo Zhu, 0, 0, 1, 1, 0, 0
+901, Tao Li, 0, 0, 2, 1, 0, 0
+900, Hisashi Kashima, 0, 1, 0, 1, 0, 0
+899, Akihiro Inokuchi, 0, 1, 0, 1, 0, 0
+898, Kwang Hyung Lee, 0, 0, 0, 1, 0, 0
+897, Doheon Lee, 0, 0, 0, 2, 0, 0
+896, Tu Minh Phuong, 0, 0, 0, 2, 0, 0
+1016, Carlos Rojas Coronel, 0, 0, 0, 1, 0, 0
+1017, Fabio A. González, 0, 0, 0, 1, 0, 0
+1018, François Fouss, 0, 0, 0, 1, 0, 0
+1019, Marco Saerens, 0, 0, 0, 1, 0, 0
+1020, Jean-Michel Renders, 0, 0, 0, 1, 0, 0
+1021, Xiaoling Zhang, 0, 0, 0, 1, 0, 0
+1022, Moonjung Cho, 0, 0, 0, 1, 0, 0
+1023, Bianca Zadrozny, 0, 0, 0, 1, 0, 0
+1008, Kai Ming Ting, 0, 0, 0, 1, 0, 0
+1009, Regina Jing Ying Quek, 0, 0, 0, 1, 0, 0
+1010, Hongwei Zhu, 0, 0, 0, 1, 0, 0
+1011, Otman A. Basir, 0, 0, 0, 1, 0, 0
+1012, Levon Lloyd, 0, 0, 0, 1, 0, 0
+1013, Steven Skiena, 0, 0, 0, 1, 0, 0
+1014, Olfa Nasraoui, 0, 0, 0, 2, 0, 0
+1015, Cesar Cardona Uribe, 0, 0, 0, 1, 0, 0
+1001, Ada Wai-Chee Fu, 0, 0, 0, 3, 0, 0
+1000, Raymond Chi-Wing Wong, 0, 0, 0, 1, 0, 0
+1003, Yi-Dong Shen, 0, 0, 0, 2, 0, 0
+1002, Raymond Chan, 0, 0, 0, 1, 0, 0
+1005, Steve Lawrence, 0, 1, 1, 1, 0, 0
+1004, Alexandrin Popescul, 0, 1, 0, 1, 0, 0
+1007, Choh-Man Teng, 0, 0, 0, 1, 0, 0
+1006, David M. Pennock, 0, 2, 0, 1, 0, 0
+993, Carlotta Domeniconi, 0, 0, 0, 2, 0, 0
+992, Daniel Barbará, 0, 0, 0, 2, 0, 0
+995, Jennifer Neville, 0, 1, 0, 2, 0, 0
+994, Ning Kang, 0, 0, 0, 1, 0, 0
+997, Brian Gallagher, 0, 0, 0, 1, 0, 0
+996, David Jensen, 0, 2, 0, 3, 0, 0
+999, Ah-Hwee Tan, 0, 0, 0, 1, 0, 0
+998, Kanagasabai Rajaraman, 0, 0, 0, 1, 0, 0
+986, Jérôme Azé, 0, 0, 0, 1, 0, 0
+987, Noël Lucas, 0, 0, 0, 1, 0, 0
+984, Y. Dora Cai, 0, 0, 0, 1, 0, 0
+985, Michèle Sebag, 0, 0, 0, 1, 0, 0
+990, Tassos Argyros, 0, 0, 0, 2, 0, 0
+991, Charis Ermopoulos, 0, 0, 0, 2, 0, 0
+988, Saharon Rosset, 0, 0, 0, 1, 0, 0
+989, Einat Neumann, 0, 0, 0, 1, 0, 0
+978, Hillol Kargupta, 0, 0, 0, 1, 0, 0
+979, Souptik Datta, 0, 0, 0, 1, 0, 0
+976, Hiroshi Yasuda, 0, 0, 0, 1, 0, 0
+977, Terumasa Aoki, 0, 0, 0, 1, 0, 0
+982, Young-Koo Lee, 0, 0, 0, 1, 0, 0
+983, Won-Young Kim, 0, 0, 0, 1, 0, 0
+980, Qi Wang, 0, 0, 0, 1, 0, 0
+981, Krishnamoorthy Sivakumar, 0, 0, 0, 2, 0, 0
+971, Nathan S. Netanyahu, 0, 0, 0, 2, 0, 0
+970, Reuven Kashi, 0, 0, 0, 2, 0, 0
+969, Amihood Amir, 0, 0, 0, 2, 1, 0
+968, Ronald Miller, 0, 0, 0, 1, 0, 0
+975, Juan D. Velásquez, 0, 0, 0, 1, 0, 0
+974, Kotagiri Ramamohanarao, 0, 0, 0, 1, 0, 0
+973, Thomas Manoukian, 0, 0, 0, 1, 0, 0
+972, James Bailey, 0, 0, 0, 1, 0, 0
+963, Chun-Nan Hsu, 0, 0, 0, 1, 0, 0
+962, Catherine Graham, 0, 0, 0, 1, 0, 0
+961, Maggi Kelly, 0, 0, 0, 1, 0, 0
+960, Qinghua Guo, 0, 0, 0, 1, 0, 0
+967, George Bebis, 0, 0, 0, 1, 0, 0
+966, Zehang Sun, 0, 0, 0, 1, 0, 0
+965, Han-Shen Huang, 0, 0, 0, 1, 0, 0
+964, Hao-Hsiang Chung, 0, 0, 0, 1, 0, 0
+1100, Ran Wolff, 0, 0, 0, 2, 0, 0
+1101, Dan Trock, 0, 0, 0, 1, 0, 0
+1102, Dmitry Pavlov, 0, 1, 0, 3, 0, 0
+1103, Jun Huan, 0, 0, 0, 1, 0, 0
+1096, Philip K. Chan, 0, 0, 0, 1, 0, 0
+1097, Jeremy Kubica, 0, 1, 0, 2, 0, 0
+1098, Jeff G. Schneider, 0, 2, 0, 1, 0, 0
+1099, Assaf Schuster, 0, 0, 0, 2, 0, 0
+1092, Steve Selvaggio, 0, 0, 0, 1, 0, 0
+1093, Michael White, 0, 0, 0, 1, 0, 0
+1094, Zach Zakharian, 0, 0, 0, 1, 0, 0
+1095, Matthew V. Mahoney, 0, 0, 0, 1, 0, 0
+1088, Bo Han, 0, 0, 0, 1, 0, 0
+1089, Hongbo Xie, 0, 0, 0, 2, 0, 0
+1090, Zoran Obradovic, 0, 0, 0, 2, 0, 0
+1091, Jutta Kreyß, 0, 0, 0, 1, 0, 0
+1117, Lucian Iulian Fira, 0, 0, 0, 1, 0, 0
+1116, Horia-Nicolai L. Teodorescu, 0, 0, 0, 1, 0, 0
+1119, Ling Liu, 0, 0, 0, 1, 0, 0
+1118, Keke Chen, 0, 0, 0, 1, 0, 0
+1113, Tetsuya Nasukawa, 0, 0, 0, 1, 0, 0
+1112, Jeonghee Yi, 0, 0, 0, 1, 0, 0
+1115, Wayne Niblack, 0, 0, 0, 1, 0, 0
+1114, Razvan C. Bunescu, 0, 0, 0, 1, 0, 0
+1109, Kun-Ta Chuang, 0, 0, 0, 1, 0, 0
+1108, Ching-Huang Yun, 0, 0, 0, 1, 0, 0
+1111, C. Lee Giles, 0, 1, 3, 1, 0, 0
+1110, Eren Manavoglu, 0, 0, 1, 1, 0, 0
+1105, Mukund Deshpande, 0, 0, 0, 1, 0, 0
+1104, Jan Prins, 0, 0, 0, 1, 0, 0
+1107, George Karypis, 0, 0, 0, 1, 0, 0
+1106, Michihiro Kuramochi, 0, 0, 0, 1, 0, 0
+1134, Man Lung Yiu, 0, 0, 0, 1, 0, 0
+1135, Robert Gwadera, 0, 0, 0, 1, 0, 0
+1132, Y. V. R. Reddy, 0, 0, 0, 1, 0, 0
+1133, Garimella Rama Murthy, 0, 0, 0, 1, 0, 0
+1130, G. V. Ranga Rao, 0, 0, 0, 1, 0, 0
+1131, C. L. L. Gowda, 0, 0, 0, 1, 0, 0
+1128, B. V. L. Narayana, 0, 0, 0, 1, 0, 0
+1129, P. Krishna Reddy, 0, 0, 0, 1, 0, 0
+1126, Xifeng Yan, 0, 0, 0, 3, 0, 0
+1127, Rajat Gupta, 0, 0, 0, 1, 0, 0
+1124, Huiqing Liu, 0, 0, 0, 1, 0, 0
+1125, Petre Tzvetkov, 0, 0, 0, 1, 0, 0
+1122, Vasant Honavar, 0, 1, 0, 1, 0, 0
+1123, Jinyan Li, 1, 0, 0, 1, 0, 0
+1120, Doina Caragea, 0, 0, 0, 1, 0, 0
+1121, Dianne Cook, 0, 0, 0, 1, 0, 0
+1151, Paul H. Leng, 0, 0, 0, 1, 0, 0
+1150, Frans Coenen, 0, 0, 0, 1, 0, 0
+1149, Marcus A. Maloof, 0, 0, 0, 1, 0, 0
+1148, Jeremy Z. Kolter, 0, 0, 0, 1, 0, 0
+1147, Ching-Han Lin, 0, 0, 0, 1, 0, 0
+1146, Chi-Feng Chang, 0, 0, 0, 1, 0, 0
+1145, Hsuan-Yu Chen, 0, 0, 0, 1, 0, 0
+1144, Jyh-Jong Tsay, 0, 0, 0, 1, 0, 0
+1143, Yanchun Zhang, 0, 0, 0, 1, 0, 0
+1142, Jiuyong Li, 0, 0, 0, 1, 0, 0
+1141, Katsuhiko Takabayashi, 0, 1, 0, 2, 0, 0
+1140, Hideto Yokoi, 0, 1, 0, 2, 0, 0
+1139, Takeshi Watanabe, 0, 0, 0, 1, 0, 0
+1138, Einoshin Suzuki, 0, 1, 0, 1, 0, 0
+1137, Wojciech Szpankowski, 0, 0, 0, 1, 0, 0
+1136, Mikhail J. Atallah, 0, 0, 0, 1, 0, 0
+1032, Arkadiusz Wojna, 0, 0, 0, 1, 0, 0
+1033, Yun Chi, 0, 0, 0, 1, 0, 0
+1034, Yirong Yang, 0, 0, 0, 1, 0, 0
+1035, Richard R. Muntz, 0, 0, 0, 1, 0, 0
+1036, Peng Zhang, 0, 0, 0, 1, 0, 0
+1037, Jing Peng, 0, 0, 0, 1, 0, 0
+1038, Cheong Hee Park, 0, 0, 0, 2, 0, 0
+1039, Haesun Park, 0, 0, 0, 2, 0, 0
+1024, John Langford, 0, 1, 0, 1, 1, 0
+1025, Naoki Abe, 0, 0, 0, 1, 0, 0
+1026, Jinze Liu, 0, 0, 0, 1, 0, 0
+1027, Reda Alhajj, 0, 0, 0, 2, 0, 0
+1028, Mehmet Kaya, 0, 0, 0, 2, 0, 0
+1029, Alexander P. Topchy, 0, 0, 0, 1, 0, 0
+1030, Anil K. Jain, 0, 0, 0, 1, 0, 0
+1031, William F. Punch, 0, 0, 0, 1, 0, 0
+1049, Yufeng Kou, 0, 0, 0, 1, 0, 0
+1048, Dechang Chen, 0, 0, 0, 1, 0, 0
+1051, Tobias Scheffer, 0, 0, 0, 1, 0, 0
+1050, Mark-A. Krogel, 0, 0, 0, 1, 0, 0
+1053, Chris H. Q. Ding, 0, 1, 0, 2, 0, 0
+1052, Hanchuan Peng, 0, 0, 0, 1, 0, 0
+1055, Balaji Padmanabhan, 0, 0, 0, 1, 0, 0
+1054, Yinghui Yang, 0, 0, 0, 1, 0, 0
+1041, Julien Blanchard, 0, 0, 0, 1, 0, 0
+1040, Taneli Mielikäinen, 0, 0, 0, 1, 0, 0
+1043, Henri Briand, 0, 0, 0, 1, 0, 0
+1042, Fabrice Guillet, 0, 0, 0, 1, 0, 0
+1045, Jieping Ye, 0, 0, 0, 2, 0, 0
+1044, Qi Li, 0, 0, 1, 1, 0, 0
+1047, Chang-Tien Lu, 0, 0, 0, 1, 0, 0
+1046, Chandra Kambhamettu, 0, 0, 0, 1, 0, 0
+1066, Hanaki Miyoshi, 0, 0, 0, 1, 0, 0
+1067, Srujana Merugu, 0, 0, 0, 1, 0, 0
+1064, Kawamae Noriaki, 0, 0, 0, 1, 0, 0
+1065, Takeya Mukaigaito, 0, 0, 0, 1, 0, 0
+1070, George Ostrouchov, 0, 0, 0, 1, 0, 0
+1071, Gong-Xin Yu, 0, 0, 0, 1, 0, 0
+1068, Joydeep Ghosh, 0, 0, 0, 3, 0, 0
+1069, Byung-Hoon Park, 0, 0, 0, 1, 0, 0
+1058, Ricardo Vilalta, 0, 0, 0, 2, 0, 0
+1059, Murali-Krishna Achari, 0, 0, 0, 1, 0, 0
+1056, Stanley R. M. Oliveira, 0, 0, 0, 1, 0, 0
+1057, Osmar R. Zaïane, 0, 0, 0, 2, 0, 0
+1062, Alexander R. Statnikov, 0, 0, 0, 2, 0, 0
+1063, Ravi Janardan, 0, 0, 0, 1, 0, 0
+1060, Christoph F. Eick, 0, 0, 0, 1, 0, 0
+1061, Lewis J. Frey, 0, 0, 0, 1, 0, 0
+1083, Iftekhar Ahmad, 0, 0, 0, 1, 0, 0
+1082, Ruhul A. Sarker, 0, 0, 0, 1, 0, 0
+1081, Joarder Kamruzzaman, 0, 0, 0, 1, 0, 0
+1080, Diane J. Cook, 0, 0, 0, 2, 0, 0
+1087, Slobodan Vucetic, 0, 0, 0, 2, 0, 0
+1086, Kang Peng, 0, 0, 0, 1, 0, 0
+1085, Stefan Wermter, 0, 0, 0, 1, 0, 0
+1084, Chihli Hung, 0, 0, 0, 1, 0, 0
+1075, Fabien De Marchi, 0, 0, 0, 1, 0, 0
+1074, Nagiza F. Samatova, 0, 0, 0, 1, 0, 0
+1073, Andrey Gorin, 0, 0, 0, 1, 0, 0
+1072, Al Geist, 0, 0, 0, 1, 0, 0
+1079, Edwin O. Heierman III, 0, 0, 0, 1, 0, 0
+1078, Pang-Ning Tan, 0, 0, 0, 2, 0, 0
+1077, Hui Xiong, 0, 0, 0, 2, 0, 0
+1076, Jean-Marc Petit, 0, 0, 0, 1, 0, 0
+1221, Yoo Ah Kim, 1, 0, 0, 0, 1, 0
+1220, Samir Khuller, 1, 0, 0, 0, 0, 0
+1223, Alberto O. Mendelzon, 1, 0, 0, 0, 0, 0
+1222, Yung-Chun (Justin) Wan, 1, 0, 0, 0, 0, 0
+1217, Thomas Schwentick, 2, 0, 0, 0, 0, 0
+1216, Helmut Seidl, 1, 0, 0, 0, 0, 0
+1219, Jens Lechtenbörger, 1, 0, 0, 0, 0, 0
+1218, Anca Muscholl, 1, 0, 0, 0, 0, 0
+1229, Dakshi Agrawal, 1, 0, 0, 0, 0, 0
+1228, Amit Kumar 0001, 1, 0, 0, 0, 2, 0
+1231, Martin Strauss, 1, 0, 0, 0, 2, 0
+1230, Edith Cohen, 1, 0, 0, 0, 2, 0
+1225, Rada Chirkova, 1, 0, 0, 0, 0, 0
+1224, Ken Q. Pu, 1, 0, 0, 0, 0, 0
+1227, Minos N. Garofalakis, 1, 0, 0, 0, 0, 0
+1226, Chen Li 0001, 1, 0, 0, 0, 0, 0
+1236, Ashish Kumar Gupta, 1, 0, 0, 0, 0, 0
+1237, Ganesh Ramesh, 1, 0, 0, 0, 0, 0
+1238, William Maniatty, 1, 0, 0, 0, 0, 0
+1239, Mohammed Javeed Zaki, 1, 0, 0, 4, 0, 0
+1232, Jens-Peter Dittrich, 1, 0, 0, 0, 0, 0
+1233, Bernhard Seeger, 1, 0, 0, 0, 0, 0
+1234, David Scot Taylor, 1, 0, 0, 0, 0, 0
+1235, Peter Widmayer, 1, 0, 0, 0, 0, 0
+1244, Walker M. White, 1, 0, 0, 0, 0, 0
+1245, Ronald Fagin, 2, 0, 0, 0, 1, 0
+1246, Phokion G. Kolaitis, 2, 2, 0, 0, 0, 0
+1247, Diego Calvanese, 2, 0, 0, 0, 0, 0
+1240, Alexandre V. Evfimievski, 1, 0, 0, 0, 0, 0
+1241, Johannes Gehrke, 2, 0, 0, 0, 1, 0
+1242, Daniel Kifer, 1, 0, 0, 0, 0, 0
+1243, Cristian Bucila, 1, 0, 0, 0, 0, 0
+1255, Vassilis Christophides, 1, 0, 0, 0, 0, 0
+1254, Michael Benedikt, 2, 0, 0, 0, 0, 0
+1253, Riccardo Rosati, 1, 1, 0, 0, 0, 0
+1252, Domenico Lembo, 1, 1, 0, 0, 0, 0
+1251, Andrea Calì, 1, 1, 0, 0, 0, 0
+1250, Moshe Y. Vardi, 2, 1, 0, 0, 0, 0
+1249, Maurizio Lenzerini, 1, 0, 0, 0, 0, 0
+1248, Giuseppe De Giacomo, 2, 0, 0, 0, 0, 0
+1263, Gábor Tardos, 0, 0, 0, 0, 2, 0
+1262, Micha Sharir, 0, 0, 0, 0, 2, 0
+1261, János Pach, 0, 0, 0, 0, 1, 0
+1260, Boris Aronov, 0, 0, 0, 0, 2, 0
+1259, Alex Thomo, 2, 0, 0, 0, 0, 0
+1258, Gösta Grahne, 2, 0, 0, 0, 0, 0
+1257, Leonid Libkin, 1, 0, 0, 0, 0, 0
+1256, Jianwen Su, 1, 0, 0, 0, 0, 0
+1270, Andrew M. Childs, 0, 0, 0, 0, 1, 0
+1271, Richard Cleve, 0, 0, 0, 0, 1, 0
+1268, Salil P. Vadhan, 0, 0, 0, 0, 3, 0
+1269, Avi Wigderson, 0, 0, 0, 0, 2, 0
+1266, Chi-Jen Lu, 0, 0, 0, 0, 1, 0
+1267, Omer Reingold, 0, 0, 0, 0, 1, 0
+1264, Robert Rettinger, 0, 0, 0, 0, 1, 0
+1265, Klaus Weihrauch, 0, 0, 0, 0, 1, 0
+1278, Lukasz Kowalik, 0, 0, 0, 0, 1, 0
+1279, Maciej Kurowski, 0, 0, 0, 0, 1, 0
+1276, Moses Charikar, 0, 0, 0, 0, 3, 0
+1277, Rina Panigrahy, 0, 0, 0, 0, 1, 0
+1274, Sam Gutmann, 0, 0, 0, 0, 1, 0
+1275, Daniel A. Spielman, 0, 0, 0, 0, 2, 0
+1272, Enrico Deotto, 0, 0, 0, 0, 1, 0
+1273, Edward Farhi, 0, 0, 0, 0, 1, 0
+1153, Pasi Fränti, 0, 0, 0, 1, 0, 0
+1152, Shakil Ahmed, 0, 0, 0, 1, 0, 0
+1155, Ville Hautamäki, 0, 0, 0, 1, 0, 0
+1154, Olli Virmajoki, 0, 0, 0, 1, 0, 0
+1157, Shuo Feng, 0, 0, 0, 1, 0, 0
+1156, Mingkun Li, 0, 0, 0, 1, 0, 0
+1159, Jason Luciow, 0, 0, 0, 1, 0, 0
+1158, Ishwar K. Sethi, 0, 0, 0, 1, 0, 0
+1161, Jie Yin, 0, 0, 0, 1, 0, 0
+1160, Keith Wagner, 0, 0, 0, 1, 0, 0
+1163, Tielin Chen, 0, 0, 0, 1, 0, 0
+1162, Charles X. Ling, 0, 2, 0, 2, 0, 0
+1165, Rajagopal Venugopal, 0, 0, 0, 1, 0, 0
+1164, Longin Jan Latecki, 0, 0, 0, 1, 0, 0
+1167, Steve Horvat, 0, 0, 0, 1, 0, 0
+1166, Marc Sobel, 0, 0, 0, 1, 0, 0
+1168, Tomoyuki Shibata, 0, 0, 0, 1, 0, 0
+1169, Takekazu Kato, 0, 0, 0, 1, 0, 0
+1170, Toshikazu Wada, 0, 0, 0, 1, 0, 0
+1171, Francesco Bonchi, 0, 0, 0, 1, 0, 0
+1172, Fosca Giannotti, 0, 0, 0, 1, 0, 0
+1173, Alessio Mazzanti, 0, 0, 0, 1, 0, 0
+1174, Dino Pedreschi, 0, 0, 0, 1, 0, 0
+1175, Ping Chen, 0, 0, 0, 1, 0, 0
+1176, Chenyi Hu, 0, 0, 0, 1, 0, 0
+1177, Wei Ding 0003, 0, 0, 0, 1, 0, 0
+1178, Heloise Lynn, 0, 0, 0, 1, 0, 0
+1179, Yves Simon, 0, 0, 0, 1, 0, 0
+1180, Andreas Hotho, 0, 0, 0, 1, 0, 0
+1181, Steffen Staab, 0, 1, 0, 1, 0, 0
+1182, Gerd Stumme, 0, 0, 0, 1, 0, 0
+1183, Lawrence O. Hall, 0, 0, 0, 1, 0, 0
+1187, W. Philip Kegelmeyer, 0, 0, 0, 1, 0, 0
+1186, Divya Bhadoria, 0, 0, 0, 1, 0, 0
+1185, Robert E. Banfield, 0, 0, 0, 1, 0, 0
+1184, Kevin W. Bowyer, 0, 0, 0, 1, 0, 0
+1191, Daniel Wessling, 0, 0, 0, 1, 0, 0
+1190, Jörg Ontrup, 0, 0, 0, 1, 0, 0
+1189, Jörg A. Walter, 0, 0, 0, 1, 0, 0
+1188, Steven Eschrich, 0, 0, 0, 1, 0, 0
+1195, Zheng Chen, 0, 1, 3, 1, 0, 0
+1194, Xuanhui Wang, 0, 0, 0, 1, 0, 0
+1193, Hua-Jun Zeng, 0, 0, 2, 1, 0, 0
+1192, Helge J. Ritter, 0, 0, 0, 1, 0, 0
+1199, Frank Dellmann, 0, 0, 0, 1, 0, 0
+1198, Jingjing Lu, 0, 0, 0, 1, 0, 0
+1197, Jin Huang, 0, 1, 0, 1, 0, 0
+1196, Wei-Ying Ma, 0, 2, 3, 1, 0, 0
+1202, Joseph Elble, 0, 0, 0, 1, 0, 0
+1203, Cinda Heeren, 1, 0, 0, 1, 0, 0
+1200, Holger Wulff, 0, 0, 0, 1, 0, 0
+1201, Stefan Schmitz, 0, 0, 0, 1, 0, 0
+1206, Paolo Avesani, 0, 0, 0, 1, 0, 0
+1207, Brian Babcock, 1, 0, 0, 0, 0, 0
+1204, Leonard Pitt, 1, 0, 0, 1, 0, 0
+1205, Sriharsha Veeramachaneni, 0, 0, 0, 1, 0, 0
+1210, Liadan O'Callaghan, 1, 0, 0, 0, 1, 0
+1211, Andreas Behrend, 1, 0, 0, 0, 0, 0
+1208, Mayur Datar, 1, 0, 0, 0, 0, 0
+1209, Rajeev Motwani, 1, 1, 0, 0, 1, 0
+1214, Luc Segoufin, 1, 0, 0, 0, 0, 0
+1215, David Gross-Amblard, 1, 0, 0, 0, 0, 0
+1212, Irit Dinur, 1, 0, 0, 0, 1, 0
+1213, Kobbi Nissim, 1, 0, 0, 0, 0, 0
+1375, Yehuda Lindell, 0, 0, 0, 0, 3, 0
+1374, Eric Ruppert, 0, 0, 0, 0, 1, 0
+1373, Faith Ellen Fich, 0, 0, 0, 0, 1, 0
+1372, Panagiota Fatourou, 0, 0, 0, 0, 1, 0
+1371, Martin Sauerhoff, 0, 0, 0, 0, 1, 0
+1370, Rahul Sami, 0, 0, 0, 0, 1, 0
+1369, Ronitt Rubinfeld, 0, 0, 0, 0, 2, 0
+1368, Avner Magen, 0, 0, 0, 0, 4, 0
+1367, Joe Kilian, 0, 0, 0, 0, 2, 0
+1366, Funda Ergün, 0, 0, 0, 0, 2, 0
+1365, Tugkan Batu, 0, 0, 0, 0, 1, 0
+1364, Amnon Ta-Shma, 0, 0, 0, 0, 1, 0
+1363, Dorit Aharonov, 0, 0, 0, 0, 2, 0
+1362, Kunal Talwar, 0, 0, 0, 0, 4, 0
+1361, Jittat Fakcharoenphol, 0, 0, 0, 0, 3, 0
+1360, Howard J. Karloff, 0, 0, 0, 0, 2, 0
+1358, Jens Groth, 0, 0, 0, 0, 1, 0
+1359, Anna C. Gilbert, 0, 0, 0, 0, 2, 0
+1356, Ziv Bar-Yossef, 0, 0, 0, 0, 1, 0
+1357, Ivan Damgård, 0, 0, 0, 0, 1, 0
+1354, Yevgeniy Dodis, 0, 0, 0, 0, 1, 0
+1355, Thomas P. Hayes, 0, 0, 0, 0, 2, 0
+1352, Valentine Kabanets, 0, 0, 0, 0, 1, 0
+1353, Russell Impagliazzo, 0, 0, 0, 0, 2, 0
+1350, Miklós Ajtai, 0, 0, 0, 0, 1, 0
+1351, Hartmut Klauck, 0, 0, 0, 0, 1, 0
+1348, Robert D. Kleinberg, 0, 0, 0, 0, 2, 0
+1349, Frank Thomson Leighton, 0, 0, 0, 0, 2, 0
+1346, Anna Gál, 0, 0, 0, 0, 1, 0
+1347, Adi Rosén, 0, 0, 0, 0, 2, 0
+1344, Satish Rao, 0, 0, 0, 0, 5, 0
+1345, Ben Morris, 0, 0, 0, 0, 1, 0
+1405, Matthias John, 0, 0, 0, 0, 2, 0
+1404, Joachim Giesen, 0, 0, 0, 0, 2, 0
+1407, Gábor Ivanyos, 0, 0, 0, 0, 1, 0
+1406, Katalin Friedl, 0, 0, 0, 0, 1, 0
+1401, Jochen Könemann, 0, 0, 0, 0, 2, 0
+1400, Ronald de Wolf, 0, 0, 0, 0, 1, 0
+1403, Tamal K. Dey, 0, 0, 0, 0, 1, 0
+1402, R. Ravi 0001, 0, 0, 0, 0, 1, 0
+1397, Joseph S. B. Mitchell, 0, 0, 0, 0, 1, 0
+1396, Anna Lubiw, 0, 0, 0, 0, 1, 0
+1399, Iordanis Kerenidis, 0, 0, 0, 0, 1, 0
+1398, Martin E. Dyer, 0, 0, 0, 0, 2, 0
+1393, Li Zhang 0001, 0, 0, 0, 0, 3, 0
+1392, Jie Gao, 0, 0, 0, 0, 1, 0
+1395, Alon Efrat, 0, 0, 0, 0, 2, 0
+1394, Moshe Dror, 0, 0, 0, 0, 1, 0
+1388, Alexander A. Shvartsman, 0, 0, 0, 0, 1, 0
+1389, Adam L. Buchsbaum, 0, 0, 0, 0, 1, 0
+1390, Nick Reingold, 0, 0, 0, 0, 1, 0
+1391, Nikhil Bansal, 0, 0, 0, 0, 2, 0
+1384, Assaf Naor, 0, 0, 0, 0, 2, 0
+1385, Joel Friedman, 0, 0, 0, 0, 1, 0
+1386, Chryssis Georgiou, 0, 0, 0, 0, 1, 0
+1387, Alexander Russell, 0, 0, 0, 0, 2, 0
+1380, Vijay V. Vazirani, 0, 0, 0, 0, 1, 0
+1381, Yair Bartal, 0, 0, 0, 0, 2, 0
+1382, Nathan Linial, 0, 0, 0, 0, 1, 0
+1383, Manor Mendel, 0, 0, 0, 0, 2, 0
+1376, James R. Lee, 0, 0, 0, 0, 2, 0
+1377, Micah Adler, 0, 0, 0, 0, 1, 0
+1378, Eran Halperin, 0, 0, 0, 0, 3, 0
+1379, Richard M. Karp, 0, 0, 0, 0, 1, 0
+1307, C. Greg Plaxton, 0, 0, 0, 0, 1, 0
+1306, Tom Wexler, 0, 0, 0, 0, 1, 0
+1305, Éva Tardos, 0, 0, 0, 1, 3, 0
+1304, Anirban Dasgupta 0001, 0, 0, 0, 0, 1, 0
+1311, Yossi Richter, 0, 0, 0, 0, 1, 0
+1310, Yossi Azar, 0, 0, 0, 0, 4, 0
+1309, Rasmus Pagh, 0, 0, 0, 0, 1, 0
+1308, Anna Östlin, 0, 0, 0, 0, 1, 0
+1299, Ravi Kumar, 0, 0, 0, 0, 4, 0
+1298, Subhash Khot, 0, 0, 0, 0, 3, 0
+1297, T. S. Jayram, 0, 0, 0, 0, 2, 0
+1296, Yuval Rabani, 0, 0, 0, 0, 2, 0
+1303, Elliot Anshelevich, 0, 0, 0, 0, 1, 0
+1302, Jun Tarui, 0, 0, 0, 0, 1, 0
+1301, Yoshinori Takei, 0, 0, 0, 0, 1, 0
+1300, Toshiya Itoh, 0, 0, 0, 0, 1, 0
+1290, Ryan O'Donnell, 0, 0, 0, 0, 3, 0
+1291, Rocco A. Servedio, 0, 0, 0, 0, 7, 0
+1288, Yael Gertner, 0, 0, 0, 0, 1, 0
+1289, Jonathan Katz, 0, 0, 0, 0, 1, 0
+1294, Marek Karpinski, 0, 0, 0, 0, 1, 0
+1295, Claire Kenyon, 0, 0, 0, 0, 2, 0
+1292, Oded Regev, 0, 0, 0, 0, 3, 0
+1293, Wenceslas Fernandez de la Vega, 0, 0, 0, 0, 1, 0
+1282, Sofya Raskhodnikova, 0, 0, 0, 0, 3, 0
+1283, Andrew Chi-Chih Ya, 0, 0, 0, 0, 1, 0
+1280, Eli Ben-Sasson, 0, 0, 0, 0, 3, 0
+1281, Prahladh Harsha, 0, 0, 0, 0, 1, 0
+1286, Robert Endre Tarjan, 0, 0, 0, 0, 1, 0
+1287, Rosario Gennaro, 0, 0, 0, 0, 1, 0
+1284, Haim Kaplan, 0, 0, 0, 0, 4, 0
+1285, Eyal Molad, 0, 0, 0, 0, 1, 0
+1337, Anupam Gupta, 0, 0, 0, 0, 7, 0
+1336, Mikkel Thorup, 0, 0, 0, 0, 5, 0
+1339, Jiangzhuo Chen, 0, 0, 0, 0, 1, 0
+1338, Tim Roughgarden, 0, 0, 0, 0, 3, 0
+1341, Ravi Sundaram, 0, 0, 0, 0, 1, 0
+1340, Rajmohan Rajaraman, 0, 0, 0, 0, 1, 0
+1343, Robert Krauthgamer, 0, 0, 0, 0, 6, 0
+1342, Eyal Amir, 0, 3, 0, 0, 1, 0
+1329, Niv Buchbinder, 0, 0, 0, 0, 1, 0
+1328, Baruch Awerbuch, 0, 0, 0, 0, 2, 0
+1331, Adam Meyerson, 0, 0, 0, 0, 2, 0
+1330, Joseph Naor, 0, 0, 0, 0, 1, 0
+1333, Martin Dietzfelbinger, 0, 0, 0, 0, 1, 0
+1332, Adam Kalai, 0, 0, 0, 0, 2, 0
+1335, Leonid Gurvits, 0, 0, 0, 0, 1, 0
+1334, Philipp Woelfel, 0, 0, 0, 0, 2, 0
+1320, Piotr Indyk, 0, 0, 0, 0, 5, 0
+1321, Don Coppersmith, 0, 0, 0, 0, 3, 0
+1322, Amos Fiat, 0, 0, 0, 0, 2, 0
+1323, Harald Räcke, 0, 0, 0, 0, 1, 0
+1324, René Beier, 0, 0, 0, 0, 1, 0
+1325, Berthold Vöcking, 0, 0, 0, 0, 1, 0
+1326, Dimitris Achlioptas, 0, 0, 0, 0, 2, 0
+1327, Yuval Peres, 0, 0, 0, 0, 3, 0
+1312, Madhu Sudan, 0, 0, 0, 0, 2, 0
+1313, D. Sivakumar, 0, 0, 0, 0, 2, 0
+1314, Noga Alon, 0, 0, 0, 0, 3, 0
+1315, Asaf Shapira, 0, 0, 0, 0, 1, 0
+1316, Richard Cole 0001, 0, 0, 0, 0, 3, 0
+1317, Ramesh Hariharan, 0, 0, 0, 0, 2, 0
+1318, Elchanan Mossel, 0, 0, 0, 0, 3, 0
+1319, Venkatesan Guruswami, 0, 0, 0, 0, 5, 0
+1494, Subhash Suri, 0, 0, 0, 0, 1, 0
+1495, Chris Peikert, 0, 0, 0, 0, 1, 0
+1492, Igor Shparlinski, 0, 0, 0, 0, 1, 0
+1493, John Hershberger, 0, 0, 0, 0, 1, 0
+1490, Dina Sokol, 0, 0, 0, 0, 1, 0
+1491, Michael Elkin, 0, 0, 0, 0, 2, 0
+1488, Jay Sethuraman, 0, 0, 0, 0, 1, 0
+1489, Gad M. Landau, 0, 0, 0, 0, 1, 0
+1502, Pierre Fraigniaud, 0, 0, 0, 0, 1, 0
+1503, Lata Narayanan, 0, 0, 0, 0, 1, 0
+1500, Eyal Kushilevitz, 0, 0, 0, 0, 1, 0
+1501, Lali Barrière, 0, 0, 0, 0, 1, 0
+1498, William Aiello, 0, 0, 0, 0, 1, 0
+1499, Rafail Ostrovsky, 0, 0, 0, 0, 1, 0
+1496, Abhi Shelat, 0, 0, 0, 0, 1, 0
+1497, Adam Smith, 0, 0, 0, 0, 1, 0
+1479, Andrew V. Goldberg, 0, 0, 0, 0, 1, 0
+1478, Abraham Flaxman, 0, 0, 0, 0, 1, 0
+1477, Yijie Han, 0, 0, 0, 0, 1, 0
+1476, Xingxing Yu, 0, 0, 0, 0, 1, 0
+1475, Orlando Lee, 0, 0, 0, 0, 1, 0
+1474, Sean Curran, 0, 0, 0, 0, 1, 0
+1473, Tami Tamir, 0, 0, 0, 0, 1, 0
+1472, Richard E. Ladner, 0, 0, 0, 0, 1, 0
+1487, Oliver Riordan, 0, 0, 0, 0, 1, 0
+1486, Jennifer T. Chayes, 0, 0, 0, 0, 1, 0
+1485, Christian Borgs, 0, 0, 0, 0, 1, 0
+1484, Béla Bollobás, 0, 0, 0, 0, 2, 0
+1483, Liam Roditty, 0, 0, 0, 0, 1, 0
+1482, Chris Harrelson, 0, 0, 0, 0, 2, 0
+1481, Sampath Kannan, 0, 0, 0, 0, 1, 0
+1480, Jason D. Hartline, 0, 0, 0, 0, 1, 0
+1524, Boris Pittel, 0, 0, 0, 0, 1, 0
+1525, Siu-Wing Cheng, 0, 0, 0, 0, 1, 0
+1526, Sheung-Hung Poon, 0, 0, 0, 0, 1, 0
+1527, Ming Li 0001, 0, 0, 0, 0, 1, 0
+1520, David P. Williamson, 0, 0, 0, 0, 1, 0
+1521, Peter Winkler, 0, 0, 0, 0, 1, 0
+1522, Lisa Zhang, 0, 0, 0, 0, 1, 0
+1523, Alan M. Frieze, 0, 0, 0, 0, 2, 0
+1532, Gianni Franceschini, 0, 0, 0, 0, 2, 0
+1533, Raffaella Gentilini, 0, 0, 0, 0, 1, 0
+1534, Carla Piazza, 0, 0, 0, 0, 1, 0
+1535, Alberto Policriti, 0, 0, 0, 0, 1, 0
+1528, Xin Chen, 0, 0, 0, 0, 1, 0
+1529, Xin Li, 0, 1, 0, 0, 1, 0
+1530, Bin Ma, 0, 0, 0, 0, 1, 0
+1531, Paul M. B. Vitányi, 0, 0, 0, 0, 1, 0
+1509, Valerie King, 0, 0, 0, 0, 1, 0
+1508, Ankur Gupta, 0, 0, 0, 0, 1, 0
+1511, Harry Buhrman, 0, 0, 0, 0, 1, 0
+1510, Yunhong Zhou, 0, 0, 0, 0, 1, 0
+1505, Menelaos I. Karavelas, 0, 0, 0, 0, 2, 0
+1504, Jaroslav Opatrny, 0, 0, 0, 0, 1, 0
+1507, Roberto Grossi, 0, 0, 0, 0, 2, 0
+1506, Ioannis Z. Emiris, 0, 0, 0, 0, 1, 0
+1517, Olivier Devillers, 0, 0, 0, 0, 1, 0
+1516, Christian Sohler, 0, 0, 0, 0, 1, 0
+1519, Aaron Archer, 0, 0, 0, 0, 2, 0
+1518, Monique Teillaud, 0, 0, 0, 0, 1, 0
+1513, Ilan Newman, 0, 0, 0, 0, 3, 0
+1512, Lance Fortnow, 0, 0, 0, 0, 2, 0
+1515, Artur Czumaj, 0, 0, 0, 0, 2, 0
+1514, Hein Röhrig, 0, 0, 0, 0, 1, 0
+1426, Benjamin Doerr, 0, 0, 0, 0, 1, 0
+1427, Lisa Fleischer, 0, 0, 0, 0, 2, 0
+1424, Adrian Dumitrescu, 0, 0, 0, 0, 1, 0
+1425, David Eppstein, 0, 0, 0, 0, 2, 0
+1430, Philip Bille, 0, 0, 0, 0, 1, 0
+1431, Theis Rauhe, 0, 0, 0, 0, 1, 0
+1428, Martin Skutella, 0, 0, 0, 0, 1, 0
+1429, Stephen Alstrup, 0, 0, 0, 0, 1, 0
+1434, Ashish Goel, 0, 0, 0, 0, 2, 0
+1435, Deborah Estrin, 0, 0, 0, 0, 1, 0
+1432, James D. Fix, 0, 0, 0, 0, 1, 0
+1433, Ori Sasson, 0, 0, 0, 0, 1, 0
+1438, Stefan Funke, 0, 0, 0, 0, 2, 0
+1439, Naveen Garg, 0, 0, 0, 0, 1, 0
+1436, Michael R. Capalbo, 0, 0, 0, 0, 1, 0
+1437, Friedrich Eisenbrand, 0, 0, 0, 0, 1, 0
+1411, Sergey Bobkov, 0, 0, 0, 0, 1, 0
+1410, Pranab Sen, 0, 0, 0, 0, 2, 0
+1409, Miklos Santha, 0, 0, 0, 0, 1, 0
+1408, Frédéric Magniez, 0, 0, 0, 0, 1, 0
+1415, Vladlen Koltun, 0, 0, 0, 0, 1, 0
+1414, Giuseppe F. Italiano, 0, 0, 0, 0, 1, 0
+1413, Camil Demetrescu, 0, 0, 0, 0, 1, 0
+1412, Prasad Tetali, 0, 0, 0, 0, 1, 0
+1419, Ding Liu, 0, 0, 0, 0, 1, 0
+1418, Bernard Chazelle, 0, 0, 0, 0, 1, 0
+1417, Van H. Vu, 0, 0, 0, 0, 2, 0
+1416, Jeong Han Kim, 0, 0, 0, 0, 1, 0
+1423, George S. Lueker, 0, 0, 0, 0, 1, 0
+1422, Yuri Rabinovich, 0, 0, 0, 0, 2, 0
+1421, Rolf Fagerberg, 0, 0, 0, 0, 3, 0
+1420, Gerth Stølting Brodal, 0, 0, 0, 0, 3, 0
+1456, Michel Deza, 0, 0, 0, 0, 1, 0
+1457, Moshe Lewenstein, 0, 0, 0, 0, 3, 0
+1458, Helmut Alt, 0, 0, 0, 0, 1, 0
+1459, Günter Rote, 0, 0, 0, 0, 2, 0
+1460, Carola Wenk, 0, 0, 0, 0, 1, 0
+1461, Guy Kortsarz, 0, 0, 0, 0, 2, 0
+1462, Nan Wang, 0, 0, 0, 0, 1, 0
+1463, Francis Zane, 0, 0, 0, 0, 1, 0
+1464, Bettina Speckmann, 0, 0, 0, 0, 1, 0
+1465, Csaba D. Tóth, 0, 0, 0, 0, 1, 0
+1466, Chandra Chekuri, 0, 0, 0, 0, 2, 0
+1467, Sanjeev Khanna, 0, 0, 0, 0, 2, 0
+1468, Raja Jothi, 0, 0, 0, 0, 1, 0
+1469, Balaji Raghavachari, 0, 0, 0, 0, 1, 0
+1470, Subramanian Varadarajan, 0, 0, 0, 0, 1, 0
+1471, Amotz Bar-Noy, 0, 0, 0, 0, 1, 0
+1441, Michael T. Goodrich, 0, 0, 0, 0, 1, 0
+1440, Gill Barequet, 0, 0, 0, 0, 1, 0
+1443, Dvir Steiner, 0, 0, 0, 0, 1, 0
+1442, Aya Levi-Steiner, 0, 0, 0, 0, 1, 0
+1445, Kenneth L. Clarkson, 0, 0, 0, 0, 1, 0
+1444, Mihai Badoiu, 0, 0, 0, 0, 2, 0
+1447, Alessandro Mei, 0, 0, 0, 0, 1, 0
+1446, Devdatt P. Dubhashi, 0, 0, 0, 0, 1, 0
+1449, Jaikumar Radhakrishnan, 0, 0, 0, 0, 2, 0
+1448, Alessandro Panconesi, 0, 0, 0, 0, 1, 0
+1451, Dieter Kratsch, 0, 0, 0, 0, 2, 0
+1450, Aravind Srinivasan, 0, 0, 0, 0, 2, 0
+1453, James Aspnes, 0, 0, 0, 0, 1, 0
+1452, Jeremy P. Spinrad, 0, 0, 0, 0, 2, 0
+1455, Alexandr Andoni, 0, 0, 0, 0, 1, 0
+1454, Gauri Shah, 0, 0, 0, 0, 1, 0
+1642, Luca Becchetti, 0, 0, 0, 0, 1, 0
+1643, Stefano Leonardi, 0, 0, 0, 0, 1, 0
+1640, Shannon Dalmao, 0, 1, 0, 0, 1, 0
+1641, Toniann Pitassi, 0, 1, 0, 0, 2, 0
+1646, Tjark Vredeveld, 0, 0, 0, 0, 1, 0
+1647, Wing-Kai Hon, 0, 0, 0, 0, 1, 0
+1644, Alberto Marchetti-Spaccamela, 0, 0, 0, 0, 1, 0
+1645, Guido Schäfer, 0, 0, 0, 0, 1, 0
+1634, Henry Cohn, 0, 0, 0, 0, 1, 0
+1635, Christopher Umans, 0, 0, 0, 0, 1, 0
+1632, Shafi Goldwasser, 0, 0, 0, 0, 3, 0
+1633, Shmuel Safra, 0, 0, 0, 0, 1, 0
+1638, Yael Tauman Kalai, 0, 0, 0, 0, 1, 0
+1639, Fahiem Bacchus, 0, 2, 0, 0, 1, 0
+1636, Oded Goldreich, 0, 0, 0, 0, 1, 0
+1637, Asaf Nussboim, 0, 0, 0, 0, 1, 0
+1659, Nicola Galesi, 0, 0, 0, 0, 1, 0
+1658, Josh Buresh-Oppenheim, 0, 0, 0, 0, 1, 0
+1657, Víctor Dalmau, 0, 0, 0, 0, 1, 0
+1656, Andrei A. Bulatov, 0, 1, 0, 0, 1, 0
+1663, Andris Ambainis, 0, 0, 0, 0, 2, 0
+1662, Scott Aaronson, 0, 0, 0, 0, 1, 0
+1661, Michael Molloy, 0, 0, 0, 0, 1, 0
+1660, Shlomo Hoory, 0, 0, 0, 0, 1, 0
+1651, Rafael Pass, 0, 0, 0, 0, 1, 0
+1650, David P. Woodruff, 0, 0, 0, 0, 1, 0
+1649, Wing-Kin Sung, 0, 0, 0, 0, 1, 0
+1648, Kunihiko Sadakane, 0, 0, 0, 0, 1, 0
+1655, Eli Upfal, 0, 0, 0, 0, 2, 0
+1654, Adam Kirsch, 0, 0, 0, 0, 1, 0
+1653, Aris Anagnostopoulos, 0, 1, 0, 0, 1, 0
+1652, Alon Rosen, 0, 0, 0, 0, 1, 0
+1608, Helge Bals, 0, 0, 0, 0, 1, 0
+1609, Uli Wagner, 0, 0, 0, 0, 1, 0
+1610, Kedar Dhamdhere, 0, 0, 0, 0, 1, 0
+1611, Hung Q. Ngo, 0, 0, 0, 0, 1, 0
+1612, Martin Pál, 0, 0, 0, 0, 2, 0
+1613, Bruce M. Kapron, 0, 0, 0, 0, 1, 0
+1614, Gérard Cornuéjols, 0, 0, 0, 0, 1, 0
+1615, Xinming Liu, 0, 0, 0, 0, 1, 0
+1600, Leonidas J. Guibas, 0, 0, 0, 0, 1, 1
+1601, An Nguyen, 0, 0, 0, 0, 1, 0
+1602, Sergei Bespamyatnikh, 0, 0, 0, 0, 1, 0
+1603, Christian Worm Mortensen, 0, 0, 0, 0, 1, 0
+1604, Kamal Jain, 0, 0, 0, 0, 1, 0
+1605, Mohammad Mahdian, 0, 0, 0, 0, 1, 0
+1606, Jean-Daniel Boissonnat, 0, 0, 0, 0, 1, 0
+1607, Susanne Albers, 0, 0, 0, 0, 1, 0
+1625, Dana Randall, 0, 0, 0, 0, 1, 0
+1624, Anthony Wirth, 0, 0, 0, 0, 1, 0
+1627, Devavrat Shah, 0, 0, 0, 0, 1, 0
+1626, Gagan Aggarwal, 0, 0, 0, 0, 1, 0
+1629, Parikshit Gopalan, 0, 0, 0, 0, 1, 0
+1628, Nayantara Bhatnagar, 0, 0, 0, 0, 1, 0
+1631, Adi Akavia, 0, 0, 0, 0, 1, 0
+1630, Michael Alekhnovich, 0, 0, 0, 0, 2, 0
+1617, László Lovász, 0, 0, 0, 0, 2, 0
+1616, Kristina Vuskovic, 0, 0, 0, 0, 1, 0
+1619, Kamalika Chaudhuri, 0, 0, 0, 0, 1, 0
+1618, Santosh Vempala, 0, 0, 0, 0, 3, 0
+1621, Amos Beimel, 0, 0, 0, 0, 1, 0
+1620, Brighten Godfrey, 0, 0, 0, 0, 1, 0
+1623, Luca Trevisan, 0, 0, 0, 0, 3, 0
+1622, Enav Weinreb, 0, 0, 0, 0, 1, 0
+1582, Ravi Kannan, 0, 0, 0, 0, 1, 0
+1583, Andreas S. Schulz, 0, 0, 0, 0, 1, 0
+1580, Dennis Weber, 0, 0, 0, 0, 1, 0
+1581, Petros Drineas, 0, 0, 0, 0, 1, 0
+1578, Elmar Schömer, 0, 0, 0, 0, 1, 0
+1579, Ralph Schulte, 0, 0, 0, 0, 1, 0
+1576, Carsten Kwappik, 0, 0, 0, 0, 1, 0
+1577, Michael Seel, 0, 0, 0, 0, 1, 0
+1574, David B. Shmoys, 0, 0, 0, 0, 2, 0
+1575, Marcel Dhiflaoui, 0, 0, 0, 0, 1, 0
+1572, Ian H. Witten, 0, 0, 0, 0, 1, 0
+1573, Chaitanya Swamy, 0, 0, 0, 0, 1, 0
+1570, Ross M. McConnell, 0, 0, 0, 0, 1, 0
+1571, Kurt Mehlhorn, 0, 0, 0, 0, 2, 0
+1568, Lawrence Ip, 0, 0, 0, 0, 1, 0
+1569, Colin Cooper, 0, 0, 0, 0, 1, 0
+1599, Markus Bläser, 0, 0, 0, 0, 1, 0
+1598, Nisheeth K. Vishnoi, 0, 0, 0, 0, 1, 0
+1597, Richard J. Lipton, 0, 0, 0, 0, 2, 0
+1596, Harold N. Gabow, 0, 0, 0, 0, 1, 0
+1595, Gregory B. Sorkin, 0, 0, 0, 0, 1, 0
+1594, Mohammad Taghi Hajiaghayi, 0, 0, 0, 0, 1, 0
+1593, David Gamarnik, 0, 0, 0, 0, 1, 0
+1592, Dimitrios M. Thilikos, 0, 0, 0, 0, 1, 0
+1591, Fedor V. Fomin, 0, 0, 0, 0, 1, 0
+1590, Alistair Sinclair, 0, 0, 0, 0, 2, 0
+1589, Jesper Makholm Byskov, 0, 0, 0, 0, 1, 0
+1588, Rommel G. Regis, 0, 0, 0, 0, 1, 0
+1587, Carla P. Gomes, 0, 2, 0, 0, 1, 0
+1586, Sandeep Sen, 0, 0, 0, 0, 1, 0
+1585, Surender Baswana, 0, 0, 0, 0, 1, 0
+1584, Nicolás E. Stier Moses, 0, 0, 0, 0, 1, 0
+1548, Piotr Berman, 0, 0, 0, 0, 1, 0
+1549, Piotr Krysta, 0, 0, 0, 0, 1, 0
+1550, Avrim Blum, 0, 1, 0, 0, 6, 0
+1551, Atri Rudra, 0, 0, 0, 0, 1, 0
+1544, Haiko Müller, 0, 0, 0, 0, 1, 0
+1545, Leen Stougie, 0, 0, 0, 0, 1, 0
+1546, Persi Diaconis, 0, 0, 0, 0, 1, 0
+1547, Maxim Sviridenko, 0, 0, 0, 0, 2, 0
+1540, Nir Andelman, 0, 0, 0, 0, 1, 0
+1541, Yishay Mansour, 0, 1, 0, 0, 2, 0
+1542, An Zhu, 0, 0, 0, 0, 2, 0
+1543, Mary Cryan, 0, 0, 0, 0, 1, 0
+1536, Christos H. Papadimitriou, 0, 0, 0, 0, 2, 0
+1537, Sandy Irani, 0, 0, 0, 0, 1, 0
+1538, Sandeep K. Shukla, 0, 0, 0, 0, 1, 0
+1539, Rajesh K. Gupta, 0, 0, 0, 0, 1, 0
+1565, Shan Leung Maverick Woo, 0, 0, 0, 0, 1, 0
+1564, Bruce M. Maggs, 0, 0, 0, 0, 1, 0
+1567, Sean Hallgren, 0, 0, 0, 0, 1, 0
+1566, Wim van Dam, 0, 0, 0, 0, 1, 0
+1561, Radek Vingralek, 0, 0, 0, 0, 1, 0
+1560, Enoch Peserico, 0, 0, 0, 0, 1, 0
+1563, William Hesse, 0, 0, 0, 0, 1, 0
+1562, Mohammad R. Salavatipour, 0, 0, 0, 0, 3, 0
+1557, Daniel K. Blandford, 0, 0, 0, 0, 1, 0
+1556, Marshall W. Bern, 0, 0, 0, 0, 1, 0
+1559, Ian A. Kash, 0, 0, 0, 0, 1, 0
+1558, Guy E. Blelloch, 0, 0, 0, 0, 2, 0
+1553, Sriram V. Pemmaraju, 0, 0, 0, 0, 1, 0
+1552, Felix Wu, 0, 0, 0, 0, 1, 0
+1555, Alexandr V. Kostochka, 0, 0, 0, 0, 1, 0
+1554, Kittikorn Nakprasit, 0, 0, 0, 0, 1, 0
+1763, Irina Rish, 0, 1, 0, 1, 0, 0
+1762, Adam J. Oliner, 0, 0, 0, 1, 0, 0
+1761, Ramendra K. Sahoo, 0, 0, 0, 1, 0, 0
+1760, Gleb Tschapek, 0, 0, 0, 1, 0, 0
+1767, Daxin Jiang, 0, 0, 0, 1, 0, 0
+1766, Anand Sivasubramaniam, 0, 0, 0, 1, 0, 0
+1765, José E. Moreira, 0, 0, 0, 1, 0, 0
+1764, Manish Gupta, 0, 0, 0, 1, 0, 0
+1771, Ruoming Jin, 0, 0, 0, 2, 0, 0
+1770, Abraham Kandel, 0, 0, 0, 1, 0, 0
+1769, Menahem Friedman, 0, 0, 0, 1, 0, 0
+1768, Mark Last, 0, 0, 0, 1, 0, 0
+1775, Jianping Zhang, 0, 0, 0, 1, 0, 0
+1774, Philip S. Barry, 0, 0, 0, 1, 0, 0
+1773, Jaideep Vaidya, 0, 0, 0, 1, 0, 0
+1772, Gagan Agrawal, 0, 0, 0, 2, 0, 0
+1778, Ricardo Rocha, 0, 0, 0, 1, 0, 0
+1779, Pedro Medas, 0, 0, 0, 1, 0, 0
+1776, Mary McDonald, 0, 0, 0, 1, 0, 0
+1777, João Gama, 0, 0, 0, 1, 0, 0
+1782, Fei Chen 0002, 0, 0, 0, 1, 0, 0
+1783, Martin Ester, 0, 0, 0, 2, 0, 0
+1780, Lan Yi, 0, 1, 0, 1, 0, 0
+1781, Rong She, 0, 0, 0, 1, 0, 0
+1786, Feng Pan, 0, 0, 0, 1, 0, 0
+1787, Gao Cong, 0, 0, 0, 1, 0, 0
+1784, Jennifer L. Gardy, 0, 0, 0, 1, 0, 0
+1785, Fiona S. L. Brinkman, 0, 0, 0, 1, 0, 0
+1790, Sule Gündüz, 0, 0, 0, 1, 0, 0
+1791, Mohammad El-Hajj, 0, 0, 0, 1, 0, 0
+1788, Anthony K. H. Tung, 0, 0, 0, 1, 0, 0
+1789, Jon M. Kleinberg, 0, 0, 0, 1, 0, 0
+1729, Dmitriy Fradkin, 0, 0, 0, 1, 0, 0
+1728, Douglas Stott Parker Jr., 0, 0, 0, 1, 0, 0
+1731, Rosine Cicchetti, 0, 0, 0, 2, 0, 0
+1730, Alain Casali, 0, 0, 0, 2, 0, 0
+1733, Arindam Banerjee, 0, 0, 0, 1, 0, 0
+1732, Lotfi Lakhal, 0, 0, 0, 2, 0, 0
+1735, Shlomo Argamon, 0, 0, 0, 1, 0, 0
+1734, Suvrit Sra, 0, 0, 0, 1, 0, 0
+1737, Sterling Stuart Stein, 0, 0, 0, 1, 0, 0
+1736, Marin Saric, 0, 0, 0, 1, 0, 0
+1739, Bin Chen, 0, 0, 0, 1, 0, 0
+1738, Hervé Brönnimann, 0, 0, 0, 1, 0, 0
+1741, Peter Scheuermann, 0, 0, 0, 1, 0, 0
+1740, Manoranjan Dash, 0, 0, 0, 2, 0, 0
+1743, Kincho H. Law, 0, 0, 0, 1, 0, 0
+1742, Gloria T. Lau, 0, 0, 0, 1, 0, 0
+1744, Gio Wiederhold, 0, 0, 0, 1, 0, 0
+1745, Lisa Friedland, 0, 0, 0, 1, 0, 0
+1746, Michael Hay, 0, 1, 0, 1, 0, 0
+1747, Junshui Ma, 0, 0, 0, 1, 0, 0
+1748, Simon Perkins, 0, 1, 0, 1, 0, 0
+1749, Sholom M. Weiss, 0, 0, 0, 1, 0, 0
+1750, Stephen J. Buckley, 0, 0, 0, 1, 0, 0
+1751, Shubir Kapoor, 0, 0, 0, 1, 0, 0
+1752, Søren Damgaard, 0, 0, 0, 1, 0, 0
+1753, Jeremy Tantrum, 0, 0, 0, 1, 0, 0
+1754, Alejandro Murua, 0, 0, 0, 1, 0, 0
+1755, Werner Stuetzle, 0, 0, 0, 1, 0, 0
+1756, Raj Bhatnagar, 0, 0, 0, 2, 0, 0
+1757, Goutham Kurra, 0, 0, 0, 1, 0, 0
+1758, Wen Niu, 0, 0, 0, 2, 0, 0
+1759, Kevin B. Pratt, 0, 0, 0, 1, 0, 0
+1703, Narayana P. Santhanam, 0, 0, 0, 0, 1, 0
+1702, Alon Orlitsky, 0, 1, 0, 0, 2, 0
+1701, Dror Weitz, 0, 0, 0, 0, 1, 0
+1700, Fabio Martinelli, 0, 0, 0, 0, 1, 0
+1699, Daniel Stefankovic, 0, 0, 0, 0, 1, 0
+1698, László Babai, 0, 0, 0, 0, 1, 0
+1697, Timothy M. Chan, 0, 0, 0, 0, 1, 0
+1696, Alin Dobra, 0, 0, 0, 0, 1, 0
+1711, Richard D. Lawrence, 0, 0, 0, 1, 0, 0
+1710, Jing Dai, 0, 0, 0, 1, 0, 0
+1709, Mayank Sharma, 0, 0, 0, 0, 1, 0
+1708, Balaji Prabhakar, 0, 0, 0, 0, 1, 0
+1707, Chandra Nair, 0, 0, 0, 0, 1, 0
+1706, Norbert Zeh, 0, 0, 0, 0, 1, 0
+1705, Lars Arge, 1, 0, 0, 0, 1, 0
+1704, Junan Zhang, 0, 0, 0, 0, 2, 0
+1718, June S. Almenoff, 0, 0, 0, 1, 0, 0
+1719, William DuMouchel, 0, 0, 0, 2, 0, 0
+1716, Justin Zhijun Zhan, 0, 0, 0, 1, 0, 0
+1717, David M. Fram, 0, 0, 0, 1, 0, 0
+1714, Joong Hyuk Chang, 0, 0, 0, 1, 0, 0
+1715, Won Suk Lee, 0, 0, 0, 2, 0, 0
+1712, Se June Hong, 0, 0, 0, 1, 0, 0
+1713, Jacques Cherrier, 0, 0, 0, 1, 0, 0
+1726, Caleb C. Noble, 0, 0, 0, 1, 0, 0
+1727, Kelvin T. Leung, 0, 0, 0, 1, 0, 0
+1724, DucDung Nguyen, 0, 0, 0, 1, 0, 0
+1725, Chun Tang, 0, 0, 0, 1, 0, 0
+1722, Saori Kawasaki, 0, 0, 0, 1, 0, 0
+1723, Si Quang Le, 0, 0, 0, 1, 0, 0
+1720, Tu Bao Ho, 0, 0, 0, 1, 0, 0
+1721, Trong Dung Nguyen, 0, 0, 0, 1, 0, 0
+1669, Dongdong Ge, 0, 0, 0, 0, 1, 0
+1668, Michael A. Bender, 0, 0, 0, 0, 1, 0
+1671, Haodong Hu, 0, 0, 0, 0, 1, 0
+1670, Simai He, 0, 0, 0, 0, 1, 0
+1665, Milena Mihail, 0, 0, 0, 0, 1, 0
+1664, Amir Shpilka, 0, 0, 0, 0, 3, 0
+1667, Andrej Bogdanov, 0, 0, 0, 0, 1, 0
+1666, Amin Saberi, 0, 0, 0, 0, 1, 0
+1677, Viliam Geffert, 0, 0, 0, 0, 1, 0
+1676, Boaz Barak, 0, 0, 0, 0, 1, 0
+1679, Nira Shafrir, 0, 0, 0, 0, 1, 0
+1678, Bo Brinkman, 0, 0, 0, 0, 1, 0
+1673, Alejandro López-Ortiz, 0, 1, 0, 0, 1, 0
+1672, John Iacono, 0, 0, 0, 0, 1, 0
+1675, Eric Vigoda, 0, 0, 0, 0, 1, 0
+1674, Shang-Hua Teng, 0, 0, 0, 0, 1, 0
+1684, Wojciech Rytter, 0, 0, 0, 0, 1, 0
+1685, Rajat Bhattacharjee, 0, 0, 0, 0, 1, 0
+1686, Silvio Micali, 0, 0, 0, 0, 1, 0
+1687, Michael O. Rabin, 0, 0, 0, 0, 1, 0
+1680, Rahul Jain, 0, 0, 0, 0, 1, 0
+1681, Ron Lavi, 0, 0, 0, 0, 1, 0
+1682, Ahuva Mu'alem, 0, 0, 0, 0, 1, 0
+1683, Noam Nisan, 0, 0, 0, 0, 1, 0
+1692, Maria Minkoff, 0, 0, 0, 0, 1, 0
+1693, Jesse Kamp, 0, 0, 0, 0, 1, 0
+1694, David Zuckerman, 0, 0, 0, 0, 1, 0
+1695, David Kempe, 0, 0, 0, 1, 1, 0
+1688, Nader H. Bshouty, 0, 0, 0, 0, 1, 0
+1689, Shuchi Chawla, 0, 0, 0, 0, 1, 0
+1690, David R. Karger, 0, 2, 1, 0, 1, 0
+1691, Terran Lane, 0, 0, 0, 0, 1, 0
+1913, Dharmendra S. Modha, 0, 0, 0, 1, 0, 0
+1912, Subramanyam Mallela, 0, 0, 0, 1, 0, 0
+1915, Diane Kelly, 0, 0, 1, 0, 0, 0
+1914, Nicholas J. Belkin, 0, 0, 1, 0, 0, 0
+1917, Ja-Young Kim, 0, 0, 1, 0, 0, 0
+1916, G. Kim, 0, 0, 1, 0, 0, 0
+1919, Gheorghe Muresan, 0, 0, 1, 0, 0, 0
+1918, Hyuk-Jin Lee, 0, 0, 1, 0, 0, 0
+1905, Bart Selman, 0, 3, 0, 1, 0, 0
+1904, Brian Kulis, 0, 0, 0, 1, 0, 0
+1907, Kingshy Goh, 0, 0, 0, 1, 0, 0
+1906, Yi-Leh Wu, 0, 0, 0, 1, 0, 0
+1909, Huaxin You, 0, 0, 0, 1, 0, 0
+1908, Beitao Li, 0, 0, 0, 1, 0, 0
+1911, Stefano Lonardi, 0, 0, 0, 1, 0, 0
+1910, Bill Yuan-chi Chiu, 0, 0, 0, 1, 0, 0
+1896, Shantanu Godbole, 0, 0, 0, 1, 0, 0
+1897, Rafael Alonso, 0, 0, 0, 1, 0, 0
+1898, Jeffrey A. Bloom, 0, 0, 0, 1, 0, 0
+1899, Hua Li, 0, 0, 0, 1, 0, 0
+1900, Chumki Basu, 0, 0, 0, 1, 0, 0
+1901, Karam Gouda, 0, 0, 0, 1, 0, 0
+1902, John E. Hopcroft, 0, 0, 0, 1, 0, 0
+1903, Omar Khan, 0, 0, 0, 1, 0, 0
+1888, Kenji Yamanishi, 0, 0, 0, 1, 0, 0
+1889, Jun-ichi Takeuchi, 0, 0, 0, 1, 0, 0
+1890, R. Bharat Rao, 0, 0, 0, 1, 0, 0
+1891, Sathyakama Sandilya, 0, 0, 0, 1, 0, 0
+1892, Radu Stefan Niculescu, 0, 0, 0, 1, 0, 0
+1893, Colin Germond, 0, 0, 0, 1, 0, 0
+1894, Harsha Rao, 0, 0, 0, 1, 0, 0
+1895, Deepak K. Agarwal, 0, 0, 0, 1, 0, 0
+1883, Robert F. Murphy, 0, 0, 0, 1, 0, 0
+1882, Richard C. Wang, 0, 0, 0, 1, 0, 0
+1881, William W. Cohen, 0, 0, 1, 1, 0, 0
+1880, Alexander Yates, 0, 0, 0, 1, 0, 0
+1887, Satoshi Morinaga, 0, 0, 0, 1, 0, 0
+1886, Mark Schwabacher, 0, 0, 0, 1, 0, 0
+1885, Stephen D. Bay, 0, 1, 0, 1, 0, 0
+1884, Toshihiro Kamishima, 0, 0, 0, 1, 0, 0
+1875, Michael E. Houle, 0, 0, 0, 1, 0, 0
+1874, Sumit Negi, 0, 0, 0, 1, 0, 0
+1873, Raghu Krishnapuram, 0, 1, 0, 1, 0, 0
+1872, Neeraj Agrawal, 0, 0, 0, 1, 0, 0
+1879, Craig A. Knoblock, 0, 3, 0, 1, 0, 0
+1878, Rattapoom Tuchinda, 0, 0, 0, 1, 0, 0
+1877, Oren Etzioni, 0, 1, 0, 1, 0, 0
+1876, Andreas S. Weigend, 0, 0, 0, 1, 0, 0
+1866, Hannah Blau, 0, 0, 0, 1, 0, 0
+1867, Gregory Piatetsky-Shapiro, 0, 0, 0, 1, 0, 0
+1864, Yanhong Zhai, 0, 0, 0, 1, 0, 0
+1865, Matthew J. Rattigan, 0, 0, 0, 1, 0, 0
+1870, Jim Gray, 0, 0, 0, 1, 0, 0
+1871, Sachindra Joshi, 0, 1, 0, 1, 0, 0
+1868, Tom Khabaza, 0, 0, 0, 1, 0, 0
+1869, Sridhar Ramaswamy, 0, 0, 0, 1, 0, 0
+1858, Armand Sarkissian, 0, 0, 0, 1, 0, 0
+1859, Magdalini Eirinaki, 0, 0, 0, 1, 0, 0
+1856, Steven P. Ketchpel, 0, 0, 0, 1, 0, 0
+1857, Uwe F. Mayer, 0, 0, 0, 1, 0, 0
+1862, Mehmet Koyutürk, 0, 0, 0, 1, 0, 0
+1863, Robert L. Grossman, 0, 0, 0, 1, 0, 0
+1860, Michalis Vazirgiannis, 0, 0, 0, 1, 0, 0
+1861, Iraklis Varlamis, 0, 0, 0, 1, 0, 0
+1853, Steven A. Klooster, 0, 0, 0, 1, 0, 0
+1852, Michael Steinbach, 0, 0, 0, 2, 0, 0
+1855, Kamal Ali, 0, 0, 0, 1, 0, 0
+1854, Christopher Potter, 0, 0, 0, 1, 0, 0
+1849, Christopher D. Carothers, 0, 0, 0, 1, 0, 0
+1848, Boleslaw K. Szymanski, 0, 0, 0, 1, 0, 0
+1851, Foster J. Provost, 0, 0, 0, 1, 0, 0
+1850, Claudia Perlich, 0, 0, 0, 1, 0, 0
+1845, Marios Hadjieleftheriou, 0, 0, 0, 1, 0, 0
+1844, Raymond J. Mooney, 0, 1, 0, 1, 0, 0
+1847, Karlton Sequeira, 0, 0, 0, 1, 0, 0
+1846, Daphne Koller, 0, 6, 0, 1, 0, 0
+1841, Zhongfei (Mark) Zhang, 0, 0, 0, 1, 0, 0
+1840, Mohsen M. Farid, 0, 0, 0, 1, 0, 0
+1843, Mikhail Bilenko, 0, 0, 0, 1, 0, 0
+1842, John J. Salerno, 0, 0, 0, 1, 0, 0
+1836, Yehuda Koren, 0, 0, 0, 1, 0, 0
+1837, David Harel, 0, 0, 0, 1, 0, 0
+1838, Feng Tao, 0, 0, 0, 1, 0, 0
+1839, Fionn Murtagh, 0, 0, 0, 1, 0, 0
+1832, Jon R. Wright, 0, 0, 0, 1, 0, 0
+1833, Guimei Liu, 0, 0, 0, 1, 0, 0
+1834, Wenwu Lou, 0, 0, 0, 1, 0, 0
+1835, Scott White, 0, 0, 0, 1, 0, 0
+1828, Hang Yu, 0, 0, 0, 1, 0, 0
+1829, Ee-Chien Chang, 0, 0, 0, 1, 0, 0
+1830, Tamraparni Dasu, 0, 0, 0, 1, 0, 0
+1831, Gregg T. Vesonder, 0, 0, 0, 1, 0, 0
+1824, Richard J. Bolton, 0, 0, 0, 1, 0, 0
+1825, Niall M. Adams, 0, 0, 0, 1, 0, 0
+1826, Soon Tee Teoh, 0, 0, 0, 2, 0, 0
+1827, Kwan-Liu Ma, 0, 0, 0, 2, 0, 0
+1823, Koichi Furukawa, 0, 0, 0, 1, 0, 0
+1822, Atsuhito Momma, 0, 0, 0, 1, 0, 0
+1821, Keiko Shimazu, 0, 0, 0, 1, 0, 0
+1820, Clare Giardina, 0, 0, 0, 1, 0, 0
+1819, John Chiochetti, 0, 0, 0, 1, 0, 0
+1818, William Peter, 0, 0, 0, 1, 0, 0
+1817, Gerhard Widmer, 0, 0, 0, 1, 0, 0
+1816, Werner Goebl, 0, 0, 0, 1, 0, 0
+1815, Elias Pampalk, 0, 0, 0, 1, 0, 0
+1814, Joseph L. Hellerstein, 0, 0, 0, 1, 0, 0
+1813, Genady Grabarnik, 0, 0, 0, 1, 0, 0
+1812, David Thoenen, 0, 0, 0, 1, 0, 0
+1811, Dhabaleswar K. Panda, 0, 0, 0, 1, 0, 0
+1810, Sundeep Narravula, 0, 0, 0, 1, 0, 0
+1809, G. Li, 0, 0, 0, 1, 0, 0
+1808, Amol Ghoting, 0, 0, 0, 1, 0, 0
+1806, Teija Kujala, 0, 0, 0, 1, 0, 0
+1807, Heikki Mannila, 0, 0, 0, 2, 0, 0
+1804, Yong Ye, 0, 0, 0, 1, 0, 0
+1805, Aristides Gionis, 0, 0, 0, 1, 0, 0
+1802, Jin Yu, 0, 0, 0, 1, 0, 0
+1803, Xintao Wu, 0, 0, 0, 1, 0, 0
+1800, Ehud Reiter, 0, 0, 0, 1, 0, 0
+1801, Jim Hunter, 0, 0, 0, 1, 0, 0
+1798, Huan Liu, 0, 2, 0, 2, 0, 0
+1799, Somayajulu Sripada, 0, 0, 0, 1, 0, 0
+1796, Douglas A. Newlands, 0, 0, 0, 1, 0, 0
+1797, Lei Yu, 0, 1, 0, 3, 0, 0
+1794, Geoffrey I. Webb, 0, 0, 0, 3, 0, 0
+1795, Shane M. Butler, 0, 0, 0, 1, 0, 0
+1792, Darya Chudova, 0, 1, 0, 1, 0, 0
+1793, Eric Mjolsness, 0, 0, 0, 1, 0, 0
+2032, Atsushi Fujii, 0, 0, 1, 0, 0, 0
+2033, Noriko Kando, 0, 0, 1, 0, 0, 0
+2034, Yuzo Marukawa, 0, 0, 1, 0, 0, 0
+2035, Sasha Blair-Goldensohn, 0, 0, 1, 0, 0, 0
+2036, Kathleen McKeown, 0, 1, 1, 0, 0, 0
+2037, Andrew Hazen Schlaikjer, 0, 0, 1, 0, 0, 0
+2038, Thijs Westerveld, 0, 0, 1, 0, 0, 0
+2039, Arjen P. de Vries, 0, 0, 1, 0, 0, 0
+2040, Brian D. Davison 0001, 0, 0, 1, 0, 0, 0
+2041, Dawn J. Lawrie, 0, 0, 1, 0, 0, 0
+2042, Peter Bruza, 0, 0, 1, 0, 0, 0
+2043, Dawei Song, 0, 0, 1, 0, 0, 0
+2044, Gui-Rong Xue, 0, 0, 1, 0, 0, 0
+2045, HongJiang Zhang, 0, 1, 1, 0, 0, 4
+2046, Chao-Jun Lu, 0, 0, 1, 0, 0, 0
+2047, Joan C. Bartlett, 0, 0, 1, 0, 0, 0
+2017, Gil-Chang Kim, 0, 0, 1, 0, 0, 0
+2016, In-Ho Kang, 0, 0, 1, 0, 0, 0
+2019, S. Kagan Agun, 0, 0, 1, 0, 0, 0
+2018, Thomas Hofmann, 0, 2, 2, 0, 0, 0
+2021, Peter G. Anick, 0, 0, 1, 0, 0, 0
+2020, Ophir Frieder, 0, 0, 2, 0, 0, 0
+2023, James Allan, 0, 0, 2, 0, 0, 0
+2022, Lijuan Cai, 0, 0, 1, 0, 0, 0
+2025, Alvaro Bolivar, 0, 0, 1, 0, 0, 0
+2024, Courtney Wade, 0, 0, 1, 0, 0, 0
+2027, Jarmo Toivonen, 0, 0, 1, 0, 0, 0
+2026, Ari Pirkola, 0, 0, 1, 0, 0, 0
+2029, Kari Visala, 0, 0, 1, 0, 0, 0
+2028, Heikki Keskustalo, 0, 0, 1, 0, 0, 0
+2031, Makoto Iwayama, 0, 0, 1, 0, 0, 0
+2030, Kalervo Järvelin, 0, 0, 1, 0, 0, 0
+2002, Richard J. Edens, 0, 0, 1, 0, 0, 0
+2003, Helen L. Gaylard, 0, 0, 1, 0, 0, 0
+2000, Rosie Jones, 0, 0, 1, 0, 0, 0
+2001, Daniel C. Fain, 0, 0, 1, 0, 0, 0
+2006, Xiaoyan Li, 0, 0, 1, 0, 0, 0
+2007, Hui Yang, 0, 0, 1, 0, 0, 0
+2004, Gareth J. F. Jones, 0, 0, 1, 0, 0, 0
+2005, Adenike M. Lam-Adesina, 0, 0, 1, 0, 0, 0
+2010, Sharon McDonald, 0, 0, 1, 0, 0, 0
+2011, Vijay V. Raghavan 0001, 0, 0, 1, 0, 0, 0
+2008, Shuguang Wang, 0, 0, 1, 0, 0, 0
+2009, Chun-Keat Koh, 0, 0, 1, 0, 0, 0
+2014, Virgiliu Pavlu, 0, 0, 1, 0, 0, 0
+2015, Robert Savell, 0, 0, 2, 0, 0, 0
+2012, Chun Du, 0, 0, 1, 0, 0, 0
+2013, Komanduru Sai C, 0, 0, 1, 0, 0, 0
+1987, David A. Evans, 0, 0, 2, 0, 0, 0
+1986, Joemon M. Jose, 0, 0, 4, 0, 0, 0
+1985, Iraklis A. Klampanos, 0, 0, 2, 0, 0, 0
+1984, Xiao Mang Shou, 0, 0, 2, 0, 0, 0
+1991, R. Manmatha, 0, 0, 1, 0, 0, 0
+1990, Jiwoon Jeon, 0, 0, 1, 0, 0, 0
+1989, David A. Hull, 0, 0, 1, 0, 0, 0
+1988, Jeffrey Bennett, 0, 0, 1, 0, 0, 0
+1995, Jian Zhang 0003, 0, 2, 2, 0, 0, 0
+1994, Fatiha Sadat, 0, 0, 1, 0, 0, 0
+1993, Fazli Can, 0, 0, 1, 0, 0, 0
+1992, Rabia Nuray, 0, 0, 1, 0, 0, 0
+1999, Tomoharu Kokubu, 0, 0, 1, 0, 0, 0
+1998, Meredith Frost, 0, 0, 1, 0, 0, 0
+1997, Javed A. Aslam, 0, 0, 3, 0, 0, 0
+1996, Yiming Yang, 0, 2, 2, 0, 0, 0
+1972, Bogdan Vrusias, 0, 0, 2, 0, 0, 0
+1973, Paulo C. F. de Oliveira, 0, 0, 1, 0, 0, 0
+1974, Ikkyu Choi, 0, 0, 1, 0, 0, 0
+1975, Minkoo Kim, 0, 0, 1, 0, 0, 0
+1968, Yueting Zhuang, 0, 0, 1, 0, 0, 0
+1969, Yunhe Pan, 0, 0, 1, 0, 0, 0
+1970, Cornelis H. A. Koster, 0, 0, 2, 0, 0, 0
+1971, Khurshid Ahmad, 0, 0, 2, 0, 0, 0
+1980, Dell Zhang, 0, 0, 1, 0, 0, 0
+1981, Fabio Crestani, 0, 0, 3, 0, 0, 0
+1982, Henrik Nottelmann, 0, 0, 4, 0, 0, 0
+1983, Pietro Pala, 0, 0, 1, 0, 0, 0
+1976, Tetsuya Sakai, 0, 0, 2, 0, 0, 0
+1977, Christopher Stokoe, 0, 0, 1, 0, 0, 0
+1978, Michael P. Oakes, 0, 0, 1, 0, 0, 0
+1979, John Tait, 0, 0, 3, 0, 0, 0
+1957, Tat-Seng Chua, 0, 0, 3, 0, 0, 0
+1956, Chin-Hui Lee, 0, 0, 1, 0, 0, 0
+1959, Sindhura Bandhakavi, 0, 0, 1, 0, 0, 0
+1958, Xiao Hu, 0, 0, 1, 0, 0, 0
+1953, James P. Callan, 0, 1, 4, 0, 0, 0
+1952, Paul Ogilvie, 0, 0, 1, 0, 0, 0
+1955, Wen Wu, 0, 0, 1, 0, 0, 0
+1954, Sheng Gao, 0, 0, 1, 0, 0, 0
+1965, Christopher C. Yang, 0, 0, 1, 0, 0, 0
+1964, Prabhakar Raghavan, 0, 0, 1, 0, 0, 0
+1967, Yazhong Feng, 0, 0, 1, 0, 0, 0
+1966, Fu Lee Wang, 0, 0, 1, 0, 0, 0
+1961, Jidong Wang, 0, 0, 1, 0, 0, 0
+1960, ChengXiang Zhai, 0, 1, 3, 0, 0, 0
+1963, Gurmeet Singh Manku, 0, 0, 1, 0, 0, 0
+1962, Li Tao, 0, 0, 1, 0, 0, 0
+1942, Da-Wei Juang, 0, 0, 1, 0, 0, 0
+1943, Victor Lavrenko, 0, 0, 2, 0, 0, 0
+1940, Kevin S. McCurley, 0, 0, 1, 0, 0, 0
+1941, Yuen-Hsien Tseng, 0, 0, 1, 0, 0, 0
+1938, Aya Soffer, 0, 0, 1, 0, 0, 0
+1939, Nadav Eiron, 0, 0, 1, 0, 0, 0
+1936, Matan Mandelbrod, 0, 0, 1, 0, 0, 0
+1937, Yosi Mass, 0, 0, 1, 0, 0, 0
+1950, Mark Girolami, 0, 0, 2, 0, 0, 0
+1951, Keith van Rijsbergen, 0, 0, 1, 0, 0, 0
+1948, Gary Marchionini, 0, 0, 1, 0, 0, 0
+1949, Leif Azzopardi, 0, 0, 1, 0, 0, 0
+1946, Michael I. Jordan, 0, 1, 1, 0, 0, 0
+1947, Xiangming Mu, 0, 0, 1, 0, 0, 0
+1944, Jeremy Pickens, 0, 0, 1, 0, 0, 0
+1945, David M. Blei, 0, 0, 1, 0, 0, 0
+1927, Nirmal Pal, 0, 0, 1, 0, 0, 0
+1926, Arvind Rangaswamy, 0, 0, 1, 0, 0, 0
+1925, Hui Han, 0, 0, 2, 0, 0, 0
+1924, Pradeep B. Teregowda, 0, 0, 1, 0, 0, 0
+1923, Yves Petinot, 0, 0, 1, 0, 0, 0
+1922, Colleen Cool, 0, 0, 1, 0, 0, 0
+1921, Xiao-Jun Yuan, 0, 0, 1, 0, 0, 0
+1920, Muh-Chyun (Morris) Tang, 0, 0, 1, 0, 0, 0
+1935, Yoëlle S. Maarek, 0, 0, 1, 0, 0, 0
+1934, David Carmel, 0, 0, 1, 0, 0, 0
+1933, Secil Ugurel, 0, 0, 1, 0, 0, 0
+1932, Robert Krovetz, 0, 0, 1, 0, 0, 0
+1931, Börkur Sigurbjörnsson, 0, 0, 1, 0, 0, 0
+1930, Maarten de Rijke, 0, 0, 1, 0, 0, 0
+1929, Maarten Marx, 0, 0, 1, 0, 0, 0
+1928, Jaap Kamps, 0, 0, 1, 0, 0, 0
+2200, Olli Yli-Harja, 0, 0, 0, 1, 0, 0
+2201, Dragoljub Pokrajac, 0, 0, 0, 1, 0, 0
+2202, Levent Ertöz, 0, 0, 0, 2, 0, 0
+2203, Aysel Ozgur, 0, 0, 0, 1, 0, 0
+2204, Jaideep Srivastava, 0, 0, 0, 1, 0, 0
+2205, Ming Jiang 0005, 0, 0, 0, 1, 0, 0
+2206, Tat-Sang Choy, 0, 0, 0, 1, 0, 0
+2207, Sameep Mehta, 0, 0, 0, 1, 0, 0
+2192, Luca La Brocca, 0, 0, 0, 1, 0, 0
+2193, Yan Liu 0004, 0, 0, 0, 1, 0, 0
+2194, John R. Kender, 0, 0, 0, 1, 0, 0
+2195, Ravi Kothari, 0, 0, 0, 1, 0, 0
+2196, Parul A. Mittal, 0, 0, 0, 1, 0, 0
+2197, Vivek Jain, 0, 0, 0, 1, 0, 0
+2198, Harri Lähdesmäki, 0, 0, 0, 1, 0, 0
+2199, Heikki Huttunen, 0, 0, 0, 1, 0, 0
+2185, Douglas R. Hundley, 0, 0, 0, 1, 0, 0
+2184, Donald E. Brown, 0, 0, 0, 1, 0, 0
+2187, Jonatan Gómez, 0, 0, 0, 1, 0, 0
+2186, Michael J. Kirby, 0, 0, 0, 1, 0, 0
+2189, Sergio M. Savaresi, 0, 0, 0, 1, 0, 0
+2188, Dipankar Dasgupta, 0, 0, 0, 1, 0, 0
+2191, Sergio Bittanti, 0, 0, 0, 1, 0, 0
+2190, Simone Garatti, 0, 0, 0, 1, 0, 0
+2177, James Cox, 0, 0, 0, 1, 0, 0
+2176, Nidal Al-Said, 0, 0, 0, 1, 0, 0
+2179, Xiaoxin Yin, 0, 0, 0, 1, 0, 0
+2178, Ronald K. Pearson, 0, 0, 0, 2, 0, 0
+2181, Thomas W. Raasch, 0, 0, 0, 1, 0, 0
+2180, Michael D. Twa, 0, 0, 0, 1, 0, 0
+2183, Song Lin, 0, 0, 0, 1, 0, 0
+2182, Mark Bullimore, 0, 0, 0, 1, 0, 0
+2234, Melanie Hilario, 0, 1, 0, 0, 0, 0
+2235, H. Brendan McMahan, 0, 1, 0, 0, 0, 0
+2232, Kobi Luz, 0, 1, 0, 0, 0, 0
+2233, Alexandros Kalousis, 0, 1, 0, 0, 0, 0
+2238, Lawrence Shih, 0, 2, 0, 0, 0, 0
+2239, Stuart J. Russell, 0, 4, 0, 0, 0, 0
+2236, Geoffrey J. Gordon, 0, 5, 0, 0, 0, 0
+2237, Jason D. Rennie, 0, 2, 0, 0, 0, 0
+2226, James Theiler, 0, 2, 0, 0, 0, 0
+2227, Elly Winner, 0, 1, 0, 0, 0, 0
+2224, Cheng Soon Ong, 0, 1, 0, 0, 0, 0
+2225, Alexander J. Smola, 0, 2, 0, 0, 1, 0
+2230, Yoram Baram, 0, 1, 0, 0, 0, 0
+2231, Ran El-Yaniv, 0, 1, 0, 0, 0, 0
+2228, Manuela M. Veloso, 0, 3, 0, 0, 0, 0
+2229, Michael O. Duff, 0, 2, 0, 0, 0, 0
+2219, Dennis Lucarelli, 0, 0, 0, 1, 0, 0
+2218, Horst D. Simon, 0, 0, 0, 1, 0, 0
+2217, Parry Husbands, 0, 0, 0, 1, 0, 0
+2216, Xiaofeng He, 0, 0, 0, 1, 0, 0
+2223, Ramin Afshar, 0, 0, 0, 1, 0, 0
+2222, Fernando J. Pineda, 0, 0, 0, 1, 0, 0
+2221, I-Jeng Wang, 0, 0, 0, 1, 0, 0
+2220, Cheryl Resch, 0, 0, 0, 1, 0, 0
+2211, David Richie, 0, 0, 0, 1, 0, 0
+2210, Kaden Hazzard, 0, 0, 0, 1, 0, 0
+2209, Steve Barr, 0, 0, 0, 1, 0, 0
+2208, Matt Coatney, 0, 0, 0, 1, 0, 0
+2215, Boyd Gatlin, 0, 0, 0, 1, 0, 0
+2214, John Wilkins, 0, 0, 0, 1, 0, 0
+2213, David Thompson, 0, 0, 0, 1, 0, 0
+2212, Raghu Machiraju, 0, 0, 0, 1, 0, 0
+2268, Qijun Chen, 0, 1, 0, 0, 0, 0
+2269, Jinbo Bi, 0, 2, 0, 0, 1, 0
+2270, Roman Rosipal, 0, 1, 0, 0, 0, 0
+2271, Leonard J. Trejo, 0, 1, 0, 0, 0, 0
+2264, Ramon López de Mántaras, 0, 1, 0, 0, 0, 0
+2265, Kurt Driessens, 0, 1, 0, 0, 0, 0
+2266, Jan Ramon, 0, 1, 0, 0, 0, 0
+2267, Xindong Wu, 0, 2, 0, 0, 0, 0
+2260, Vladimir Vovk, 0, 1, 0, 0, 2, 0
+2261, Ilia Nouretdinov, 0, 1, 0, 0, 0, 0
+2262, Alexander Gammerman, 0, 1, 0, 0, 0, 0
+2263, Jesús Cerquides, 0, 1, 0, 0, 0, 0
+2256, Michael L. Littman, 0, 1, 0, 0, 1, 0
+2257, Nicholas K. Jong, 0, 1, 0, 0, 0, 0
+2258, David Pardoe, 0, 1, 0, 0, 0, 0
+2259, Peter Stone, 0, 1, 0, 0, 0, 0
+2253, Bir Bhanu, 0, 1, 0, 0, 0, 2
+2252, Krzysztof Krawiec, 0, 1, 0, 0, 0, 0
+2255, Satinder P. Singh, 0, 1, 0, 0, 0, 0
+2254, Xiaoyun Wu, 0, 1, 0, 0, 0, 0
+2249, Tuomas Sandholm, 0, 7, 0, 0, 1, 0
+2248, Vincent Conitzer, 0, 6, 0, 0, 0, 0
+2251, Peter A. Flach, 0, 3, 0, 0, 1, 0
+2250, Johannes Fürnkranz, 0, 1, 0, 0, 0, 0
+2245, Nikola Jevtic, 0, 1, 0, 0, 0, 0
+2244, Aldebaro Klautau, 0, 1, 0, 0, 0, 0
+2247, Jugal K. Kalita, 0, 1, 0, 0, 0, 0
+2246, Clifford Kotnik, 0, 1, 0, 0, 0, 0
+2241, Fan Li, 0, 1, 0, 0, 0, 0
+2240, Andrew Zimdars, 0, 1, 0, 0, 0, 0
+2243, Michael J. Kearns, 0, 1, 0, 0, 0, 0
+2242, Sham Kakade, 0, 1, 0, 0, 0, 0
+2302, François Rivest, 0, 1, 0, 0, 0, 0
+2303, Doina Precup, 0, 2, 0, 0, 0, 0
+2300, Rémi Munos, 0, 1, 0, 0, 0, 0
+2301, Malcolm J. A. Strens, 0, 1, 0, 0, 0, 0
+2298, Raymond Lau, 0, 1, 0, 0, 0, 0
+2299, Risto Miikkulainen, 0, 1, 0, 0, 0, 0
+2296, Ioannis Tsochantaridis, 0, 1, 0, 0, 0, 0
+2297, James Fan, 0, 2, 0, 0, 0, 0
+2294, Ivor W. Tsang, 0, 2, 0, 0, 0, 0
+2295, Yasemin Altun, 0, 1, 0, 0, 0, 0
+2292, Yu-Han Chang, 0, 1, 0, 0, 0, 0
+2293, James T. Kwok, 0, 3, 0, 0, 0, 0
+2290, Weng-Keen Wong, 0, 2, 0, 0, 0, 0
+2291, Michael M. Wagner, 0, 1, 0, 0, 0, 0
+2288, Sridhar Mahadevan, 0, 1, 0, 0, 0, 0
+2289, Zhihua Zhang, 0, 2, 0, 0, 0, 0
+2287, Mohammad Ghavamzadeh, 0, 1, 0, 0, 0, 0
+2286, Remco R. Bouckaert, 0, 1, 0, 0, 0, 0
+2285, Don R. Hush, 0, 1, 0, 0, 0, 0
+2284, Damian Eads, 0, 1, 0, 0, 0, 0
+2283, Reid B. Porter, 0, 1, 0, 0, 0, 0
+2282, Artur Merke, 0, 1, 0, 0, 0, 0
+2281, Ralf Schoknecht, 0, 1, 0, 0, 0, 0
+2280, Zhenyue Zhang, 0, 1, 0, 0, 0, 0
+2279, Donato Malerba, 0, 1, 1, 0, 0, 0
+2278, Floriana Esposito, 0, 1, 0, 0, 0, 0
+2277, Michelangelo Ceci, 0, 1, 1, 0, 0, 0
+2276, Margherita Berardi, 0, 1, 0, 0, 0, 0
+2275, Rong Jin, 0, 4, 0, 0, 0, 0
+2274, Shie Mannor, 0, 3, 0, 0, 2, 0
+2273, Eyal Even-Dar, 0, 1, 0, 0, 1, 0
+2272, Bryan Matthews, 0, 1, 0, 0, 0, 0
+2065, Rahul Bhagat, 0, 0, 1, 0, 0, 0
+2064, Douglas W. Oard, 0, 0, 3, 0, 0, 0
+2067, Chih-Fong Tsai, 0, 0, 1, 0, 0, 0
+2066, Norbert Fuhr, 0, 0, 2, 0, 0, 0
+2069, Daqing He, 0, 0, 1, 0, 0, 0
+2068, Kenneth McGarry, 0, 0, 1, 0, 0, 0
+2071, Michael Nossal, 0, 0, 1, 0, 0, 0
+2070, Jianqiang Wang, 0, 0, 1, 0, 0, 0
+2073, William John Teahan, 0, 0, 1, 0, 0, 0
+2072, Dmitry V. Khmelev, 0, 0, 1, 0, 0, 0
+2075, J. Stephen Downie, 0, 0, 1, 0, 0, 0
+2074, Luo Si, 0, 2, 1, 0, 0, 0
+2077, Ching-Yung Lin, 0, 0, 1, 0, 0, 0
+2076, Ian Ruthven, 0, 0, 2, 0, 0, 0
+2079, Apostol Natsev, 0, 0, 1, 0, 0, 0
+2078, Milind R. Naphade, 0, 0, 1, 0, 0, 0
+2048, Elaine G. Toms, 0, 0, 1, 0, 0, 0
+2049, Paul N. Bennett, 0, 0, 1, 0, 0, 0
+2050, Munirathnam Srikanth, 0, 0, 1, 0, 0, 0
+2051, David Pinto, 0, 0, 1, 0, 0, 0
+2052, Andrew McCallum, 0, 1, 1, 0, 0, 0
+2053, Xing Wei, 0, 0, 1, 0, 0, 0
+2054, Giridhar Kumaran, 0, 0, 1, 0, 0, 0
+2055, Georges Dupret, 0, 0, 1, 0, 0, 0
+2056, Bodo Billerbeck, 0, 0, 1, 0, 0, 0
+2057, Justin Zobel, 0, 0, 1, 0, 0, 0
+2058, Stephen Levin, 0, 0, 1, 0, 0, 0
+2059, Paul D. Clough, 0, 0, 1, 0, 0, 0
+2060, Mark Sanderson, 0, 0, 1, 0, 0, 0
+2061, Cong Yu, 0, 0, 1, 0, 0, 0
+2062, Dragomir R. Radev, 0, 0, 1, 0, 0, 0
+2063, Anton Leuski, 0, 0, 1, 0, 0, 0
+2099, Mario A. Nascimento, 0, 0, 1, 0, 0, 0
+2098, Jeffery Antoniuk, 0, 0, 1, 0, 0, 0
+2097, Hongyuan Zha, 0, 1, 2, 2, 0, 0
+2096, Xiang Ji, 0, 0, 1, 1, 0, 0
+2103, Ulrich Bohnacker, 0, 0, 1, 0, 0, 0
+2102, Egidio L. Terra, 0, 0, 1, 0, 0, 0
+2101, Charles L. A. Clarke, 0, 0, 1, 0, 0, 0
+2100, Jaime Teevan, 0, 1, 1, 0, 0, 0
+2107, Thorsten Brants, 0, 0, 1, 0, 0, 0
+2106, Sanjeev Khudanpur, 0, 0, 1, 0, 0, 0
+2105, Paola Virga, 0, 0, 1, 0, 0, 0
+2104, Ingrid Renz, 0, 0, 1, 0, 0, 0
+2111, Jimmy J. Lin, 0, 0, 1, 0, 0, 0
+2110, Boris Katz, 0, 0, 1, 0, 0, 0
+2109, Stefanie Tellex, 0, 0, 1, 0, 0, 0
+2108, Francine Chen, 0, 0, 1, 0, 0, 0
+2082, Belle L. Tseng, 0, 0, 1, 0, 0, 0
+2083, Harriet J. Nock, 0, 0, 1, 0, 0, 0
+2080, Chalapathy Neti, 0, 0, 1, 0, 0, 0
+2081, John R. Smith, 0, 0, 1, 0, 0, 0
+2086, Susan T. Dumais, 0, 1, 1, 0, 0, 0
+2087, Edward Cutrell, 0, 0, 1, 0, 0, 0
+2084, W. H. Adams, 0, 0, 1, 0, 0, 0
+2085, Andrei Z. Broder, 0, 0, 1, 0, 0, 0
+2090, Raman Sarin, 0, 0, 1, 0, 0, 0
+2091, Daniel C. Robbins, 0, 0, 1, 0, 0, 0
+2088, Jonathan J. Cadiz, 0, 0, 1, 0, 0, 0
+2089, Gavin Jancke, 0, 0, 1, 0, 0, 0
+2094, Yihong Gong, 0, 0, 1, 0, 0, 0
+2095, Xuehua Shen, 0, 0, 1, 0, 0, 0
+2092, Wei Xu, 0, 1, 1, 0, 0, 0
+2093, Xin Liu, 0, 0, 1, 0, 0, 0
+2133, Shengping Liu, 0, 1, 1, 0, 0, 0
+2132, Anastasios Tombros, 0, 0, 1, 0, 0, 0
+2135, Geguang Pu, 0, 0, 1, 0, 0, 0
+2134, Liu Wenyin, 0, 0, 1, 0, 0, 0
+2129, Takaaki Hasegawa, 0, 0, 1, 0, 0, 0
+2128, Minoru Hayashi, 0, 0, 1, 0, 0, 0
+2131, Ata Kabán, 0, 0, 1, 0, 0, 0
+2130, Naruhiro Ikeda, 0, 0, 1, 0, 0, 0
+2141, Yan Qu, 0, 0, 1, 0, 0, 0
+2140, Innes Martin, 0, 0, 1, 0, 0, 0
+2143, James Mayfield, 0, 0, 1, 0, 0, 0
+2142, Gregory Grefenstette, 0, 0, 1, 0, 0, 0
+2137, Stefano Berretti, 0, 0, 1, 0, 0, 0
+2136, John D. Lafferty, 0, 1, 1, 0, 0, 0
+2139, Thomas Rölleke, 0, 0, 1, 0, 0, 0
+2138, Shengli Wu, 0, 0, 2, 0, 0, 0
+2116, Stephen E. Robertson, 0, 0, 2, 0, 0, 0
+2117, Kareem Darwish, 0, 0, 1, 0, 0, 0
+2118, Steven M. Beitzel, 0, 0, 1, 0, 0, 0
+2119, Eric C. Jensen, 0, 0, 1, 0, 0, 0
+2112, Aaron Fernandes, 0, 0, 1, 0, 0, 0
+2113, Gregory Marton, 0, 0, 1, 0, 0, 0
+2114, Bryan Kisiel, 0, 0, 1, 0, 0, 0
+2115, Ian Soboroff, 0, 0, 1, 0, 0, 0
+2124, Katsuji Bessho, 0, 0, 1, 0, 0, 0
+2125, Osamu Mizuno, 0, 0, 1, 0, 0, 0
+2126, Yoshihiro Matsuo, 0, 0, 1, 0, 0, 0
+2127, Shoichi Matsunaga, 0, 0, 1, 0, 0, 0
+2120, Abdur Chowdhury, 0, 0, 1, 0, 0, 0
+2121, David A. Grossman, 0, 0, 1, 0, 0, 0
+2122, Yoshihiko Hayashi, 0, 0, 1, 0, 0, 0
+2123, Katsutoshi Ohtsuki, 0, 0, 1, 0, 0, 0
+2167, Robert W. Forbes, 0, 0, 0, 1, 0, 0
+2166, George R. Barnes, 0, 0, 0, 1, 0, 0
+2165, Patricia B. Cerrito, 0, 0, 0, 2, 0, 0
+2164, Jouni K. Seppänen, 0, 0, 0, 1, 0, 0
+2163, Jaakko Hollmén, 0, 0, 0, 1, 0, 0
+2162, Hiroshi Mamitsuka, 0, 1, 0, 1, 0, 0
+2161, Benjamin C. M. Fung, 0, 0, 0, 1, 0, 0
+2160, H. Khargupta, 0, 0, 0, 1, 0, 0
+2175, Vassiliki Pavlaki, 0, 0, 0, 1, 0, 0
+2174, Jean-François Boulicaut, 0, 0, 0, 1, 0, 0
+2173, Hunor Albert-Lorincz, 0, 0, 0, 1, 0, 0
+2172, Nitin R. Patel, 0, 0, 0, 1, 0, 0
+2171, Adam J. Mersereau, 0, 0, 0, 1, 0, 0
+2170, Dimitris Bertsimas, 0, 0, 0, 1, 0, 0
+2169, Dennis DeCoste, 0, 1, 0, 1, 0, 0
+2168, Shi Zhong, 0, 0, 0, 1, 0, 0
+2150, Hugo Zaragoza, 0, 0, 1, 0, 0, 0
+2151, Djoerd Hiemstra, 0, 0, 1, 0, 0, 0
+2148, Victoria S. Uren, 0, 0, 1, 0, 0, 0
+2149, Anne N. De Roeck, 0, 0, 1, 0, 0, 0
+2146, Jun'ichi Tsujii, 0, 0, 1, 0, 0, 0
+2147, Nikolaos Nanas, 0, 0, 1, 0, 0, 0
+2144, Paul McNamee, 0, 0, 1, 0, 0, 0
+2145, Yoshimasa Tsuruoka, 0, 0, 1, 0, 0, 0
+2158, Cheng-Ru Lin, 0, 0, 0, 1, 0, 0
+2159, Rong Chen, 0, 0, 0, 1, 0, 0
+2156, Huan Li, 0, 0, 0, 1, 0, 0
+2157, Bi-Ru Dai, 0, 0, 0, 1, 0, 0
+2154, David Littau, 0, 0, 0, 1, 0, 0
+2155, Daniel Boley, 0, 0, 0, 1, 0, 0
+2152, Hye-Chung Kum, 0, 0, 0, 1, 0, 0
+2153, Dean Duncan, 0, 0, 0, 1, 0, 0
+2443, Koby Crammer, 0, 0, 0, 0, 1, 0
+2442, Michael V. Vyugin, 0, 0, 0, 0, 1, 0
+2441, Yuri Kalnishkan, 0, 0, 0, 0, 1, 0
+2440, Mehryar Mohri, 0, 0, 0, 0, 2, 0
+2447, Joseph Sill, 0, 0, 0, 0, 1, 0
+2446, Malik Magdon-Ismail, 0, 0, 0, 0, 1, 0
+2445, David A. McAllester, 0, 0, 0, 0, 1, 0
+2444, Yoram Singer, 0, 0, 0, 0, 2, 0
+2435, Philip M. Long, 0, 0, 0, 0, 1, 0
+2434, Gábor Lugosi, 0, 0, 0, 0, 1, 0
+2433, Gilles Stoltz, 0, 0, 0, 0, 1, 0
+2432, Naftali Tishby, 0, 1, 0, 0, 1, 0
+2439, Patrick Haffner, 0, 0, 0, 0, 1, 0
+2438, Corinna Cortes, 0, 0, 0, 0, 1, 0
+2437, John N. Tsitsiklis, 0, 0, 0, 0, 1, 0
+2436, Jeffrey C. Jackson, 0, 0, 0, 0, 2, 0
+2458, Rolf Wiehagen, 0, 0, 0, 0, 1, 0
+2459, Nina Mishra, 0, 0, 0, 0, 1, 0
+2456, Sanjay Jain, 0, 0, 0, 0, 3, 0
+2457, Efim B. Kinber, 0, 0, 0, 0, 1, 0
+2462, Michael Collins, 0, 0, 0, 0, 1, 0
+2463, Ofer Dekel, 0, 0, 0, 0, 1, 0
+2460, Dana Ron, 0, 0, 0, 0, 1, 0
+2461, Ram Swaminathan, 0, 0, 0, 0, 1, 0
+2450, Dmitry Panchenko, 0, 0, 0, 0, 1, 0
+2451, Savina Andonova, 0, 0, 0, 0, 1, 0
+2448, Shahar Mendelson, 0, 0, 0, 0, 1, 0
+2449, Petra Philips, 0, 0, 0, 0, 1, 0
+2454, Olvi L. Mangasarian, 0, 0, 0, 0, 1, 0
+2455, Jude W. Shavlik, 0, 0, 0, 0, 1, 0
+2452, Michinari Momma, 0, 0, 0, 0, 1, 0
+2453, Glenn Fung, 0, 0, 0, 0, 1, 0
+2473, Rui Kuang, 0, 0, 0, 0, 1, 0
+2472, Christina S. Leslie, 0, 0, 0, 0, 1, 0
+2475, John Case, 0, 0, 0, 0, 2, 0
+2474, Ulrike von Luxburg, 0, 0, 0, 0, 1, 0
+2477, Giulia Simi, 0, 0, 0, 0, 1, 0
+2476, Franco Montagna, 0, 0, 0, 0, 1, 0
+2479, Keh-Jiann Chen, 0, 0, 0, 0, 1, 0
+2478, Andrea Sorbi, 0, 0, 0, 0, 1, 0
+2465, Thomas Gärtner, 0, 0, 0, 0, 1, 0
+2464, Shai Shalev-Shwartz, 0, 0, 0, 0, 1, 0
+2467, Robert H. Sloan, 0, 0, 0, 0, 1, 0
+2466, Stefan Wrobel, 0, 1, 0, 0, 1, 0
+2469, György Turán, 0, 0, 0, 0, 1, 0
+2468, Balázs Szörényi, 0, 0, 0, 0, 1, 0
+2471, Prasad Santhanam, 0, 0, 0, 0, 1, 0
+2470, Yoav Freund, 0, 0, 0, 0, 1, 1
+2488, Michiel Hagedoorn, 1, 0, 0, 0, 0, 0
+2489, Michal Bielecki, 1, 0, 0, 0, 0, 0
+2490, Jan Van den Bussche, 1, 1, 0, 0, 0, 0
+2491, See-Kiong Ng, 1, 0, 0, 0, 0, 0
+2492, Limsoon Wong, 1, 0, 0, 0, 0, 0
+2493, Jan Hidders, 1, 0, 0, 0, 0, 0
+2494, Victor Vianu, 1, 0, 0, 0, 0, 0
+2495, Wim Martens, 1, 0, 0, 0, 0, 0
+2480, Wolfgang Merkle, 0, 0, 0, 0, 1, 0
+2481, James S. Royer, 0, 0, 0, 0, 1, 0
+2482, Alexandre B. Tsybakov, 0, 0, 0, 0, 1, 0
+2483, Amir Jafari, 0, 0, 0, 0, 1, 0
+2484, Vladimir Vapnik, 0, 0, 0, 0, 1, 0
+2485, Neil Daswani, 1, 0, 0, 0, 0, 0
+2486, Venkatesan T. Chakaravarthy, 1, 0, 0, 0, 0, 0
+2487, Werner Nutt, 1, 0, 0, 0, 0, 0
+2511, David Toman, 1, 0, 0, 0, 0, 0
+2510, Fang Wei 0001, 1, 0, 0, 0, 0, 0
+2509, Gabriel M. Kuper, 1, 0, 0, 0, 0, 0
+2508, Pankaj K. Agarwal, 1, 0, 0, 0, 0, 0
+2507, Sathish Govindarajan, 1, 0, 0, 0, 0, 0
+2506, Makoto Onizuka, 1, 0, 0, 0, 0, 0
+2505, Todd J. Green, 1, 0, 0, 0, 0, 0
+2504, Bart Kuijpers, 1, 0, 0, 0, 0, 0
+2503, Floris Geerts, 1, 0, 0, 0, 0, 0
+2502, Mauro Mezzini, 1, 0, 0, 0, 0, 0
+2501, Francesco M. Malvestuto, 1, 0, 0, 0, 0, 0
+2500, Ibrahim Kamel, 1, 0, 0, 0, 0, 0
+2499, Amr Elmasry, 1, 0, 0, 0, 0, 0
+2498, Khaled M. Elbassioni, 1, 0, 0, 0, 0, 0
+2497, Chung Keung Poon, 1, 0, 0, 0, 0, 0
+2496, Frank Neven, 2, 0, 0, 0, 0, 0
+2526, Hyung Lee-Kwang, 0, 0, 0, 1, 0, 0
+2527, Chenzhou Ye, 0, 0, 0, 1, 0, 0
+2524, Edmond HaoCun Wu, 0, 0, 0, 1, 0, 0
+2525, Michael K. Ng, 0, 0, 0, 1, 0, 0
+2522, T. Wattarujeekrit, 0, 0, 0, 1, 0, 0
+2523, Kitsana Waiyamai, 0, 0, 0, 1, 0, 0
+2520, Wen Jin, 0, 0, 0, 1, 0, 0
+2521, N. Rattanakronkul, 0, 0, 0, 1, 0, 0
+2518, Li Wei, 0, 0, 0, 1, 0, 0
+2519, Weining Qian, 0, 0, 0, 1, 0, 0
+2516, Soowon Lee, 0, 0, 0, 1, 0, 0
+2517, Ramasamy Uthurusamy, 0, 0, 0, 1, 0, 0
+2514, Jef Wijsen, 1, 0, 0, 0, 0, 0
+2515, Youngok Kim, 0, 0, 0, 1, 0, 0
+2512, Grant E. Weddell, 1, 0, 0, 0, 0, 0
+2513, Peter T. Wood, 1, 0, 0, 0, 0, 0
+2541, Ho-pong Leung, 0, 0, 0, 1, 0, 0
+2540, Mary-Anne Williams, 0, 0, 0, 1, 0, 0
+2543, Stephen Chi-fai Chan, 0, 0, 0, 1, 0, 0
+2542, Korris Fu-Lai Chung, 0, 0, 0, 1, 0, 0
+2537, Myungeun Lim, 0, 0, 0, 1, 0, 0
+2536, Bo-Hyun Yun, 0, 0, 0, 1, 0, 0
+2539, Ickjai Lee, 0, 0, 0, 1, 0, 0
+2538, Soo-Hyun Park, 0, 0, 0, 1, 0, 0
+2533, Takayoshi Shoudai, 0, 0, 0, 2, 0, 0
+2532, Tomoyuki Uchida, 0, 0, 0, 2, 0, 0
+2535, Yasuaki Nakamura, 0, 0, 0, 1, 0, 0
+2534, Tetsuhiro Miyahara, 0, 0, 0, 2, 0, 0
+2529, Lixiu Yao, 0, 0, 0, 1, 0, 0
+2528, Jie Yang 0002, 0, 0, 0, 1, 0, 0
+2531, Yuko Itokawa, 0, 0, 0, 1, 0, 0
+2530, Nian-yi Chen, 0, 0, 0, 1, 0, 0
+2556, Byoung-Tak Zhang, 0, 0, 0, 2, 0, 0
+2557, Yongdai Kim, 0, 0, 0, 1, 0, 0
+2558, Sang Hyun Oh, 0, 0, 0, 1, 0, 0
+2559, Kamran Karimi, 0, 0, 0, 1, 0, 0
+2552, Sanjaykumar Kote, 0, 0, 0, 1, 0, 0
+2553, Ying Yang, 0, 0, 0, 1, 0, 0
+2554, Yuseop Kim, 0, 0, 0, 1, 0, 0
+2555, Jeong Ho Chang, 0, 0, 0, 1, 0, 0
+2548, Johanna I. Westbrook, 0, 0, 0, 1, 0, 0
+2549, Tatjana Zrimec, 0, 0, 0, 1, 0, 0
+2550, Jung-Hwan Oh, 0, 0, 0, 1, 0, 0
+2551, JeongKyu Lee, 0, 0, 0, 1, 0, 0
+2544, Annie Lau, 0, 0, 0, 1, 0, 0
+2545, Siew Siew Ong, 0, 0, 0, 1, 0, 0
+2546, Ashesh Mahidadia, 0, 0, 0, 1, 0, 0
+2547, Achim G. Hoffmann, 0, 0, 0, 1, 0, 0
+2306, Claude Sammut, 0, 1, 0, 0, 0, 0
+2307, Xiaojin Zhu, 0, 1, 0, 0, 0, 0
+2304, Krishna Prasad Chitrapura, 0, 1, 0, 0, 0, 0
+2305, Andrew Isaac, 0, 1, 0, 0, 0, 0
+2310, Thomas G. Dietterich, 0, 2, 0, 0, 0, 0
+2311, Benjamin Taskar, 0, 1, 0, 0, 0, 0
+2308, Zoubin Ghahramani, 0, 3, 0, 0, 0, 0
+2309, Xin Wang 0010, 0, 1, 0, 0, 0, 0
+2314, Bin Yu 0001, 0, 1, 0, 0, 0, 0
+2315, Robert J. Yan, 0, 1, 0, 0, 0, 0
+2312, Ming Fai Wong, 0, 1, 0, 0, 0, 0
+2313, Tong Zhang 0001, 0, 1, 0, 0, 0, 0
+2318, Dan Roth, 0, 2, 0, 0, 0, 0
+2319, Balaraman Ravindran, 0, 2, 0, 0, 0, 0
+2316, Manfred Jaeger, 0, 1, 0, 0, 0, 0
+2317, Chad M. Cumby, 0, 1, 0, 0, 0, 0
+2323, Noam Shental, 0, 1, 0, 0, 0, 1
+2322, Tomer Hertz, 0, 1, 0, 0, 0, 1
+2321, Aharon Bar-Hillel, 0, 1, 0, 0, 1, 0
+2320, Andrew G. Barto, 0, 2, 0, 0, 0, 0
+2327, Klaus Brinker, 0, 1, 0, 0, 0, 0
+2326, Pedro M. Domingos, 0, 2, 0, 0, 0, 0
+2325, Matthew Richardson, 0, 1, 0, 0, 0, 0
+2324, Daphna Weinshall, 0, 1, 0, 0, 1, 1
+2331, S. V. N. Vishwanathan, 0, 1, 0, 0, 0, 0
+2330, Enric Plaza, 0, 1, 0, 0, 0, 0
+2329, Santiago Ontañón, 0, 1, 0, 0, 0, 0
+2328, Koji Tsuda, 0, 1, 0, 0, 0, 0
+2335, Dileep George, 0, 1, 0, 0, 0, 0
+2334, Pat Langley, 0, 1, 0, 0, 0, 0
+2333, Kristin P. Bennett, 0, 1, 0, 0, 1, 0
+2332, M. Narasimha Murty, 0, 1, 0, 0, 0, 0
+2336, Kazumi Saito, 0, 2, 0, 0, 0, 0
+2337, Eric Wiewiora, 0, 1, 0, 0, 0, 0
+2338, Garrison W. Cottrell, 0, 1, 0, 0, 0, 0
+2339, Charles Elkan, 0, 2, 0, 0, 0, 0
+2340, Xiaoli Zhang Fern, 0, 2, 0, 0, 0, 0
+2341, Carla E. Brodley, 0, 2, 0, 0, 0, 0
+2342, Nicolas Lachiche, 0, 1, 0, 0, 0, 0
+2343, Nathan Srebro, 0, 1, 0, 0, 0, 0
+2344, Ruslan Salakhutdinov, 0, 3, 0, 0, 0, 0
+2345, Sam T. Roweis, 0, 3, 0, 0, 0, 0
+2346, Cong Li, 0, 1, 0, 0, 0, 0
+2347, Ji-Rong Wen, 0, 1, 1, 0, 0, 0
+2348, Hang Li, 0, 1, 0, 0, 0, 0
+2349, Amy Greenwald, 0, 2, 0, 0, 1, 0
+2350, Keith Hall, 0, 1, 0, 0, 0, 0
+2351, Samuel Kaski, 0, 1, 0, 0, 0, 0
+2353, Reuven Y. Rubinstein, 0, 1, 0, 0, 0, 0
+2352, Jaakko Peltonen, 0, 1, 0, 0, 0, 0
+2355, Tao Liu, 0, 1, 0, 0, 0, 0
+2354, Yohai Gat, 0, 1, 0, 0, 0, 0
+2357, Kenneth A. De Jong, 0, 1, 0, 0, 0, 0
+2356, William G. Kennedy, 0, 1, 0, 0, 0, 0
+2359, Lian Yan, 0, 1, 0, 0, 0, 0
+2358, Jun Zhang 0002, 0, 1, 0, 0, 0, 0
+2361, Michael Mozer, 0, 1, 0, 0, 0, 0
+2360, Robert H. Dodier, 0, 1, 0, 0, 0, 0
+2363, Dominic Mazzoni, 0, 1, 0, 0, 0, 0
+2362, Richard H. Wolniewicz, 0, 1, 0, 0, 0, 0
+2365, Mario Marchand, 0, 1, 0, 0, 0, 0
+2364, Amy McGovern, 0, 1, 0, 0, 0, 0
+2367, Marina Sokolova, 0, 1, 0, 0, 0, 0
+2366, Mohak Shah, 0, 1, 0, 0, 0, 0
+2374, Ira Cohen, 0, 1, 0, 0, 0, 0
+2375, Marcelo Cesar Cirelo, 0, 1, 0, 0, 0, 0
+2372, Michael A. Goodrich, 0, 1, 0, 0, 0, 0
+2373, Fábio Gagliardi Cozman, 0, 2, 0, 0, 0, 0
+2370, Qing Lu, 0, 1, 0, 0, 0, 0
+2371, Jeff L. Stimpson, 0, 1, 0, 0, 0, 0
+2368, Gavin Brown, 0, 1, 0, 0, 0, 0
+2369, Jeremy L. Wyatt, 0, 1, 0, 0, 0, 0
+2382, Judy Johnson, 0, 1, 0, 0, 0, 0
+2383, Kostas Tsioutsiouliklis, 0, 1, 0, 0, 0, 0
+2380, Yunxin Zhao, 0, 2, 0, 0, 0, 0
+2381, Ashutosh Garg, 0, 1, 0, 0, 0, 0
+2378, Naonori Ueda, 0, 1, 0, 0, 0, 0
+2379, Giorgio Valentini, 0, 1, 0, 0, 0, 0
+2376, Gang Wu, 0, 1, 0, 0, 0, 0
+2377, Takeshi Yamada, 0, 1, 0, 0, 0, 0
+2391, Marc Sebban, 0, 1, 0, 0, 0, 0
+2390, Yuu Yamada, 0, 1, 0, 0, 0, 0
+2389, Martin Zinkevich, 0, 1, 0, 0, 1, 0
+2388, Ronald Parr, 0, 3, 0, 0, 0, 0
+2387, Michail G. Lagoudakis, 0, 2, 0, 0, 0, 0
+2386, Jure Leskovec, 0, 1, 0, 0, 0, 0
+2385, Thorsten Joachims, 0, 1, 0, 0, 0, 0
+2384, Alexander G. Hauptmann, 0, 2, 0, 0, 0, 1
+2399, Edward F. Harrington, 0, 1, 0, 0, 0, 0
+2398, Risi Kondor, 0, 1, 0, 0, 2, 0
+2397, Chris Mesterharm, 0, 1, 0, 0, 0, 0
+2396, Ron Meir, 0, 1, 0, 0, 1, 0
+2395, Yaakov Engel, 0, 1, 0, 0, 0, 0
+2394, Yi Zhang 0001, 0, 1, 0, 0, 0, 0
+2393, David Cohn, 0, 1, 0, 0, 0, 0
+2392, Jean-Christophe Janodet, 0, 1, 0, 0, 0, 0
+2404, Adam Laud, 0, 1, 0, 0, 0, 0
+2405, Gerald DeJong, 0, 1, 0, 0, 0, 0
+2406, Ulrich Rückert 0002, 0, 1, 0, 0, 0, 0
+2407, Stefan Kramer 0001, 0, 1, 0, 0, 0, 0
+2400, Rong Yan, 0, 1, 0, 0, 0, 1
+2401, Peter Geibel, 0, 1, 0, 0, 0, 0
+2402, Fritz Wysotzki, 0, 1, 0, 0, 0, 0
+2403, Sergey Kirshner, 0, 1, 0, 0, 0, 0
+2412, Ilya Desyatnikov, 0, 0, 0, 0, 1, 0
+2413, Shai Ben-David, 0, 0, 0, 0, 1, 0
+2414, Reba Schuller, 0, 0, 0, 0, 1, 0
+2415, Roni Khardon, 0, 0, 0, 0, 2, 0
+2408, Sanjoy Dasgupta, 0, 0, 0, 0, 3, 0
+2409, Jayadeva, 0, 0, 0, 0, 1, 0
+2410, Matthias Hein 0001, 0, 0, 0, 0, 1, 0
+2411, Olivier Bousquet, 0, 0, 0, 0, 2, 0
+2421, Claudio Gentile, 0, 0, 0, 0, 1, 0
+2420, Alex Conconi, 0, 0, 0, 0, 1, 0
+2423, Amiran Ambroladze, 0, 0, 0, 0, 1, 0
+2422, Marta Arias, 0, 0, 0, 0, 1, 0
+2417, Adam Klivans, 0, 0, 0, 0, 1, 0
+2416, Nahum Shimkin, 0, 0, 0, 0, 1, 0
+2419, Nicolò Cesa-Bianchi, 0, 0, 0, 0, 1, 0
+2418, Marcus Hutter, 0, 0, 0, 0, 2, 0
+2429, Balázs Kégl, 0, 0, 0, 0, 1, 0
+2428, Mark Johnson, 0, 1, 0, 0, 1, 0
+2431, Amir Navot, 0, 0, 0, 0, 1, 0
+2430, Ran Gilad-Bachrach, 0, 0, 0, 0, 1, 0
+2425, Vladimir Koltchinskii, 0, 0, 0, 0, 2, 0
+2424, Manfred K. Warmuth, 0, 0, 0, 0, 1, 0
+2427, Daniel D. Lee, 0, 0, 0, 0, 1, 0
+2426, Fei Sha, 0, 0, 0, 0, 1, 0
+2750, Patrice Perny, 0, 1, 0, 0, 0, 0
+2751, Olivier Spanjaard, 0, 1, 0, 0, 0, 0
+2748, Richard Booth, 0, 1, 0, 0, 0, 0
+2749, Eva Richter, 0, 1, 0, 0, 0, 0
+2746, David Allen, 0, 2, 0, 0, 0, 0
+2747, Hei Chan, 0, 2, 0, 0, 0, 0
+2744, Catherine Shenoy, 0, 1, 0, 0, 0, 0
+2745, Prakash P. Shenoy, 0, 2, 0, 0, 0, 0
+2742, Robert Mateescu, 0, 1, 0, 0, 0, 0
+2743, Liping Liu, 0, 1, 0, 0, 0, 0
+2740, Joel Young, 0, 1, 0, 0, 0, 0
+2741, Thomas L. Dean, 0, 1, 0, 0, 0, 0
+2738, Kees Albers, 0, 1, 0, 0, 0, 0
+2739, Bert Kappen, 0, 1, 0, 0, 0, 0
+2736, Bernhard Pfahringer, 0, 1, 0, 0, 0, 0
+2737, Matthew Rosencrantz, 0, 1, 0, 0, 0, 0
+2735, Mark A. Hall, 0, 1, 0, 0, 0, 0
+2734, Eibe Frank, 0, 1, 0, 0, 0, 0
+2733, Marco Zaffalon, 0, 1, 0, 0, 0, 0
+2732, Gert de Cooman, 0, 1, 0, 0, 0, 0
+2731, Shlomo Zilberstein, 0, 3, 0, 0, 0, 0
+2730, Eric A. Hansen, 0, 2, 0, 0, 0, 0
+2729, Zhengzhu Feng, 0, 1, 0, 0, 0, 0
+2728, Noah J. Cowan, 0, 1, 0, 0, 0, 0
+2727, Gregory Lawrence, 0, 1, 0, 0, 0, 0
+2726, Thomas Lukasiewicz, 0, 2, 0, 0, 0, 0
+2725, Thomas Eiter, 0, 1, 0, 0, 0, 0
+2724, Christian R. Shelton, 0, 2, 0, 0, 0, 0
+2723, Uri Nodelman, 0, 1, 0, 0, 0, 0
+2722, Aviv Regev, 0, 1, 0, 0, 0, 0
+2721, Dana Pe'er, 0, 1, 0, 0, 0, 0
+2720, Eran Segal, 0, 1, 0, 0, 0, 0
+2716, José Carlos Ferreira da Rocha, 0, 1, 0, 0, 0, 0
+2717, Cassio Polpo de Campos, 0, 1, 0, 0, 0, 0
+2718, Jeff A. Bilmes, 0, 1, 0, 0, 0, 0
+2719, Chris D. Bartels, 0, 1, 0, 0, 0, 0
+2712, Rajarshi Das, 0, 2, 0, 0, 0, 0
+2713, Jeffrey O. Kephart, 0, 2, 0, 0, 0, 0
+2714, Gerald Tesauro, 0, 1, 0, 0, 0, 0
+2715, William E. Walsh, 0, 2, 0, 0, 0, 0
+2708, Àngela Nebot, 0, 1, 0, 0, 0, 0
+2709, Pilar Gómez, 0, 1, 0, 0, 0, 0
+2710, Gal Elidan, 0, 1, 0, 0, 0, 0
+2711, Nir Friedman, 0, 2, 0, 0, 0, 0
+2704, Thomas S. Richardson 0001, 0, 1, 0, 0, 0, 0
+2705, Amir Globerson, 0, 1, 0, 0, 0, 0
+2706, Gal Chechik, 0, 1, 0, 0, 0, 0
+2707, Francisco Mugica, 0, 1, 0, 0, 0, 0
+2701, Clark Glymour, 0, 1, 0, 0, 0, 0
+2700, Richard Scheines, 0, 1, 0, 0, 0, 0
+2703, Mathias Drton, 0, 1, 0, 0, 0, 0
+2702, Peter Spirtes, 0, 2, 0, 0, 0, 0
+2697, José A. Gámez, 0, 1, 0, 0, 0, 0
+2696, M. Julia Flores, 0, 1, 0, 0, 0, 0
+2699, Ricardo Bezerra de Andrade e Silva, 0, 1, 0, 0, 0, 0
+2698, Kristian G. Olesen, 0, 1, 0, 0, 0, 0
+2693, Ari Frank, 0, 1, 0, 0, 0, 0
+2692, Adnan Darwiche, 0, 6, 0, 0, 0, 0
+2695, Zohar Yakhini, 0, 1, 0, 0, 0, 0
+2694, Dan Geiger, 0, 2, 0, 0, 0, 0
+2689, Christopher Crick, 0, 1, 0, 0, 0, 0
+2688, Luigi Portinale, 0, 1, 0, 0, 0, 0
+2691, James D. Park, 0, 2, 0, 0, 0, 0
+2690, Avi Pfeffer, 0, 2, 0, 0, 0, 0
+2810, Stefano Soatto, 0, 0, 0, 0, 0, 5
+2811, Anthony J. Yezzi, 0, 0, 0, 0, 0, 2
+2808, Joshua Gluckman, 0, 0, 0, 0, 0, 1
+2809, Theo Gevers, 0, 0, 0, 0, 0, 2
+2814, Aaron P. Shon, 0, 0, 0, 0, 0, 1
+2815, Rajesh P. N. Rao, 0, 0, 0, 0, 0, 1
+2812, Hailin Jin, 0, 0, 0, 0, 0, 1
+2813, David B. Grimes, 0, 0, 0, 0, 0, 1
+2802, Yang Wang 0002, 0, 1, 0, 0, 0, 1
+2803, Tele Tan, 0, 1, 0, 0, 0, 1
+2800, Jean Ponce, 0, 0, 0, 0, 0, 3
+2801, Peter N. Belhumeur, 0, 0, 0, 0, 0, 2
+2806, Kuang-Cheng Chang, 0, 0, 0, 0, 0, 1
+2807, Anlei Dong, 0, 0, 0, 0, 0, 2
+2804, Kia-Fock Loe, 0, 2, 0, 0, 0, 1
+2805, Peng-Yeng Yin, 0, 0, 0, 0, 0, 1
+2795, Peter Nillius, 0, 0, 0, 0, 0, 1
+2794, Gyuri Dorkó, 0, 0, 0, 0, 0, 1
+2793, Huazhong Ning, 0, 0, 0, 0, 0, 1
+2792, Liang Wang 0001, 0, 0, 0, 0, 0, 1
+2799, David J. Kriegman, 0, 0, 0, 0, 0, 1
+2798, Jeffrey Ho, 0, 0, 0, 0, 0, 1
+2797, Todd Zickler, 0, 0, 0, 0, 0, 1
+2796, Jan-Olof Eklundh, 0, 0, 0, 0, 0, 2
+2787, Meirav Galun, 0, 0, 0, 0, 0, 1
+2786, Phan Hong Giang, 0, 1, 0, 0, 0, 0
+2785, Odile Papini, 0, 1, 0, 0, 0, 0
+2784, Sylvain Lagrue, 0, 1, 0, 0, 0, 0
+2791, Yonatan Wexler, 0, 0, 0, 0, 0, 1
+2790, Achi Brandt, 0, 0, 0, 0, 0, 1
+2789, Ronen Basri, 0, 0, 0, 0, 0, 2
+2788, Eitan Sharon, 0, 0, 0, 0, 0, 1
+2776, Russell Greiner, 0, 3, 0, 0, 0, 0
+2777, Yong Gao, 0, 1, 0, 0, 0, 0
+2778, Joseph Y. Halpern, 0, 4, 0, 0, 0, 0
+2779, Riccardo Pucella, 0, 1, 0, 0, 0, 0
+2780, David Azari, 0, 1, 0, 0, 0, 0
+2781, Eric Horvitz, 0, 1, 0, 0, 0, 0
+2782, Eric Brill, 0, 1, 0, 0, 0, 0
+2783, Salem Benferhat, 0, 1, 0, 0, 0, 0
+2768, David Price, 0, 1, 0, 0, 0, 0
+2769, Sylvie Thiébaux, 0, 2, 0, 0, 0, 0
+2770, Janneke H. Bolt, 0, 1, 0, 0, 0, 0
+2771, Silja Renooij, 0, 1, 0, 0, 0, 0
+2772, Linda C. van der Gaag, 0, 1, 0, 0, 0, 0
+2773, Alberto Finzi, 0, 1, 0, 0, 0, 0
+2774, Daniel J. Lizotte, 0, 1, 0, 0, 0, 0
+2775, Omid Madani, 0, 1, 0, 0, 0, 0
+2761, Rita Sharma, 0, 1, 0, 0, 0, 0
+2760, Rómer Rosales, 0, 1, 0, 0, 0, 1
+2763, Fletcher Lu, 0, 1, 0, 0, 0, 0
+2762, David Poole, 0, 2, 0, 0, 0, 0
+2765, Chen-Hsiang Yeang, 0, 1, 0, 0, 0, 0
+2764, Benjamin M. Marlin, 0, 1, 0, 0, 0, 0
+2767, Charles Gretton, 0, 1, 0, 0, 0, 0
+2766, Martin Szummer, 0, 1, 0, 0, 0, 0
+2753, Tomás Singliar, 0, 1, 0, 0, 0, 0
+2752, Milos Hauskrecht, 0, 1, 0, 0, 0, 0
+2755, Jiji Zhang, 0, 1, 0, 0, 0, 0
+2754, Dmitry Rusakov, 0, 1, 0, 0, 0, 0
+2757, David Page, 0, 2, 0, 0, 0, 0
+2756, Vítor Santos Costa, 0, 1, 0, 0, 0, 0
+2759, James Cussens, 0, 1, 0, 0, 0, 0
+2758, Maleeha Qazi, 0, 1, 0, 0, 0, 0
+2615, Xin Wang 0004, 0, 0, 0, 1, 0, 0
+2614, Sungzoon Cho, 0, 0, 0, 1, 0, 0
+2613, Hyunjung Shin, 0, 0, 0, 1, 0, 0
+2612, Lalit M. Patnaik, 0, 0, 0, 1, 0, 0
+2611, K. R. Venugopal, 0, 0, 0, 1, 0, 0
+2610, K. G. Srinivasa, 0, 0, 0, 1, 0, 0
+2609, P. Deepa Shenoy, 0, 0, 0, 1, 0, 0
+2608, GeunSik Jo, 0, 0, 0, 1, 0, 0
+2623, Jyrki Kivinen, 0, 0, 0, 1, 0, 0
+2622, Ralf Herbrich, 0, 0, 0, 1, 0, 0
+2621, Edward Harrington, 0, 0, 0, 1, 0, 0
+2620, Domenico Saccà, 0, 0, 0, 1, 0, 0
+2619, Giuseppe Manco, 0, 0, 0, 1, 0, 0
+2618, Antonella Guzzo, 0, 0, 0, 1, 0, 0
+2617, Gianluigi Greco, 0, 1, 0, 1, 0, 0
+2616, Anny Ng, 0, 0, 0, 1, 0, 0
+2598, Yusuke Suzuki, 0, 0, 0, 1, 0, 0
+2599, Sachio Hirokawa, 0, 0, 0, 1, 0, 0
+2596, Nan Niu, 0, 0, 0, 1, 0, 0
+2597, Alex Kovarsky, 0, 0, 0, 1, 0, 0
+2594, Xuejie Qin, 0, 0, 0, 1, 0, 0
+2595, Zhiyong Lu, 0, 0, 0, 1, 0, 0
+2592, Pauline Lienhua Chou, 0, 0, 0, 1, 0, 0
+2593, Xiuzhen Zhang, 0, 0, 0, 1, 0, 0
+2606, Zhong Zhang, 0, 0, 0, 1, 0, 0
+2607, Jason J. Jung, 0, 0, 0, 1, 0, 0
+2604, Shilong Ma, 0, 0, 0, 1, 0, 0
+2605, Paul S. Bradley, 0, 0, 0, 1, 0, 0
+2602, Qingguo Zheng, 0, 0, 0, 1, 0, 0
+2603, Ke Xu, 0, 0, 0, 1, 0, 0
+2600, Kenichi Takahashi, 0, 0, 0, 1, 0, 0
+2601, Hiroaki Ueda, 0, 0, 0, 1, 0, 0
+2581, Hongbo Shi, 0, 0, 0, 1, 0, 0
+2580, Kyungsook Han, 0, 0, 0, 1, 0, 0
+2583, Houkuan Huang, 0, 0, 0, 1, 0, 0
+2582, Zhihai Wang, 0, 0, 0, 1, 0, 0
+2577, Nicolas Nicoloyannis, 0, 0, 0, 1, 0, 0
+2576, Pierre-Emmanuel Jouve, 0, 0, 0, 1, 0, 0
+2579, Jong Park, 0, 0, 0, 1, 0, 0
+2578, Hyongguen Kim, 0, 0, 0, 1, 0, 0
+2589, Christopher R. Palmer, 0, 0, 0, 1, 0, 0
+2588, Christie I. Ezeife, 0, 0, 0, 1, 0, 0
+2591, Wai Lam, 0, 0, 0, 1, 0, 0
+2590, Yiqiu Han, 0, 0, 0, 1, 0, 0
+2585, Song Junde, 0, 0, 0, 1, 0, 0
+2584, Yanchang Zhao, 0, 0, 0, 1, 0, 0
+2587, Yi Lu, 0, 0, 0, 1, 0, 0
+2586, Seong-Bae Park, 0, 0, 0, 1, 0, 0
+2564, Bruno Bachimont, 0, 0, 0, 1, 0, 0
+2565, Chia-Hui Chang, 0, 0, 0, 1, 0, 0
+2566, Shi-Hsan Yang, 0, 0, 0, 1, 0, 0
+2567, Chang-Hung Lee, 0, 0, 0, 1, 0, 0
+2560, Howard J. Hamilton, 0, 0, 0, 2, 0, 0
+2561, Younes Hafri, 0, 0, 0, 1, 0, 0
+2562, Chabane Djeraba, 0, 0, 0, 1, 0, 0
+2563, Peter L. Stanchev, 0, 0, 0, 1, 0, 0
+2572, Baile Shi, 0, 0, 0, 1, 0, 0
+2573, Jae-Woo Chang, 0, 0, 0, 1, 0, 0
+2574, Iko Pramudiono, 0, 0, 0, 1, 0, 0
+2575, Masaru Kitsuregawa, 0, 0, 0, 1, 0, 0
+2568, Jian Chih Ou, 0, 0, 0, 1, 0, 0
+2569, Mingsheng Hong, 0, 0, 0, 1, 0, 0
+2570, Haofeng Zhou, 0, 0, 0, 1, 0, 0
+2571, Wei Wang 0009, 0, 0, 0, 1, 0, 0
+2675, Nicolas Meuleau, 0, 1, 0, 0, 0, 0
+2674, Mark Hopkins, 0, 1, 0, 0, 0, 0
+2673, Marek J. Druzdzel, 0, 2, 0, 0, 0, 0
+2672, Changhe Yuan, 0, 1, 0, 0, 0, 0
+2679, Daniel Nikovski, 0, 1, 0, 0, 0, 0
+2678, Guy Lebanon, 0, 1, 0, 0, 0, 0
+2677, Adrian Corduneanu, 0, 1, 0, 0, 0, 0
+2676, David E. Smith, 0, 1, 0, 0, 0, 0
+2683, Bozhena Bidyuk, 0, 1, 0, 0, 0, 0
+2682, Volker Tresp, 0, 1, 2, 0, 0, 0
+2681, Anton Schwaighofer, 0, 1, 0, 0, 0, 0
+2680, Kai Yu, 0, 1, 2, 0, 0, 0
+2687, Stefania Montani, 0, 1, 0, 0, 0, 0
+2686, Andrea Bobbio, 0, 1, 0, 0, 0, 0
+2685, Kalev Kask, 0, 1, 0, 0, 0, 0
+2684, Radu Marinescu 0002, 0, 1, 0, 0, 0, 0
+2658, Jonathan Ko, 0, 1, 0, 0, 0, 0
+2659, Dieter Fox, 0, 2, 0, 0, 0, 0
+2656, Eric P. Xing, 0, 1, 0, 0, 0, 0
+2657, Benjamin Stewart, 0, 1, 0, 0, 0, 0
+2662, Thomas Richardson, 0, 1, 0, 0, 0, 0
+2663, Keisuke Yamazaki, 0, 1, 0, 0, 0, 0
+2660, Kurt Konolige, 0, 1, 0, 0, 0, 0
+2661, Sanjay Chaudhuri, 0, 1, 0, 0, 0, 0
+2666, Jens Dalgaard Nielsen, 0, 1, 0, 0, 0, 0
+2667, Tomás Kocka, 0, 1, 0, 0, 0, 0
+2664, Sumio Watanabe, 0, 1, 0, 0, 0, 0
+2665, Geoffrey E. Hinton, 0, 1, 0, 0, 0, 0
+2670, Dan Cosley, 0, 1, 0, 0, 0, 0
+2671, Markus Svensén, 0, 1, 0, 0, 0, 0
+2668, José Manuel Peña, 0, 1, 0, 0, 0, 0
+2669, Shyong K. Lam, 0, 1, 0, 0, 0, 0
+2641, Takashi Matsuda, 0, 0, 0, 1, 0, 0
+2640, Warodom Geamsakul, 0, 0, 0, 1, 0, 0
+2643, Hiroshi Motoda, 0, 0, 0, 2, 0, 0
+2642, Tetsuya Yoshida, 0, 0, 0, 1, 0, 0
+2645, Tianhao Wu, 0, 0, 0, 1, 0, 0
+2644, Takashi Washio, 0, 0, 0, 1, 0, 0
+2647, Chao Liu 0001, 0, 0, 0, 1, 0, 0
+2646, William M. Pottenger, 0, 0, 0, 1, 0, 0
+2649, Minrui Zheng, 0, 0, 0, 1, 0, 0
+2648, Ming Zhang, 0, 0, 0, 1, 0, 0
+2651, Amos J. Storkey, 0, 1, 0, 0, 0, 0
+2650, Yixin Chen, 0, 0, 0, 1, 0, 0
+2653, Robert G. Mann, 0, 1, 0, 0, 0, 0
+2652, Nigel C. Hambly, 0, 1, 0, 0, 0, 0
+2655, Sebastian Thrun, 0, 7, 0, 0, 0, 0
+2654, Joelle Pineau, 0, 2, 0, 0, 0, 0
+2624, John C. Platt, 0, 0, 0, 1, 0, 0
+2625, Robert C. Williamson, 0, 0, 0, 1, 0, 0
+2626, Myung-Won Kim, 0, 0, 0, 1, 0, 0
+2627, Joung Woo Ryu, 0, 0, 0, 1, 0, 0
+2628, Samkeun Kim, 0, 0, 0, 1, 0, 0
+2629, Joong Geun Lee, 0, 0, 0, 1, 0, 0
+2630, Ratthachat Chatpatanasiri, 0, 0, 0, 1, 0, 0
+2631, Boonserm Kijsirikul, 0, 0, 0, 1, 0, 0
+2632, Bavani Arunasalam, 0, 0, 0, 1, 0, 0
+2633, Joseph G. Davis, 0, 0, 0, 1, 0, 0
+2634, Pusheng Zhang, 0, 0, 0, 1, 0, 0
+2635, Yan Huang, 0, 0, 0, 1, 0, 0
+2636, Shashi Shekhar, 0, 0, 0, 1, 0, 0
+2637, Liangang Liu, 0, 0, 0, 1, 0, 0
+2638, Jinmei Xu, 0, 0, 0, 1, 0, 0
+2639, Sam Yuan Sung, 0, 0, 0, 1, 0, 0
+2989, David Tschumperlé, 0, 0, 0, 0, 0, 1
+2988, Patrick Pérez, 0, 0, 0, 0, 0, 1
+2991, Aly A. Farag, 0, 0, 0, 0, 0, 1
+2990, Moumen T. El-Melegy, 0, 0, 0, 0, 0, 1
+2985, James J. Little, 0, 0, 0, 0, 0, 1
+2984, Jesse Hoey, 0, 0, 0, 0, 0, 1
+2987, Arnaud Doucet, 0, 0, 0, 0, 0, 1
+2986, Jaco Vermaak, 0, 0, 0, 0, 0, 1
+2981, Brian Curless, 0, 0, 0, 0, 0, 1
+2980, Li Zhang 0003, 0, 0, 0, 0, 0, 1
+2983, Steven M. Seitz, 0, 0, 0, 0, 0, 1
+2982, Aaron Hertzmann, 0, 0, 0, 0, 0, 1
+2977, Antonio Torralba, 0, 0, 0, 0, 0, 1
+2976, Darya Frolova, 0, 0, 0, 0, 0, 1
+2979, Mark A. Rubin, 0, 0, 0, 0, 0, 1
+2978, Kevin P. Murphy, 0, 0, 0, 0, 0, 1
+3004, Luc J. Van Gool, 0, 0, 0, 0, 0, 2
+3005, Meng Sun, 0, 0, 0, 0, 0, 1
+3006, Allan D. Jepson, 0, 0, 0, 0, 0, 1
+3007, Eugene Fiume, 0, 0, 0, 0, 0, 1
+3000, Ramani Duraiswami, 0, 0, 0, 0, 0, 1
+3001, Nail A. Gumerov, 0, 0, 0, 0, 0, 1
+3002, Rik Fransens, 0, 0, 0, 0, 0, 1
+3003, Jan De Prins, 0, 0, 0, 0, 0, 1
+2996, Huafeng Liu, 0, 0, 0, 0, 0, 1
+2997, Pengcheng Shi, 0, 0, 0, 0, 0, 1
+2998, Doron Feldman, 0, 0, 0, 0, 0, 1
+2999, Changjiang Yang, 0, 0, 0, 0, 0, 1
+2992, Stephen Benoit, 0, 0, 0, 0, 0, 1
+2993, Frank P. Ferrie, 0, 0, 0, 0, 0, 1
+2994, Takayuki Okatani, 0, 0, 0, 0, 0, 1
+2995, Koichiro Deguchi, 0, 0, 0, 0, 0, 1
+2959, Motilal Agrawal, 0, 0, 0, 0, 0, 1
+2958, Yu-Fei Ma, 0, 0, 0, 0, 0, 1
+2957, Chong-Wah Ngo, 0, 0, 0, 0, 0, 1
+2956, Jonas August, 0, 0, 0, 0, 0, 1
+2955, Fredrik Kahl, 0, 0, 0, 0, 0, 1
+2954, Mario Sznaier, 0, 0, 0, 0, 0, 1
+2953, Cecilia Mazzaro, 0, 0, 0, 0, 0, 1
+2952, Hwasup Lim, 0, 0, 0, 0, 0, 1
+2951, Octavia I. Camps, 0, 0, 0, 0, 0, 1
+2950, Narendra Ahuja, 0, 0, 0, 0, 0, 2
+2949, Hongcheng Wang, 0, 0, 0, 0, 0, 1
+2948, Kristin J. Dana, 0, 0, 0, 0, 0, 1
+2947, Jing Wang 0008, 0, 0, 0, 0, 0, 1
+2946, Russell H. Taylor, 0, 0, 0, 0, 0, 1
+2945, Jianhua Yao, 0, 0, 0, 0, 0, 1
+2944, Martial Hebert, 0, 0, 0, 0, 0, 2
+2974, Kannan Achan, 0, 0, 0, 0, 0, 1
+2975, Denis Simakov, 0, 0, 0, 0, 0, 1
+2972, Xiaogang Wang, 0, 0, 0, 0, 0, 2
+2973, Xiaoou Tang, 0, 0, 0, 0, 0, 3
+2970, John Isidoro, 0, 0, 0, 0, 0, 1
+2971, Stan Sclaroff, 0, 0, 0, 0, 0, 2
+2968, Hanzi Wang, 0, 0, 0, 0, 0, 1
+2969, David Suter, 0, 0, 0, 0, 0, 1
+2966, Torsten Rohlfing, 0, 0, 0, 0, 0, 1
+2967, Calvin R. Maurer Jr., 0, 0, 0, 0, 0, 1
+2964, Linda G. Shapiro, 0, 0, 0, 0, 0, 1
+2965, Daniel B. Russakoff, 0, 0, 0, 0, 0, 1
+2962, Tony Lindeberg, 0, 0, 0, 0, 0, 1
+2963, Salvador Ruiz-Correa, 0, 0, 0, 0, 0, 1
+2960, Larry S. Davis, 0, 0, 0, 0, 0, 2
+2961, Ivan Laptev, 0, 0, 0, 0, 0, 1
+3049, Hung-Tat Tsui, 0, 0, 0, 0, 0, 1
+3048, Guang Jiang, 0, 0, 0, 0, 0, 1
+3051, Jitendra Malik, 0, 0, 0, 0, 0, 3
+3050, Xiaofeng Ren, 0, 0, 0, 0, 0, 1
+3053, Irfan A. Essa, 0, 0, 0, 0, 0, 1
+3052, Drew Steedly, 0, 0, 0, 0, 0, 1
+3055, Shiloh L. Dockstader, 0, 0, 0, 0, 0, 1
+3054, Frank Dellaert, 0, 0, 0, 0, 0, 1
+3041, Hanno Scharr, 0, 0, 0, 0, 0, 1
+3040, Hui Gao, 0, 0, 0, 0, 0, 1
+3043, Horst W. Haussecker, 0, 0, 0, 0, 0, 1
+3042, Michael J. Black, 0, 0, 0, 0, 0, 1
+3045, Ramakant Nevatia, 0, 0, 0, 0, 0, 1
+3044, Somboon Hongeng, 0, 0, 0, 0, 0, 1
+3047, Joost van de Weijer, 0, 0, 0, 0, 0, 1
+3046, Moshe Ben-Ezra, 0, 0, 0, 0, 0, 1
+3064, Yair Weiss, 0, 0, 0, 0, 0, 2
+3065, Zu Whan Kim, 0, 0, 0, 0, 0, 1
+3066, Massimiliano Pavan, 0, 0, 0, 0, 0, 1
+3067, Marcello Pelillo, 0, 0, 0, 0, 0, 1
+3068, Emmanuel Prados, 0, 0, 0, 0, 0, 1
+3069, Zoran Duric, 0, 0, 0, 0, 0, 1
+3070, Fayin Li, 0, 0, 0, 0, 0, 1
+3071, Harry Wechsler, 0, 0, 0, 0, 0, 1
+3056, Nikita S. Imennov, 0, 0, 0, 0, 0, 1
+3057, A. Murat Tekalp, 0, 0, 0, 0, 0, 1
+3058, L. Lee, 0, 0, 0, 0, 0, 1
+3059, Gerald Dalley, 0, 0, 0, 0, 0, 1
+3060, Kinh Tieu, 0, 0, 0, 0, 0, 1
+3061, Omar Javed, 0, 0, 0, 0, 0, 1
+3062, Zeeshan Rasheed, 0, 0, 0, 0, 0, 1
+3063, Assaf Zomet, 0, 0, 0, 0, 0, 2
+3019, Yee-Hong Yang, 0, 0, 0, 0, 0, 1
+3018, Minglun Gong, 0, 0, 0, 0, 0, 1
+3017, Yoav Y. Schechner, 0, 0, 0, 0, 0, 1
+3016, Athinodoros S. Georghiades, 0, 0, 0, 0, 0, 1
+3023, Christoph Strecha, 0, 0, 0, 0, 0, 1
+3022, Bogdan Georgescu, 0, 0, 0, 0, 0, 1
+3021, David A. Forsyth, 0, 0, 0, 0, 0, 1
+3020, Deva Ramanan, 0, 0, 0, 0, 0, 1
+3011, Imari Sato, 0, 0, 0, 0, 0, 1
+3010, Andrew J. Davison, 0, 0, 0, 0, 0, 1
+3009, Visvanathan Ramesh, 0, 0, 0, 0, 0, 2
+3008, Srinivasa G. Narasimhan, 0, 0, 0, 0, 0, 1
+3015, Christophe Jermann, 0, 1, 0, 0, 0, 1
+3014, Gilles Trombettoni, 0, 1, 0, 0, 0, 1
+3013, Yoichi Sato, 0, 0, 0, 0, 0, 1
+3012, Takahiro Okabe, 0, 0, 0, 0, 0, 1
+3034, Alvin Harvey Kam, 0, 0, 0, 0, 0, 1
+3035, Junxian Wang, 0, 0, 0, 0, 0, 1
+3032, How-Lung Eng, 0, 0, 0, 0, 0, 1
+3033, Kar-Ann Toh, 0, 0, 0, 0, 0, 1
+3038, Yanxi Liu, 0, 0, 0, 0, 0, 1
+3039, James W. Davis, 0, 0, 0, 0, 0, 1
+3036, Wei-Yun Yau, 0, 0, 0, 0, 0, 1
+3037, Robert T. Collins, 0, 0, 0, 0, 0, 1
+3026, Jan Neumann, 0, 0, 0, 0, 0, 1
+3027, Cornelia Fermüller, 0, 0, 0, 0, 0, 1
+3024, Tinne Tuytelaars, 0, 0, 0, 0, 0, 1
+3025, Jing Zhong, 0, 0, 0, 0, 0, 1
+3030, Jim Xiuquan Ji, 0, 0, 0, 0, 0, 1
+3031, Zhi-Pei Liang, 0, 0, 0, 0, 0, 1
+3028, Yiannis Aloimonos, 0, 0, 0, 0, 0, 1
+3029, Song Wang, 0, 0, 0, 0, 0, 1
+2852, Svetlana Lazebnik, 0, 0, 0, 0, 0, 2
+2853, Kenji Hara, 0, 0, 0, 0, 0, 2
+2854, Ko Nishino, 0, 0, 0, 0, 0, 1
+2855, Katsushi Ikeuchi, 0, 0, 0, 0, 0, 5
+2848, Fumiaki Tomita, 0, 0, 0, 0, 0, 1
+2849, Yuri Boykov, 0, 0, 0, 0, 0, 1
+2850, Vladimir Kolmogorov, 0, 0, 0, 0, 0, 2
+2851, Xianghua Ying, 0, 0, 0, 0, 0, 1
+2860, Tal Arbel, 0, 0, 0, 0, 0, 1
+2861, Huaigu Cao, 0, 0, 0, 0, 0, 1
+2862, Xiaoqing Ding, 0, 0, 0, 0, 0, 1
+2863, Changsong Liu, 0, 0, 0, 0, 0, 1
+2856, Du Q. Huynh, 0, 0, 0, 0, 0, 1
+2857, R. Hartley, 0, 0, 0, 0, 0, 1
+2858, Anders Heyden, 0, 0, 0, 0, 0, 1
+2859, Matthew Toews, 0, 0, 0, 0, 0, 1
+2869, Gang Hua, 0, 0, 0, 0, 0, 1
+2868, Ying Wu, 0, 0, 0, 0, 0, 1
+2871, Mubarak Shah, 0, 0, 0, 0, 0, 4
+2870, Khurram Shafique, 0, 0, 0, 0, 0, 2
+2865, Gregory Shakhnarovich, 0, 0, 0, 0, 0, 2
+2864, Chris Stauffer, 0, 0, 0, 0, 0, 1
+2867, Trevor Darrell, 0, 0, 0, 0, 0, 3
+2866, Paul A. Viola, 0, 0, 0, 0, 0, 3
+2877, Jan-Mark Geusebroek, 0, 0, 0, 0, 0, 2
+2876, Aleksandr Dubinskiy, 0, 0, 0, 0, 0, 1
+2879, Robby T. Tan, 0, 0, 0, 0, 0, 2
+2878, Arnold W. M. Smeulders, 0, 0, 0, 0, 0, 1
+2873, Qiang Ji, 0, 0, 0, 0, 0, 1
+2872, Yongmian Zhang, 0, 0, 0, 0, 0, 1
+2875, Kiriakos N. Kutulakos, 0, 0, 0, 0, 0, 1
+2874, Samuel W. Hasinoff, 0, 0, 0, 0, 0, 1
+2822, Paolo Favaro, 0, 0, 0, 0, 0, 2
+2823, Alessandro Duci, 0, 0, 0, 0, 0, 2
+2820, Haifeng Chen, 0, 0, 0, 0, 0, 1
+2821, Peter Meer, 0, 0, 0, 0, 0, 2
+2818, Kenji Furukawa, 0, 0, 0, 0, 0, 1
+2819, Kazunori Onoguchi, 0, 0, 0, 0, 0, 1
+2816, Ryuzo Okada, 0, 0, 0, 0, 0, 1
+2817, Yasuhiro Taniguchi, 0, 0, 0, 0, 0, 1
+2830, Ales Leonardis, 0, 0, 0, 0, 0, 1
+2831, Antonio Robles-Kelly, 0, 0, 0, 0, 0, 1
+2828, Song Chun Zhu, 0, 0, 0, 0, 0, 5
+2829, Danijel Skocaj, 0, 0, 0, 0, 0, 1
+2826, Daniel Freedman, 0, 0, 0, 0, 0, 1
+2827, Adrian Barbu, 0, 0, 0, 0, 0, 1
+2824, Yi Ma, 0, 0, 0, 0, 0, 2
+2825, Tao Zhang, 0, 0, 0, 0, 0, 1
+2839, Gerardo Hermosillo, 0, 0, 0, 0, 0, 2
+2838, Jean-Philippe Pons, 0, 0, 0, 0, 0, 2
+2837, Camillo J. Taylor, 0, 0, 0, 0, 0, 1
+2836, Bjoern Stenger, 0, 0, 0, 0, 0, 1
+2835, Christoph Schnörr, 0, 0, 0, 0, 0, 1
+2834, Matthias Heiler, 0, 0, 0, 0, 0, 1
+2833, Dimitrios Katsoulas, 0, 0, 0, 0, 0, 1
+2832, Daniel Cremers, 0, 0, 0, 0, 0, 2
+2847, Toshio Ueshiba, 0, 0, 0, 0, 0, 1
+2846, David Nistér, 0, 0, 0, 0, 0, 1
+2845, Heung-Yeung Shum, 0, 0, 0, 0, 0, 2
+2844, Hanqing Lu, 0, 0, 0, 0, 0, 1
+2843, Stephen Lin, 0, 0, 0, 0, 0, 2
+2842, Yuanzhen Li, 0, 0, 0, 0, 0, 1
+2841, Olivier D. Faugeras, 0, 0, 0, 0, 0, 4
+2840, Renaud Keriven, 0, 0, 0, 0, 0, 2
+2912, Shankar Rao, 0, 0, 0, 0, 0, 1
+2913, Wei Hong, 0, 0, 0, 0, 0, 1
+2914, Zhuowen Tu, 0, 0, 0, 0, 0, 1
+2915, Xiangrong Chen, 0, 0, 0, 0, 0, 1
+2916, Cen Rao, 0, 0, 0, 0, 0, 1
+2917, Alexei Gritai, 0, 0, 0, 0, 0, 1
+2918, Tanveer Fathima Syeda-Mahmood, 0, 0, 0, 0, 0, 1
+2919, Sami Romdhani, 0, 0, 0, 0, 0, 1
+2920, Thomas Vetter, 0, 0, 0, 0, 0, 1
+2921, Jan-Michael Frahm, 0, 0, 0, 0, 0, 1
+2922, Reinhard Koch, 0, 0, 0, 0, 0, 1
+2923, Fei Wang 0002, 0, 0, 0, 0, 0, 1
+2924, Baba C. Vemuri, 0, 0, 0, 0, 0, 1
+2925, Murali Rao, 0, 0, 0, 0, 0, 2
+2926, Yunmei Chen, 0, 0, 0, 0, 0, 2
+2927, Carlo Tomasi, 0, 0, 0, 0, 0, 1
+2929, Arvind Sastry, 0, 0, 0, 0, 0, 1
+2928, Slav Petrov, 0, 0, 0, 0, 0, 1
+2931, Junhwan Kim, 0, 0, 0, 0, 0, 2
+2930, Eric Hayman, 0, 0, 0, 0, 0, 1
+2933, Michael J. Jones, 0, 0, 0, 0, 0, 1
+2932, Ramin Zabih, 0, 0, 0, 0, 0, 2
+2935, Shree K. Nayar, 0, 0, 0, 0, 0, 4
+2934, Daniel Snow, 0, 0, 0, 0, 0, 1
+2937, Liran Goshen, 0, 0, 0, 0, 0, 1
+2936, Vlad Branzoi, 0, 0, 0, 0, 0, 1
+2939, P. Anandan, 0, 0, 0, 0, 0, 1
+2938, Ilan Shimshoni, 0, 0, 0, 0, 0, 2
+2941, Cheng-en Guo, 0, 0, 0, 0, 0, 1
+2940, Daniel Keren, 0, 0, 0, 0, 0, 1
+2943, Shyjan Mahamud, 0, 0, 0, 0, 0, 1
+2942, Ying Nian Wu, 0, 0, 0, 0, 0, 1
+2882, Shiri Gordon, 0, 0, 0, 0, 0, 2
+2883, Hayit Greenspan, 0, 0, 0, 0, 0, 2
+2880, Rong Xiao, 0, 0, 0, 0, 0, 1
+2881, Long Zhu, 0, 0, 0, 0, 0, 1
+2886, Andrew Blake 0001, 0, 0, 0, 0, 0, 2
+2887, Anand Rangarajan, 0, 0, 0, 0, 0, 1
+2884, Jacob Goldberger, 0, 0, 0, 0, 0, 2
+2885, Oliver Williams, 0, 0, 0, 0, 0, 1
+2890, Ping Tan, 0, 0, 0, 0, 0, 1
+2891, Long Quan, 0, 0, 0, 0, 0, 3
+2888, James M. Coughlan, 0, 0, 0, 0, 0, 1
+2889, Alan L. Yuille, 0, 0, 0, 0, 0, 2
+2894, David Demirdjian, 0, 0, 0, 0, 0, 1
+2895, Teresa Ko, 0, 0, 0, 0, 0, 1
+2892, Yue Zhou, 0, 0, 0, 0, 0, 1
+2893, Anat Levin, 0, 0, 0, 0, 0, 2
+2899, Rachid Deriche, 0, 0, 0, 0, 0, 2
+2898, Nir A. Sochen, 0, 0, 0, 0, 0, 2
+2897, William T. Freeman, 0, 0, 0, 0, 0, 2
+2896, Marshall F. Tappen, 0, 0, 0, 0, 0, 1
+2903, Shimon Ullman, 0, 0, 0, 0, 0, 1
+2902, Michel Vidal-Naquet, 0, 0, 0, 0, 0, 1
+2901, Anitha Kannan, 0, 0, 0, 0, 0, 1
+2900, Lucero Lopez Perez, 0, 0, 0, 0, 0, 1
+2907, Paul Smith, 0, 0, 0, 0, 0, 1
+2906, Heinrich Niemann, 0, 0, 0, 0, 0, 1
+2905, Matthias Zobel, 0, 0, 0, 0, 0, 1
+2904, Joachim Denzler, 0, 0, 0, 0, 0, 1
+2911, Allen Y. Yang, 0, 0, 0, 0, 0, 1
+2910, Yizhou Wang, 0, 0, 0, 0, 0, 1
+2909, Sanjoy K. Mitter, 0, 0, 0, 0, 0, 1
+2908, Kimon Roussopoulos, 0, 0, 0, 0, 0, 1
+3284, Yoo-Sung Kim, 0, 0, 1, 0, 0, 0
+3285, Hang Cui, 0, 0, 1, 0, 0, 0
+3286, Jérôme Lang, 0, 4, 0, 0, 0, 0
+3287, Fangzhen Lin, 0, 3, 0, 0, 0, 0
+3280, Marcello L'Abbate, 0, 0, 1, 0, 0, 0
+3281, Chang-Hwan Shin, 0, 0, 1, 0, 0, 0
+3282, Kyong-I Ku, 0, 0, 1, 0, 0, 0
+3283, Ki-Chang Kim, 0, 0, 1, 0, 0, 0
+3292, Corin R. Anderson, 0, 1, 0, 0, 0, 0
+3293, Krzysztof Gajos, 0, 1, 0, 0, 0, 0
+3294, Tessa A. Lau, 0, 1, 0, 0, 0, 0
+3295, Steven A. Wolfman, 0, 1, 0, 0, 0, 0
+3288, Pierre Marquis, 0, 3, 0, 0, 0, 0
+3289, Charles B. Callaway, 0, 1, 0, 0, 0, 0
+3290, Yves Martins, 0, 1, 0, 0, 0, 0
+3291, Daniel S. Weld, 0, 1, 0, 0, 0, 0
+3269, S. Sathiya Keerthi, 0, 0, 1, 0, 0, 0
+3268, Han Tong Loh, 0, 0, 1, 0, 0, 0
+3271, Marco Bertini, 0, 0, 1, 0, 0, 0
+3270, Chong Jin Ong, 0, 0, 1, 0, 0, 0
+3265, Rakesh Menon, 0, 0, 1, 0, 0, 0
+3264, David S. Edwin, 0, 0, 1, 0, 0, 0
+3267, Jonathan Y. K. Lim, 0, 0, 1, 0, 0, 0
+3266, Lixiang Shen, 0, 0, 1, 0, 0, 0
+3277, Marco Degemmis, 0, 0, 1, 0, 0, 0
+3276, Giovanni Semeraro, 0, 0, 1, 0, 0, 0
+3279, Ulrich Thiel, 0, 0, 1, 0, 0, 0
+3278, Pasquale Lops, 0, 0, 1, 0, 0, 0
+3273, Walter Nunziati, 0, 0, 1, 0, 0, 0
+3272, Alberto Del Bimbo, 0, 0, 1, 0, 0, 0
+3275, Karen Finesilver, 0, 0, 1, 0, 0, 0
+3274, Cathal Gurrin, 0, 0, 1, 0, 0, 0
+3318, Arturo Galván, 0, 1, 0, 0, 0, 0
+3319, Jason Garforth, 0, 1, 0, 0, 0, 0
+3316, Moshe Looks, 0, 1, 0, 0, 0, 0
+3317, Salvador Mandujano, 0, 1, 0, 0, 0, 0
+3314, Weixiong Zhang, 0, 2, 0, 0, 0, 0
+3315, Ananda Rangan, 0, 1, 0, 0, 0, 0
+3312, Patrick Gallinari, 0, 1, 0, 0, 0, 0
+3313, Pierre Grenon, 0, 1, 0, 0, 0, 0
+3326, Gautam Biswas, 0, 1, 0, 0, 0, 0
+3327, Russell Bent, 0, 1, 0, 0, 0, 0
+3324, Laurent Chaudron, 0, 1, 0, 0, 0, 0
+3325, Sriram Narasimhan, 0, 1, 0, 0, 0, 0
+3322, Frédéric Dehais, 0, 1, 0, 0, 0, 0
+3323, Catherine Tessier, 0, 1, 0, 0, 0, 0
+3320, Sue L. McHale, 0, 1, 0, 0, 0, 0
+3321, Anthony Meehan, 0, 1, 0, 0, 0, 0
+3303, AbdelAli Ed-Dbali, 0, 1, 0, 0, 0, 0
+3302, Andrei Legtchenko, 0, 1, 0, 0, 0, 0
+3301, Thi-Bich-Hanh Dao, 0, 1, 0, 0, 0, 0
+3300, Arnaud Lallouet, 0, 1, 0, 0, 0, 0
+3299, Hannes Werthner, 0, 1, 0, 0, 0, 0
+3298, Mingyi Zhang, 0, 1, 0, 0, 0, 0
+3297, Li-Yan Yuan, 0, 1, 0, 0, 0, 0
+3296, Jia-Huai You, 0, 2, 0, 0, 0, 0
+3311, Massih-Reza Amini, 0, 1, 0, 0, 0, 0
+3310, Geoff Nitschke, 0, 1, 0, 0, 0, 0
+3309, Prem Melville, 0, 1, 0, 0, 0, 0
+3308, Ben Blum, 0, 1, 0, 0, 0, 0
+3307, Ming Zhou, 0, 1, 0, 0, 0, 0
+3306, Lijuan Qin, 0, 1, 0, 0, 0, 0
+3305, Shaojun Zhao, 0, 1, 0, 0, 0, 0
+3304, Dekang Lin, 0, 1, 0, 0, 0, 0
+3216, Pilar Rodríguez, 0, 0, 1, 0, 0, 0
+3217, Forbes Gibb, 0, 0, 1, 0, 0, 0
+3218, Hsin-Hsi Chen, 0, 0, 1, 0, 0, 0
+3219, June-Jei Kuo, 0, 0, 1, 0, 0, 0
+3220, Tsei-Chun Su, 0, 0, 1, 0, 0, 0
+3221, Gabriella Kazai, 0, 0, 1, 0, 0, 0
+3222, Mounia Lalmas, 0, 0, 1, 0, 0, 0
+3223, Jane Reid, 0, 0, 2, 0, 0, 0
+3224, Lily F. Tian, 0, 0, 1, 0, 0, 0
+3225, Kwok-Wai Cheung, 0, 0, 1, 0, 0, 0
+3226, Joaquín Adiego, 0, 0, 1, 0, 0, 0
+3227, Pablo de la Fuente, 0, 0, 2, 0, 0, 0
+3228, Aurora Pons-Porrata, 0, 0, 1, 0, 0, 0
+3229, Rafael Berlanga Llavori, 0, 0, 1, 0, 0, 0
+3230, José Ruiz-Shulcloper, 0, 0, 1, 0, 0, 0
+3231, Jizhi Wang, 0, 0, 1, 0, 0, 0
+3201, Rodrigo de Freitas Vale, 0, 0, 1, 0, 0, 0
+3200, Berthier A. Ribeiro-Neto, 0, 0, 1, 0, 0, 0
+3203, Juha Makkonen, 0, 0, 2, 0, 0, 0
+3202, Rodrigo Tôrres Assumpção, 0, 0, 1, 0, 0, 0
+3205, Marko Salmenkivi, 0, 0, 1, 0, 0, 0
+3204, Helena Ahonen-Myka, 0, 0, 1, 0, 0, 0
+3207, Fabrizio Sebastiani 0001, 0, 0, 1, 0, 0, 0
+3206, Pio Nardiello, 0, 0, 1, 0, 0, 0
+3209, Vlastislav Dohnal, 0, 0, 1, 0, 0, 0
+3208, Alessandro Sperduti, 0, 1, 1, 0, 0, 0
+3211, Pasquale Savino, 0, 0, 1, 0, 0, 0
+3210, Claudio Gennaro, 0, 0, 1, 0, 0, 0
+3213, Zhao Xu, 0, 0, 2, 0, 0, 0
+3212, Pavel Zezula, 0, 0, 1, 0, 0, 0
+3215, Enrique Alfonseca, 0, 0, 1, 0, 0, 0
+3214, Xiaowei Xu, 0, 0, 2, 0, 0, 0
+3250, Chris Handy, 0, 0, 1, 0, 0, 0
+3251, Michelle Fisher, 0, 0, 1, 0, 0, 0
+3248, Otso Virtanen, 0, 0, 1, 0, 0, 0
+3249, Mariam Tariq, 0, 0, 1, 0, 0, 0
+3254, Marcello Federico, 0, 0, 2, 0, 0, 0
+3255, Daniel Heesch, 0, 0, 1, 0, 0, 0
+3252, Richard M. Everson, 0, 0, 1, 0, 0, 0
+3253, Vanessa Sandrini, 0, 0, 2, 0, 0, 0
+3258, Nicola Bertoldi, 0, 0, 1, 0, 0, 0
+3259, Fabio Brugnara, 0, 0, 1, 0, 0, 0
+3256, Stefan M. Rüger, 0, 0, 1, 0, 0, 0
+3257, Marc Seutter, 0, 0, 1, 0, 0, 0
+3262, Erwin Leeuwis, 0, 0, 1, 0, 0, 0
+3263, Min Shi, 0, 0, 1, 0, 0, 0
+3260, Mauro Cettolo, 0, 0, 1, 0, 0, 0
+3261, Diego Giuliani, 0, 0, 1, 0, 0, 0
+3235, Ángel Viña, 0, 0, 1, 0, 0, 0
+3234, Carmen Guerrero, 0, 0, 1, 0, 0, 0
+3233, Victor Carneiro, 0, 0, 1, 0, 0, 0
+3232, Fidel Cacheda, 0, 0, 1, 0, 0, 0
+3239, Alvaro Barreiro, 0, 0, 1, 0, 0, 0
+3238, David E. Losada, 0, 0, 1, 0, 0, 0
+3237, Maosong Sun, 0, 0, 1, 0, 0, 0
+3236, Xue Dejun, 0, 0, 1, 0, 0, 0
+3243, Bärbel Ripplinger, 0, 0, 1, 0, 0, 0
+3242, Martin Braschler, 0, 0, 1, 0, 0, 0
+3241, Karen Sparck Jones, 0, 0, 1, 0, 0, 0
+3240, Jesús Vegas, 0, 0, 1, 0, 0, 0
+3247, Renaud Petit, 0, 0, 1, 0, 0, 0
+3246, Reeta Kuuskoski, 0, 0, 1, 0, 0, 0
+3245, Oskari Heinonen, 0, 0, 1, 0, 0, 0
+3244, Lili Aunimo, 0, 0, 1, 0, 0, 0
+3165, Huiqi Li, 0, 0, 0, 0, 0, 1
+3164, Hagit Hel-Or, 0, 0, 0, 0, 0, 1
+3167, Masataka Kagesawa, 0, 0, 0, 0, 0, 1
+3166, Opas Chutatape, 0, 0, 0, 0, 0, 1
+3161, Michel Barlaud, 0, 0, 0, 0, 0, 1
+3160, Stéphanie Jehan-Besson, 0, 0, 0, 0, 0, 1
+3163, Yacov Hel-Or, 0, 0, 0, 0, 0, 1
+3162, Gilles Aubert, 0, 0, 0, 0, 0, 1
+3157, Alessandro Busti, 0, 0, 0, 0, 0, 1
+3156, Arrigo Benedetti, 0, 0, 0, 0, 0, 1
+3159, Andrea Fusiello, 0, 0, 0, 0, 0, 1
+3158, Michela Farenzena, 0, 0, 0, 0, 0, 1
+3153, Christian Wallraven, 0, 0, 0, 0, 0, 1
+3152, Chi-Keung Tang, 0, 0, 0, 0, 0, 1
+3155, Arnulf B. A. Graf, 0, 0, 0, 0, 0, 1
+3154, Barbara Caputo, 0, 0, 0, 0, 0, 1
+3148, Mingjing Li, 0, 0, 0, 0, 0, 1
+3149, QianSheng Cheng, 0, 0, 0, 0, 0, 1
+3150, Zhen Wen, 0, 0, 0, 0, 0, 1
+3151, Jiaya Jia, 0, 0, 0, 0, 0, 1
+3144, Jamie Shotton, 0, 0, 0, 0, 0, 1
+3145, Daisuke Miyazaki, 0, 0, 0, 0, 0, 2
+3146, Xianfeng Gu, 0, 0, 0, 0, 0, 1
+3147, Shing-Tung Yau, 0, 0, 0, 0, 0, 1
+3140, Danny B. Yang, 0, 0, 0, 0, 0, 1
+3141, Lior Wolf, 0, 0, 0, 0, 0, 1
+3142, Amnon Shashua, 0, 0, 0, 0, 0, 1
+3143, Antonio Criminisi, 0, 0, 0, 0, 0, 1
+3136, Xiang Sean Zhou, 0, 0, 0, 0, 0, 1
+3137, Dorin Comaniciu, 0, 0, 0, 0, 0, 1
+3138, Arun Krishnan, 0, 0, 0, 0, 0, 1
+3139, Carsten Rother, 0, 0, 0, 0, 0, 1
+3199, Maria de Lourdes da Silveira, 0, 0, 1, 0, 0, 0
+3198, Sun Yixing, 0, 0, 1, 0, 0, 0
+3197, Ivan Koychev, 0, 0, 1, 0, 0, 0
+3196, David J. Harper, 0, 0, 1, 0, 0, 0
+3195, Irmina Masowska, 0, 0, 1, 0, 0, 0
+3194, Alessandro Moschitti, 0, 0, 1, 0, 0, 0
+3193, Julie A. McCann, 0, 0, 1, 0, 0, 0
+3192, Andy MacFarlane, 0, 0, 1, 0, 0, 0
+3191, James J. Barnes, 0, 0, 1, 0, 0, 0
+3190, Brigitte Bigi, 0, 0, 1, 0, 0, 0
+3189, Jeffrey D. Tew, 0, 0, 1, 0, 0, 0
+3188, Sarit Kraus, 0, 1, 1, 0, 0, 0
+3187, Raz Lin, 0, 0, 1, 0, 0, 0
+3186, Alan F. Smeaton, 0, 0, 2, 0, 0, 0
+3185, Jiamin Ye, 0, 0, 1, 0, 0, 0
+3184, José R. Paramá, 0, 0, 1, 0, 0, 0
+3182, Eva Lorenzo Iglesias, 0, 0, 1, 0, 0, 0
+3183, Gonzalo Navarro, 0, 0, 2, 0, 0, 0
+3180, Christof Monz, 0, 0, 1, 0, 0, 0
+3181, Nieves R. Brisaboa, 0, 0, 1, 0, 0, 0
+3178, Yves Rasolofo, 0, 0, 1, 0, 0, 0
+3179, Jacques Savoy, 0, 0, 1, 0, 0, 0
+3176, Júlia Góth, 0, 0, 1, 0, 0, 0
+3177, Adrienn Skrop, 0, 0, 1, 0, 0, 0
+3174, Philippe Mulhem, 0, 0, 1, 0, 0, 0
+3175, Sándor Dominich, 0, 0, 1, 0, 0, 0
+3172, Iadh Ounis, 0, 0, 1, 0, 0, 0
+3173, Yves Chiaramella, 0, 0, 1, 0, 0, 0
+3170, Greg Welch, 0, 0, 0, 0, 0, 1
+3171, Jean Martinet, 0, 0, 1, 0, 0, 0
+3168, Ruigang Yang, 0, 0, 0, 0, 0, 1
+3169, Marc Pollefeys, 0, 0, 0, 0, 0, 1
+3097, Jie Yang 0001, 0, 0, 0, 0, 0, 2
+3096, Thomas Bonfort, 0, 0, 0, 0, 0, 1
+3099, Kostas Daniilidis, 0, 0, 0, 0, 0, 1
+3098, Christopher Geyer, 0, 0, 0, 0, 0, 1
+3101, Michael Brady, 0, 0, 0, 0, 0, 1
+3100, Timor Kadir, 0, 0, 0, 0, 0, 1
+3103, Simon Lacroix, 0, 0, 0, 0, 0, 1
+3102, Il-Kyun Jung, 0, 0, 0, 0, 0, 1
+3089, Matthew Brown, 0, 0, 0, 0, 0, 1
+3088, Maxime Lhuillier, 0, 0, 0, 0, 0, 1
+3091, Maneesh Kumar Singh, 0, 0, 0, 0, 0, 1
+3090, David G. Lowe, 0, 0, 0, 0, 0, 1
+3093, Naokazu Yokoya, 0, 0, 0, 0, 0, 1
+3092, Takashi Machida, 0, 0, 0, 0, 0, 1
+3095, Ullrich Köthe, 0, 0, 0, 0, 0, 1
+3094, Haruo Takemura, 0, 0, 0, 0, 0, 1
+3080, Mike J. Chantler, 0, 0, 0, 0, 0, 1
+3081, Sanjay Tiwari, 0, 0, 0, 0, 0, 1
+3082, Scott Gallager, 0, 0, 0, 0, 0, 1
+3083, Jiangjian Xiao, 0, 0, 0, 0, 0, 1
+3084, James Davis, 0, 0, 0, 0, 0, 1
+3085, Xing Chen, 0, 0, 0, 0, 0, 1
+3086, Ariel Tankus, 0, 0, 0, 0, 0, 1
+3087, Yehezkel Yeshurun, 0, 0, 0, 0, 0, 1
+3072, Vladimir Cherkassky, 0, 0, 0, 0, 0, 1
+3073, Feng Huang, 0, 0, 0, 0, 0, 1
+3074, Hemant Tagare, 0, 0, 0, 0, 0, 1
+3075, David Clifford Wilson, 0, 0, 0, 0, 0, 1
+3076, Edward A. Geiser, 0, 0, 0, 0, 0, 1
+3077, João P. Barreto, 0, 0, 0, 0, 0, 1
+3078, Helder Araújo, 0, 0, 0, 0, 0, 1
+3079, Jiahua Wu, 0, 0, 0, 0, 0, 1
+3131, Gianfranco Doretto, 0, 0, 0, 0, 0, 1
+3130, Francis K. H. Quek, 0, 0, 0, 0, 0, 1
+3129, Josef Sivic, 0, 0, 0, 0, 0, 1
+3128, Ravi Ramamoorthi, 0, 0, 0, 0, 0, 1
+3135, Ingeborg Tastl, 0, 0, 0, 0, 0, 1
+3134, Steven D. Hordley, 0, 0, 0, 0, 0, 1
+3133, Graham D. Finlayson, 0, 0, 0, 0, 0, 1
+3132, Robert Pless, 0, 0, 0, 0, 0, 1
+3123, Antoine Monnet, 0, 0, 0, 0, 0, 1
+3122, Sanjiv Kumar, 0, 0, 0, 0, 0, 1
+3121, Jianbo Shi, 0, 0, 0, 0, 0, 1
+3120, Stella X. Yu, 0, 0, 0, 0, 0, 1
+3127, David W. Jacobs, 0, 0, 0, 0, 0, 1
+3126, Margarita Osadchy, 0, 0, 0, 0, 0, 1
+3125, Nikos Paragios, 0, 0, 0, 0, 0, 1
+3124, Anurag Mittal, 0, 0, 0, 0, 0, 1
+3114, Kristen Grauman, 0, 0, 0, 0, 0, 1
+3115, Feng Lin, 0, 0, 0, 0, 0, 1
+3112, Greg Mori, 0, 0, 0, 0, 0, 1
+3113, Hanning Zhou, 0, 0, 0, 0, 0, 1
+3118, Shuicheng Yan, 0, 0, 0, 0, 0, 2
+3119, Yuxiao Hu, 0, 0, 0, 0, 0, 1
+3116, Jonathan Starck, 0, 0, 0, 0, 0, 1
+3117, Xiaofei He, 0, 0, 0, 0, 0, 1
+3106, Pietro Perona, 0, 0, 0, 0, 0, 1
+3107, Frédéric Cao, 0, 0, 0, 0, 0, 1
+3104, Fei-Fei Li, 0, 0, 0, 0, 0, 1
+3105, Robert Fergus, 0, 0, 0, 0, 0, 1
+3110, Alexei A. Efros, 0, 0, 0, 0, 0, 1
+3111, Alexander C. Berg, 0, 0, 0, 0, 0, 1
+3108, Xilin Chen, 0, 0, 0, 0, 0, 1
+3109, Alex Waibel, 0, 0, 0, 0, 0, 1
+3527, Roland H. C. Yap, 0, 1, 0, 0, 0, 0
+3526, Yuanlin Zhang, 0, 1, 0, 0, 0, 0
+3525, Robin Cohen, 0, 1, 0, 0, 0, 0
+3524, Thomas T. Tran, 0, 1, 0, 0, 0, 0
+3523, Steven Minton, 0, 1, 0, 0, 0, 0
+3522, Ion Muslea, 0, 1, 0, 0, 0, 0
+3521, Robert A. Morris, 0, 1, 0, 0, 0, 0
+3520, Paul H. Morris, 0, 1, 0, 0, 0, 0
+3535, William C. Regli, 0, 1, 0, 0, 0, 0
+3534, Maxim Peysakhov, 0, 1, 0, 0, 0, 0
+3533, Donovan Artz, 0, 1, 0, 0, 0, 0
+3532, Peter Struss, 0, 1, 0, 0, 0, 0
+3531, Martin Sachenbacher, 0, 1, 0, 0, 0, 0
+3530, Barbara Engelhardt, 0, 1, 0, 0, 0, 0
+3529, Franz Wotawa, 0, 1, 0, 0, 0, 0
+3528, Markus Stumptner, 0, 1, 0, 0, 0, 0
+3542, Thomas Bolander, 0, 1, 0, 0, 0, 0
+3543, Nate Blaylock, 0, 1, 0, 0, 0, 0
+3540, Takehisa Yairi, 0, 1, 0, 0, 0, 0
+3541, Koichi Hori, 0, 1, 0, 0, 0, 0
+3538, Matthias Fichtner, 0, 1, 0, 0, 0, 0
+3539, Axel Großmann, 0, 1, 0, 0, 0, 0
+3536, Itsuki Noda, 0, 1, 0, 0, 0, 0
+3537, Jeremy Pitt, 0, 1, 0, 0, 0, 0
+3550, Tarek Abu-Amer, 0, 1, 0, 0, 0, 0
+3551, Barry Smyth, 0, 4, 0, 0, 0, 0
+3548, Robert Kelly, 0, 1, 0, 0, 0, 0
+3549, Julie Carson-Berndsen, 0, 1, 0, 0, 0, 0
+3546, Eva Onaindia, 0, 1, 0, 0, 0, 0
+3547, Michael Walsh 0001, 0, 1, 0, 0, 0, 0
+3544, James F. Allen, 0, 1, 0, 0, 0, 0
+3545, Antonio Garrido Tejero, 0, 1, 0, 0, 0, 0
+3557, Tod Milam, 0, 1, 0, 0, 0, 0
+3556, Cheryl E. Martin, 0, 1, 0, 0, 0, 0
+3559, Neil Yorke-Smith, 0, 1, 0, 0, 0, 0
+3558, Carroll Thronesbery, 0, 1, 0, 0, 0, 0
+3553, Debra Schreckenghost, 0, 1, 0, 0, 0, 0
+3552, Lorraine McGinty, 0, 1, 0, 0, 0, 0
+3555, David Kortenkamp, 0, 1, 0, 0, 0, 0
+3554, R. Peter Bonasso, 0, 1, 0, 0, 0, 0
+3565, Elizabeth Owen Bratt, 0, 1, 0, 0, 0, 0
+3564, Brady Clark, 0, 1, 0, 0, 0, 0
+3567, Heather Pon-Barry, 0, 1, 0, 0, 0, 0
+3566, Stanley Peters, 0, 1, 0, 0, 0, 0
+3561, Blai Bonet, 0, 1, 0, 0, 0, 0
+3560, Jeremy Forth, 0, 1, 0, 0, 0, 0
+3563, Karl Schultz, 0, 1, 0, 0, 0, 0
+3562, Hector Geffner, 0, 1, 0, 0, 0, 0
+3572, Shaw-hwa Lo, 0, 1, 0, 0, 0, 0
+3573, Dan I. Moldovan, 0, 1, 0, 0, 0, 0
+3574, Christine Clark, 0, 1, 0, 0, 0, 0
+3575, Leonid Peshkin, 0, 1, 0, 0, 0, 0
+3568, Pucktada Treeratpituk, 0, 1, 0, 0, 0, 0
+3569, Zack Thomsen-Gray, 0, 1, 0, 0, 0, 0
+3570, Michael Montemerlo, 0, 1, 0, 0, 0, 0
+3571, Ben Wegbreit, 0, 1, 0, 0, 0, 0
+3580, Andrei Voronkov, 0, 1, 0, 0, 0, 0
+3581, Mark Brodie, 0, 1, 0, 0, 0, 0
+3582, Natalia Odintsova, 0, 1, 0, 0, 0, 0
+3583, Richard B. Scherl, 0, 1, 0, 0, 0, 0
+3576, Ramana Isukapalli, 0, 1, 0, 0, 0, 0
+3577, Hu Liu, 0, 1, 0, 0, 0, 0
+3578, Shier Ju, 0, 1, 0, 0, 0, 0
+3579, Carlos Gershenson, 0, 1, 0, 0, 0, 0
+3459, Christopher D. Manning, 0, 2, 0, 0, 0, 0
+3458, Dan Klein, 0, 2, 0, 0, 0, 0
+3457, Sepandar D. Kamvar, 0, 1, 0, 0, 0, 0
+3456, Yannis Dimopoulos, 0, 1, 0, 0, 0, 0
+3463, Philippe Gaussier, 0, 1, 0, 0, 0, 0
+3462, Sorin Moga, 0, 1, 0, 0, 0, 0
+3461, David McSherry, 0, 2, 0, 0, 0, 0
+3460, Jinbo Huang, 0, 1, 0, 0, 0, 0
+3467, Yan Zhang, 0, 1, 0, 0, 0, 0
+3466, Edmund H. Durfee, 0, 1, 0, 0, 0, 0
+3465, Dmitri A. Dolgov, 0, 1, 0, 0, 0, 0
+3464, Hung Hai Bui, 0, 1, 0, 0, 0, 0
+3471, Heath Hohwald, 0, 1, 0, 0, 0, 0
+3470, Max Horstmann, 0, 1, 0, 0, 0, 0
+3469, Ronald Cornet, 0, 1, 0, 0, 0, 0
+3468, Stefan Schlobach, 0, 1, 0, 0, 0, 0
+3474, Nicholas R. Jennings, 0, 2, 0, 0, 0, 0
+3475, Keith S. Decker, 0, 1, 0, 0, 0, 0
+3472, Ignacio Thayer, 0, 1, 0, 0, 0, 0
+3473, Torsten O. Paulussen, 0, 1, 0, 0, 0, 0
+3478, Philippe Jégou, 0, 1, 0, 0, 0, 0
+3479, Lamia Keddar, 0, 1, 0, 0, 0, 0
+3476, Armin Heinzl, 0, 1, 0, 0, 0, 0
+3477, Assef Chmeiss, 0, 1, 0, 0, 0, 0
+3482, Luigi Palopoli, 0, 1, 0, 0, 0, 0
+3483, Robert J. Ross, 0, 1, 0, 0, 0, 0
+3480, Fabrizio Angiulli, 0, 1, 0, 0, 0, 0
+3481, Rachel Ben-Eliyahu-Zohary, 0, 1, 0, 0, 0, 0
+3486, Giuliano Armano, 0, 1, 0, 0, 0, 0
+3487, Giancarlo Cherchi, 0, 1, 0, 0, 0, 0
+3484, R. P. S. O'Donoghue, 0, 1, 0, 0, 0, 0
+3485, Gregory M. P. O'Hare, 0, 2, 0, 0, 0, 0
+3489, Michelangelo Diligenti, 0, 1, 0, 0, 0, 0
+3488, Eloisa Vargiu, 0, 1, 0, 0, 0, 0
+3491, Marco Maggini, 0, 1, 0, 0, 0, 0
+3490, Marco Gori, 0, 1, 0, 0, 0, 0
+3493, Carlos Areces, 0, 1, 0, 0, 0, 0
+3492, Carsten Lutz, 0, 1, 0, 0, 0, 0
+3495, Ulrike Sattler, 0, 2, 0, 0, 0, 0
+3494, Ian Horrocks, 0, 2, 0, 0, 0, 0
+3497, Lihong Li, 0, 1, 0, 0, 0, 0
+3496, Vadim Bulitko, 0, 1, 0, 0, 0, 0
+3499, Darsana P. Josyula, 0, 1, 0, 0, 0, 0
+3498, Ilya Levner, 0, 1, 0, 0, 0, 0
+3501, Donald Perlis, 0, 1, 0, 0, 0, 0
+3500, Michael L. Anderson, 0, 1, 0, 0, 0, 0
+3503, Ian Miguel, 0, 1, 0, 0, 0, 0
+3502, Alan M. Frisch, 0, 1, 0, 0, 0, 0
+3504, Zeynep Kiziltan, 0, 1, 0, 0, 0, 0
+3505, Brahim Hnich, 0, 1, 0, 0, 0, 0
+3506, Anthony Hunter, 0, 1, 0, 0, 0, 0
+3507, Alexander Ferrein, 0, 1, 0, 0, 0, 0
+3508, Christian Fritz 0001, 0, 1, 0, 0, 0, 0
+3509, Gerhard Lakemeyer, 0, 1, 0, 0, 0, 0
+3510, Austin I. Eliazar, 0, 1, 0, 0, 0, 0
+3511, Javier Larrosa, 0, 1, 0, 0, 0, 0
+3512, Thomas Schiex, 0, 1, 0, 0, 0, 0
+3513, Samir Loudni, 0, 1, 0, 0, 0, 0
+3514, Patrice Boizumault, 0, 1, 0, 0, 0, 0
+3515, Jordan Erenrich, 0, 1, 0, 0, 0, 0
+3516, Ryutaro Ichise, 0, 1, 0, 0, 0, 0
+3517, Hideaki Takeda, 0, 1, 0, 0, 0, 0
+3518, Shinichi Honiden, 0, 1, 0, 0, 0, 0
+3519, Lina Khatib, 0, 1, 0, 0, 0, 0
+3406, Li Ding, 0, 1, 0, 0, 0, 0
+3407, Harry Chen, 0, 1, 0, 0, 0, 0
+3404, Youyong Zou, 0, 1, 0, 0, 0, 0
+3405, Timothy W. Finin, 0, 1, 0, 0, 0, 0
+3402, Serge Autexier, 0, 1, 0, 0, 0, 0
+3403, Francis C. Chu, 0, 2, 0, 0, 0, 0
+3400, Quoc Bao Vo, 0, 1, 0, 0, 0, 0
+3401, Christoph Benzmüller, 0, 1, 0, 0, 0, 0
+3398, Stuart M. Shieber, 0, 1, 0, 0, 0, 0
+3399, Michael Buro, 0, 1, 0, 0, 0, 0
+3396, Tamara Babaian, 0, 1, 0, 0, 0, 0
+3397, Barbara J. Grosz, 0, 1, 0, 0, 0, 0
+3394, Soumya Ray, 0, 2, 0, 0, 0, 0
+3395, Michael Brenner, 0, 1, 0, 0, 0, 0
+3392, Marios Skounakis, 0, 1, 0, 0, 0, 0
+3393, Mark Craven, 0, 1, 0, 0, 0, 0
+3423, Jennifer Seitzer, 0, 1, 0, 0, 0, 0
+3422, Timothy Weale, 0, 1, 0, 0, 0, 0
+3421, Dana H. Ballard, 0, 1, 0, 0, 0, 0
+3420, Nathan Sprague, 0, 1, 0, 0, 0, 0
+3419, Chavalit Likitvivatanavong, 0, 1, 0, 0, 0, 0
+3418, James Bowen, 0, 1, 0, 0, 0, 0
+3417, Ulrich Junker, 0, 1, 0, 0, 0, 0
+3416, Anaïs Fabre, 0, 1, 0, 0, 0, 0
+3415, Christian Bessière, 0, 1, 0, 0, 0, 0
+3414, Miroslaw Truszczynski, 0, 1, 0, 0, 0, 0
+3413, Ilkka Niemelä, 0, 1, 0, 0, 0, 0
+3412, Gerhard Brewka, 0, 1, 0, 0, 0, 0
+3411, Wolfram Burgard, 0, 3, 0, 0, 0, 0
+3410, Maren Bennewitz, 0, 1, 0, 0, 0, 0
+3409, Grzegorz Cielniak, 0, 1, 0, 0, 0, 0
+3408, Rong Pan, 0, 1, 0, 0, 0, 0
+3436, Stefano Lodi, 0, 1, 0, 0, 0, 0
+3437, Gianluca Moro, 0, 1, 0, 0, 0, 0
+3438, Salvador Elías Venegas-Andraca, 0, 1, 0, 0, 0, 0
+3439, S. Bose, 0, 1, 0, 0, 0, 0
+3432, Kathy Panton, 0, 1, 0, 0, 0, 0
+3433, Carlos Eisenberg, 0, 1, 0, 0, 0, 0
+3434, Boi Faltings, 0, 2, 0, 0, 0, 0
+3435, Matthias Klusch, 0, 1, 0, 0, 0, 0
+3428, Bjørn Aldag, 0, 1, 0, 0, 0, 0
+3429, Stefano Bertolo, 0, 1, 0, 0, 0, 0
+3430, Nancy Salay, 0, 1, 0, 0, 0, 0
+3431, Jon Curtis, 0, 1, 0, 0, 0, 0
+3424, Martin J. Kollingbaum, 0, 1, 0, 0, 0, 0
+3425, Timothy J. Norman, 0, 1, 0, 0, 0, 0
+3426, Tom O'Hara, 0, 1, 0, 0, 0, 0
+3427, Michael J. Witbrock, 0, 1, 0, 0, 0, 0
+3453, Selmer Bringsjord, 0, 1, 0, 0, 0, 0
+3452, Hubie Chen, 0, 2, 0, 0, 0, 0
+3455, Ronen I. Brafman, 0, 1, 0, 0, 0, 0
+3454, Bettina Schimanski, 0, 1, 0, 0, 0, 0
+3449, M. Pal, 0, 1, 0, 0, 0, 0
+3448, Ryan McKay, 0, 1, 0, 0, 0, 0
+3451, M. Vanzin, 0, 1, 0, 0, 0, 0
+3450, Jisun Park, 0, 1, 0, 0, 0, 0
+3445, J. Jeong, 0, 1, 0, 0, 0, 0
+3444, David C. Han, 0, 1, 0, 0, 0, 0
+3447, Dung N. Lam, 0, 1, 0, 0, 0, 0
+3446, Joonoo Kim, 0, 1, 0, 0, 0, 0
+3441, D. Faith, 0, 1, 0, 0, 0, 0
+3440, K. Suzanne Barber, 0, 1, 0, 0, 0, 0
+3443, Thomas J. Graser, 0, 1, 0, 0, 0, 0
+3442, Karen Fullam, 0, 1, 0, 0, 0, 0
+3338, Bernard Manderick, 0, 1, 0, 0, 0, 0
+3339, Ronald Ashri, 0, 1, 0, 0, 0, 0
+3336, Yannis Vergados, 0, 1, 0, 0, 0, 0
+3337, Bram Vanschoenwinkel, 0, 1, 0, 0, 0, 0
+3342, Yngvi Björnsson, 0, 1, 0, 0, 0, 0
+3343, Markus Enzenberger, 0, 1, 0, 0, 0, 0
+3340, Michael Luck, 0, 1, 0, 0, 0, 0
+3341, Mark d'Inverno, 0, 1, 0, 0, 0, 0
+3330, Jimmy Jiang Liu, 0, 1, 0, 0, 0, 0
+3331, Vincent Vidal, 0, 1, 0, 0, 0, 0
+3328, Pascal Van Hentenryck, 0, 3, 0, 0, 0, 0
+3329, Hana Chockler, 0, 1, 0, 0, 0, 0
+3334, Bernhard Nebel, 0, 1, 0, 0, 0, 0
+3335, Laurent Michel, 0, 1, 0, 0, 0, 0
+3332, Andreas Herzig, 0, 1, 0, 0, 0, 0
+3333, Jörg Hoffmann 0001, 0, 1, 0, 0, 0, 0
+3355, Eric Normand, 0, 1, 0, 0, 0, 0
+3354, Teemu Roos, 0, 1, 0, 0, 0, 0
+3353, Peter Grünwald, 0, 1, 0, 0, 0, 0
+3352, Hannes Wettig, 0, 1, 0, 0, 0, 0
+3359, Paolo Torroni, 0, 1, 0, 0, 0, 0
+3358, Francesca Toni, 0, 2, 0, 0, 0, 0
+3357, Fariba Sadri, 0, 2, 0, 0, 0, 0
+3356, Sheila Tejada, 0, 1, 0, 0, 0, 0
+3347, Nathan R. Sturtevant, 0, 1, 0, 0, 0, 0
+3346, Peter Yap, 0, 1, 0, 0, 0, 0
+3345, Jonathan Schaeffer, 0, 3, 0, 0, 0, 0
+3344, Robert Holte, 0, 1, 0, 0, 0, 0
+3351, Neal Kanodia, 0, 1, 0, 0, 0, 0
+3350, Chris Gearhart, 0, 1, 0, 0, 0, 0
+3349, Carlos Guestrin, 0, 1, 0, 0, 0, 0
+3348, Fabio Aiolli, 0, 1, 0, 0, 0, 0
+3368, Robert C. Holte, 0, 1, 0, 0, 0, 0
+3369, Terence Schauenberg, 0, 1, 0, 0, 0, 0
+3370, Duane Szafron, 0, 1, 0, 0, 0, 0
+3371, Amit Mandvikar, 0, 1, 0, 0, 0, 0
+3372, Patricia G. Foschi, 0, 1, 0, 0, 0, 0
+3373, Kari Torkkola, 0, 1, 0, 0, 0, 0
+3374, Masoumeh T. Izadi, 0, 1, 0, 0, 0, 0
+3375, Alfonso Gerevini, 0, 1, 0, 0, 0, 0
+3360, Takayuki Kanda, 0, 1, 0, 0, 0, 0
+3361, Hiroshi Ishiguro, 0, 1, 0, 0, 0, 0
+3362, Michita Imai, 0, 1, 0, 0, 0, 0
+3363, Tetsuo Ono, 0, 1, 0, 0, 0, 0
+3364, Mark T. Maybury, 0, 2, 0, 0, 0, 0
+3365, Darse Billings, 0, 1, 0, 0, 0, 0
+3366, Neil Burch, 0, 1, 0, 0, 0, 0
+3367, Aaron Davidson, 0, 1, 0, 0, 0, 0
+3385, Paul M. Newman, 0, 1, 0, 0, 0, 0
+3384, John J. Leonard, 0, 1, 0, 0, 0, 0
+3387, Francesca Rossi, 0, 2, 0, 0, 0, 0
+3386, Carmel Domshlak, 0, 2, 0, 0, 0, 0
+3389, Toby Walsh, 0, 3, 0, 0, 0, 0
+3388, Kristen Brent Venable, 0, 3, 0, 0, 0, 0
+3391, Reid G. Simmons, 0, 1, 0, 0, 0, 0
+3390, Vandi Verma, 0, 1, 0, 0, 0, 0
+3377, Eugene Nudelman, 0, 1, 0, 0, 0, 0
+3376, Kevin Leyton-Brown, 0, 2, 0, 0, 0, 0
+3379, Jim McFadden, 0, 1, 0, 0, 0, 0
+3378, Galen Andrew, 0, 1, 0, 0, 0, 0
+3381, Sébastien Konieczny, 0, 1, 0, 0, 0, 0
+3380, Yoav Shoham, 0, 1, 0, 0, 0, 0
+3383, Richard E. Korf, 0, 3, 0, 0, 0, 0
+3382, Francesco Scarcello, 0, 1, 0, 0, 0, 0
+3826, Brian Knight, 0, 1, 0, 0, 0, 0
+3827, Fei Ling Woon, 0, 1, 0, 0, 0, 0
+3824, Guy De Pauw, 0, 1, 0, 0, 0, 0
+3825, Alexander K. Seewald, 0, 1, 0, 0, 0, 0
+3830, Maureen Donnelly, 0, 1, 0, 0, 0, 0
+3831, Vincent Labatut, 0, 1, 0, 0, 0, 0
+3828, Giorgio Maria Di Nunzio, 0, 1, 0, 0, 0, 0
+3829, Alessandro Micarelli, 0, 2, 0, 0, 0, 0
+3834, Tianhan Wang, 0, 1, 0, 0, 0, 0
+3835, Marco Anelli, 0, 1, 0, 0, 0, 0
+3832, Josette Pastor, 0, 1, 0, 0, 0, 0
+3833, Serge Ruff, 0, 1, 0, 0, 0, 0
+3836, Enver Sangineto, 0, 1, 0, 0, 0, 0
+3811, Craig Silverstein, 0, 1, 0, 0, 0, 0
+3810, Monika Rauch Henzinger, 0, 1, 0, 0, 0, 0
+3809, Romeo Sanchez Nigenda, 0, 1, 0, 0, 0, 0
+3808, Terry Zimmerman, 0, 1, 0, 0, 0, 0
+3815, Charles Pecheur, 0, 1, 0, 0, 0, 0
+3814, Alessandro Cimatti, 0, 1, 0, 0, 0, 0
+3813, Churn-Jung Liau, 0, 1, 0, 0, 0, 0
+3812, Massimiliano Ciaramita, 0, 1, 0, 0, 0, 0
+3819, Van-Thinh Vu, 0, 1, 0, 0, 0, 0
+3818, Michael Zakharyaschev, 0, 1, 0, 0, 0, 0
+3817, Frank Wolter, 0, 1, 0, 0, 0, 0
+3816, Roberto Cavada, 0, 1, 0, 0, 0, 0
+3823, Gregory Dudek, 0, 1, 0, 0, 0, 0
+3822, Robert Sim, 0, 1, 0, 0, 0, 0
+3821, Monique Thonnat, 0, 1, 0, 0, 0, 0
+3820, François Brémond, 0, 1, 0, 0, 0, 0
+3792, Oliviero Stock, 0, 1, 0, 0, 0, 0
+3793, Carlo Strapparava, 0, 1, 0, 0, 0, 0
+3794, Bob Price, 0, 1, 0, 0, 0, 0
+3795, Dirk Schulz, 0, 1, 0, 0, 0, 0
+3796, Jeffrey Hightower, 0, 1, 0, 0, 0, 0
+3797, Evelyn Balfe, 0, 1, 0, 0, 0, 0
+3798, Peter Briggs, 0, 1, 0, 0, 0, 0
+3799, Maurice Coyle, 0, 1, 0, 0, 0, 0
+3800, Jill Freyne, 0, 1, 0, 0, 0, 0
+3801, Naren Ramakrishnan, 0, 1, 0, 0, 0, 0
+3802, Christopher Bailey-Kellogg, 0, 1, 0, 0, 0, 0
+3803, Adrian Petcu, 0, 1, 0, 0, 0, 0
+3804, Suresh Manandhar, 0, 1, 0, 0, 0, 0
+3805, Armagan Tarim, 0, 1, 0, 0, 0, 0
+3806, Derry O'Sullivan, 0, 1, 0, 0, 0, 0
+3807, David C. Wilson, 0, 1, 0, 0, 0, 0
+3777, Xiangen Hu, 0, 1, 0, 0, 0, 0
+3776, Peter D. Turney, 0, 1, 0, 0, 0, 0
+3779, Max M. Louwerse, 0, 1, 0, 0, 0, 0
+3778, Zhiqiang Cai, 0, 1, 0, 0, 0, 0
+3781, Phanni Penumatsa, 0, 1, 0, 0, 0, 0
+3780, Andrew Olney, 0, 1, 0, 0, 0, 0
+3783, Ken Barker, 0, 1, 0, 0, 0, 0
+3782, Arthur C. Graesser, 0, 1, 0, 0, 0, 0
+3785, Kenil C. K. Cheng, 0, 1, 0, 0, 0, 0
+3784, Bruce W. Porter, 0, 1, 0, 0, 0, 0
+3787, Nabil Layaïda, 0, 1, 0, 0, 0, 0
+3786, Jérôme Euzenat, 0, 1, 0, 0, 0, 0
+3789, Rinat Khoussainov, 0, 1, 0, 0, 0, 0
+3788, Victor Dias, 0, 1, 0, 0, 0, 0
+3791, Michel Galley, 0, 1, 0, 0, 0, 0
+3790, Nicholas Kushmerick, 0, 1, 0, 0, 0, 0
+3766, Evgeny S. Skvortsov, 0, 1, 0, 0, 0, 0
+3767, David A. Cohen, 0, 1, 0, 0, 0, 0
+3764, Lev Finkelstein, 0, 1, 0, 0, 0, 0
+3765, Rong Zhou 0001, 0, 1, 0, 0, 0, 0
+3762, Gerald Pfeifer, 0, 1, 0, 0, 0, 0
+3763, Daniel S. Bernstein, 0, 1, 0, 0, 0, 0
+3760, Giuseppe Ielpa, 0, 1, 0, 0, 0, 0
+3761, Nicola Leone, 0, 1, 0, 0, 0, 0
+3774, Teresa Maria Altomare Basile, 0, 1, 0, 0, 0, 0
+3775, Jicheng Zhao, 0, 1, 0, 0, 0, 0
+3772, Stefano Ferilli, 0, 1, 0, 0, 0, 0
+3773, Nicola Di Mauro, 0, 1, 0, 0, 0, 0
+3770, Andrei A. Krokhin, 0, 1, 0, 0, 0, 0
+3771, Nicola Fanizzi, 0, 1, 0, 0, 0, 0
+3768, Martin C. Cooper, 0, 1, 0, 0, 0, 0
+3769, Peter Jeavons, 0, 1, 0, 0, 0, 0
+3751, Brennan Sellner, 0, 1, 0, 0, 0, 0
+3750, Mary Berna, 0, 1, 0, 0, 0, 0
+3749, Frank Pfenning, 0, 1, 0, 0, 0, 0
+3748, Norman Y. Foo, 0, 1, 0, 0, 0, 0
+3747, Rex Bing Hung Kwok, 0, 1, 0, 0, 0, 0
+3746, Nobuyuki Otsu, 0, 1, 0, 0, 0, 0
+3745, Hideki Asoh, 0, 1, 0, 0, 0, 0
+3744, Masataka Goto, 0, 1, 0, 0, 0, 0
+3759, Wolfgang Faber, 0, 1, 0, 0, 0, 0
+3758, Tina Dell'Armi, 0, 1, 0, 0, 0, 0
+3757, Min Chen, 0, 1, 0, 0, 0, 0
+3756, Michelle X. Zhou, 0, 1, 0, 0, 0, 0
+3755, Rune M. Jensen, 0, 1, 0, 0, 0, 0
+3754, Lorenza Saitta, 0, 1, 0, 0, 0, 0
+3753, Roberto Esposito, 0, 1, 0, 0, 0, 0
+3752, Brad Lisien, 0, 1, 0, 0, 0, 0
+3732, Pietro Torasso, 0, 1, 0, 0, 0, 0
+3733, Moshe Tennenholtz, 0, 1, 0, 0, 0, 0
+3734, Thuc Duong Nguyen, 0, 1, 0, 0, 0, 0
+3735, Hélène Fargier, 0, 1, 0, 0, 0, 0
+3728, N. Cihan Tas, 0, 1, 0, 0, 0, 0
+3729, Chiu Wo Choi, 0, 1, 0, 0, 0, 0
+3730, Peter J. Stuckey, 0, 2, 0, 0, 0, 0
+3731, Gianluca Torta, 0, 1, 0, 0, 0, 0
+3740, Claude-Guy Quimper, 0, 1, 0, 0, 0, 0
+3741, John Tromp, 0, 1, 0, 0, 0, 0
+3742, Peter van Beek, 0, 1, 0, 0, 0, 0
+3743, Masatoshi Hamanaka, 0, 1, 0, 0, 0, 0
+3736, Régis Sabbadin, 0, 1, 0, 0, 0, 0
+3737, Pierre Flener, 0, 1, 0, 0, 0, 0
+3738, Justin Pearson, 0, 1, 0, 0, 0, 0
+3739, Magnus Ågren, 0, 1, 0, 0, 0, 0
+3717, David G. Stork, 0, 1, 0, 0, 0, 0
+3716, Chuck P. Lam, 0, 1, 0, 0, 0, 0
+3719, Lin Padgham, 0, 1, 0, 0, 0, 0
+3718, John Thangarajah, 0, 1, 0, 0, 0, 0
+3713, Paulo E. Santos, 0, 1, 0, 0, 0, 0
+3712, Wulfram Gerstner, 0, 1, 0, 0, 0, 0
+3715, Philippe Laborie, 0, 1, 0, 0, 0, 0
+3714, Murray Shanahan, 0, 1, 0, 0, 0, 0
+3725, Liviu Panait, 0, 1, 0, 0, 0, 0
+3724, Fei Xiao, 0, 1, 0, 0, 0, 0
+3727, Sean Luke, 0, 1, 0, 0, 0, 0
+3726, R. Paul Wiegand, 0, 1, 0, 0, 0, 0
+3721, Atsuhiro Takasu, 0, 1, 0, 0, 0, 0
+3720, Michael Winikoff, 0, 1, 0, 0, 0, 0
+3723, Brian Rodrigues, 0, 1, 0, 0, 0, 0
+3722, Andrew Lim, 0, 1, 0, 0, 0, 0
+3707, Joohyung Lee, 0, 1, 0, 0, 0, 0
+3706, Robert P. Goldman, 0, 1, 0, 0, 0, 0
+3705, Christopher W. Geib, 0, 1, 0, 0, 0, 0
+3704, Peter Wittenburg, 0, 1, 0, 0, 0, 0
+3711, Josep Mouriño, 0, 1, 0, 0, 0, 0
+3710, Frédéric Renkens, 0, 1, 0, 0, 0, 0
+3709, José del R. Millán, 0, 1, 0, 0, 0, 0
+3708, Vladimir Lifschitz, 0, 1, 0, 0, 0, 0
+3699, Hamish Cunningham, 0, 1, 0, 0, 0, 0
+3698, Horacio Saggion, 0, 1, 0, 0, 0, 0
+3697, Jan Kuper, 0, 1, 0, 0, 0, 0
+3696, Magda Valls, 0, 1, 0, 0, 0, 0
+3703, Yorick Wilks, 0, 1, 0, 0, 0, 0
+3702, Dennis Reidsma, 0, 1, 0, 0, 0, 0
+3701, Franciska de Jong, 0, 1, 0, 0, 0, 0
+3700, Thierry Declerck, 0, 1, 0, 0, 0, 0
+3690, Tomás E. Uribe, 0, 1, 0, 0, 0, 0
+3691, Kian Hsiang Low, 0, 1, 0, 0, 0, 0
+3688, Bill MacCartney, 0, 1, 0, 0, 0, 0
+3689, Sheila A. McIlraith, 0, 1, 0, 0, 0, 0
+3694, Ramón Béjar, 0, 1, 0, 0, 0, 0
+3695, Cèsar Fernández, 0, 1, 0, 0, 0, 0
+3692, Wee Kheng Leow, 0, 1, 0, 0, 0, 0
+3693, Marcelo H. Ang Jr., 0, 1, 0, 0, 0, 0
+3682, Mark A. Paskin, 0, 1, 0, 0, 0, 0
+3683, Angelo C. Restificar, 0, 1, 0, 0, 0, 0
+3680, Heiner Stuckenschmidt, 0, 1, 0, 0, 0, 0
+3681, Michel C. A. Klein, 0, 1, 0, 0, 0, 0
+3686, John E. Laird, 0, 1, 0, 0, 0, 0
+3687, Michael H. Bowling, 0, 2, 0, 0, 0, 0
+3684, Peter Haddawy, 0, 1, 0, 0, 0, 0
+3685, Scott A. Wallace, 0, 1, 0, 0, 0, 0
+3673, Randall Davis, 0, 1, 0, 0, 0, 0
+3672, Tracy Hammond, 0, 1, 0, 0, 0, 0
+3675, Karem A. Sakallah, 0, 1, 0, 0, 0, 0
+3674, Fadi A. Aloul, 0, 1, 0, 0, 0, 0
+3677, Attila Kondacs, 0, 1, 0, 0, 0, 0
+3676, Harry Zhang, 0, 1, 0, 0, 0, 0
+3679, Gal A. Kaminka, 0, 1, 0, 0, 0, 0
+3678, Meir Kalech, 0, 1, 0, 0, 0, 0
+3665, Cyrill Stachniss, 0, 1, 0, 0, 0, 0
+3664, Hector J. Levesque, 0, 1, 0, 0, 0, 0
+3667, Raymond Kosala, 0, 1, 0, 0, 0, 0
+3666, Gregory M. Provan, 0, 1, 0, 0, 0, 0
+3669, Hendrik Blockeel, 0, 1, 0, 0, 0, 0
+3668, Maurice Bruynooghe, 0, 1, 0, 0, 0, 0
+3671, Stephen F. Smith, 0, 1, 0, 0, 0, 0
+3670, Laurence A. Kramer, 0, 1, 0, 0, 0, 0
+3656, Greg Barish, 0, 1, 0, 0, 0, 0
+3657, Yiming Ye, 0, 1, 0, 0, 0, 0
+3658, Yuhai Tu, 0, 1, 0, 0, 0, 0
+3659, Rachael Rafter, 0, 1, 0, 0, 0, 0
+3660, Mark Goldenberg, 0, 1, 0, 0, 0, 0
+3661, Alexander Kovarsky, 0, 1, 0, 0, 0, 0
+3662, Xiaomeng Wu, 0, 1, 0, 0, 0, 0
+3663, Yongmei Liu 0001, 0, 1, 0, 0, 0, 0
+3648, Stacy Marsella, 0, 1, 0, 0, 0, 0
+3649, Arathi Ramani, 0, 1, 0, 0, 0, 0
+3650, Igor L. Markov, 0, 2, 0, 0, 0, 0
+3651, Ryan Williams, 0, 1, 0, 0, 0, 0
+3652, Stefano Bistarelli, 0, 1, 0, 0, 0, 0
+3653, Philippe Codognet, 0, 1, 0, 0, 0, 0
+3654, Kin Chuen Hui, 0, 1, 0, 0, 0, 0
+3655, Jimmy Ho-Man Lee, 0, 3, 0, 0, 0, 0
+3647, David V. Pynadath, 0, 1, 0, 0, 0, 0
+3646, Makoto Yokoo, 0, 2, 0, 0, 0, 0
+3645, Milind Tambe, 0, 1, 0, 0, 0, 0
+3644, Ranjit Nair, 0, 1, 0, 0, 0, 0
+3643, Leopoldo E. Bertossi, 0, 1, 0, 0, 0, 0
+3642, Loreto Bravo, 0, 1, 0, 0, 0, 0
+3641, Leen-Kiat Soh, 0, 1, 0, 0, 0, 0
+3640, Dirk Hähnel, 0, 1, 0, 0, 0, 0
+3639, Vincenzo Pupillo, 0, 1, 0, 0, 0, 0
+3638, Sergio Mascetti, 0, 1, 0, 0, 0, 0
+3637, Claudio Bettini, 0, 1, 0, 0, 0, 0
+3636, Haym Hirsh, 0, 1, 0, 0, 0, 0
+3635, Sarah Zelikovitz, 0, 1, 0, 0, 0, 0
+3634, Jiming Liu, 0, 1, 0, 0, 0, 0
+3633, Dit-Yan Yeung, 0, 1, 0, 0, 0, 0
+3632, Mehdi Dastani, 0, 1, 0, 0, 0, 0
+3630, Chiaki Sakama, 0, 1, 0, 0, 0, 0
+3631, Jan M. Broersen, 0, 1, 0, 0, 0, 0
+3628, Emil Weydert, 0, 1, 0, 0, 0, 0
+3629, Adriana Lopez, 0, 1, 0, 0, 0, 0
+3626, Alfredo Gabaldon, 0, 1, 0, 0, 0, 0
+3627, Leendert W. N. van der Torre, 0, 2, 0, 0, 0, 0
+3624, Daniel Vladusic, 0, 1, 0, 0, 0, 0
+3625, Ivan Bratko, 0, 1, 0, 0, 0, 0
+3622, Piero A. Bonatti, 0, 1, 0, 0, 0, 0
+3623, Dorian Suc, 0, 1, 0, 0, 0, 0
+3620, Nicolas Maudet, 0, 1, 0, 0, 0, 0
+3621, Delbert D. Bailey, 0, 1, 0, 0, 0, 0
+3618, Artur M. Arsenio, 0, 1, 0, 0, 0, 0
+3619, Ulrich Endriss, 0, 1, 0, 0, 0, 0
+3616, Jorge Santos 0001, 0, 1, 0, 0, 0, 0
+3617, Bertrand Neveu, 0, 1, 0, 0, 0, 0
+3613, Jesse S. Jin, 0, 1, 0, 0, 0, 0
+3612, Joo-Hwee Lim, 0, 1, 0, 0, 0, 0
+3615, Lourdes Peña Castillo, 0, 1, 0, 0, 0, 0
+3614, Thomas Miconi, 0, 1, 0, 0, 0, 0
+3609, Satanjeev Banerjee, 0, 1, 0, 0, 0, 0
+3608, Franz Baader, 0, 2, 0, 0, 0, 0
+3611, Bruno Scherrer, 0, 1, 0, 0, 0, 0
+3610, Ted Pedersen, 0, 1, 0, 0, 0, 0
+3605, Jihie Kim, 0, 1, 0, 0, 0, 0
+3604, Henri Prade, 0, 1, 0, 0, 0, 0
+3607, Pascal Hitzler, 0, 1, 0, 0, 0, 0
+3606, Yolanda Gil, 0, 1, 0, 0, 0, 0
+3601, Marina Mongiello, 0, 1, 0, 0, 0, 0
+3600, Francesco M. Donini, 0, 1, 0, 0, 0, 0
+3603, Didier Dubois, 0, 1, 0, 0, 0, 0
+3602, Sylvie Galichet, 0, 1, 0, 0, 0, 0
+3596, Henry A. Kautz, 0, 1, 0, 0, 0, 0
+3597, Ashish Sabharwal, 0, 1, 0, 0, 0, 0
+3598, Tommaso Di Noia, 0, 1, 0, 0, 0, 0
+3599, Eugenio Di Sciascio, 0, 1, 0, 0, 0, 0
+3592, James P. Delgrande, 0, 2, 0, 0, 0, 0
+3593, Abhaya C. Nayak, 0, 2, 0, 0, 0, 0
+3594, Maurice Pagnucco, 0, 1, 0, 0, 0, 0
+3595, Paul Beame, 0, 1, 0, 0, 0, 0
+3588, Guilherme Bittencourt, 0, 1, 0, 0, 0, 0
+3589, Alexander Bochman, 0, 1, 0, 0, 0, 0
+3590, J. Andrew Bagnell, 0, 1, 0, 0, 0, 0
+3591, Daniela Rus, 0, 1, 0, 0, 0, 0
+3584, Iván Dotú, 0, 1, 0, 0, 0, 0
+3585, Alvaro del Val, 0, 1, 0, 0, 0, 0
+3586, Manuel Cebrián, 0, 1, 0, 0, 0, 0
+3587, Frederico Luiz Gonçalves de Freitas, 0, 1, 0, 0, 0, 0
