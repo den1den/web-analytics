@@ -36,7 +36,7 @@ for year in range(10):
 
 		print len(mapping), len(pr)
 		inv_map = {v: k for k, v in mapping.items()}
-		fout = open('results/' + str(year + 2001) + '_pagerank_' + str(c) + '.txt', 'w')
+		fout = open('results/' + str(year + 2001) + '_pagerank_text' + str(c) + '.txt', 'w')
 		for p in range(len(pr)):
 			fout.write(str(inv_map[p]) + ':' + str(pr[p]) + '\n')
 		fout.close()
