@@ -7,6 +7,8 @@ out_filename = "global_mapping.csv"
 # Output format: year;id;global_id;name
 output_format = "%s;%s;%s;%s"
 
+i = 0;
+
 output = list()
 mapping = dict()  # mapping from name -> global_id
 for year in years:
@@ -22,7 +24,11 @@ for year in years:
                 mapping[name] = global_id
             
             output.append(output_format % (year, year_id, global_id, name))
-
+            
+            if i > 10:
+                break
+print output
+exit()
 with open(out_filename, 'w') as out_file:
     out_file.write('\n'.join(output))
 
@@ -35,5 +41,3 @@ with open(out_filename) as in_file:
         global_id = int(row[2])
         year_mapping[year][year_id] = global_id
 
-#optional
-print year_mapping
