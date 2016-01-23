@@ -1,6 +1,6 @@
 import itertools
 
-years = range(2001, 2010)
+years = [y for y in range(2001, 2010)]
 gt = "text" # graph or text
 
 weight_normal = 1.0
@@ -37,11 +37,11 @@ filenames = {
 
 classes = [0, 1, 2, 3, 4, 5]
 
-purity_classification_group_mapping = {
+purity_classification_group_mapping_ = {
     y: itertools.permutations(classes, 6) for y in years
 }
 
-purity_classification_group_mapping_ = {
+purity_classification_group_mapping = {
     2001: [(1, 2, 0, 4, 5, 3)],
     2002: [(2, 4, 3, 1, 0, 5)],
     2003: [(1, 2, 5, 4, 3, 0)],

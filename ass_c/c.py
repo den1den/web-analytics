@@ -21,7 +21,7 @@ pairs = read_coauther(id_map)
 output = list()
 # first output the 6 (hidden) community nodes
 starting_id = 66666666
-for comm in range(0, 5):
+for comm in classes:
     id = starting_id + comm
     timestamp = years
     set = set_name_extra % comm
