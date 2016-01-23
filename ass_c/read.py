@@ -1,5 +1,5 @@
 import csv
-from settings import filenames, purity_classification_group_mapping, all_years
+from settings import filenames, purity_classification_group_mapping, all_years, classification_input
 
 
 def read_global_mapping():
@@ -35,16 +35,22 @@ def read_clasification_mapping(id_map):
                 baseline_comm = int(row[0])
                 year_baseline_mapping[year][global_id] = baseline_comm
                 id += 1
-    year_prediction_mapping = {y: dict() for y in all_years} # year,global_id -> classification
-    for year in all_years:
-        with open(filenames['prediction_labels'] % year) as in_file:
-            id = 1
-            for row in csv.reader(in_file, delimiter=','):
-                global_id = id_map[year][id]
-                pred_comm = int(row[0])
-                year_prediction_mapping[year][global_id] = pred_comm
-                id += 1
+
+    if classification_input == 'baseline':
+        year_prediction_mapping = year_baseline_mapping
+    else:
+        year_prediction_mapping = {y: dict() for y in all_years} # year,global_id -> classification
+        for year in all_years:
+            with open(filenames['prediction_labels'] % year) as in_file:
+                id = 1
+                for row in csv.reader(in_file, delimiter=','):
+                    global_id = id_map[year][id]
+                    pred_comm = int(row[0])
+                    year_prediction_mapping[year][global_id] = pred_comm
+                    id += 1
+
     # Check group simularity (Maps our mapping to the most similar baseline mapping)
+    # (is not needed in 'baseline' but we do it anyway)
     classification_group_mapping = {y: dict() for y in all_years}  # year, pred_comm -> baseline_comm
     year_purity = {y: [] for y in all_years} # year -> purity
     for year in all_years:
