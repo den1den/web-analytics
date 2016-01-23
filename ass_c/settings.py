@@ -1,6 +1,6 @@
 import itertools
 
-years = [y for y in range(2001, 2010)]
+all_years = [y for y in range(2001, 2010)]
 gt = "text" # graph or text
 
 weight_normal = 1.0
@@ -9,23 +9,20 @@ weight_commcenter = 0.01
 out_nodes_filename = "nodes.csv"
 out_edges_filename = "edges.csv"
 
-set_name_original = "1%s"
-set_name_extra = "2%s"
+starting_extra_id = 9999990
 
-edges_header = "Source;Target;Type;Timestamp;Set;Weight"
+edges_header = ['Source', 'Target', 'Type', 'id', 'timeset', 'weight']
 # Source: source node id
 # Target: target node id
 # Type: directed/undirected
-# Timestamp: array of years this edge is in
-# Set: 10=author edge, 2x=community x edge
-# Weight: the weight of this edge
-edges_format = "%s;%s;%s;%s;%s;%s"  # 6
+# id: the is of some node ( > 9999990 means extra edge)
+# timeset: array of years this edge is in
+# weight: the weight of this edge
 
-nodes_header = "Id;Timestamp;Set"
-# Id: the global id
-# Timestamp: array of years this node is in
-# Set: 10=author node, 2x=community x node
-nodes_format = "%s;%s;%s"
+nodes_header = ['id', 'timeset', 'commclass']
+# id: the global id ( > 9999990 means extra node)
+# timeset: array of years this node is in
+# commclass: the community that some node is in
 
 
 filenames = {
@@ -38,7 +35,7 @@ filenames = {
 classes = [0, 1, 2, 3, 4, 5]
 
 purity_classification_group_mapping_ = {
-    y: itertools.permutations(classes, 6) for y in years
+    y: itertools.permutations(classes, 6) for y in all_years
 }
 
 purity_classification_group_mapping = {
