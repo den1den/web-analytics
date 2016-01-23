@@ -1,13 +1,25 @@
 import itertools
 
 all_years = [y for y in range(2001, 2010)]
-classification_input = ['graph', 'text', 'baseline'][2] # graph, text or baseline
+classification_input = [
+    'graph',    # Reads input from the 200X_pred_label_graph
+    'text',     # Reads input from the 200X_pred_label_text
+    'baseline'  # Reads input from the author_labels/200X_labels only
+][2]
+output_format = [
+    'normal',   # Tries to combine the output by the timestamp
+    'full'      # Adds new output for every timestamp
+][1]
 
 weight_normal = 1.0
 weight_commcenter = 0.01
 
-out_nodes_filename = "nodes_" + classification_input + ".csv"
-out_edges_filename = "edges_" + classification_input + ".csv"
+if output_format == 'normal':
+    out_nodes_filename = "nodes_" + classification_input + ".csv"
+    out_edges_filename = "edges_" + classification_input + ".csv"
+elif output_format == 'full':
+    out_nodes_filename = "nodes_full_" + classification_input + ".csv"
+    out_edges_filename = "edges_full_" + classification_input + ".csv"
 
 starting_extra_id = 9999990
 
