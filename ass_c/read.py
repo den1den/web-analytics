@@ -1,4 +1,6 @@
 import csv
+import os
+
 from settings import filenames, purity_classification_group_mapping, all_years, classification_input
 
 
@@ -23,6 +25,16 @@ def read_global_mapping():
                     years_map[g_id] = [year, ]
                 id_map[year][id] = g_id
     return id_map, years_map
+
+
+def get_all_gids_from(years_map, certain_year):
+    gids = list()
+    for gid, years in years_map.items():
+        if certain_year in years:
+            gids.append(gid)
+    assert len(set(gids)) == len(gids)  # assert no duplicates
+    print("There are " + str(len(gids)) + " authors in " + str(certain_year))
+    return gids
 
 
 def read_clasification_mapping(id_map):
@@ -116,6 +128,8 @@ def read_coauther(id_map):
 
 
 def write(arr_list, header, to_file):
+    if not os.path.exists(os.path.dirname(to_file)):
+        os.makedirs(os.path.dirname(to_file))
     with open(to_file, 'w') as out_file:
         out_file.write(';'.join([str(item) for item in header]) + '\n')
         for arr in arr_list:

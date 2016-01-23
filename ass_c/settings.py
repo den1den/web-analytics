@@ -1,27 +1,24 @@
 import itertools
 
-all_years = [y for y in range(2001, 2010)]
+all_years = [y for y in range(2001, 2011)]  # 2001, ..., 2010
+
+persistent_year = 2010
+
 classification_input = [
     'graph',    # Reads input from the 200X_pred_label_graph
     'text',     # Reads input from the 200X_pred_label_text
     'baseline'  # Reads input from the author_labels/200X_labels only
 ][2]
-output_format = [
-    'normal',   # Tries to combine the output by the timestamp
-    'full'      # Adds new output for every timestamp
-][1]
 
 weight_normal = 1.0
-weight_commcenter = 0.01
+weight_commcenter = 0.001
 
-if output_format == 'normal':
-    out_nodes_filename = "nodes_" + classification_input + ".csv"
-    out_edges_filename = "edges_" + classification_input + ".csv"
-elif output_format == 'full':
-    out_nodes_filename = "nodes_full_" + classification_input + ".csv"
-    out_edges_filename = "edges_full_" + classification_input + ".csv"
+out_nodes_filename = "persistent/%s_nodes_%s.csv" % (persistent_year, classification_input)
+out_edges_filename = "persistent/%s_edges_%s.csv" % (persistent_year, classification_input)
 
-starting_extra_id = 9999990
+starting_id_persisten_nodes = 1000000
+starting_id_non_persitent_nodes = 2000000
+starting_id_extra = 3000000
 
 edges_header = ['Source', 'Target', 'Type', 'id', 'timeset', 'weight']
 # Source: source node id
@@ -46,7 +43,7 @@ filenames = {
 
 classes = [0, 1, 2, 3, 4, 5]
 
-recalc_cluster_mapping = True
+recalc_cluster_mapping = False
 if recalc_cluster_mapping:
     purity_classification_group_mapping = {
         y: itertools.permutations(classes, 6) for y in all_years
@@ -77,4 +74,15 @@ else:
             2009: [(1, 4, 0, 2, 5, 3)],
         }
     elif classification_input == 'baseline':
-        purity_classification_group_mapping = {y: classes for y in all_years}
+        purity_classification_group_mapping = {y: [classes, ] for y in all_years}
+
+assert persistent_year in all_years
+
+
+def array_to_gephi_timestamps(array):
+    floats = [str(float(y)) for y in array]
+    return '<[' + ', '.join(floats) + ']>'
+
+
+def values_to_gephi_timstamp_values(years, values):
+    return '"<[' + ']; ['.join([str(float(years[i])) + ', ' + str(values[i]) for i in range(0,len(years))]) + ']>"'
