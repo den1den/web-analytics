@@ -1,7 +1,7 @@
 import csv
 import os
 
-from settings import filenames, purity_classification_group_mapping, all_years, classification_input
+from Deliverables.Scripts.our_scripts.settings import filenames, purity_classification_group_mapping, all_years, classification_input
 
 
 def read_global_mapping():
