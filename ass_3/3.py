@@ -1,3 +1,4 @@
+import json
 import time
 import settings
 from settings import all_years, classes
@@ -74,6 +75,36 @@ for comm in settings.classes:
         table[year_a][comm] = (quitters, stayers, switched_out, switched_in, new_commers, returnee)
         assert len(table[year_a][comm]) == n_statatisitcs
 
+def get_label_c(year, community):
+    return "%s (%s)" % (year, community)
+def get_label_d(year):
+    return "%s Gone" % year
+
+sankey = []
+for y in all_years_min1:
+    y2 = y + 1
+    for commA in classes:
+        for commB in classes:
+            n = len([gid
+                     for gid, comm
+                     in classification_mapping[y].items()
+                     if (comm == commA
+                         and gid in classification_mapping[y2]
+                         and classification_mapping[y2][gid] == commB)])
+            sankey.append((get_label_c(y, commA), get_label_c(y2, commB), n, ))
+        n = len([gid
+                 for gid, comm
+                 in classification_mapping[y].items()
+                 if (comm == commA
+                     and gid not in classification_mapping[y2])])
+        sankey.append((get_label_c(y, commA), get_label_d(y2), n, ))
+        n = len([gid
+                 for gid, comm
+                 in classification_mapping[y2].items()
+                 if (comm == commA
+                     and gid not in classification_mapping[y])])
+        sankey.append((get_label_d(y2), get_label_c(y, commA), n, ))
+
 
 output = open('3/3_output.html', 'w')
 
@@ -111,5 +142,8 @@ print("<h2>Totals</h2>", file=output)
 #print("<pre>%s</pre>" % str(totals).replace(',', '\n').replace(':', '\n').replace('{','').replace('}',''), file=output)
 print("<pre>%s</pre>" % str(totals).replace(', ', ', \n'), file=output)
 
-print("Output is written to "+str(output.name))
+output2 = open("3/sankey-data.js", 'w')
+print("var data = %s;" % json.dumps(sankey).replace(',',',\n'), file=output2)
+
+print("Output is written to "+str(output.name)+" and "+str(output2))
 print("completed in %.3f seconds" % (time.time() - start_time))
