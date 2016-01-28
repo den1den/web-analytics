@@ -103,7 +103,7 @@ for y in all_years_min1:
                  in classification_mapping[y2].items()
                  if (comm == commA
                      and gid not in classification_mapping[y])])
-        sankey.append((get_label_d(y2), get_label_c(y, commA), n, ))
+        sankey.append((get_label_d(y), get_label_c(y2, commA), n, ))
 
 
 output = open('3/3_output.html', 'w')
@@ -143,7 +143,7 @@ print("<h2>Totals</h2>", file=output)
 print("<pre>%s</pre>" % str(totals).replace(', ', ', \n'), file=output)
 
 output2 = open("3/sankey-data.js", 'w')
-print("var data = %s;" % json.dumps(sankey).replace(',',',\n'), file=output2)
+print("var data = %s;" % json.dumps(sankey).replace('], [','],\n['), file=output2)
 
 print("Output is written to "+str(output.name)+" and "+str(output2))
 print("completed in %.3f seconds" % (time.time() - start_time))
