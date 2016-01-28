@@ -1,7 +1,7 @@
 import time
 
-from Deliverables.Scripts.our_scripts.settings import *
-from .read import *
+from settings import *
+from read import *
 
 start_time = time.time()
 

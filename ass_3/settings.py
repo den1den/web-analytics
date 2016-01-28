@@ -43,6 +43,8 @@ filenames = {
 
 classes = [0, 1, 2, 3, 4, 5]
 
+print_purity = True
+
 recalc_cluster_mapping = False
 if recalc_cluster_mapping:
     purity_classification_group_mapping = {

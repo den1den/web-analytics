@@ -1,7 +1,7 @@
 import csv
 import os
 
-from settings import filenames, purity_classification_group_mapping, all_years, classification_input
+from settings import filenames, purity_classification_group_mapping, all_years, classification_input, print_purity
 
 
 def read_global_mapping():
@@ -38,7 +38,7 @@ def get_all_gids_from(years_map, certain_year):
 
 
 def read_clasification_mapping(id_map):
-    year_baseline_mapping = {y: dict() for y in all_years} # year,global_id -> baseline_comm
+    year_baseline_mapping = {y: dict() for y in all_years}  # year,global_id -> baseline_comm
     for year in all_years:
         with open(filenames['baseline_labels'] % year) as in_file:
             id = 1
@@ -79,7 +79,9 @@ def read_clasification_mapping(id_map):
 
         total_authors = len(id_map[year])
         year_purity[year] = max_matches / total_authors
-        print("%s got a purity of %0.3f in year %s" % (classification_group_mapping[year], year_purity[year], year))
+
+        if print_purity:
+            print("%s got a purity of %0.3f in year %s" % (classification_group_mapping[year], year_purity[year], year))
 
     # And replace our mapping with the correct one
     year_classification_mapping = {y: dict() for y in all_years}
