@@ -1,9 +1,9 @@
 import time
-from .settings import nodes_header, out_nodes_filename, weight_commcenter, weight_normal, \
+from settings import nodes_header, out_nodes_filename, weight_commcenter, weight_normal, \
     classes, edges_header, out_edges_filename, all_years, starting_id_extra, persistent_year, \
     starting_id_persisten_nodes, starting_id_non_persitent_nodes, array_to_gephi_timestamps, \
     values_to_gephi_timstamp_values
-from .read import read_global_mapping, read_clasification_mapping, read_coauther, write, string_to_pair, \
+from read import read_global_mapping, read_clasification_mapping, read_coauther, write, string_to_pair, \
     get_all_gids_from
 
 

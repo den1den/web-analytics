@@ -51,7 +51,7 @@ def read_clasification_mapping(id_map):
     if classification_input == 'baseline':
         year_prediction_mapping = year_baseline_mapping
     else:
-        year_prediction_mapping = {y: dict() for y in all_years} # year,global_id -> classification
+        year_prediction_mapping = {y: dict() for y in all_years}  # year,global_id -> classification
         for year in all_years:
             with open(filenames['prediction_labels'] % year) as in_file:
                 id = 1
@@ -64,7 +64,7 @@ def read_clasification_mapping(id_map):
     # Check group simularity (Maps our mapping to the most similar baseline mapping)
     # (is not needed in 'baseline' but we do it anyway)
     classification_group_mapping = {y: dict() for y in all_years}  # year, pred_comm -> baseline_comm
-    year_purity = {y: [] for y in all_years} # year -> purity
+    year_purity = {y: [] for y in all_years}  # year -> purity
     for year in all_years:
         max_matches = 0
         for c in purity_classification_group_mapping[year]:  # brute force 6! = 720
