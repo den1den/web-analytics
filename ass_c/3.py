@@ -10,7 +10,7 @@ start_time = time.time()
 s_mode = [
     '',
     '_only_switchers',
-][1]
+][0]  # Change the filter
 
 # id_map[year][id] = g_id
 # years_map[g_id] = [year, ...]
@@ -171,6 +171,13 @@ else:
 
 output2 = open("3/sankey-data"+s_mode+"_" + settings.classification_input + ".js", 'w')
 print("var data = %s;" % json.dumps(sankey).replace('], [','],\n['), file=output2)
+output3 = open("3/sankey-data"+s_mode+"_" + settings.classification_input + ".dat", 'w')
+o = [[str(t[0]).replace(' ', '-'),
+      "["+str(t[2]).replace(' ', '-')+"]",
+      str(t[1]).replace(' ', '-')]
+     for t in sankey]
+o2 = '\n'.join([' '.join(x) for x in o])
+print(o2, file=output3)
 
-print("Output is written to "+str(output)+" and "+str(output2))
+print("Output is written to "+str(output)+" and "+str(output2)+" and "+str(output3))
 print("completed in %.3f seconds" % (time.time() - start_time))
