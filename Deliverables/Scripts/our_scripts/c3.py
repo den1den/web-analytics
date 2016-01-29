@@ -1,12 +1,12 @@
 import time
 
-from Deliverables.Scripts.our_scripts.settings import *
-from .read import *
+from settings import *
+from read import *
 
 start_time = time.time()
 
 base_year = all_years[0]
-comp_years = all_years[1:len(all_years)-1]
+comp_years = all_years[1:len(all_years)]
 
 out_nodes_filename = "c/compare_to_%s_nodes.csv" % (base_year, )
 out_edges_filename = "c/compare_to_%s_edges.csv" % (base_year, )

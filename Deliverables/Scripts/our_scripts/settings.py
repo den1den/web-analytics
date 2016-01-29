@@ -43,10 +43,12 @@ filenames = {
 
 classes = [0, 1, 2, 3, 4, 5]
 
+print_purity = False
+
 recalc_cluster_mapping = False
 if recalc_cluster_mapping:
     purity_classification_group_mapping = {
-        y: itertools.permutations(classes, 6) for y in all_years
+        y: itertools.permutations(classes, len(classes)) for y in all_years
     }
 else:
     if classification_input == "graph":
@@ -60,6 +62,7 @@ else:
             2007: [(5, 1, 4, 3, 0, 2)],
             2008: [(5, 3, 1, 2, 4, 0)],
             2009: [(3, 5, 2, 0, 1, 4)],
+            2010: [(5, 1, 3, 0, 4, 2)],
         }
     elif classification_input == "text":
         purity_classification_group_mapping = {
@@ -72,6 +75,7 @@ else:
             2007: [(4, 3, 0, 5, 2, 1)],
             2008: [(0, 2, 1, 3, 5, 4)],
             2009: [(1, 4, 0, 2, 5, 3)],
+            2010: [(5, 4, 3, 1, 0, 2)],
         }
     elif classification_input == 'baseline':
         purity_classification_group_mapping = {y: [classes, ] for y in all_years}
