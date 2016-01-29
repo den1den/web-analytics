@@ -8,7 +8,7 @@ classification_input = [
     'graph',    # Reads input from the 200X_pred_label_graph
     'text',     # Reads input from the 200X_pred_label_text
     'baseline'  # Reads input from the author_labels/200X_labels only
-][2]
+][0]
 
 weight_normal = 1.0
 weight_commcenter = 0.001
@@ -42,6 +42,8 @@ filenames = {
 }
 
 classes = [0, 1, 2, 3, 4, 5]
+
+print_purity = True
 
 recalc_cluster_mapping = False
 if recalc_cluster_mapping:
