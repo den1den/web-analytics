@@ -7,6 +7,10 @@ from read import read_global_mapping, read_clasification_mapping
 all_years_min1 = range(2001, 2010)
 start_time = time.time()
 
+s_mode = [
+    '',
+    '_only_switchers',
+][1]
 
 # id_map[year][id] = g_id
 # years_map[g_id] = [year, ...]
@@ -106,58 +110,67 @@ for y in all_years_min1:
                          and gid in classification_mapping[y2]
                          and classification_mapping[y2][gid] == commB)])
             sankey.append((get_label_c(y, commA), get_label_c(y2, commB), n, ))
-        n = len([gid
-                 for gid, comm
-                 in classification_mapping[y].items()
-                 if (comm == commA
-                     and gid not in classification_mapping[y2])])
-        sankey.append((get_label_c(y, commA), get_label_d(y2), n, ))
-        n = len([gid
-                 for gid, comm
-                 in classification_mapping[y2].items()
-                 if (comm == commA
-                     and gid not in classification_mapping[y])])
-        sankey.append((get_label_d(y), get_label_c(y2, commA), n, ))
+
+        if s_mode != '_only_switchers':
+            #quiters
+            n = len([gid
+                     for gid, comm
+                     in classification_mapping[y].items()
+                     if (comm == commA
+                         and gid not in classification_mapping[y2])])
+            sankey.append((get_label_c(y, commA), get_label_d(y2), n, ))
+
+            #newcomers
+            n = len([gid
+                     for gid, comm
+                     in classification_mapping[y2].items()
+                     if (comm == commA
+                         and gid not in classification_mapping[y])])
+            sankey.append((get_label_d(y), get_label_c(y2, commA), n, ))
 
 
-output = open('3/3_output' + settings.classification_input + '.html', 'w')
+if s_mode:
+    output = "<no html output>"
+else:
+    output = open('3/3_output' + settings.classification_input + '.html', 'w')
 
-print('<table>'
-      '<h1>Number of individual authors</h1>'
-      '<thead><tr>'
-      '<td>Community</td>'
-      '<td>Type</td>', file=output)
-for y in all_years_min1:
-    print('<td>%s -> %s</td>' % (y, y + 1), file=output)
-print('</tr></thead>', file=output)
-
-print('<tbody>', file=output)
-for row_i in range(n_statatisitcs * len(settings.classes)):
-    print('<tr>', file=output)
-    comm = int(row_i / n_statatisitcs)
-    print('<td>%s</td>' % comm, file=output)
-    val = row_i % n_statatisitcs
-    print('<td>%s</td>' % ['Quit', 'Stay', 'Switch Out', 'Switch In', 'New', 'Returnee'][val], file=output)
+    print('<table>'
+          '<h1>Number of individual authors</h1>'
+          '<thead><tr>'
+          '<td>Community</td>'
+          '<td>Type</td>', file=output)
     for y in all_years_min1:
-        print('<td>%s</td>' % table[y][comm][val], file=output)
-    print('</tr>', file=output)
-print('</tbody></table>', file=output)
+        print('<td>%s -> %s</td>' % (y, y + 1), file=output)
+    print('</tr></thead>', file=output)
 
-print("<p>"
-      "Quit: comm -> no listing<br/>"
-      "Stay: comm -> comm<br/>"
-      "Switch In: other comm -> comm<br/>"
-      "Switch Out: comm -> other comm<br/>"
-      "New: no listing in any prev year -> comm<br/>"
-      "Returnee: a listing in some prev year (for some community) -> comm"
-      "</p>", file=output)
+    print('<tbody>', file=output)
+    for row_i in range(n_statatisitcs * len(settings.classes)):
+        print('<tr>', file=output)
+        comm = int(row_i / n_statatisitcs)
+        print('<td>%s</td>' % comm, file=output)
+        val = row_i % n_statatisitcs
+        print('<td>%s</td>' % ['Quit', 'Stay', 'Switch Out', 'Switch In', 'New', 'Returnee'][val], file=output)
+        for y in all_years_min1:
+            print('<td>%s</td>' % table[y][comm][val], file=output)
+        print('</tr>', file=output)
+    print('</tbody></table>', file=output)
 
-print("<h2>Totals</h2>", file=output)
-#print("<pre>%s</pre>" % str(totals).replace(',', '\n').replace(':', '\n').replace('{','').replace('}',''), file=output)
-print("<pre>%s</pre>" % str(totals).replace(', ', ', \n'), file=output)
+    print("<p>"
+          "Quit: comm -> no listing<br/>"
+          "Stay: comm -> comm<br/>"
+          "Switch In: other comm -> comm<br/>"
+          "Switch Out: comm -> other comm<br/>"
+          "New: no listing in any prev year -> comm<br/>"
+          "Returnee: a listing in some prev year (for some community) -> comm"
+          "</p>", file=output)
 
-output2 = open("3/sankey-data_" + settings.classification_input + ".js", 'w')
+    print("<h2>Totals</h2>", file=output)
+    #print("<pre>%s</pre>" % str(totals).replace(',', '\n').replace(':', '\n').replace('{','').replace('}',''), file=output)
+    print("<pre>%s</pre>" % str(totals).replace(', ', ', \n'), file=output)
+    output = output.name
+
+output2 = open("3/sankey-data"+s_mode+"_" + settings.classification_input + ".js", 'w')
 print("var data = %s;" % json.dumps(sankey).replace('], [','],\n['), file=output2)
 
-print("Output is written to "+str(output.name)+" and "+str(output2))
+print("Output is written to "+str(output)+" and "+str(output2))
 print("completed in %.3f seconds" % (time.time() - start_time))

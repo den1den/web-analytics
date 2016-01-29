@@ -1,0 +1,1 @@
+scp /home/dennis/repos/webanal/ass_c/3/* root@dennis.nub.is:/root/webtech_team/static_collected/chart
